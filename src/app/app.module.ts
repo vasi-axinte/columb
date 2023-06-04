@@ -47,7 +47,7 @@ import { SanctionDetailsComponent } from './components/sanction-details/sanction
     CountryNavigationComponent,
     HomeComponent,
     PdfViewComponent,
-    SanctionDetailsComponent
+    SanctionDetailsComponent,
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebaseConfig),
@@ -59,7 +59,7 @@ import { SanctionDetailsComponent } from './components/sanction-details/sanction
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    PdfViewerModule
+    PdfViewerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
