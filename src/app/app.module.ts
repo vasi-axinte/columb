@@ -15,7 +15,14 @@ import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { CreateUserComponent } from './components/create-user/create-user.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { TravelDocsComponent } from './components/travel-docs/travel-docs.component';
-import { VehicleInfoComponent } from './components/vehicle-info/vehicle-info.component';  
+import { VehicleInfoComponent } from './components/vehicle-info/vehicle-info.component';
+import { TechnicalCheckComponent } from './components/technical-check/technical-check.component';
+import { DrivingLicenseComponent } from './components/driving-license/driving-license.component';
+import { VehicleInsuranceComponent } from './components/vehicle-insurance/vehicle-insurance.component';
+import { SanctionsComponent } from './components/sanctions/sanctions.component';
+import { GlossasryComponent } from './components/glossasry/glossasry.component';
+import { SpecimensComponent } from './components/specimens/specimens.component';
+import { UsefulSitesComponent } from './components/useful-sites/useful-sites.component';  
 
 @NgModule({
   declarations: [
@@ -23,7 +30,14 @@ import { VehicleInfoComponent } from './components/vehicle-info/vehicle-info.com
     CreateUserComponent,
     MenuComponent,
     TravelDocsComponent,
-    VehicleInfoComponent
+    VehicleInfoComponent,
+    TechnicalCheckComponent,
+    DrivingLicenseComponent,
+    VehicleInsuranceComponent,
+    SanctionsComponent,
+    GlossasryComponent,
+    SpecimensComponent,
+    UsefulSitesComponent
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebaseConfig),
