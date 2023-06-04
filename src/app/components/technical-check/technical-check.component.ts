@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./technical-check.component.scss']
 })
 export class TechnicalCheckComponent {
-
+  contentFileName = "assets/content/inspectii-tehnice-periodice.json";
 }

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./driving-license.component.scss']
 })
 export class DrivingLicenseComponent {
-
+  contentFileName = "assets/content/permise-de-conducere.json";
 }

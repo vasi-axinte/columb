@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./vehicle-insurance.component.scss']
 })
 export class VehicleInsuranceComponent {
-
+  contentFileName = "assets/content/asigurari-auto.json";
 }

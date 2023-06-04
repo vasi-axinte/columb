@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./travel-docs.component.scss']
 })
 export class TravelDocsComponent {
-
+  contentFileName = "assets/content/documente-de-calatorie.json";
 }

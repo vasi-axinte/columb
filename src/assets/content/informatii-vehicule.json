@@ -1,0 +1,127 @@
+[
+    {
+        "country": "Austria",
+        "countryCode": "at",
+        "url": "https://..."
+    },
+    {
+        "country": "Belgia",
+        "countryCode": "be",
+        "url": "https://..."
+    },
+    {
+        "country": "Cehia ",
+        "countryCode": "cz",
+        "url": "https://..."
+    },
+    {
+        "country": "Danemarca",
+        "countryCode": "dk",
+        "url": "https://..."
+    },
+    {
+        "country": "Estonia",
+        "countryCode": "ee",
+        "url": "https://..."
+    },
+    {
+        "country": "Finlanda",
+        "countryCode": "fi",
+        "url": "https://..."
+    },
+    {
+        "country": "Franța",
+        "countryCode": "fr",
+        "url": "https://..."
+    },
+    {
+        "country": "Germania",
+        "countryCode": "de",
+        "url": "https://..."
+    },
+    {
+        "country": "Irlanda",
+        "countryCode": "ie",
+        "url": "https://..."
+    },
+    {
+        "country": "Islanda",
+        "countryCode": "is",
+        "url": "https://..."
+    },
+    {
+        "country": "Lituania ",
+        "countryCode": "lt",
+        "url": "https://..."
+    },
+    {
+        "country": "Malta",
+        "countryCode": "mt",
+        "url": "https://..."
+    },
+    {
+        "country": "Marea Britanie",
+        "countryCode": "gb",
+        "url": "https://..."
+    },
+    {
+        "country": "Moldova",
+        "countryCode": "md",
+        "url": "https://..."
+    },
+    {
+        "country": "Norvegia",
+        "countryCode": "no",
+        "url": "https://..."
+    },
+    {
+        "country": "Olanda",
+        "countryCode": "nl",
+        "url": "https://..."
+    },
+    {
+        "country": "Polonia",
+        "countryCode": "pl",
+        "url": "https://..."
+    },
+    {
+        "country": "Portugalia",
+        "countryCode": "pt",
+        "url": "https://..."
+    },
+    {
+        "country": "Romania",
+        "countryCode": "ro",
+        "url": "https://..."
+    },
+    {
+        "country": "Rusia",
+        "countryCode": "ru",
+        "url": "https://..."
+    },
+    {
+        "country": "Slovacia",
+        "countryCode": "sk",
+        "url": "https://..."
+    },
+    {
+        "country": "Slovenia",
+        "countryCode": "si",
+        "url": "https://..."
+    },
+    {
+        "country": "Spania",
+        "countryCode": "es",
+        "url": "https://..."
+    },
+    {
+        "country": "Suedia",
+        "countryCode": "se",
+        "url": "https://..."
+    },
+    {
+        "country": "Ucraina",
+        "countryCode": "ua",
+        "url": "https://..."
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "country": "Bulgaria",
+        "countryCode": "bg",
+        "url": "https://..."
+    },
+    {
+        "country": "Estonia",
+        "countryCode": "ee",
+        "url": "https://..."
+    },
+    {
+        "country": "Georgia",
+        "countryCode": "ca",
+        "url": "https://..."
+    },
+    {
+        "country": "Moldova",
+        "countryCode": "md",
+        "url": "https://..."
+    },
+    {
+        "country": "Slovenia",
+        "countryCode": "sl",
+        "url": "https://..."
+    },
+    {
+        "country": "Suedia",
+        "countryCode": "se",
+        "url": "https://..."
+    },
+    {
+        "country": "Ucraina",
+        "countryCode": "ua",
+        "url": "https://..."
+    },
+    {
+        "country": "Ungaria",
+        "countryCode": "hu",
+        "url": "https://..."
+    }
+]

@@ -1,0 +1,10 @@
+<div class="country-content">
+    <div *ngFor="let navigationCountry of navigationCountries">
+        <a class="nav-link" href="navigationCountry.url">
+            <h3>
+                <span class="fi fi-{{navigationCountry.countryCode}}"></span> 
+                {{navigationCountry.country}}
+            </h3>
+        </a>
+    </div>
+</div>

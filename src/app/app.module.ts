@@ -22,7 +22,9 @@ import { VehicleInsuranceComponent } from './components/vehicle-insurance/vehicl
 import { SanctionsComponent } from './components/sanctions/sanctions.component';
 import { GlossasryComponent } from './components/glossasry/glossasry.component';
 import { SpecimensComponent } from './components/specimens/specimens.component';
-import { UsefulSitesComponent } from './components/useful-sites/useful-sites.component';  
+import { UsefulSitesComponent } from './components/useful-sites/useful-sites.component';
+import { CountryNavigationComponent } from './components/country-navigation/country-navigation.component';  
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,8 @@ import { UsefulSitesComponent } from './components/useful-sites/useful-sites.com
     SanctionsComponent,
     GlossasryComponent,
     SpecimensComponent,
-    UsefulSitesComponent
+    UsefulSitesComponent,
+    CountryNavigationComponent
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebaseConfig),
@@ -47,7 +50,8 @@ import { UsefulSitesComponent } from './components/useful-sites/useful-sites.com
     AngularFireDatabaseModule,
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

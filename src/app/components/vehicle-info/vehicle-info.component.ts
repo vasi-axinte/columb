@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./vehicle-info.component.scss']
 })
 export class VehicleInfoComponent {
-
+  contentFileName = "assets/content/informatii-vehicule.json";
 }
