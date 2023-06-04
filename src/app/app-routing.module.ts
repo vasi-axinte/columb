@@ -9,6 +9,7 @@ import { SanctionsComponent } from './components/sanctions/sanctions.component';
 import { GlossasryComponent } from './components/glossasry/glossasry.component';
 import { SpecimensComponent } from './components/specimens/specimens.component';
 import { UsefulSitesComponent } from './components/useful-sites/useful-sites.component';
+import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   { path: 'travel-docs', component: TravelDocsComponent },
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'glossary', component: GlossasryComponent },
   { path: 'specimens', component: SpecimensComponent },
   { path: 'useful-sites', component: UsefulSitesComponent },
+  { path: '', component: HomeComponent },
 ];
 
 @NgModule({

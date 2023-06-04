@@ -2,41 +2,41 @@
     {
         "country": "Bulgaria",
         "countryCode": "bg",
-        "url": "https://..."
+        "url": "https://www.mvr.bg/en/administrative-services/electronized-services/validity-verification-of-bulgarian-personal-documents"
     },
     {
         "country": "Estonia",
         "countryCode": "ee",
-        "url": "https://..."
+        "url": "https://idchk.mfa.ee/"
     },
     {
         "country": "Georgia",
-        "countryCode": "ca",
-        "url": "https://..."
+        "countryCode": "ge",
+        "url": "https://intpass.sda.gov.ge/eIDCardHolderCheckStatus.aspx"
     },
     {
         "country": "Moldova",
         "countryCode": "md",
-        "url": "https://..."
+        "url": "https://e-services.md/public/WebPublic/index.php?action=document&lang=md"
     },
     {
         "country": "Slovenia",
-        "countryCode": "sl",
-        "url": "https://..."
+        "countryCode": "si",
+        "url": "https://e-uprava.gov.si/si/javne-evidence/statusi-dokumentov.html"
     },
     {
         "country": "Suedia",
         "countryCode": "se",
-        "url": "https://..."
+        "url": "https://etjanster.polisen.se/egid/giltighetskontroll/giltighetskontroll"
     },
     {
         "country": "Ucraina",
         "countryCode": "ua",
-        "url": "https://..."
+        "url": "https://dmsu.gov.ua/services/docstate.html"
     },
     {
         "country": "Ungaria",
         "countryCode": "hu",
-        "url": "https://..."
+        "url": "https://www.nyilvantarto.hu/ugyseged/OkmanyErvenyessegLekerdezes.xhtml"
     }
 ]

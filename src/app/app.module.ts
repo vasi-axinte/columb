@@ -25,6 +25,7 @@ import { SpecimensComponent } from './components/specimens/specimens.component';
 import { UsefulSitesComponent } from './components/useful-sites/useful-sites.component';
 import { CountryNavigationComponent } from './components/country-navigation/country-navigation.component';  
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { HttpClientModule } from '@angular/common/http';
     GlossasryComponent,
     SpecimensComponent,
     UsefulSitesComponent,
-    CountryNavigationComponent
+    CountryNavigationComponent,
+    HomeComponent
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebaseConfig),
