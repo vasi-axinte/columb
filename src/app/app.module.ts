@@ -26,6 +26,8 @@ import { UsefulSitesComponent } from './components/useful-sites/useful-sites.com
 import { CountryNavigationComponent } from './components/country-navigation/country-navigation.component';  
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { PdfViewComponent } from './components/pdf-view/pdf-view.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { HomeComponent } from './components/home/home.component';
     SpecimensComponent,
     UsefulSitesComponent,
     CountryNavigationComponent,
-    HomeComponent
+    HomeComponent,
+    PdfViewComponent
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebaseConfig),
@@ -53,7 +56,8 @@ import { HomeComponent } from './components/home/home.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    PdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
