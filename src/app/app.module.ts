@@ -28,6 +28,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { PdfViewComponent } from './components/pdf-view/pdf-view.component';
+import { SanctionDetailsComponent } from './components/sanction-details/sanction-details.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { PdfViewComponent } from './components/pdf-view/pdf-view.component';
     UsefulSitesComponent,
     CountryNavigationComponent,
     HomeComponent,
-    PdfViewComponent
+    PdfViewComponent,
+    SanctionDetailsComponent
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebaseConfig),

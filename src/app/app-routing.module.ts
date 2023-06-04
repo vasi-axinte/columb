@@ -11,6 +11,7 @@ import { SpecimensComponent } from './components/specimens/specimens.component';
 import { UsefulSitesComponent } from './components/useful-sites/useful-sites.component';
 import { HomeComponent } from './components/home/home.component';
 import { PdfViewComponent } from './components/pdf-view/pdf-view.component';
+import { SanctionDetailsComponent } from './components/sanction-details/sanction-details.component';
 
 const routes: Routes = [
   { path: 'travel-docs', component: TravelDocsComponent },
@@ -18,15 +19,21 @@ const routes: Routes = [
   { path: 'technical-check', component: TechnicalCheckComponent },
   { path: 'driving-license', component: DrivingLicenseComponent },
   { path: 'vehicle-insurance', component: VehicleInsuranceComponent },
-  { path: 'sanctions', children: [
-    {
-     path: '',
-     component: SanctionsComponent
-    },
-    {
-      path: 'oug-97',
-      component: PdfViewComponent
-    }] },
+  {
+    path: 'sanctions', children: [
+      {
+        path: '',
+        component: SanctionsComponent
+      },
+      {
+        path: 'oug-97',
+        component: PdfViewComponent
+      },
+      {
+        path: 'details/:contentId',
+        component: SanctionDetailsComponent
+      }]
+  },
   { path: 'glossary', component: GlossasryComponent },
   { path: 'specimens', component: SpecimensComponent },
   { path: 'useful-sites', component: UsefulSitesComponent },
