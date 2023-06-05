@@ -19,7 +19,7 @@ export class CountryNavigationComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.countryNavigationReadingService.getCountryNavigationFromFile(this.contentFileName)
+    this.countryNavigationReadingService.getDataFromFile(this.contentFileName)
       .subscribe(result =>
         this.navigationCountries = result
       )

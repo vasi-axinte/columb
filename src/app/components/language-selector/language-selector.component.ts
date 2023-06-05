@@ -8,7 +8,12 @@ import { TranslocoService } from '@ngneat/transloco';
 })
 export class LanguageSelectorComponent {
 
-  selectedLanguageCode = 'ro';
+  selectedLanguage: Record<'countryCode' | 'code' | 'name' | 'shorthand', string> = {
+      countryCode: 'ro',
+      code: 'ro',
+      name: 'Română',
+      shorthand: 'RO',
+  };
 
   constructor(private translocoService: TranslocoService) {}
   public languagesList: 
@@ -27,7 +32,7 @@ export class LanguageSelectorComponent {
     },
   ];
   public changeLanguage(languageCode: string): void {
-    this.selectedLanguageCode = languageCode;
+    this.selectedLanguage = this.languagesList.find(l => l.code === languageCode)!;
     this.translocoService.setActiveLang(languageCode);
     languageCode === 'fa'
       ? (document.body.style.direction = 'rtl')
