@@ -1,0 +1,19 @@
+<div class="row">
+    <form>
+        <p>create-user works!</p>
+        <div>
+            <label for="email" clas="form-label">Email: </label>
+            <input class="form-control" placeholder="email" id="email" type="email" [formControl]="email">
+        </div>
+        <div>
+            <label for="password" clas="form-label">Name: </label>
+            <input class="form-control" placeholder="password" id="password" type="password" [formControl]="password">
+        </div>
+        <div>
+            <button class="btn btn-primary" (click)="authService.SignIn(email.value!, password.value!)">Sign In!</button>
+        </div>
+        <a class="nav-link" aria-current="page" routerLink="/create-user" data-bs-dismiss="offcanvas">
+            Create User
+        </a>
+    </form>
+</div>

@@ -4,6 +4,7 @@ import { FormControl } from '@angular/forms';
 
 import firebase from 'firebase/compat/app';
 import { Observable } from 'rxjs';
+import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-create-user',
@@ -11,43 +12,29 @@ import { Observable } from 'rxjs';
   styleUrls: ['./create-user.component.scss']
 })
 export class CreateUserComponent {
-  userData: Observable<firebase.User | null>;
   email = new FormControl('');
   password = new FormControl('');
 
-  constructor(private angularFireAuth: AngularFireAuth){
-    this.userData = angularFireAuth.authState;
+  constructor(public authService: AuthService){
   }
 
   createUser(){
-    this.angularFireAuth
-    .createUserWithEmailAndPassword(this.email.value || '', this.password.value || '')
-    .then(res => {
-      console.log(res);
-      alert('oups');
-    })
-    .catch(error => {
-      console.error(error);
-      alert('oups');
-    })
-    return false;
-  }
-
-  login(){
-    this.angularFireAuth
-    .signInWithEmailAndPassword("test@gmail.com", "testAbcd12")
-    .then(res => {
-      console.log(res);
-      this.angularFireAuth
-        .authState
-        .subscribe((user) => {
-          if (user) {
-            console.log(user);
-          }
-      });
-    })
-    .catch(error => {
-      console.error(error);
-    })
+    return this.authService.SignUp(this.email.value!, this.password.value!);
+    // this.angularFireAuth
+    // .createUserWithEmailAndPassword(this.email.value || '', this.password.value || '')
+    // .then(res => {
+    //   // res.user?.updateProfile({
+    //   //   displayName: "test",
+    //   // }).then(() => {
+    //   //   //success
+    //   // })
+    //   // res.user?.sendEmailVerification();
+    //   console.log(res);
+    // })
+    // .catch(error => {
+    //   console.error(error);
+    //   alert('oups');
+    // })
+    // return false;
   }
 }

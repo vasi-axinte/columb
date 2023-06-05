@@ -12,13 +12,18 @@ import { UsefulSitesComponent } from './components/useful-sites/useful-sites.com
 import { HomeComponent } from './components/home/home.component';
 import { PdfViewComponent } from './components/pdf-view/pdf-view.component';
 import { SanctionDetailsComponent } from './components/sanction-details/sanction-details.component';
+import { CreateUserComponent } from './components/create-user/create-user.component';
+import { AuthGuard } from './guards/auth.guard';
+import { LoginComponent } from './components/login/login.component';
 
 const routes: Routes = [
-  { path: 'travel-docs', component: TravelDocsComponent },
-  { path: 'vehicle-info', component: VehicleInfoComponent },
-  { path: 'technical-check', component: TechnicalCheckComponent },
-  { path: 'driving-license', component: DrivingLicenseComponent },
-  { path: 'vehicle-insurance', component: VehicleInsuranceComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'create-user', component: CreateUserComponent },
+  { path: 'travel-docs', component: TravelDocsComponent, canActivate: [AuthGuard] },
+  { path: 'vehicle-info', component: VehicleInfoComponent, canActivate: [AuthGuard] },
+  { path: 'technical-check', component: TechnicalCheckComponent, canActivate: [AuthGuard] },
+  { path: 'driving-license', component: DrivingLicenseComponent, canActivate: [AuthGuard] },
+  { path: 'vehicle-insurance', component: VehicleInsuranceComponent, canActivate: [AuthGuard] },
   {
     path: 'sanctions', children: [
       {
@@ -32,12 +37,13 @@ const routes: Routes = [
       {
         path: 'details/:contentId',
         component: SanctionDetailsComponent
-      }]
+      }],
+      canActivate: [AuthGuard]
   },
-  { path: 'glossary', component: GlossasryComponent },
-  { path: 'specimens', component: SpecimensComponent },
-  { path: 'useful-sites', component: UsefulSitesComponent },
-  { path: '', component: HomeComponent },
+  { path: 'glossary', component: GlossasryComponent, canActivate: [AuthGuard] },
+  { path: 'specimens', component: SpecimensComponent, canActivate: [AuthGuard] },
+  { path: 'useful-sites', component: UsefulSitesComponent, canActivate: [AuthGuard] },
+  { path: '', component: HomeComponent, canActivate: [AuthGuard] },
 ];
 
 @NgModule({

@@ -31,6 +31,8 @@ import { PdfViewComponent } from './components/pdf-view/pdf-view.component';
 import { SanctionDetailsComponent } from './components/sanction-details/sanction-details.component';
 import { TranslocoRootModule } from './transloco-root.module';
 import { LanguageSelectorComponent } from './components/language-selector/language-selector.component';
+import { LoginComponent } from './components/login/login.component';
+import { AuthService } from './services/auth.service';
 
 @NgModule({
   declarations: [
@@ -50,7 +52,8 @@ import { LanguageSelectorComponent } from './components/language-selector/langua
     HomeComponent,
     PdfViewComponent,
     SanctionDetailsComponent,
-    LanguageSelectorComponent
+    LanguageSelectorComponent,
+    LoginComponent
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebaseConfig),
@@ -65,7 +68,7 @@ import { LanguageSelectorComponent } from './components/language-selector/langua
     PdfViewerModule,
     TranslocoRootModule,
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

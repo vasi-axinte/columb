@@ -10,10 +10,7 @@
             <input class="form-control" placeholder="password" id="password" type="password" [formControl]="password">
         </div>
         <div>
-            <button class="btn btn-primary" (click)="createUser()">Create User!</button>
-        </div>
-        <div>
-            <button class="btn btn-primary" (click)="login()">Sign In!</button>
+            <button class="btn btn-primary" (click)="authService.SignUp(email.value!, password.value!)">Create User!</button>
         </div>
     </form>
 </div>
