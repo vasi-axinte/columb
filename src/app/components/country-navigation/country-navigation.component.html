@@ -10,13 +10,16 @@
 
 <div class="col-12 container country-content" style="height: 350px;">
     <ul class="list-unstyled row">
-      <li *ngFor="let navigationCountry of navigationCountries" class="list-item col-6 border-top py-2">
-        <a class="nav-link" href="{{navigationCountry.url}}">
-        <h3>
-            <span class="fi fi-{{navigationCountry.countryCode}}"></span>
-            {{navigationCountry.country}}
-        </h3>
-    </a>
-      </li>
+        <li *ngFor="let navigationCountry of navigationCountries" class="list-item col-6 border-top py-2">
+            <a class="nav-link" href="{{navigationCountry.url}}">
+                <h3>
+                    <span class="fi fi-{{navigationCountry.countryCode}}"></span>
+                    {{navigationCountry.country}}
+                </h3>
+            </a>
+            <!-- <h4 *ngIf="navigationCountry.countryCode=='ua'">
+                <span>https://dmsu.gov.ua/services/docstate.html</span>
+            </h4> -->
+        </li>
     </ul>
-  </div>
+</div>

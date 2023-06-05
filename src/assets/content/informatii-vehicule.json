@@ -2,126 +2,126 @@
     {
         "country": "Austria",
         "countryCode": "at",
-        "url": "https://..."
+        "url": "https://zulassung.oesd.at/fahrzeugdaten-online-abfrage/"
     },
     {
         "country": "Belgia",
         "countryCode": "be",
-        "url": "https://..."
+        "url": "http://www.mobilit.fgov.be/WebdivPub_FR/wmvpstv1_fr?SUBSESSIONID=2240104"
     },
     {
-        "country": "Cehia ",
+        "country": "Cehia",
         "countryCode": "cz",
-        "url": "https://..."
+        "url": "https://www.kontrola-vin.cz/"
     },
     {
         "country": "Danemarca",
         "countryCode": "dk",
-        "url": "https://..."
+        "url": "https://motorregister.skat.dk/dmr-kerne/koeretoejdetaljer/visKoeretoej?execution=e2s1"
     },
     {
         "country": "Estonia",
         "countryCode": "ee",
-        "url": "https://..."
+        "url": "https://eteenindus.mnt.ee/public/soidukTaustakontroll.jsf?lang=en"
     },
     {
         "country": "Finlanda",
         "countryCode": "fi",
-        "url": "https://..."
+        "url": "https://www.biltema.fi/auton-varaosahaku/"
     },
     {
         "country": "Franța",
         "countryCode": "fr",
-        "url": "https://..."
+        "url": "https://siv-auto.fr/"
     },
     {
         "country": "Germania",
         "countryCode": "de",
-        "url": "https://..."
+        "url": "https://www.autodna.de/fahrgestellnummer-fin-pruefen"
     },
     {
         "country": "Irlanda",
         "countryCode": "ie",
-        "url": "https://..."
+        "url": "https://www.ncts.ie/1096"
     },
     {
         "country": "Islanda",
         "countryCode": "is",
-        "url": "https://..."
+        "url": "https://www.samgongustofa.is/umferd/okutaeki/okutaekjaskra/uppfletting/?vq="
     },
     {
-        "country": "Lituania ",
+        "country": "Lituania",
         "countryCode": "lt",
-        "url": "https://..."
+        "url": "https://www.eregitra.lt/services/vehicle-registration/data-search"
     },
     {
         "country": "Malta",
         "countryCode": "mt",
-        "url": "https://..."
+        "url": "https://licenzji-vetturi.gov.mt/default.aspx?page=licence_renewal&opt=otherfees&serv=general"
     },
     {
         "country": "Marea Britanie",
         "countryCode": "gb",
-        "url": "https://..."
+        "url": "https://totalcarcheck.co.uk/"
     },
     {
         "country": "Moldova",
         "countryCode": "md",
-        "url": "https://..."
+        "url": "https://e-services.md/public/WebPublic/index.php?action=transport&lang=md"
     },
     {
         "country": "Norvegia",
         "countryCode": "no",
-        "url": "https://..."
+        "url": "https://www.vegvesen.no/en/vehicles/buy-and-sell/vehicle-information/sjekk-kjoretoyopplysninger/"
     },
     {
         "country": "Olanda",
         "countryCode": "nl",
-        "url": "https://..."
+        "url": "https://ovi.rdw.nl/default.aspx"
     },
     {
         "country": "Polonia",
         "countryCode": "pl",
-        "url": "https://..."
+        "url": "https://info-car.pl/infocar/vin.html"
     },
     {
         "country": "Portugalia",
         "countryCode": "pt",
-        "url": "https://..."
+        "url": "https://www.automovelonline.mj.pt/AutoOnlineProd/FrontOfficeController?action=validaMatricula&url=FrontOfficeController%3Faction%3Dpedidocertidao&contr=FrontOfficeController"
     },
     {
-        "country": "Romania",
+        "country": "România",
         "countryCode": "ro",
-        "url": "https://..."
+        "url": "https://dgpci.mai.gov.ro/drpciv-forms/vehicle"
     },
     {
         "country": "Rusia",
         "countryCode": "ru",
-        "url": "https://..."
+        "url": "https://avtokompromat.ru/m/"
     },
     {
         "country": "Slovacia",
         "countryCode": "sk",
-        "url": "https://..."
+        "url": "https://www.stkonline.sk/spz/BR129YC"
     },
     {
         "country": "Slovenia",
         "countryCode": "si",
-        "url": "https://..."
+        "url": "https://e-uprava.gov.si/javne-evidence/motorna-vozila.html"
     },
     {
         "country": "Spania",
         "countryCode": "es",
-        "url": "https://..."
+        "url": "https://www.sedeelectronicaautomovil.com/sea/public/verify.html"
     },
     {
         "country": "Suedia",
         "countryCode": "se",
-        "url": "https://..."
+        "url": "https://fordon-fu-regnr.transportstyrelsen.se/"
     },
     {
         "country": "Ucraina",
         "countryCode": "ua",
-        "url": "https://..."
+        "url": "https://opendata.hsc.gov.ua/check-vehicle-registration-certificate/"
     }
 ]

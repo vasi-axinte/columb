@@ -19,6 +19,7 @@
     }
   ],
   "hosting": {
+    "site": "columb",
     "public": "dist/columb",
     "ignore": [
       "firebase.json",

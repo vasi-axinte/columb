@@ -1,117 +1,113 @@
 [
     {
-        "country": "Belarus",
-        "countryCode": "by",
-        "url": "https://..."
-    },
-    {
         "country": "Belgia",
         "countryCode": "be",
-        "url": "https://..."
+        "url": "http://www.mobilit.fgov.be/WebdivPub_FR/wmvpstv1_fr?SUBSESSIONID=2240104"
     },
     {
         "country": "Bulgaria",
-        "countryCode": "gb",
-        "url": "https://..."
+        "countryCode": "bg",
+        "url": "https://rta.government.bg/services/check-inspection/index.html"
     },
     {
-        "country": "Cehia ",
+        "country": "Cehia",
         "countryCode": "cz",
-        "url": "https://..."
+        "url": "https://www.kontrolatachometru.cz/"
     },
     {
         "country": "Croația",
         "countryCode": "hr",
-        "url": "https://..."
+        "url": "https://www.cvh.hr/naslovnica/#searchFields"
     },
     {
         "country": "Danemarca",
         "countryCode": "dk",
-        "url": "https://..."
+        "url": "https://findsynsrapport.fstyr.dk/sider/soegning.aspx"
     },
     {
         "country": "Elveția",
         "countryCode": "ch",
-        "url": "https://..."
+        "url": "https://adm.appls.fr.ch/ocn/ecari-dispoweb/ui/app/init/#/circ/prive/login"
     },
     {
         "country": "Estonia",
         "countryCode": "ee",
-        "url": "https://..."
+        "url": "https://www.tehnoulevaatus.ee/en/"
     },
     {
         "country": "Franța",
         "countryCode": "fr",
-        "url": "https://..."
+        "url": "https://www.utac-otc.com/v%c3%a9hicules-l%c3%a9gers/retrouver-un-contr%c3%b4le-vl-sur-immat"
     },
     {
         "country": "Irlanda",
         "countryCode": "ie",
-        "url": "https://..."
+        "url": "https://www.ncts.ie/1096"
     },
     {
         "country": "Islanda",
         "countryCode": "is",
-        "url": "https://..."
+        "url": "https://www.samgongustofa.is/umferd/okutaeki/okutaekjaskra/uppfletting/?vq="
     },
     {
         "country": "Italia",
         "countryCode": "it",
-        "url": "https://..."
+        "url": "https://www.ilportaledellautomobilista.it/web/portale-automobilista/verifica-ultima-revisione"
     },
     {
         "country": "Kazahstan",
         "countryCode": "kz",
-        "url": "https://..."
+        "url": "https://findhow.org/3360-onlajn-proverka-tehosmotra-v-kazahstane.html"
     },
     {
-        "country": "Lituania ",
+        "country": "Lituania",
         "countryCode": "lt",
-        "url": "https://..."
+        "url": "https://itais.vta.lt/itais/services/search;jsessionid=722AF76F7B71ED49AA96DED9390DD9FC?execution=e1s1"
     },
     {
         "country": "Marea Britanie",
         "countryCode": "gb",
-        "url": "https://..."
+        "url": "https://www.check-mot.service.gov.uk/"
     },
     {
         "country": "Norvegia",
         "countryCode": "no",
-        "url": "https://..."
+        "url": "https://www.vegvesen.no/en/vehicles/own-and-maintain/eu-mandatory-roadworthiness-test-eu-test/kontrollfrist/"
     },
     {
         "country": "Olanda",
         "countryCode": "nl",
-        "url": "https://..."
+        "url": "https://www.kentekencheck.nu/"
     },
     {
         "country": "Polonia",
         "countryCode": "pl",
-        "url": "https://..."
+        "url": "https://historiapojazdu.gov.pl/strona-glowna"
     },
     {
         "country": "România",
         "countryCode": "ro",
-        "url": "https://..."
+        "url": "https://prog.rarom.ro/rarpol/"
     },
     {
         "country": "Rusia",
         "countryCode": "ru",
-        "url": "https://..."
+        "url": "https://kbm-osago.ru/osago/proverka-tehosmotra.html"
+    },
+    {
+        "country": "Slovacia",
+        "countryCode": "sk",
+        "url": "https://www.testek.sk/?lang=sk&menuid=406"
     },
     {
         "country": "Slovenia",
         "countryCode": "si",
-        "url": "https://..."
-    },
-    {
-        "country": "Spania",
-        "countryCode": "es",
-        "url": "https://..."
+        "url": "https://e-uprava.gov.si/javne-evidence/motorna-vozila.html"
     },
     {
         "country": "Suedia",
         "countryCode": "se",
-        "url": "https://..."
+        "url": "https://www.car.info/sv-se/search-car-registry"
     }
+    
 ]

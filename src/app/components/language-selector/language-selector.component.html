@@ -1,0 +1,26 @@
+<div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <input type="radio" class="btn-check" name="btnradio" id="btnradioRo" autocomplete="off" checked
+        (click)="changeLanguage('ro')">
+    <label class="btn btn-outline-primary" for="btnradioRo">
+        <span class="fi fi-ro"></span>
+        Română
+    </label>
+
+    <input type="radio" class="btn-check" name="btnradio" id="btnradioEn" autocomplete="off"
+        (click)="changeLanguage('en')">
+    <label class="btn btn-outline-primary" for="btnradioEn">
+        <span class="fi fi-gb"></span>
+        English
+    </label>
+</div>
+
+<!-- <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <span *ngFor="let language of languagesList; index as i"
+    (click)="changeLanguage(language.code)">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio-{{language.code}}" autocomplete="off" checked>
+        <label class="btn btn-outline-success" for="btnradio-{{language.code}}">
+            <span class="fi fi-{{language.countryCode}}"></span>
+            {{language.name}}
+        </label>
+    </span>
+</div> -->

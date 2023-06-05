@@ -1,0 +1,17 @@
+{
+    "menu": {
+        "home": "Home",
+        "travel-docs": "Travel documents",
+        "driving-licenses": "Driving licenses",
+        "vehicle-info": "Vehicle information",
+        "technical-check": "Periodical Technical Check",
+        "car-insurance": "Car Insurance",
+        "sanctions": "Sanctions",
+        "glossary": "Glossary",
+        "specimens": "Specimens",
+        "useful-links": "Useful Links",
+        "legis": "Legis",
+        "forum": "Forum",
+        "telegram-group": "Telegram Group"
+    }
+}

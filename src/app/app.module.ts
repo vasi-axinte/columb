@@ -29,6 +29,8 @@ import { HomeComponent } from './components/home/home.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { PdfViewComponent } from './components/pdf-view/pdf-view.component';
 import { SanctionDetailsComponent } from './components/sanction-details/sanction-details.component';
+import { TranslocoRootModule } from './transloco-root.module';
+import { LanguageSelectorComponent } from './components/language-selector/language-selector.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +50,7 @@ import { SanctionDetailsComponent } from './components/sanction-details/sanction
     HomeComponent,
     PdfViewComponent,
     SanctionDetailsComponent,
+    LanguageSelectorComponent
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebaseConfig),
@@ -60,6 +63,7 @@ import { SanctionDetailsComponent } from './components/sanction-details/sanction
     ReactiveFormsModule,
     HttpClientModule,
     PdfViewerModule,
+    TranslocoRootModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

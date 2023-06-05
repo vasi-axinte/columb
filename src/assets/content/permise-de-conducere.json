@@ -1,82 +1,77 @@
 [
     {
         "country": "Bulgaria",
-        "countryCode": "gb",
-        "url": "https://..."
+        "countryCode": "bg",
+        "url": "https://www.mvr.bg/en/administrative-services/electronized-services/validity-verification-of-bulgarian-personal-documents"
     },
     {
         "country": "Croația",
         "countryCode": "hr",
-        "url": "https://..."
+        "url": "https://mup.gov.hr/status-vozacke-dozvole/283633"
     },
     {
         "country": "Estonia",
         "countryCode": "ee",
-        "url": "https://..."
+        "url": "https://eteenindus.mnt.ee/public/juhiloaKehtivus.xhtml"
     },
     {
         "country": "Israel",
         "countryCode": "il",
-        "url": "https://..."
+        "url": "https://ecom.gov.il/voucherspa/input/209?language=en"
     },
     {
-        "country": "Lituania ",
+        "country": "Lituania",
         "countryCode": "lt",
-        "url": "https://..."
+        "url": "https://www.eregitra.lt/services/driver-license/validity-info"
     },
     {
-        "country": "Malta ",
+        "country": "Malta",
         "countryCode": "mt",
-        "url": "https://..."
+        "url": "https://licenzji-xufiera.gov.mt/Login/Citizen?ReturnUrl=https%3A%2F%2Flicenzji-xufiera.gov.mt%2FLicence"
     },
     {
         "country": "Marea Britanie",
         "countryCode": "gb",
-        "url": "https://..."
+        "url": "https://www.viewdrivingrecord.service.gov.uk/driving-record/licence-number"
     },
     {
         "country": "Moldova",
         "countryCode": "md",
-        "url": "https://..."
+        "url": "https://e-services.md/public/WebPublic/index.php?action=document&lang=md"
     },
     {
         "country": "Polonia",
         "countryCode": "pl",
-        "url": "https://..."
+        "url": "https://moj.gov.pl/uslugi/engine/ng/index?xFormsAppName=UprawnieniaKierowcow&xFormsOrigin=EXTERNAL"
     },
     {
         "country": "România",
         "countryCode": "ro",
-        "url": "https://..."
-    },
-    {
-        "country": "Rusia",
-        "countryCode": "ru",
-        "url": "https://..."
+        "url": "https://dgpci.mai.gov.ro/drpciv-forms/license"
     },
     {
         "country": "Slovenia",
         "countryCode": "si",
-        "url": "https://..."
+        "url": "https://e-uprava.gov.si/si/javne-evidence/statusi-dokumentov.html"
     },
     {
         "country": "Spania",
         "countryCode": "es",
-        "url": "https://..."
+        "url": "https://sedeapl.dgt.gob.es/WEB_EST_PERSEO/busqueda.faces"
     },
     {
         "country": "Turcia",
         "countryCode": "tr",
-        "url": "https://..."
+        "url": "https://www.turkiye.gov.tr/belge-dogrulama"
     },
     {
         "country": "Ucraina",
         "countryCode": "ua",
-        "url": "https://..."
+        "url": "https://opendata.hsc.gov.ua/check-driver-license/"
     },
     {
         "country": "Ungaria",
         "countryCode": "hu",
-        "url": "https://..."
+        "url": "https://www.nyilvantarto.hu/ugyseged/OkmanyErvenyessegLekerdezes.xhtml"
     }
 ]
