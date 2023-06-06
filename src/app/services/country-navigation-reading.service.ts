@@ -29,4 +29,9 @@ export class CountryNavigationReadingService {
     }
     return this.dataDictionary[filepath];
   }
+
+  public getWeatherForecast() : Observable<any>{
+      return this.httpClient.get<NavigationCountry[]>("https://webcheckapi.azurewebsites.net/WeatherForecast")
+      // return this.httpClient.get<NavigationCountry[]>("https://localhost:7257/WeatherForecast")
+  }
 }
