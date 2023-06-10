@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Prado",
+        "url": "https://www.consilium.europa.eu/prado/ro/search-by-document-country.html",
+        "icon": "link"
+    },
+    {
+        "title": "iFADO-offline (pdf)",
+        "url": "https://drive.google.com/file/d/1GyON-gpE6Gt_jg-QYVOVTcuC5ozct1qI/view?usp=share_link",
+        "icon": "pdf"
+    },
+    {
+        "title": "EdisonTD",
+        "url": "https://www.edisontd.nl/",
+        "icon": "link"
+    },
+    {
+        "title": "Regula",
+        "url": "https://regulaforensics.com/explore/expert-hub/glossary/documents",
+        "icon": "link"
+    },
+    {
+        "title": "CARIFFY-informații vehicul",
+        "url": "https://cariffy.com/category/vehicle-registration-documents/",
+        "icon": "link"
+    }
+]

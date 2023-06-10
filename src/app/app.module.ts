@@ -33,6 +33,7 @@ import { TranslocoRootModule } from './transloco-root.module';
 import { LanguageSelectorComponent } from './components/language-selector/language-selector.component';
 import { LoginComponent } from './components/login/login.component';
 import { AuthService } from './services/auth.service';
+import { UrlNavigationComponent } from './components/url-navigation/url-navigation.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { AuthService } from './services/auth.service';
     PdfViewComponent,
     SanctionDetailsComponent,
     LanguageSelectorComponent,
-    LoginComponent
+    LoginComponent,
+    UrlNavigationComponent
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebaseConfig),
