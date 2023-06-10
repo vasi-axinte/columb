@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { AngularFireAuth } from "@angular/fire/compat/auth";
-import { FormControl } from '@angular/forms';
+import { FormControl, Validators } from '@angular/forms';
 
 import firebase from 'firebase/compat/app';
 import { Observable } from 'rxjs';
@@ -12,8 +12,13 @@ import { AuthService } from 'src/app/services/auth.service';
   styleUrls: ['./create-user.component.scss']
 })
 export class CreateUserComponent {
-  email = new FormControl('');
-  password = new FormControl('');
+  email = new FormControl('', Validators.required);
+  password = new FormControl('', Validators.required);
+  firstName = new FormControl('', Validators.required);
+  lastName = new FormControl('', Validators.required);
+  structure = new FormControl('', Validators.required);
+  birthYear = new FormControl('', Validators.required);
+  sex = new FormControl('', Validators.required);
 
   constructor(public authService: AuthService){
   }

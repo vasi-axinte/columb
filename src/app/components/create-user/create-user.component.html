@@ -1,55 +1,89 @@
-<!-- <div class="row">
-    <form>
-        <p>create-user works!</p>
-        <div>
-            <label for="email" clas="form-label">Email: </label>
-            <input class="form-control" placeholder="email" id="email" type="email" [formControl]="email">
-        </div>
-        <div>
-            <label for="password" clas="form-label">Name: </label>
-            <input class="form-control" placeholder="password" id="password" type="password" [formControl]="password">
-        </div>
-        <div>
-            <button class="btn btn-primary" (click)="createUser()">Create User!</button>
-        </div>
-    </form>
-</div> -->
 <div class="card text-center col-sm-6 col-lg-6 col-12 mx-auto">
     <div class="card-body">
+    <form>
         <h2 class="fw-bold mb-2 text-uppercase">Create Account</h2>
-        <p class="text-dark-50 mb-4">Please enter your login and password!</p>
 
-        <div class="form-outline form-dark mb-3">
-        <label class="form-label" for="email">Email</label>
-        <input type="email" class="form-control form-control-lg" placeholder="Email" id="email" type="email" [formControl]="email"/>
-        </div>
-
-        <div class="form-outline form-dark">
-        <label class="form-label" for="password">Password</label>
-        <input type="password" class="form-control form-control-lg" placeholder="Password" id="password" type="password" [formControl]="password"/>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" placeholder="Email" id="email" type="email" [formControl]="email"/>
+            <label for="email">Email</label>
         </div>
 
-        <div class="form-outline form-dark">
-            <label class="form-label" for="password">First Name</label>
-            <input type="password" class="form-control form-control-lg" placeholder="First Name" id="password" type="password" />
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control form-control-lg" placeholder="Password" id="password" type="password" [formControl]="password"/>
+            <label class="form-label" for="password">Password</label>
         </div>
-        <div class="form-outline form-dark">
-            <label class="form-label" for="password">Last Name</label>
-            <input type="password" class="form-control form-control-lg" placeholder="Last Name" id="password" type="password" />
+
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control form-control-lg" placeholder="First Name" id="firstName" [formControl]="firstName"/>
+            <label class="form-label" for="firstName">First Name</label>
         </div>
-        <div class="form-outline form-dark">
-            <label class="form-label" for="password">Structure</label>
-            <input type="password" class="form-control form-control-lg" placeholder="Address" id="password" type="password" />
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control form-control-lg" placeholder="Last Name" id="lastName"[formControl]="lastName"/>
+            <label class="form-label" for="lastName">Last Name</label>
         </div>
-        <div class="form-outline form-dark">
+        <div class="form-floating mb-3">
+            <textarea class="form-control form-control-lg" placeholder="Structure" id="structure" [formControl]="structure"></textarea>
+            <label class="form-label" for="structure">Structure</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="number" class="form-control form-control-lg" placeholder="Birth Year" id="birthYear" [formControl]="birthYear"/>
             <label class="form-label" for="password">Birth Year</label>
-            <input type="password" class="form-control form-control-lg" placeholder="Description" id="password" type="password" />
         </div>
-
+        <div class="form-floating mb-3">
+              <select class="form-select" id="floatingSelect" aria-label="Floating label select example" [formControl]="sex">
+                <option value="true">Male</option>
+                <option value="false">Female</option>
+              </select>
+            <label class="form-label text-left" for="flexRadioDefault">Sex </label>
+        </div>
         <button class="btn btn-outline-dark btn-lg px-5" type="button" (click)="createUser()">Create</button> 
+    </form>
     </div>
     <div class="card-footer text-body-secondary">
         <p class="mb-0">Already have an account? <a routerLink="/login" class="text-dark-50 fw-bold">Login</a>
         </p>
     </div>
 </div>
+<!-- <div class="card text-center col-sm-6 col-lg-6 col-12 mx-auto">
+    <div class="card-body">
+    <form>
+        <h2 class="fw-bold mb-2 text-uppercase">Create Account</h2>
+        <div class="form-floating mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+            <input type="email" class="form-control" aria-label="Email" aria-describedby="inputGroup-sizing-default" [formControl]="email">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
+            <input type="password" class="form-control" aria-label="Password" aria-describedby="inputGroup-sizing-default" [formControl]="password">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">First Name</span>
+            <input type="text" class="form-control" aria-label="FirstName" aria-describedby="inputGroup-sizing-default" [formControl]="firstName">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Last Name</span>
+            <input type="lastName" class="form-control" aria-label="LastName" aria-describedby="inputGroup-sizing-default" [formControl]="lastName">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Birth Year</span>
+            <input type="number" class="form-control" aria-label="BirthYear" aria-describedby="inputGroup-sizing-default" [formControl]="birthYear">
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">Sex</label>
+            <select class="form-select" id="sex" [formControl]="sex">
+              <option value="true">Male</option>
+              <option value="false">Female</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Structure</span>
+            <textarea class="form-control form-control-lg" placeholder="Structure" id="structure" [formControl]="structure"></textarea>
+        </div>
+        <button class="btn btn-outline-dark btn-lg px-5" type="button" (click)="createUser()">Create</button> 
+    </form>
+    </div>
+    <div class="card-footer text-body-secondary">
+        <p class="mb-0">Already have an account? <a routerLink="/login" class="text-dark-50 fw-bold">Login</a>
+        </p>
+    </div>
+</div> -->
