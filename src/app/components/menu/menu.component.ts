@@ -22,4 +22,8 @@ export class MenuComponent {
 
     return user.roles == RoleEnum.Admin;
   }
+
+  logout(){
+    this.authService.logout();
+  }
 }
