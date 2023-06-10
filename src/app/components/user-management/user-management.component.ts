@@ -20,4 +20,17 @@ export class UserManagementComponent implements OnInit{
       this.users = result;
     })
   }
+
+  getAge(birthYear: number): number{
+    return new Date().getFullYear() - birthYear;
+  }
+
+  changeActiveState(user: AppUser){
+    console.log(user.isActive);
+    user.isActive = !user.isActive;
+  }
+
+  getCurrentUserActiveState(user: AppUser){
+    return user.isActive;
+  }
 }

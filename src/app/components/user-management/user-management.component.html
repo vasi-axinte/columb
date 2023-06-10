@@ -1,7 +1,48 @@
-<div class="list-group">
+<!-- <div class="list-group">
     <div *ngFor="let user of users">
         <a href="" class="list-group-item list-group-item-action menu-item">
             {{user.email}}, {{user.id}}
         </a>
     </div>
-</div>
+</div> -->
+
+<div class="accordion" id="'accordionUsers'">
+    <div *ngFor="let user of users" class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" 
+            type="button" 
+            [attr.data-bs-toggle]="'collapse'" 
+            [attr.data-bs-target]="'#collapseOne' + user.id" 
+            aria-expanded="true" 
+            [attr.aria-controls]="'collapseOne' + user.id">
+          {{user.firstName + ' ' + user.lastName}}
+        </button>
+      </h2>
+      <div id="collapseOne{{user.id}}" class="accordion-collapse collapse " 
+        aria-labelledby="headingOne" 
+        [attr.data-bs-parent]="'#accordionUsers'">
+        <div class="accordion-body">
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio{{user.id}}" id="btnradio1{{user.id}}" autocomplete="off" [checked]="getCurrentUserActiveState(user)" (click)="changeActiveState(user)">
+                <label class="btn btn-outline-success" for="btnradio1{{user.id}}">Active</label>
+            
+                <input type="radio" class="btn-check" name="btnradio{{user.id}}" id="btnradio2{{user.id}}" autocomplete="off" [checked]="!getCurrentUserActiveState(user)" (click)="changeActiveState(user)">
+                <label class="btn btn-outline-secondary" for="btnradio2{{user.id}}">Inactive</label>
+            </div>
+            <div>
+                <strong>{{user.email}}</strong> 
+            </div>
+            <div>
+                {{user.structure}}
+            </div>
+            <div>
+                {{user.sex === true ? 'Male' : 'Female'}}
+            </div>
+            <div>
+                {{user.birthYear}}
+                {{getAge(user.birthYear)}}
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -7,4 +7,5 @@ export interface AppUser {
     structure: string;
     sex: boolean;
     birthYear: number;
+    isActive: boolean;
   }
