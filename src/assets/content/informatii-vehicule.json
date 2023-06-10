@@ -123,5 +123,10 @@
         "country": "Ucraina",
         "countryCode": "ua",
         "url": "https://opendata.hsc.gov.ua/check-vehicle-registration-certificate/"
+    },
+    {
+        "country": "Ungaria",
+        "countryCode": "hu",
+        "url": "https://app.instacar.hu"
     }
 ]
