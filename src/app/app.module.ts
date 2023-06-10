@@ -31,6 +31,7 @@ import { AuthService } from './services/auth.service';
 import { UrlNavigationComponent } from './components/url-navigation/url-navigation.component';
 import { TokenInterceptor } from './services/token.interceptor';
 import { AuthenticationClient } from './services/authentication.client';
+import { CrimesComponent } from './components/crimes/crimes.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { AuthenticationClient } from './services/authentication.client';
     SanctionDetailsComponent,
     LanguageSelectorComponent,
     LoginComponent,
-    UrlNavigationComponent
+    UrlNavigationComponent,
+    CrimesComponent
   ],
   imports: [
     BrowserModule,

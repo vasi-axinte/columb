@@ -15,6 +15,7 @@ import { SanctionDetailsComponent } from './components/sanction-details/sanction
 import { CreateUserComponent } from './components/create-user/create-user.component';
 import { AuthGuard } from './guards/auth.guard';
 import { LoginComponent } from './components/login/login.component';
+import { CrimesComponent } from './components/crimes/crimes.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -40,6 +41,7 @@ const routes: Routes = [
       }],
       canActivate: [AuthGuard]
   },
+  { path: 'crimes', component: CrimesComponent, canActivate: [AuthGuard] },
   { path: 'glossary', component: GlossasryComponent, canActivate: [AuthGuard] },
   { path: 'specimens', component: SpecimensComponent, canActivate: [AuthGuard] },
   { path: 'useful-sites', component: UsefulSitesComponent, canActivate: [AuthGuard] },
