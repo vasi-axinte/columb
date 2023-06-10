@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { FormControl } from '@angular/forms';
 import { AuthService } from 'src/app/services/auth.service';
 
@@ -17,6 +16,10 @@ export class LoginComponent {
   }
 
   login() {
-    return this.authService.SignIn(this.email.value!, this.password.value!)
+    this.authService.login(this.email.value!, this.password.value!)
+  }
+
+  hasError(): boolean {
+    return this.authService.hasError;
   }
 }

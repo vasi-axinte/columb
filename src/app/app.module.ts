@@ -7,11 +7,6 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { environment } from "src/environments/environment";
 
-import { AngularFireModule } from '@angular/fire/compat';
-import { AngularFireAuthModule } from '@angular/fire/compat/auth';
-import { AngularFireStorageModule } from '@angular/fire/compat/storage';
-import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
-import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { CreateUserComponent } from './components/create-user/create-user.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { TravelDocsComponent } from './components/travel-docs/travel-docs.component';
@@ -24,7 +19,7 @@ import { GlossasryComponent } from './components/glossasry/glossasry.component';
 import { SpecimensComponent } from './components/specimens/specimens.component';
 import { UsefulSitesComponent } from './components/useful-sites/useful-sites.component';
 import { CountryNavigationComponent } from './components/country-navigation/country-navigation.component';  
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { PdfViewComponent } from './components/pdf-view/pdf-view.component';
@@ -34,6 +29,8 @@ import { LanguageSelectorComponent } from './components/language-selector/langua
 import { LoginComponent } from './components/login/login.component';
 import { AuthService } from './services/auth.service';
 import { UrlNavigationComponent } from './components/url-navigation/url-navigation.component';
+import { TokenInterceptor } from './services/token.interceptor';
+import { AuthenticationClient } from './services/authentication.client';
 
 @NgModule({
   declarations: [
@@ -58,11 +55,6 @@ import { UrlNavigationComponent } from './components/url-navigation/url-navigati
     UrlNavigationComponent
   ],
   imports: [
-    AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFireAuthModule,
-    AngularFirestoreModule,
-    AngularFireStorageModule,
-    AngularFireDatabaseModule,
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
@@ -70,7 +62,7 @@ import { UrlNavigationComponent } from './components/url-navigation/url-navigati
     PdfViewerModule,
     TranslocoRootModule,
   ],
-  providers: [AuthService],
+  providers: [AuthService, AuthenticationClient, { provide: HTTP_INTERCEPTORS, useClass: TokenInterceptor, multi: true },],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

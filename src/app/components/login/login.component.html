@@ -1,19 +1,25 @@
-<div class="row">
-    <form>
-        <p>create-user works!</p>
-        <div>
-            <label for="email" clas="form-label">Email: </label>
-            <input class="form-control" placeholder="email" id="email" type="email" [formControl]="email">
+<div class="card text-center col-sm-6 col-lg-6 col-12 mx-auto">
+    <div class="card-body">
+        <div *ngIf="hasError()" class="alert alert-danger">Invalid username or password.</div>
+        <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+        <p class="text-dark-50 mb-4">Please enter your login and password!</p>
+
+        <div class="form-outline form-dark mb-4">
+        <label class="form-label" for="email">Email</label>
+        <input type="email" class="form-control form-control-lg" placeholder="email" id="email" type="email" [formControl]="email"/>
         </div>
-        <div>
-            <label for="password" clas="form-label">Name: </label>
-            <input class="form-control" placeholder="password" id="password" type="password" [formControl]="password">
+
+        <div class="form-outline form-dark">
+        <label class="form-label" for="password">Password</label>
+        <input type="password" class="form-control form-control-lg" placeholder="password" id="password" type="password" [formControl]="password"/>
         </div>
-        <div>
-            <button class="btn btn-primary" (click)="authService.SignIn(email.value!, password.value!)">Sign In!</button>
-        </div>
-        <a class="nav-link" aria-current="page" routerLink="/create-user" data-bs-dismiss="offcanvas">
-            Create User
-        </a>
-    </form>
+
+        <p class="small pb-lg-2"><a class="text-dark-50" href="#!">Forgot password?</a></p>
+
+        <button class="btn btn-outline-dark btn-lg px-5" type="button" (click)="login()">Login</button> 
+    </div>
+    <div class="card-footer text-body-secondary">
+        <p class="mb-0">Don't have an account? <a routerLink="/create-user" class="text-dark-50 fw-bold">Register</a>
+        </p>
+    </div>
 </div>

@@ -19,7 +19,7 @@ export class CreateUserComponent {
   }
 
   createUser(){
-    return this.authService.SignUp(this.email.value!, this.password.value!);
+    return this.authService.register(this.email.value!, this.email.value!, this.password.value!);
     // this.angularFireAuth
     // .createUserWithEmailAndPassword(this.email.value || '', this.password.value || '')
     // .then(res => {
