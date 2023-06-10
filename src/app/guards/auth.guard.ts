@@ -13,14 +13,16 @@ export class AuthGuard {
     private router: Router
   ) {}
 
-  canActivate(
-    route: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot
-  ): boolean {
-    if (!this.authService.isLoggedIn()) {
-      this.router.navigate(['/login']);
+  canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
+    const user = this.authService.getUser();
+    if (user) {
+      if (route.data['roles'] && route.data['roles'].indexOf(user.roles) === -1) {
+        this.router.navigate(['/']);
+        return false;
+      }
+      return true;
     }
-
-    return true;
+    this.router.navigate(['/login']);
+    return false;
   }
 }

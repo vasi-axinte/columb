@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
-import { AngularFireAuth } from "@angular/fire/compat/auth";
 import { FormControl, Validators } from '@angular/forms';
 
-import firebase from 'firebase/compat/app';
-import { Observable } from 'rxjs';
+import { CreateUser } from 'src/app/models/create-user';
 import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
@@ -24,22 +22,15 @@ export class CreateUserComponent {
   }
 
   createUser(){
-    return this.authService.register(this.email.value!, this.email.value!, this.password.value!);
-    // this.angularFireAuth
-    // .createUserWithEmailAndPassword(this.email.value || '', this.password.value || '')
-    // .then(res => {
-    //   // res.user?.updateProfile({
-    //   //   displayName: "test",
-    //   // }).then(() => {
-    //   //   //success
-    //   // })
-    //   // res.user?.sendEmailVerification();
-    //   console.log(res);
-    // })
-    // .catch(error => {
-    //   console.error(error);
-    //   alert('oups');
-    // })
-    // return false;
+    let user = new CreateUser(
+      this.email.value!,
+      this.password.value!,
+      this.firstName.value!,
+      this.lastName.value!,
+      this.structure.value!,
+      this.sex.value! === "true",
+      +this.birthYear.value!,
+    )
+    return this.authService.register(user);
   }
 }

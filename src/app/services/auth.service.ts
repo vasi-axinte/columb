@@ -2,13 +2,17 @@ import { Injectable } from '@angular/core';
 import { AuthenticationClient } from './authentication.client';
 import { Router } from '@angular/router';
 import { HttpErrorResponse } from '@angular/common/http';
-import { catchError, throwError } from 'rxjs';
+import { User } from '../models/user';
+import { Claims } from '../models/claims.enum';
+import jwtDecode from 'jwt-decode';
+import { CreateUser } from '../models/create-user';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthService {
   private tokenKey = 'token';
+  private userKey = 'user';
   private loginError = false;
 
   constructor(
@@ -27,12 +31,22 @@ export class AuthService {
     })
   };
 
-  public register(username: string, email: string, password: string): void {
+  public register(user: CreateUser): void {
     this.authenticationClient
-      .register(username, email, password)
-      .subscribe((token) => {
-        localStorage.setItem(this.tokenKey, token);
+      .register(user)
+      .subscribe((result) => {
+        if (result) {
+          const decodedToken = jwtDecode<any>(result);
+          const user = new User (
+            decodedToken[Claims.NameTokenKey],
+            decodedToken[Claims.EmailTokenKey],
+            decodedToken[Claims.RoleTokenKey],
+            result
+          )
+  
+        localStorage.setItem(this.userKey, JSON.stringify(user));
         this.router.navigate(['/']);
+      }
       });
   }
 
@@ -42,12 +56,28 @@ export class AuthService {
   }
 
   public isLoggedIn(): boolean {
-    let token = localStorage.getItem(this.tokenKey);
-    return token != null && token.length > 0;
+    const user = this.getUser();
+    if (user) {
+      return user.token != null && user.token.length > 1;
+    }
+    return false;
+  }
+
+  public getUser(): User | null {
+    const userJson = localStorage.getItem(this.userKey);
+    if (userJson) {
+      let user: User = JSON.parse(userJson);
+      return user;
+    }
+    return null;
   }
 
   public getToken(): string | null {
-    return this.isLoggedIn() ? localStorage.getItem(this.tokenKey) : null;
+    const user = this.getUser();
+    if (user) {
+      return user.token;
+    }
+    return null;
   }
 
   public get hasError(): boolean{
@@ -57,7 +87,15 @@ export class AuthService {
   private handleSuccessAuthentication(result: string): void {
 
     if (result) {
-      localStorage.setItem(this.tokenKey, result);
+        const decodedToken = jwtDecode<any>(result);
+        const user = new User (
+          decodedToken[Claims.NameTokenKey],
+          decodedToken[Claims.EmailTokenKey],
+          decodedToken[Claims.RoleTokenKey],
+          result
+        )
+
+      localStorage.setItem(this.userKey, JSON.stringify(user));
       this.router.navigate(['/']);
     }
     // let message;

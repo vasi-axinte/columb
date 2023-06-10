@@ -25,10 +25,5 @@ export class CountryNavigationComponent implements OnInit {
       .subscribe(result =>
         this.navigationCountries = result
       )
-      
-    this.countryNavigationReadingService.getWeatherForecast()
-      .subscribe(result =>
-        this.testData = JSON.stringify(result)
-      )
   }
 }

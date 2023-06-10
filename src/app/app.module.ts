@@ -32,6 +32,7 @@ import { UrlNavigationComponent } from './components/url-navigation/url-navigati
 import { TokenInterceptor } from './services/token.interceptor';
 import { AuthenticationClient } from './services/authentication.client';
 import { CrimesComponent } from './components/crimes/crimes.component';
+import { UserManagementComponent } from './components/user-management/user-management.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { CrimesComponent } from './components/crimes/crimes.component';
     LanguageSelectorComponent,
     LoginComponent,
     UrlNavigationComponent,
-    CrimesComponent
+    CrimesComponent,
+    UserManagementComponent
   ],
   imports: [
     BrowserModule,

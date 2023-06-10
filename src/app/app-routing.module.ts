@@ -16,6 +16,8 @@ import { CreateUserComponent } from './components/create-user/create-user.compon
 import { AuthGuard } from './guards/auth.guard';
 import { LoginComponent } from './components/login/login.component';
 import { CrimesComponent } from './components/crimes/crimes.component';
+import { UserManagementComponent } from './components/user-management/user-management.component';
+import { RoleEnum } from './models/role.enum';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -45,6 +47,12 @@ const routes: Routes = [
   { path: 'glossary', component: GlossasryComponent, canActivate: [AuthGuard] },
   { path: 'specimens', component: SpecimensComponent, canActivate: [AuthGuard] },
   { path: 'useful-sites', component: UsefulSitesComponent, canActivate: [AuthGuard] },
+  { path: 'user-management', 
+    component: UserManagementComponent, 
+    canActivate: [AuthGuard], 
+    data: {
+      roles: [RoleEnum.Admin]
+    }},
   { path: '', component: HomeComponent, canActivate: [AuthGuard] },
 ];
 

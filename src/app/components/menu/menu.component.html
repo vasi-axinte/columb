@@ -169,6 +169,9 @@
                     <li class="nav-item">
                         <hr class="bg-light">
                     </li>
+                    <li *ngIf="hasAccess()" class="nav-item">
+                        <a class="nav-link" routerLink="/user-management" data-bs-dismiss="offcanvas">User Management</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-bs-dismiss="offcanvas">Privacy Policy</a>
                     </li>
