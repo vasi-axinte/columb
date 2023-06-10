@@ -1,1 +1,7 @@
-<p>user-management works!</p>
+<div class="list-group">
+    <div *ngFor="let user of users">
+        <a href="" class="list-group-item list-group-item-action menu-item">
+            {{user.email}}, {{user.id}}
+        </a>
+    </div>
+</div>
