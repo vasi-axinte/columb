@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./specimens.component.scss']
 })
 export class SpecimensComponent {
-
+  contentFileName = "assets/content/specimens.json";
 }

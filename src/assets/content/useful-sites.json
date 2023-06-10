@@ -1,0 +1,116 @@
+[
+    {
+        "title": "Loc VIN auto",
+        "url": "http://znajdzvin.pl/",
+        "icon": "link"
+    },
+    {
+        "title": "Decodor VIN",
+        "url": "https://www.vindecoderz.com/",
+        "icon": "link"
+    },
+    {
+        "title": "Verificare Rovinieta",
+        "url": "https://inforovinete.blogspot.com/2021/03/blog-post.html?m=1",
+        "icon": "link"
+    },
+    {
+        "title": "Verificare SUMAL",
+        "url": "https://inspectorulpadurii.ro/#/",
+        "icon": "link"
+    },
+    {
+        "title": "Autenticitate cazier judiciar (RO)",
+        "url": "https://hub.mai.gov.ro/verificadocument/verificare-document/verifica-document",
+        "icon": "link"
+    },
+    {
+        "title": "Verificarea atestatului ARR",
+        "url": "https://www.arr.ro/rezultate-examene.htm",
+        "icon": "link"
+    },
+    {
+        "title": "Calculator termene judiciare",
+        "url": "https://calculator-termene.ro/",
+        "icon": "link"
+    },
+    {
+        "title": "Calculator zile de sedere",
+        "url": "https://ec.europa.eu/assets/home/visa-calculator/calculator.htm?lang=en",
+        "icon": "link"
+    },
+    {
+        "title": "Căutare companii din UE",
+        "url": "https://e-justice.europa.eu/content_find_a_company-489-en.do",
+        "icon": "link"
+    },
+    {
+        "title": "Verificare cifra de control",
+        "url": "https://www.kneifel.de/TSN_Pruefziffer.php",
+        "icon": "link"
+    },
+    {
+        "title": "Most Wanted",
+        "url": "",
+        "icon": "plus",
+        "children": [
+            {
+                "title": "Persoane urmărite (RO)",
+                "url": "https://www.politiaromana.ro/ro/persoane-urmarite",
+                "icon": "link"
+            },
+            {
+                "title": "Persoane dispărute (RO)",
+                "url": "https://www.politiaromana.ro/ro/persoane-disparute",
+                "icon": "link"
+            },
+            {
+                "title": "Persoane urmărite (UE)",
+                "url": "https://eumostwanted.eu/",
+                "icon": "link"
+            },
+            {
+                "title": "Auto furate (UE)",
+                "url": "https://www.stolencars24.eu/en/main.php",
+                "icon": "link"
+            },
+            {
+                "title": "Auto furate - It/Slo/Sk/Cz/Ro",
+                "url": "https://kradenikoli.bg/index.php",
+                "icon": "link"
+            }
+        ]
+    },
+    {
+        "title": "Most Wanted2",
+        "url": "",
+        "icon": "plus",
+        "children": [
+            {
+                "title": "Persoane urmărite (RO)",
+                "url": "https://www.politiaromana.ro/ro/persoane-urmarite",
+                "icon": "link"
+            },
+            {
+                "title": "Persoane dispărute (RO)",
+                "url": "https://www.politiaromana.ro/ro/persoane-disparute",
+                "icon": "link"
+            },
+            {
+                "title": "Persoane urmărite (UE)",
+                "url": "https://eumostwanted.eu/",
+                "icon": "link"
+            },
+            {
+                "title": "Auto furate (UE)",
+                "url": "https://www.stolencars24.eu/en/main.php",
+                "icon": "link"
+            },
+            {
+                "title": "Auto furate - It/Slo/Sk/Cz/Ro",
+                "url": "https://kradenikoli.bg/index.php",
+                "icon": "link"
+            }
+        ]
+    }
+]

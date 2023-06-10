@@ -23,4 +23,8 @@ export class UrlNavigationComponent {
         this.navigationUrls = result
       )
   }
+
+  getId(urlTitle: string){
+    return urlTitle.replace(/\s/g, '');
+  }
 }
