@@ -4,7 +4,7 @@
             <img src="assets/images/logo.png" height="50" />
             Web Verificări
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        <button *ngIf="authService.isLoggedIn()" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span>Menu </span>
             <span class="navbar-toggler-icon"></span>
