@@ -12,6 +12,8 @@ export class CountryNavigationComponent implements OnInit {
   @Input()
   contentFileName: string = '';
 
+  testData: any;
+
   navigationCountries: NavigationCountry[] = [];
 
   constructor(private countryNavigationReadingService: CountryNavigationReadingService) {
@@ -22,6 +24,11 @@ export class CountryNavigationComponent implements OnInit {
     this.countryNavigationReadingService.getDataFromFile(this.contentFileName)
       .subscribe(result =>
         this.navigationCountries = result
+      )
+      
+    this.countryNavigationReadingService.getWeatherForecast()
+      .subscribe(result =>
+        this.testData = JSON.stringify(result)
       )
   }
 }
