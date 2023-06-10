@@ -15,7 +15,11 @@ export class MenuComponent {
 
   hasAccess(){
     const user = JSON.parse(localStorage.getItem("user") ? localStorage.getItem("user")! : "");
-    console.log(user);
+
+    if(!user){
+      return false;
+    }
+
     return user.roles == RoleEnum.Admin;
   }
 }
