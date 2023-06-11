@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./glossasry.component.scss']
 })
 export class GlossasryComponent {
-  contentFileName = "assets/content/glossary.json";
+  contentFileName = "assets/content/glosar.json";
 }
