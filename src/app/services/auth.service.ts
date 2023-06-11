@@ -11,7 +11,6 @@ import { CreateUser } from '../models/create-user';
   providedIn: 'root',
 })
 export class AuthService {
-  private tokenKey = 'token';
   private userKey = 'user';
   private loginError = false;
 
@@ -41,6 +40,7 @@ export class AuthService {
             decodedToken[Claims.NameTokenKey],
             decodedToken[Claims.EmailTokenKey],
             decodedToken[Claims.RoleTokenKey],
+            decodedToken[Claims.UserDataTokenKey],
             result
           )
   
@@ -92,6 +92,7 @@ export class AuthService {
           decodedToken[Claims.NameTokenKey],
           decodedToken[Claims.EmailTokenKey],
           decodedToken[Claims.RoleTokenKey],
+          decodedToken[Claims.UserDataTokenKey],
           result
         )
 

@@ -53,7 +53,7 @@ const routes: Routes = [
     data: {
       roles: [RoleEnum.Admin]
     }},
-  { path: '', component: HomeComponent, canActivate: [AuthGuard] },
+  { path: '', component: HomeComponent },
 ];
 
 @NgModule({

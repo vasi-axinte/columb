@@ -1,3 +1,5 @@
+import { StateEnum } from "./state.enum";
+
 export interface AppUser {
     id: string;
     email: string;
@@ -8,4 +10,5 @@ export interface AppUser {
     sex: boolean;
     birthYear: number;
     isActive: boolean;
+    state: StateEnum;
   }
