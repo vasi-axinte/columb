@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./sanctions.component.scss']
 })
 export class SanctionsComponent {
-
+  contentFileName = "assets/content/complex-data.json";
 }

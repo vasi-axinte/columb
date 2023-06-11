@@ -1,0 +1,76 @@
+[
+    {
+        "type": "direct-link",
+        "title": "Test direct-link-el",
+        "icon": "link",
+        "url": "https://google.com",
+        "children": [],
+        "data":""
+    },
+    {
+        "type": "direct-link",
+        "title": "Test direct-link-el2",
+        "icon": "link",
+        "url": "https://google.com",
+        "children": [],
+        "data":""
+    },
+    {
+        "type": "with-children",
+        "title": "Test direct-link-el",
+        "icon": "link",
+        "url": "",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "Test direct-link-el-ch",
+                "icon": "link",
+                "url": "https://...",
+                "children": [],
+                "data":""
+            }
+        ],
+        "data":""
+    },
+    {
+        "type": "with-children",
+        "title": "Test direct-link-el2",
+        "icon": "link",
+        "url": "",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "Test direct-link-el2-ch1",
+                "icon": "link",
+                "url": "https://...",
+                "children": [],
+                "data":""
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Test direct-link-el2-ch2",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "1"
+            }
+        ],
+        "data":""
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "Test subpage-el",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data":"1"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "Test subpage-el2",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data":"2"
+    }
+]
