@@ -26,7 +26,4 @@ export class PolyElementListComponent {
       )
   }
 
-  getId(urlTitle: string){
-    return urlTitle.replace(/\s/g, '');
-  }
 }

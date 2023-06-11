@@ -33,10 +33,10 @@ import { TokenInterceptor } from './services/token.interceptor';
 import { AuthenticationClient } from './services/authentication.client';
 import { CrimesComponent } from './components/crimes/crimes.component';
 import { UserManagementComponent } from './components/user-management/user-management.component';
-import { PolyElementListComponent } from './components/poly-element-list/poly-element-list.component';
-import { PolyDirectLinkElementComponent } from './components/poly-direct-link-element/poly-direct-link-element.component';
-import { PolyWithChildrenElementComponent } from './components/poly-with-children-element/poly-with-children-element.component';
-import { PolyInSubpageUrlElementComponent } from './components/poly-in-subpage-url-element/poly-in-subpage-url-element.component';
+import { PolyElementListComponent } from './components/poly-list/poly-element-list/poly-element-list.component';
+import { PolyDirectLinkElementComponent } from './components/poly-list/poly-direct-link-element/poly-direct-link-element.component';
+import { PolyWithChildrenElementComponent } from './components/poly-list/poly-with-children-element/poly-with-children-element.component';
+import { PolyInSubpageUrlElementComponent } from './components/poly-list/poly-in-subpage-url-element/poly-in-subpage-url-element.component';
 
 @NgModule({
   declarations: [
