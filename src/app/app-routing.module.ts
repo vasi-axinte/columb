@@ -18,6 +18,7 @@ import { LoginComponent } from './components/login/login.component';
 import { CrimesComponent } from './components/crimes/crimes.component';
 import { UserManagementComponent } from './components/user-management/user-management.component';
 import { RoleEnum } from './models/role.enum';
+import { TiafComponent } from './components/tiaf/tiaf.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -46,6 +47,7 @@ const routes: Routes = [
   { path: 'crimes', component: CrimesComponent, canActivate: [AuthGuard] },
   { path: 'glossary', component: GlossasryComponent, canActivate: [AuthGuard] },
   { path: 'specimens', component: SpecimensComponent, canActivate: [AuthGuard] },
+  { path: 'tiaf', component: TiafComponent, canActivate: [AuthGuard] },
   { path: 'useful-sites', component: UsefulSitesComponent, canActivate: [AuthGuard] },
   { path: 'user-management', 
     component: UserManagementComponent, 

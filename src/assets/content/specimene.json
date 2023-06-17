@@ -5,48 +5,53 @@
         "icon": "link"
     },
     {
-        "title": "EUVID",
-        "url": "http://spp.rf.gd/euvid/",
+        "title": "PRADO-online",
+        "url": "https://www.consilium.europa.eu/prado/ro/search-by-document-country.html",
         "icon": "link"
     },
     {
-        "title": "Documente UE pentru străini",
-        "url": "https://drive.google.com/file/d/1BN1_cTEnVyqQLD-FXVmGOuYlsa-wAKir/view?usp=share_link",
+        "title": "PRADO (glosar)",
+        "url": "https://drive.google.com/file/d/1GyON-gpE6Gt_jg-QYVOVTcuC5ozct1qI/view?usp=share_link",
         "icon": "link"
     },
     {
-        "title": "Plăcuțe înmatriculare Europa",
-        "url": "https://drive.google.com/file/d/1gZcWfIxHAoGeuzGLhg4d-3VFbdqyvoaa/view?usp=share_link",
+        "title": "REGULA",
+        "url": "https://regulaforensics.com/explore/expert-hub/glossary/documents",
         "icon": "link"
     },
     {
-        "title": "Plăcuțe de înmatriculare",
-        "url": "http://worldlicenseplates.com/",
+        "title": "EdisonTD",
+        "url": "https://www.edisontd.nl/",
         "icon": "link"
     },
     {
-        "title": "Cert. Înmatriculare - nonUE",
-        "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsimport-och-ursprungskontroll/import-fran-lander-utanfor-eu/regbevis-3jeland/#Q",
-        "icon": "link"
-    },
-    {
-        "title": "Catalog permise de conducere",
+        "title": "Specimene P.C.(UE si SEE)",
         "url": "https://drive.google.com/file/d/1c9ZjJugDoY31o3SZ6-f0W86l3JCEpESU/view?usp=share_link",
         "icon": "link"
     },
     {
-        "title": "Specimene permise conducere",
+        "title": "Specimene P.C.(by BURA)",
         "url": "https://webapps.politieacademie.nl/bura",
         "icon": "link"
     },
     {
-        "title": "Permise de conducere UE",
+        "title": "Specimene P.C.(UE-Comisia Europeana)",
         "url": "https://road-safety.transport.ec.europa.eu/road-safety-member-states/driving-licence-member-states/driving-licence-models_en",
         "icon": "link"
     },
     {
-        "title": "Permis de conducere Ucraina",
-        "url": "https://hsc.gov.ua/zrazki-ukrayinskih-posvidchen-vodiya-angl-versiya/",
+        "title": "Specimene P.C.(Spatiu Ex-Sovietic)",
+        "url": "https://drive.google.com/file/d/1Espz4ad4DJN9WAqLb-0O5TZfwedwifHE/view?usp=drivesdk",
+        "icon": "link"
+    },
+    {
+        "title": "Specimene P.C.(Ucraina)",
+        "url": "https://hsc.gov.ua/zrazki-ukrayinskih-posvidchen-vodiya-angl-versiya",
+        "icon": "link"
+    },
+    {
+        "title": "Doc.UE pentru straini (Airline Information Handbook)",
+        "url": "https://drive.google.com/file/d/1BN1_cTEnVyqQLD-FXVmGOuYlsa-wAKir/view?usp=drivesdk",
         "icon": "link"
     },
     {

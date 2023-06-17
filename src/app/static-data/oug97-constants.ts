@@ -1,5 +1,8 @@
-export const oug97List = [
+import { LawDetails } from "../models/sanction";
+
+export const oug97List: LawDetails[] = [
     {
+        parentId: 1,
         contentId: 1,
         title: "1 Carte de identitate expirată",
         text: `       
@@ -29,6 +32,7 @@ export const oug97List = [
         `,
     },
     {
+        parentId: 1,
         contentId: 2,
         title: "2 Carte de identitate pierdută/furată",
         text: `       
@@ -59,6 +63,7 @@ export const oug97List = [
         `,
     },
     {
+        parentId: 1,
         contentId: 3,
         title: "Carte de identitate deteriorată/distrusă",
         text: `       
@@ -89,6 +94,7 @@ export const oug97List = [
         `,
     },
     {
+        parentId: 1,
         contentId: 4,
         title: "3 Modificări adăugiri în actul de identitate",
         text: `       
@@ -116,6 +122,7 @@ export const oug97List = [
         `,
     },
     {
+        parentId: 1,
         contentId: 5,
         title: "4 Act de identitate deținut fără drept",
         text: `       

@@ -1,76 +1,482 @@
 [
     {
-        "type": "direct-link",
-        "title": "Test direct-link-el",
-        "icon": "link",
-        "url": "https://google.com",
-        "children": [],
-        "data":""
-    },
-    {
-        "type": "direct-link",
-        "title": "Test direct-link-el2",
-        "icon": "link",
-        "url": "https://google.com",
-        "children": [],
-        "data":""
-    },
-    {
         "type": "with-children",
-        "title": "Test direct-link-el",
-        "icon": "link",
+        "title": "O.U.G. nr. 97/2005",
+        "icon": "plus",
         "url": "",
         "children": [
             {
                 "type": "direct-link",
-                "title": "Test direct-link-el-ch",
-                "icon": "link",
-                "url": "https://...",
-                "children": [],
-                "data":""
-            }
-        ],
-        "data":""
-    },
-    {
-        "type": "with-children",
-        "title": "Test direct-link-el2",
-        "icon": "link",
-        "url": "",
-        "children": [
-            {
-                "type": "direct-link",
-                "title": "Test direct-link-el2-ch1",
-                "icon": "link",
+                "title": "DESCHIDE ACTUL NORMATIV",
+                "icon": "outside",
                 "url": "https://...",
                 "children": [],
                 "data":""
             },
             {
                 "type": "in-subpage-url",
-                "title": "Test direct-link-el2-ch2",
+                "title": "Carte de identitate expirată",
                 "icon": "link",
                 "url": "details",
                 "children": [],
-                "data": "1"
+                "data": "1.1"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Carte de identitate pierdută/furată",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "1.2"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Carte de identitate deteriorată/distrusă",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "1.3"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Modificări adăugiri în actul de identitate",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "1.4"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Act de identitate deținut fără drept",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "1.5"
             }
         ],
         "data":""
     },
     {
-        "type": "in-subpage-url",
-        "title": "Test subpage-el",
-        "icon": "link",
-        "url": "details",
-        "children": [],
-        "data":"1"
+        "type": "with-children",
+        "title": "LEGEA nr. 248/2005 (pașapoarte)",
+        "icon": "plus",
+        "url": "",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "DESCHIDE ACTUL NORMATIV",
+                "icon": "outside",
+                "url": "https://legislatie.just.ro/Public/DetaliiDocument/63704",
+                "children": [],
+                "data":""
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Utilizare pașaport expirat",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "2.1"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Utilizare pașaport pierdut/furat",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "2.2"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Păstrare/neânstrăinare pașaport",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "2.3"
+            }
+        ],
+        "data":""
     },
     {
-        "type": "in-subpage-url",
-        "title": "Test subpage-el2",
-        "icon": "link",
-        "url": "details",
+        "type": "with-children",
+        "title": "O.U.G. nr. 105/2001",
+        "icon": "plus",
+        "url": "",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "DESCHIDE ACTUL NORMATIV",
+                "icon": "outside",
+                "url": "https://legislatie.just.ro/Public/DetaliiDocument/29296",
+                "children": [],
+                "data":""
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Tragerea cu arma peste frontieră",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.1"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Deteriorerea/distrugerea semnelor de frontieră",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.2"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Utilizarea focului deschis",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.3"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Refuzul de a permite vizitarea mijl./locurilor",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.4"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Refuzul de a da relații pt. stabilirea identitatii",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.5"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Accesul în fâșia de protecție",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.6"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Desfășurarea de activități fără aviz",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.7"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Pescuitul în apele de frontieră",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.8"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Păstrarea bărcilor/ambarcațiunilor pe apele de frontieră",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.9"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Pășunatul animalelor",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.10"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Vânătoarea în zona de frontieră",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.11"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Pescuitul recreativ fără permis",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.12"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Neprezentarea permisului de pescuit",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "3.13"
+            }
+        ],
+        "data":""
+    },
+    {
+        "type": "with-children",
+        "title": "O.U.G nr. 194/2002",
+        "icon": "plus",
+        "url": "",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "DESCHIDE ACTUL NORMATIV",
+                "icon": "outside",
+                "url": "https://legislatie.just.ro/Public/DetaliiDocument/41005",
+                "children": [],
+                "data":""
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Transportul străinilor fără documente",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "4.1"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Depășirea termenului de ședere (străin)",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "4.2"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Documente expirate străin",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "4.3"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Reținere neautorizată documente străin",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "4.4"
+            }
+        ],
+        "data":""
+    },
+    {
+        "type": "with-children",
+        "title": "LEGEA nr. 61/1991 (ordine publică)",
+        "icon": "plus",
+        "url": "",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "DESCHIDE ACTUL NORMATIV",
+                "icon": "outside",
+                "url": "https://legislatie.just.ro/Public/DetaliiDocument/125693",
+                "children": [],
+                "data":""
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Săvârșirea în public de fapte, acte sau gesturi obscene",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "5.1"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Aruncarea cu obiecte sau substanțe",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "5.2"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Pătrunderea în sediile autorităților publice",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "5.3"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Deteriorarea semnelor sau indicatoarelor",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "5.4"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Consumul de alcool în locuri publice",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "5.5"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Provocarea ori participarea efectivă la scandal",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "5.6"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Tulburarea, fără drept, a liniștii locuitorilor",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "5.7"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Refuzul de legitimare/prezentare la sediu",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "5.8"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Împiedicarea activității autorităților",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "5.9"
+            }
+        ],
+        "data":""
+    },
+    {
+        "type": "with-children",
+        "title": "O.U.G. nr. 23/2008",
+        "icon": "plus",
+        "url": "",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "DESCHIDE ACTUL NORMATIV",
+                "icon": "outside",
+                "url": "https://legislatie.just.ro/Public/DetaliiDocument/90207",
+                "children": [],
+                "data":""
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Pescuitul recreativ fără permis",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "6.1"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Neprezentarea permisului de pescuit",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "6.2"
+            }
+        ],
+        "data":""
+    },
+    {
+        "type": "with-children",
+        "title": "H.G. nr. 1061/2008 (deșeuri)",
+        "icon": "plus",
+        "url": "",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "DESCHIDE ACTUL NORMATIV",
+                "icon": "outside",
+                "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/97706",
+                "children": [],
+                "data":""
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Transportul deșeurilor fără autorizație de mediu",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "7.1"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Transportul deșeurilor periculoase fără formulare tip",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "7.2"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Transportul deșeurilor nepericuloase fără formulare tip",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "7.3"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Transportul deșeurilor periculoase rezultate din activitatea medicală",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "7.4"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Transportul deșeurilor periculoase pe altă rută",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "7.5"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Abandonarea deșeurilor pe traseu",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "7.6"
+            }
+        ],
+        "data":""
+    },
+    {
+        "type": "with-children",
+        "title": "Deținere/comercializare tutun sau alcool",
+        "icon": "plus",
+        "url": "",
+        "children": [
+            {
+                "type": "in-subpage-url",
+                "title": "Deținere/comercializare tutun sau alcool",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "8.1"
+            }
+        ],
+        "data":""
+    },
+    {
+        "type": "direct-link",
+        "title": "Calculator termene judiciare",
+        "icon": "calc",
+        "url": "https://calculator-termene.ro/",
         "children": [],
-        "data":"2"
+        "data":""
     }
 ]

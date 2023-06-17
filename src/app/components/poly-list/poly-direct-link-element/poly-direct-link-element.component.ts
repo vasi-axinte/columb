@@ -10,4 +10,5 @@ export class PolyDirectLinkElementComponent {
 
   @Input()
   element: PolyElement | null = null;
+
 }

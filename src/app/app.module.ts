@@ -37,6 +37,7 @@ import { PolyElementListComponent } from './components/poly-list/poly-element-li
 import { PolyDirectLinkElementComponent } from './components/poly-list/poly-direct-link-element/poly-direct-link-element.component';
 import { PolyWithChildrenElementComponent } from './components/poly-list/poly-with-children-element/poly-with-children-element.component';
 import { PolyInSubpageUrlElementComponent } from './components/poly-list/poly-in-subpage-url-element/poly-in-subpage-url-element.component';
+import { TiafComponent } from './components/tiaf/tiaf.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { PolyInSubpageUrlElementComponent } from './components/poly-list/poly-in
     PolyElementListComponent,
     PolyDirectLinkElementComponent,
     PolyWithChildrenElementComponent,
-    PolyInSubpageUrlElementComponent
+    PolyInSubpageUrlElementComponent,
+    TiafComponent
   ],
   imports: [
     BrowserModule,

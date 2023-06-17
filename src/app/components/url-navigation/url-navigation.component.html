@@ -1,6 +1,6 @@
 <div class="list-group">
     <div *ngFor="let navigationUrl of navigationUrls">
-        <a *ngIf="!navigationUrl.children" href="{{navigationUrl.url}}" class="list-group-item list-group-item-action menu-item">
+        <a *ngIf="!navigationUrl.children" href="{{navigationUrl.url}}" target="_blank" class="list-group-item list-group-item-action menu-item">
             <svg *ngIf="navigationUrl.icon==='link'" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                 class="bi bi-file-earmark-code-fill" viewBox="0 0 16 16">
                 <path
@@ -18,6 +18,7 @@
         <div *ngIf="navigationUrl.children" class="accordion-item list-group-item list-group-item-action list-item-container" id="{{navigationUrl.title}}">
                 <a class="accordion-button" 
                 type="button" 
+                target="_blank"
                 [attr.data-bs-toggle]="'collapse'" 
                 [attr.data-bs-target]="'#flush-' + getId(navigationUrl.title)" 
                 aria-expanded="false" 
@@ -32,7 +33,7 @@
               <div id="flush-{{getId(navigationUrl.title)}}" class="accordion-collapse collapse" 
               [attr.data-bs-parent]="'#{{navigationUrl.title}}'">
                 <div class="accordion-body">
-                    <a *ngFor="let navigationUrlChild of navigationUrl.children" href="{{navigationUrlChild.url}}" class="list-group-item list-group-item-action">
+                    <a *ngFor="let navigationUrlChild of navigationUrl.children" href="{{navigationUrlChild.url}}" target="_blank" class="list-group-item list-group-item-action">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                         class="bi bi-link-45deg" viewBox="0 0 16 16">
                         <path

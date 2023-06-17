@@ -1,15 +1,5 @@
 [
     {
-        "title": "Loc VIN auto",
-        "url": "http://znajdzvin.pl/",
-        "icon": "link"
-    },
-    {
-        "title": "Decodor VIN",
-        "url": "https://www.vindecoderz.com/",
-        "icon": "link"
-    },
-    {
         "title": "Verificare Rovinieta",
         "url": "https://inforovinete.blogspot.com/2021/03/blog-post.html?m=1",
         "icon": "link"
@@ -20,23 +10,13 @@
         "icon": "link"
     },
     {
-        "title": "Autenticitate cazier judiciar (RO)",
-        "url": "https://hub.mai.gov.ro/verificadocument/verificare-document/verifica-document",
-        "icon": "link"
-    },
-    {
         "title": "Verificarea atestatului ARR",
         "url": "https://www.arr.ro/rezultate-examene.htm",
         "icon": "link"
     },
     {
-        "title": "Calculator termene judiciare",
-        "url": "https://calculator-termene.ro/",
-        "icon": "link"
-    },
-    {
-        "title": "Calculator zile de sedere",
-        "url": "https://ec.europa.eu/assets/home/visa-calculator/calculator.htm?lang=en",
+        "title": "Autenticitate cazier judiciar (RO)",
+        "url": "https://hub.mai.gov.ro/verificadocument/verificare-document/verifica-document",
         "icon": "link"
     },
     {
@@ -45,8 +25,18 @@
         "icon": "link"
     },
     {
-        "title": "Verificare cifra de control",
-        "url": "https://www.kneifel.de/TSN_Pruefziffer.php",
+        "title": " Calculator termene judiciare",
+        "url": "https://calculator-termene.ro/",
+        "icon": "link"
+    },
+    {
+        "title": " Calculator zile de sedere",
+        "url": "https://ec.europa.eu/assets/home/visa-calculator/calculator.htm?lang=en",
+        "icon": "link"
+    },
+    {
+        "title": "Catalog arme de foc",
+        "url": "http://www.catalogoarmi.it/",
         "icon": "link"
     },
     {
@@ -77,6 +67,58 @@
             {
                 "title": "Auto furate - It/Slo/Sk/Cz/Ro",
                 "url": "https://kradenikoli.bg/index.php",
+                "icon": "link"
+            }
+        ]
+    },
+    {
+        "title": "Aplicatii Google Play",
+        "url": "",
+        "icon": "plus",
+        "children": [
+            {
+                "title": "Car Plates- Ukraine",
+                "url": "https://play.google.com/store/apps/details?id=com.royalplay.carplates",
+                "icon": "link"
+            },
+            {
+                "title": "CititorQR vize",
+                "url": "https://play.google.com/store/apps/details?id=ec.jrc.vdsr",
+                "icon": "link"
+            },
+            {
+                "title": "Instacar-auto HU",
+                "url": "https://play.google.com/store/apps/details?id=com.rolandgoreczky.Instacar",
+                "icon": "link"
+            },
+            {
+                "title": "Total Car Check",
+                "url": "https://play.google.com/store/apps/details?id=totalcarcheck.co.uk",
+                "icon": "link"
+            },
+            {
+                "title": "Kenteken-Check RDW",
+                "url": "https://play.google.com/store/apps/details?id=nl.nielsvanhove.kenteken2",
+                "icon": "link"
+            },
+            {
+                "title": "Immatriculation Scan",
+                "url": "https://play.google.com/store/apps/details?id=com.prod.immatriculationscanner",
+                "icon": "link"
+            },
+            {
+                "title": "DUApp",
+                "url": "https://play.google.com/store/apps/details?id=incm.com.leitor.dua",
+                "icon": "link"
+            },
+            {
+                "title": "Targa Scan",
+                "url": "https://play.google.com/store/apps/details?id=it.duepuntotre.targascanner",
+                "icon": "link"
+            },
+            {
+                "title": "Veicolo",
+                "url": "https://play.google.com/store/apps/details?id=it.talimac.veicolo",
                 "icon": "link"
             }
         ]
