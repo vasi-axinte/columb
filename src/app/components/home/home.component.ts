@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { StateEnum } from 'src/app/models/state.enum';
+import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-home',
@@ -8,22 +9,44 @@ import { StateEnum } from 'src/app/models/state.enum';
 })
 export class HomeComponent {
 
-  getUserState(): StateEnum{
-    const user = JSON.parse(localStorage.getItem("user") ? localStorage.getItem("user")! : "");
 
-    let typedState: keyof typeof StateEnum;
+  constructor(private authService: AuthService){
+
+  }
+
+  getUserState(): StateEnum {
+    const user = localStorage.getItem("user");
 
     if(!user){
       return StateEnum.Inactive;
     }
 
-    typedState = user.state
+    let typedState: keyof typeof StateEnum;
+    const userData = JSON.parse(user);
+
+    typedState = userData.state
     return StateEnum[typedState];
   }
 
-  shouldShowWarning(): boolean{
-    console.log("state:"+(this.getUserState() as StateEnum))
-    console.log(StateEnum.Pending as StateEnum)
-    return this.getUserState() as StateEnum === StateEnum.Pending as StateEnum;
+  shouldShowWarning(): boolean {
+    const user = localStorage.getItem("user");
+
+    return user!=null && this.getUserState() as StateEnum === StateEnum.Pending as StateEnum;
+  }
+
+  shouldShowError(): boolean{
+    const user = localStorage.getItem("user");
+
+    return user!=null && this.getUserState() as StateEnum === StateEnum.Inactive as StateEnum;
+  }
+
+  shouldShowLoginButton(): boolean{
+    const user = localStorage.getItem("user");
+
+    return !user;
+  }
+
+  logout(){
+    this.authService.logout();
   }
 }

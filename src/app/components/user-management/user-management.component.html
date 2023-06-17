@@ -23,10 +23,10 @@
         [attr.data-bs-parent]="'#accordionUsers'">
         <div class="accordion-body">
             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                <input type="radio" class="btn-check" name="btnradio{{user.id}}" id="btnradio1{{user.id}}" autocomplete="off" [checked]="getCurrentUserActiveState(user)" (click)="changeActiveState(user)">
+                <input type="radio" class="btn-check" name="btnradio{{user.id}}" id="btnradio1{{user.id}}" autocomplete="off" [checked]="getCurrentUserActiveState(user)" (click)="changeUserState(user, stateEnum.Active)">
                 <label class="btn btn-outline-success" for="btnradio1{{user.id}}">Active</label>
             
-                <input type="radio" class="btn-check" name="btnradio{{user.id}}" id="btnradio2{{user.id}}" autocomplete="off" [checked]="!getCurrentUserActiveState(user)" (click)="changeActiveState(user)">
+                <input type="radio" class="btn-check" name="btnradio{{user.id}}" id="btnradio2{{user.id}}" autocomplete="off" [checked]="!getCurrentUserActiveState(user)" (click)="changeUserState(user, stateEnum.Inactive)">
                 <label class="btn btn-outline-secondary" for="btnradio2{{user.id}}">Inactive</label>
             </div>
             <div>
