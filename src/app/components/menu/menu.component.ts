@@ -15,13 +15,15 @@ export class MenuComponent {
   }
 
   hasAccess(){
-    const user = JSON.parse(localStorage.getItem("user") ? localStorage.getItem("user")! : "");
+    const user = localStorage.getItem("user");
 
     if(!user){
       return false;
     }
 
-    return user.roles == RoleEnum.Admin;
+    let userData = JSON.parse(user);
+
+    return userData.roles == RoleEnum.Admin;
   }
 
   logout(){
@@ -29,15 +31,16 @@ export class MenuComponent {
   }
 
   shouldShowMenu(): boolean{
-    const user = JSON.parse(localStorage.getItem("user") ? localStorage.getItem("user")! : "");
-
-    let typedState: keyof typeof StateEnum;
+    const user = localStorage.getItem("user");
 
     if(!user){
       return false;
     }
 
-    typedState = user.state
+    let typedState: keyof typeof StateEnum;
+    let userData = JSON.parse(user);
+
+    typedState = userData.state
     let userState = StateEnum[typedState];
 
     return this.authService.isLoggedIn() && userState == StateEnum.Active
