@@ -46,6 +46,18 @@ export class HomeComponent {
     return !user;
   }
 
+  getUserName(): string{
+    const user = localStorage.getItem("user");
+
+    if(!user){
+      return "";
+    }
+
+    const userData = JSON.parse(user);
+
+    return userData.name;
+  }
+
   logout(){
     this.authService.logout();
   }
