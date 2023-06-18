@@ -15,7 +15,6 @@ import { TechnicalCheckComponent } from './components/technical-check/technical-
 import { DrivingLicenseComponent } from './components/driving-license/driving-license.component';
 import { VehicleInsuranceComponent } from './components/vehicle-insurance/vehicle-insurance.component';
 import { SanctionsComponent } from './components/sanctions/sanctions.component';
-import { GlossasryComponent } from './components/glossasry/glossasry.component';
 import { SpecimensComponent } from './components/specimens/specimens.component';
 import { UsefulSitesComponent } from './components/useful-sites/useful-sites.component';
 import { CountryNavigationComponent } from './components/country-navigation/country-navigation.component';  
@@ -38,6 +37,7 @@ import { PolyDirectLinkElementComponent } from './components/poly-list/poly-dire
 import { PolyWithChildrenElementComponent } from './components/poly-list/poly-with-children-element/poly-with-children-element.component';
 import { PolyInSubpageUrlElementComponent } from './components/poly-list/poly-in-subpage-url-element/poly-in-subpage-url-element.component';
 import { TiafComponent } from './components/tiaf/tiaf.component';
+import { CrimesDetailsComponent } from './components/crimes-details/crimes-details.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +50,6 @@ import { TiafComponent } from './components/tiaf/tiaf.component';
     DrivingLicenseComponent,
     VehicleInsuranceComponent,
     SanctionsComponent,
-    GlossasryComponent,
     SpecimensComponent,
     UsefulSitesComponent,
     CountryNavigationComponent,
@@ -61,12 +60,13 @@ import { TiafComponent } from './components/tiaf/tiaf.component';
     LoginComponent,
     UrlNavigationComponent,
     CrimesComponent,
+    CrimesDetailsComponent,
     UserManagementComponent,
     PolyElementListComponent,
     PolyDirectLinkElementComponent,
     PolyWithChildrenElementComponent,
     PolyInSubpageUrlElementComponent,
-    TiafComponent
+    TiafComponent,
   ],
   imports: [
     BrowserModule,

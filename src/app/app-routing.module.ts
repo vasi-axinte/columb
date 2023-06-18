@@ -6,7 +6,6 @@ import { TechnicalCheckComponent } from './components/technical-check/technical-
 import { DrivingLicenseComponent } from './components/driving-license/driving-license.component';
 import { VehicleInsuranceComponent } from './components/vehicle-insurance/vehicle-insurance.component';
 import { SanctionsComponent } from './components/sanctions/sanctions.component';
-import { GlossasryComponent } from './components/glossasry/glossasry.component';
 import { SpecimensComponent } from './components/specimens/specimens.component';
 import { UsefulSitesComponent } from './components/useful-sites/useful-sites.component';
 import { HomeComponent } from './components/home/home.component';
@@ -19,6 +18,7 @@ import { CrimesComponent } from './components/crimes/crimes.component';
 import { UserManagementComponent } from './components/user-management/user-management.component';
 import { RoleEnum } from './models/role.enum';
 import { TiafComponent } from './components/tiaf/tiaf.component';
+import { CrimesDetailsComponent } from './components/crimes-details/crimes-details.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -44,8 +44,18 @@ const routes: Routes = [
       }],
       canActivate: [AuthGuard]
   },
-  { path: 'crimes', component: CrimesComponent, canActivate: [AuthGuard] },
-  { path: 'glossary', component: GlossasryComponent, canActivate: [AuthGuard] },
+  { 
+    path: 'crimes', children: [
+    {
+      path: '',
+      component: CrimesComponent,
+    },
+    {
+      path:'details/:contentId',
+      component: CrimesDetailsComponent
+    }], 
+    canActivate: [AuthGuard] 
+  },
   { path: 'specimens', component: SpecimensComponent, canActivate: [AuthGuard] },
   { path: 'tiaf', component: TiafComponent, canActivate: [AuthGuard] },
   { path: 'useful-sites', component: UsefulSitesComponent, canActivate: [AuthGuard] },

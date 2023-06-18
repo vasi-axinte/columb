@@ -1,0 +1,202 @@
+[
+    {
+        "type": "direct-link",
+        "title": "COD DE PROCEDURA PENALA",
+        "icon": "outside",
+        "url": "https://legislatie.just.ro/Public/DetaliiDocument/120611",
+        "children": [],
+        "data":""
+    },
+    {
+        "type": "direct-link",
+        "title": "COD PENAL",
+        "icon": "outside",
+        "url": "https://legislatie.just.ro/Public/DetaliiDocument/109855",
+        "children": [],
+        "data":""
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "1 Vehicul neînmatriculat  neînregistrat",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.1"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "2 Vehicul cu număr fals de înmatriculare  înregistrare",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.2"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "3 Remorcă neînmatriculată ori cu număr fals",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.3"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "4 Plăcuțe retrasefără drept de circulație în RO",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.4"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "5 Conducerea unui vehicul fără permis de conducere",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.5"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "6 P.c. necorespunzătorretrasanulatfără drept în RO",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.6"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "7  Încredințarea unui vehicul",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.7"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "8 Trecerea frauduloasă a frontierei de stat",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.8"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "9 Traficul de migranți",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.9"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "10 Facilitarea șederii ilegale în România",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.10"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "11 Sustragerea de la măsurile de îndepărtare din RO",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.11"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "12 Falsul material în înscrisuri oficiale",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.12"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "13 Falsul intelectual",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.13"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "14 Falsul în înscrisuri sub semnătură privată",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.14"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "15 Uzul de fals",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.15"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "16 Falsul în declarații",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.16"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "17 Falsul privind identitatea",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.17"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "18 Traficul de persoane",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.18"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "19 Traficul de minori",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.19"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "20  Infracţiunea de contrabandă",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.20"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "21  Infracţiunea de contrabandă calificată",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.21"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "22 Deținerecomercializare produse accizabile",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.22"
+    },
+    {
+        "type": "in-subpage-url",
+        "title": "23 Cantitate cumulată de produse accizabile",
+        "icon": "link",
+        "url": "details",
+        "children": [],
+        "data": "50.23"
+    }
+]
