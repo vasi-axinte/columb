@@ -15,7 +15,14 @@
             [attr.data-bs-target]="'#collapseOne' + user.id" 
             aria-expanded="true" 
             [attr.aria-controls]="'collapseOne' + user.id">
-          {{user.firstName + ' ' + user.lastName}}
+
+            <span *ngIf="user.state===stateEnum.Active" class="p-2 bg-success border border-light rounded-circle">
+            </span>
+            <span *ngIf="user.state===stateEnum.Pending" class="p-2 bg-warning border border-light rounded-circle"> 
+            </span>
+            <span *ngIf="user.state===stateEnum.Inactive" class="p-2 bg-danger border border-light rounded-circle"> 
+            </span>
+            {{user.firstName + ' ' + user.lastName}}
         </button>
       </h2>
       <div id="collapseOne{{user.id}}" class="accordion-collapse collapse " 
