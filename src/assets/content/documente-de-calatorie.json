@@ -38,5 +38,10 @@
         "country": "Ungaria",
         "countryCode": "hu",
         "url": "https://www.nyilvantarto.hu/ugyseged/OkmanyErvenyessegLekerdezes.xhtml"
+    },
+    {
+        "country": "Carnet de marinar",
+        "countryCode": "",
+        "url": "http://marinari.altervista.org/?doing_wp_cron=1686084715.7434120178222656250000"
     }
 ]
