@@ -4,37 +4,80 @@
         <h2 class="fw-bold mb-2 text-uppercase">Create Account</h2>
 
         <div class="form-floating mb-3">
-            <input type="email" class="form-control" placeholder="Email" id="email" type="email" [formControl]="email"/>
+            <input type="email" 
+            [ngClass]="{'form-control form-control-lg' : true, 
+                'is-invalid': authService.errorList && authService.errorList.Email}"
+            placeholder="Email" id="email" type="email" [formControl]="email"/>
             <label for="email">Email</label>
+            <div *ngIf="authService.errorList && authService.errorList.Email" class="invalid-feedback">
+                {{authService.errorList.Email}}
+            </div>
         </div>
 
         <div class="form-floating mb-3">
-            <input type="password" class="form-control form-control-lg" placeholder="Password" id="password" type="password" [formControl]="password"/>
+            <input type="password" 
+            class="form-control form-control-lg" 
+            [ngClass]="{'form-control form-control-lg' : true, 
+                'is-invalid': authService.errorList && authService.errorList.Password}"
+            placeholder="Password" id="password" type="password" [formControl]="password"/>
             <label class="form-label" for="password">Password</label>
+            <div *ngIf="authService.errorList && authService.errorList.Password" class="invalid-feedback">
+                {{authService.errorList.Password}}
+            </div>
         </div>
 
         <div class="form-floating mb-3">
-            <input type="text" class="form-control form-control-lg" placeholder="First Name" id="firstName" [formControl]="firstName"/>
+            <input type="text" 
+            [ngClass]="{'form-control form-control-lg' : true, 
+                'is-invalid': authService.errorList && authService.errorList.FirstName}" 
+            placeholder="First Name" id="firstName" [formControl]="firstName"/>
             <label class="form-label" for="firstName">First Name</label>
+            <div *ngIf="authService.errorList && authService.errorList.FirstName" class="invalid-feedback">
+                {{authService.errorList.FirstName}}
+            </div>
         </div>
         <div class="form-floating mb-3">
-            <input type="text" class="form-control form-control-lg" placeholder="Last Name" id="lastName"[formControl]="lastName"/>
+            <input type="text" 
+            [ngClass]="{'form-control form-control-lg' : true, 
+                'is-invalid': authService.errorList && authService.errorList.LastName}" 
+            placeholder="Last Name" id="lastName"[formControl]="lastName"/>
             <label class="form-label" for="lastName">Last Name</label>
+            <div *ngIf="authService.errorList && authService.errorList.LastName" class="invalid-feedback">
+                {{authService.errorList.LastName}}
+            </div>
         </div>
         <div class="form-floating mb-3">
-            <textarea class="form-control form-control-lg" placeholder="Structure" id="structure" [formControl]="structure"></textarea>
+            <textarea 
+            [ngClass]="{'form-control form-control-lg' : true, 
+                'is-invalid': authService.errorList && authService.errorList.Structure}"
+            placeholder="Structure" id="structure" [formControl]="structure"></textarea>
             <label class="form-label" for="structure">Structure</label>
+            <div *ngIf="authService.errorList && authService.errorList.Structure" class="invalid-feedback">
+                {{authService.errorList.Structure}}
+            </div>
         </div>
         <div class="form-floating mb-3">
-            <input type="number" class="form-control form-control-lg" placeholder="Birth Year" id="birthYear" [formControl]="birthYear"/>
+            <input type="number" 
+            [ngClass]="{'form-control form-control-lg' : true, 
+                'is-invalid': authService.errorList && authService.errorList.BirthYear}" 
+            placeholder="Birth Year" id="birthYear" [formControl]="birthYear"/>
             <label class="form-label" for="password">Birth Year</label>
+            <div *ngIf="authService.errorList && authService.errorList.BirthYear" class="invalid-feedback">
+                {{authService.errorList.BirthYear}}
+            </div>
         </div>
         <div class="form-floating mb-3">
-              <select class="form-select" id="floatingSelect" aria-label="Floating label select example" [formControl]="sex">
+              <select 
+              [ngClass]="{'form-control form-control-lg form-select' : true, 
+                'is-invalid': authService.errorList && authService.errorList.Sex}" 
+              id="floatingSelect" aria-label="Floating label select example" [formControl]="sex">
                 <option value="true">Male</option>
                 <option value="false">Female</option>
               </select>
             <label class="form-label text-left" for="flexRadioDefault">Sex </label>
+            <div *ngIf="authService.errorList && authService.errorList.Sex" class="invalid-feedback">
+                {{authService.errorList.Sex}}
+            </div>
         </div>
         <button class="btn btn-outline-dark btn-lg px-5" type="button" (click)="createUser()">Create</button> 
     </form>
@@ -44,46 +87,3 @@
         </p>
     </div>
 </div>
-<!-- <div class="card text-center col-sm-6 col-lg-6 col-12 mx-auto">
-    <div class="card-body">
-    <form>
-        <h2 class="fw-bold mb-2 text-uppercase">Create Account</h2>
-        <div class="form-floating mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
-            <input type="email" class="form-control" aria-label="Email" aria-describedby="inputGroup-sizing-default" [formControl]="email">
-        </div>
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
-            <input type="password" class="form-control" aria-label="Password" aria-describedby="inputGroup-sizing-default" [formControl]="password">
-        </div>
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-default">First Name</span>
-            <input type="text" class="form-control" aria-label="FirstName" aria-describedby="inputGroup-sizing-default" [formControl]="firstName">
-        </div>
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-default">Last Name</span>
-            <input type="lastName" class="form-control" aria-label="LastName" aria-describedby="inputGroup-sizing-default" [formControl]="lastName">
-        </div>
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-default">Birth Year</span>
-            <input type="number" class="form-control" aria-label="BirthYear" aria-describedby="inputGroup-sizing-default" [formControl]="birthYear">
-        </div>
-        <div class="input-group mb-3">
-            <label class="input-group-text" for="inputGroupSelect01">Sex</label>
-            <select class="form-select" id="sex" [formControl]="sex">
-              <option value="true">Male</option>
-              <option value="false">Female</option>
-            </select>
-        </div>
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-default">Structure</span>
-            <textarea class="form-control form-control-lg" placeholder="Structure" id="structure" [formControl]="structure"></textarea>
-        </div>
-        <button class="btn btn-outline-dark btn-lg px-5" type="button" (click)="createUser()">Create</button> 
-    </form>
-    </div>
-    <div class="card-footer text-body-secondary">
-        <p class="mb-0">Already have an account? <a routerLink="/login" class="text-dark-50 fw-bold">Login</a>
-        </p>
-    </div>
-</div> -->

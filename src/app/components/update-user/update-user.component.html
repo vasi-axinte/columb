@@ -1,0 +1,62 @@
+<div class="card text-center col-sm-6 col-lg-6 col-12 mx-auto">
+    <div class="card-body">
+    <form>
+        <h2 class="fw-bold mb-2 text-uppercase">Update Account</h2>
+
+        <div class="form-floating mb-3">
+            <input type="text" 
+            [ngClass]="{'form-control form-control-lg' : true, 
+                'is-invalid': errors && errors.FirstName}" 
+            placeholder="First Name" id="firstName" [formControl]="firstName"/>
+            <label class="form-label" for="firstName">First Name</label>
+            <div *ngIf="errors && errors.FirstName" class="invalid-feedback">
+                {{errors.FirstName}}
+            </div>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" 
+            [ngClass]="{'form-control form-control-lg' : true, 
+                'is-invalid': errors && errors.LastName}" 
+            placeholder="Last Name" id="lastName"[formControl]="lastName"/>
+            <label class="form-label" for="lastName">Last Name</label>
+            <div *ngIf="errors && errors.LastName" class="invalid-feedback">
+                {{errors.LastName}}
+            </div>
+        </div>
+        <div class="form-floating mb-3">
+            <textarea 
+            [ngClass]="{'form-control form-control-lg' : true, 
+                'is-invalid': errors && errors.Structure}"
+            placeholder="Structure" id="structure" [formControl]="structure"></textarea>
+            <label class="form-label" for="structure">Structure</label>
+            <div *ngIf="errors && errors.Structure" class="invalid-feedback">
+                {{errors.Structure}}
+            </div>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="number" 
+            [ngClass]="{'form-control form-control-lg' : true, 
+                'is-invalid': errors && errors.BirthYear}" 
+            placeholder="Birth Year" id="birthYear" [formControl]="birthYear"/>
+            <label class="form-label" for="password">Birth Year</label>
+            <div *ngIf="errors && errors.BirthYear" class="invalid-feedback">
+                {{errors.BirthYear}}
+            </div>
+        </div>
+        <div class="form-floating mb-3">
+              <select 
+              [ngClass]="{'form-control form-control-lg form-select' : true, 
+                'is-invalid': errors && errors.Sex}" 
+              id="floatingSelect" aria-label="Floating label select example" [formControl]="sex">
+                <option value="true">Male</option>
+                <option value="false">Female</option>
+              </select>
+            <label class="form-label text-left" for="flexRadioDefault">Sex </label>
+            <div *ngIf="errors && errors.Sex" class="invalid-feedback">
+                {{errors.Sex}}
+            </div>
+        </div>
+        <button class="btn btn-outline-dark btn-lg px-5" type="button" (click)="updateUser()">Update</button> 
+    </form>
+    </div>
+</div>

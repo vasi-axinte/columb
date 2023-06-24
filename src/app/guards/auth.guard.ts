@@ -17,7 +17,6 @@ export class AuthGuard {
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
     const user = this.authService.getUser();
 
-
     if (user) {
       let userState = StateEnum[user.state];
 

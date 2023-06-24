@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { StateEnum } from 'src/app/models/state.enum';
 import { AuthService } from 'src/app/services/auth.service';
 
@@ -10,7 +11,7 @@ import { AuthService } from 'src/app/services/auth.service';
 export class HomeComponent {
 
 
-  constructor(private authService: AuthService){
+  constructor(private authService: AuthService, private router: Router){
 
   }
 
@@ -26,6 +27,19 @@ export class HomeComponent {
 
     typedState = userData.state
     return StateEnum[typedState];
+  }
+
+  getUserId(): string{
+    const user = localStorage.getItem("user");
+
+    if(!user){
+      this.router.navigate(['/login']);
+      return "";
+    }
+
+    const userData = JSON.parse(user);
+
+    return userData.userId;
   }
 
   shouldShowWarning(): boolean {

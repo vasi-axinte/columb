@@ -38,6 +38,9 @@ import { PolyWithChildrenElementComponent } from './components/poly-list/poly-wi
 import { PolyInSubpageUrlElementComponent } from './components/poly-list/poly-in-subpage-url-element/poly-in-subpage-url-element.component';
 import { TiafComponent } from './components/tiaf/tiaf.component';
 import { CrimesDetailsComponent } from './components/crimes-details/crimes-details.component';
+import { ResetPasswordEmailComponent } from './components/reset-password-email/reset-password-email.component';
+import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
+import { UpdateUserComponent } from './components/update-user/update-user.component';
 
 @NgModule({
   declarations: [
@@ -67,6 +70,9 @@ import { CrimesDetailsComponent } from './components/crimes-details/crimes-detai
     PolyWithChildrenElementComponent,
     PolyInSubpageUrlElementComponent,
     TiafComponent,
+    ResetPasswordEmailComponent,
+    ResetPasswordComponent,
+    UpdateUserComponent,
   ],
   imports: [
     BrowserModule,

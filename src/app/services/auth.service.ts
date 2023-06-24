@@ -6,13 +6,16 @@ import { User } from '../models/user';
 import { Claims } from '../models/claims.enum';
 import jwtDecode from 'jwt-decode';
 import { CreateUser } from '../models/create-user';
+import { AppRegisterUserErrorList } from '../models/app-error';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthService {
+
   private userKey = 'user';
   private loginError = false;
+  private errors: AppRegisterUserErrorList | null = null;
 
   constructor(
     private authenticationClient: AuthenticationClient,
@@ -31,23 +34,30 @@ export class AuthService {
   };
 
   public register(user: CreateUser): void {
+    this.errors = null;
     this.authenticationClient
       .register(user)
-      .subscribe((result) => {
-        if (result) {
-          const decodedToken = jwtDecode<any>(result);
-          const user = new User (
-            decodedToken[Claims.NameTokenKey],
-            decodedToken[Claims.EmailTokenKey],
-            decodedToken[Claims.RoleTokenKey],
-            decodedToken[Claims.UserDataTokenKey],
-            result
-          )
-  
-        localStorage.setItem(this.userKey, JSON.stringify(user));
-        this.router.navigate(['/']);
-      }
-      });
+      .subscribe({
+        next: (result) => {
+          if (result) {
+            const decodedToken = jwtDecode<any>(result);
+            const user = new User (
+              decodedToken[Claims.SidTokenKey],
+              decodedToken[Claims.NameTokenKey],
+              decodedToken[Claims.EmailTokenKey],
+              decodedToken[Claims.RoleTokenKey],
+              decodedToken[Claims.UserDataTokenKey],
+              result
+            )
+    
+          localStorage.setItem(this.userKey, JSON.stringify(user));
+          this.router.navigate(['/']);
+          }
+      },
+        error: (error: HttpErrorResponse) => {
+          this.handleFailedAuthentication(error);
+        }
+    });
   }
 
   public logout() {
@@ -84,11 +94,36 @@ export class AuthService {
     return this.loginError;
   }
 
+  public get errorList(): AppRegisterUserErrorList | null {
+    return this.errors;
+  }
+
+  public sendResetPasswordEmail(email: string){
+    console.log(email);
+    this.authenticationClient.sendResetPasswordEmail(email).subscribe(result => {
+      this.router.navigate(['/login']);
+    })
+  }
+
+  resetPassword(userId: string, token: string, password: string) {
+    this.errors = null;
+    this.authenticationClient.sendResetPassword(userId, token, password).subscribe({
+      next: (result) => {
+        this.router.navigate(['/login']);
+      },
+      error: (error: HttpErrorResponse) => {
+        console.log(error)
+        this.handleFailedAuthentication(error);
+      }
+    })
+  }
+
   private handleSuccessAuthentication(result: string): void {
 
     if (result) {
         const decodedToken = jwtDecode<any>(result);
         const user = new User (
+          decodedToken[Claims.SidTokenKey],
           decodedToken[Claims.NameTokenKey],
           decodedToken[Claims.EmailTokenKey],
           decodedToken[Claims.RoleTokenKey],
@@ -123,6 +158,9 @@ export class AuthService {
   }
 
   private handleFailedAuthentication(error: HttpErrorResponse): void {
-    this.loginError = true;
-  }
+    if(error.status == 400){
+      let appError: AppRegisterUserErrorList = JSON.parse(error.error).errors;
+      this.errors = appError;
+    }
+  };
 }

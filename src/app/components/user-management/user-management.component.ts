@@ -11,15 +11,17 @@ import { UserService } from 'src/app/services/user.service';
 export class UserManagementComponent implements OnInit{
 
   stateEnum = StateEnum;
-  users: AppUser[] = []
+  users: AppUser[] = [];
+  filteredUsers: AppUser[] = [];
+  selectedState: StateEnum = StateEnum.Pending;
 
   constructor(private userService: UserService){
 
   }
   ngOnInit(): void {
     this.userService.getAllUsers().subscribe(result => {
-      console.log("asdf"+ result)
       this.users = result;
+      this.filteredUsers = this.users.filter(u => u.state === this.selectedState);
     })
   }
 
@@ -41,5 +43,18 @@ export class UserManagementComponent implements OnInit{
     this.userService.setUserState(user.id, state).subscribe(result =>{
       user.isActive = result === true ? !user.isActive : user.isActive;
     })
+  }
+
+  selectState(state: StateEnum){
+    this.selectedState = state;
+    this.filteredUsers = this.users.filter(u => u.state === this.selectedState);
+  }
+
+  onSearchChange($event: any): void { 
+    const searchValue = $event.target.value;  
+    this.filteredUsers = this.users.filter(u => 
+        u.state === this.selectedState && 
+        (u.firstName.search(new RegExp(searchValue, "i")) !== -1 || u.lastName.search(new RegExp(searchValue, "i")) !== -1)
+      );
   }
 }

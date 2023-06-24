@@ -19,6 +19,9 @@ import { UserManagementComponent } from './components/user-management/user-manag
 import { RoleEnum } from './models/role.enum';
 import { TiafComponent } from './components/tiaf/tiaf.component';
 import { CrimesDetailsComponent } from './components/crimes-details/crimes-details.component';
+import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
+import { ResetPasswordEmailComponent } from './components/reset-password-email/reset-password-email.component';
+import { UpdateUserComponent } from './components/update-user/update-user.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -28,8 +31,7 @@ const routes: Routes = [
   { path: 'technical-check', component: TechnicalCheckComponent, canActivate: [AuthGuard] },
   { path: 'driving-license', component: DrivingLicenseComponent, canActivate: [AuthGuard] },
   { path: 'vehicle-insurance', component: VehicleInsuranceComponent, canActivate: [AuthGuard] },
-  {
-    path: 'sanctions', children: [
+  { path: 'sanctions', children: [
       {
         path: '',
         component: SanctionsComponent
@@ -65,6 +67,18 @@ const routes: Routes = [
     data: {
       roles: [RoleEnum.Admin]
     }},
+  { path: 'reset-password', children: [
+    {
+      path: '',
+      component: ResetPasswordEmailComponent
+    },
+    {
+      path: ':userId',
+      component: ResetPasswordComponent 
+    }
+
+  ]},
+  { path: 'update-user/:userId', component: UpdateUserComponent },
   { path: '', component: HomeComponent },
 ];
 

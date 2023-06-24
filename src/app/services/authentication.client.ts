@@ -10,6 +10,7 @@ import { CreateUser } from '../models/create-user';
 })
 export class AuthenticationClient {
 
+
   constructor(private http: HttpClient) {}
 
   public login(username: string, password: string): Observable<string> {
@@ -31,5 +32,19 @@ export class AuthenticationClient {
       user,
       { responseType: 'text' }
     );
+  }
+
+  public sendResetPasswordEmail(email: string){
+    return this.http.post(environment.apiUrl + 'api/authenticate/sendResetPasswordEmail', {
+      email: email
+    })
+  }
+
+  public sendResetPassword(userId: string, token: string, password: string) {
+    return this.http.post(environment.apiUrl + 'api/authenticate/resetPassword', {
+      userId: userId,
+      token: token,
+      password: password
+    })
   }
 }
