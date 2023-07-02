@@ -15,6 +15,9 @@ export class UserManagementComponent implements OnInit{
   filteredUsers: AppUser[] = [];
   selectedState: StateEnum = StateEnum.Pending;
   selectedIdForShowingHistory: string | null = null;
+  numberOfActiveUsers: number = 0;
+  numberOfPendingUsers: number = 0;
+  numberOfInactiveUsers: number = 0;
 
   constructor(private userService: UserService){
 
@@ -23,6 +26,9 @@ export class UserManagementComponent implements OnInit{
     this.userService.getAllUsers().subscribe(result => {
       this.users = result;
       this.filteredUsers = this.users.filter(u => u.state === this.selectedState);
+      this.numberOfActiveUsers = this.users.filter(u => u.state === this.stateEnum.Active).length;
+      this.numberOfPendingUsers = this.users.filter(u => u.state === this.stateEnum.Pending).length;
+      this.numberOfInactiveUsers = this.users.filter(u => u.state === this.stateEnum.Inactive).length;
     })
   }
 

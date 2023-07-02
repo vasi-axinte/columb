@@ -1,10 +1,3 @@
-<!-- <div class="list-group">
-    <div *ngFor="let user of users">
-        <a href="" class="list-group-item list-group-item-action menu-item">
-            {{user.email}}, {{user.id}}
-        </a>
-    </div>
-</div> -->
 <div class="input-group py-2">
     <span class="input-group-text" id="basic-addon1">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -17,19 +10,30 @@
 <div class="btn-group py-2" role="group" aria-label="Basic radio toggle button group">
     <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" 
     (click)="selectState(stateEnum.Active)">
-    <label class="btn btn-outline-primary" for="btnradio1">Activi</label>
+    <label class="btn btn-outline-primary" for="btnradio1">Activi
+        <span class="badge rounded-pill text-bg-success">{{numberOfActiveUsers}}</span>
+    </label>
   
     <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off"
     (click)="selectState(stateEnum.Pending)" checked>
-    <label class="btn btn-outline-primary" for="btnradio2">în așteptare</label>
+    <label class="btn btn-outline-primary" for="btnradio2">În așteptare 
+        <span class="badge rounded-pill text-bg-warning">{{numberOfPendingUsers}}</span>
+    </label>
   
     <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off"
     (click)="selectState(stateEnum.Inactive)">
-    <label class="btn btn-outline-primary" for="btnradio3">Inactivi</label>
+    <label class="btn btn-outline-primary" for="btnradio3">Inactivi
+        <span class="badge rounded-pill text-bg-danger">{{numberOfInactiveUsers}}</span>
+    </label>
+    <!-- <div class="float-end text-right">
+        <span class="badge bg-secondary float-end">
+            Useri: {{filteredUsers.length}}
+        </span>
+    </div> -->
 </div>
 
 <div class="accordion" id="'accordionUsers'">
-    <div *ngFor="let user of filteredUsers" class="accordion-item">
+    <div *ngFor="let user of filteredUsers; index as i" class="accordion-item">
       <h2 class="accordion-header" id="headingOne">
         <button class="accordion-button collapsed" 
             type="button" 
@@ -40,9 +44,9 @@
 
             <span *ngIf="user.state===stateEnum.Active" class="p-2 bg-success border border-light rounded-circle">
             </span>
-            <span *ngIf="user.state===stateEnum.Pending" class="p-2 bg-warning border border-light rounded-circle"> 
+            <span *ngIf="user.state===stateEnum.Pending" class="p-2 bg-warning border border-light rounded-circle">
             </span>
-            <span *ngIf="user.state===stateEnum.Inactive" class="p-2 bg-danger border border-light rounded-circle"> 
+            <span *ngIf="user.state===stateEnum.Inactive" class="p-2 bg-danger border border-light rounded-circle">
             </span>
             {{user.firstName + ' ' + user.lastName}}
             <span *ngIf="user.historicalUser" class="text-right text-warning">
