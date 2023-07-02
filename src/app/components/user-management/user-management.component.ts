@@ -14,6 +14,7 @@ export class UserManagementComponent implements OnInit{
   users: AppUser[] = [];
   filteredUsers: AppUser[] = [];
   selectedState: StateEnum = StateEnum.Pending;
+  selectedIdForShowingHistory: string | null = null;
 
   constructor(private userService: UserService){
 
@@ -56,5 +57,15 @@ export class UserManagementComponent implements OnInit{
         u.state === this.selectedState && 
         (u.firstName.search(new RegExp(searchValue, "i")) !== -1 || u.lastName.search(new RegExp(searchValue, "i")) !== -1)
       );
+  }
+
+  showHistoryForId(id: string){
+    this.selectedIdForShowingHistory === id 
+      ? this.selectedIdForShowingHistory = null 
+      : this.selectedIdForShowingHistory = id;
+  }
+
+  getDate(){
+    return Date.now();
   }
 }

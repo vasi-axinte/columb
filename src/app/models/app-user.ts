@@ -11,4 +11,16 @@ export interface AppUser {
     birthYear: number;
     isActive: boolean;
     state: StateEnum;
+    historicalUser: HistoricalUser | null;
   }
+
+export interface HistoricalUser {
+  id: string;
+  userId: string;
+  firstName: string;
+  lastName: string;
+  structure: string;
+  sex: boolean;
+  birthYear: number;
+  timestamp: Date;
+}
