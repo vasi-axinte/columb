@@ -1,115 +1,159 @@
 [
     {
+        "type": "direct-link",
         "title": "Verificare Rovinieta",
         "url": "https://inforovinete.blogspot.com/2021/03/blog-post.html?m=1",
-        "icon": "link"
+        "icon": "link",
+        "key": "useful-links.roviniete"
     },
     {
+        "type": "direct-link",
         "title": "Verificare SUMAL",
         "url": "https://inspectorulpadurii.ro/#/",
-        "icon": "link"
+        "icon": "link",
+        "key": "useful-links.sumal"
     },
     {
+        "type": "direct-link",
         "title": "Verificarea atestatului ARR",
         "url": "https://www.arr.ro/rezultate-examene.htm",
-        "icon": "link"
+        "icon": "link",
+        "key": "useful-links.arr-atestat"
     },
     {
+        "type": "direct-link",
         "title": "Autenticitate cazier judiciar (RO)",
         "url": "https://hub.mai.gov.ro/verificadocument/verificare-document/verifica-document",
-        "icon": "link"
+        "icon": "link",
+        "key": "useful-links.cazier-judiciar"
     },
     {
+        "type": "direct-link",
         "title": "Căutare companii din UE",
         "url": "https://e-justice.europa.eu/content_find_a_company-489-en.do",
-        "icon": "link"
+        "icon": "link",
+        "key": "useful-links.eu-companies"
     },
     {
-        "title": " Calculator termene judiciare",
+        "type": "direct-link",
+        "title": "Calculator termene judiciare",
         "url": "https://calculator-termene.ro/",
-        "icon": "link"
+        "icon": "link",
+        "key": "useful-links.term-calculator"
     },
     {
-        "title": " Calculator zile de sedere",
+        "type": "direct-link",
+        "title": "Calculator zile de sedere",
         "url": "https://ec.europa.eu/assets/home/visa-calculator/calculator.htm?lang=en",
-        "icon": "link"
+        "icon": "link",
+        "key": "useful-links.stay-days-calculator"
     },
     {
+        "type": "direct-link",
         "title": "Catalog arme de foc",
         "url": "http://www.catalogoarmi.it/",
-        "icon": "link"
+        "icon": "link",
+        "key": "useful-links.firearms-catalog"
     },
     {
+        "type": "with-children",
         "title": "Most Wanted",
         "url": "",
         "icon": "plus",
+        "key": "useful-links.most-wanted.title",
         "children": [
             {
+                "type": "direct-link",
                 "title": "Persoane urmărite (RO)",
                 "url": "https://www.politiaromana.ro/ro/persoane-urmarite",
-                "icon": "link"
+                "icon": "link",
+                "key": "useful-links.most-wanted.ro-wanted"
             },
             {
+                "type": "direct-link",
                 "title": "Persoane dispărute (RO)",
                 "url": "https://www.politiaromana.ro/ro/persoane-disparute",
-                "icon": "link"
+                "icon": "link",
+                "key": "useful-links.most-wanted.ro-missing"
             },
             {
-                "title": "Persoane urmărite (UE)",
+                "type": "direct-link",
+                "title": "Persoane urmărite (EU)",
                 "url": "https://eumostwanted.eu/",
-                "icon": "link"
+                "icon": "link",
+                "key": "useful-links.most-wanted.eu-wanted"
             }
         ]
     },
     {
-        "title": "Aplicatii Google Play",
+        "type": "with-children",
+        "title": "Google Play Apps",
         "url": "",
         "icon": "plus",
+        "key": "useful-links.google-play-apps.title",
         "children": [
             {
-                "title": "Car Plates- Ukraine",
+                "type": "direct-link",
+                "title": "Car Plates - Ukraine",
                 "url": "https://play.google.com/store/apps/details?id=com.royalplay.carplates",
-                "icon": "android"
+                "icon": "android",
+                "key": "useful-links.google-play-apps.car-plates-ukraine"
             },
             {
-                "title": "CititorQR vize",
+                "type": "direct-link",
+                "title": "QR Reader Visas",
                 "url": "https://play.google.com/store/apps/details?id=ec.jrc.vdsr",
-                "icon": "android"
+                "icon": "android",
+                "key": "useful-links.google-play-apps.qr-reader-visas"
             },
             {
+                "type": "direct-link",
                 "title": "Instacar-auto HU",
                 "url": "https://play.google.com/store/apps/details?id=com.rolandgoreczky.Instacar",
-                "icon": "android"
+                "icon": "android",
+                "key": "useful-links.google-play-apps.instacar-auto-hu"
             },
             {
+                "type": "direct-link",
                 "title": "Total Car Check",
                 "url": "https://play.google.com/store/apps/details?id=totalcarcheck.co.uk",
-                "icon": "android"
+                "icon": "android",
+                "key": "useful-links.google-play-apps.total-car-check"
             },
             {
+                "type": "direct-link",
                 "title": "Kenteken-Check RDW",
                 "url": "https://play.google.com/store/apps/details?id=nl.nielsvanhove.kenteken2",
-                "icon": "android"
+                "icon": "android",
+                "key": "useful-links.google-play-apps.kenteken-check-rdw"
             },
             {
+                "type": "direct-link",
                 "title": "Immatriculation Scan",
                 "url": "https://play.google.com/store/apps/details?id=com.prod.immatriculationscanner",
-                "icon": "android"
+                "icon": "android",
+                "key": "useful-links.google-play-apps.immatriculation-scan"
             },
             {
+                "type": "direct-link",
                 "title": "DUApp",
                 "url": "https://play.google.com/store/apps/details?id=incm.com.leitor.dua",
-                "icon": "android"
+                "icon": "android",
+                "key": "useful-links.google-play-apps.duapp"
             },
             {
+                "type": "direct-link",
                 "title": "Targa Scan",
                 "url": "https://play.google.com/store/apps/details?id=it.duepuntotre.targascanner",
-                "icon": "android"
+                "icon": "android",
+                "key": "useful-links.google-play-apps.targa-scan"
             },
             {
+                "type": "direct-link",
                 "title": "Veicolo",
                 "url": "https://play.google.com/store/apps/details?id=it.talimac.veicolo",
-                "icon": "android"
+                "icon": "android",
+                "key": "useful-links.google-play-apps.veicolo"
             }
         ]
     }

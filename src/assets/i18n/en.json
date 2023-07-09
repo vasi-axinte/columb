@@ -16,6 +16,34 @@
         "telegram-group": "Telegram Group",
         "tiaf": "T.I.A.F"
     },
+    "useful-links": {
+        "roviniete": "Road Tax Check",
+        "sumal": "SUMAL Check",
+        "arr-atestat": "ARR Certificate Verification",
+        "cazier-judiciar": "Judicial Record Authenticity (RO)",
+        "eu-companies": "Search EU Companies",
+        "term-calculator": "Judicial Deadlines Calculator",
+        "stay-days-calculator": "Stay Days Calculator",
+        "firearms-catalog": "Firearms Catalog",
+        "most-wanted": {
+            "title": "Most Wanted",
+            "ro-wanted": "Most Wanted Persons (RO)",
+            "ro-missing": "Missing Persons (RO)",
+            "eu-wanted": "Most Wanted Persons (EU)"
+        },
+        "google-play-apps": {
+            "title": "Google Play Apps",
+            "car-plates-ukraine": "Car Plates - Ukraine",
+            "qr-reader-visas": "QR Reader Visas",
+            "instacar-auto-hu": "Instacar-auto HU",
+            "total-car-check": "Total Car Check",
+            "kenteken-check-rdw": "Kenteken-Check RDW",
+            "immatriculation-scan": "Immatriculation Scan",
+            "duapp": "DUApp",
+            "targa-scan": "Targa Scan",
+            "veicolo": "Veicolo"
+        }
+    },
     "specimens": {
         "docis": "DOCIS",
         "prado-online": "PRADO-online",

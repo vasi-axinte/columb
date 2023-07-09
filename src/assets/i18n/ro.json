@@ -16,6 +16,34 @@
         "telegram-group": "Grup Telegram",
         "tiaf": "T.I.A.F"
     },
+    "useful-links": {
+        "roviniete": "Verificare Rovinieta",
+        "sumal": "Verificare SUMAL",
+        "arr-atestat": "Verificarea atestatului ARR",
+        "cazier-judiciar": "Autenticitate cazier judiciar (RO)",
+        "eu-companies": "Căutare companii din UE",
+        "term-calculator": "Calculator termene judiciare",
+        "stay-days-calculator": "Calculator zile de sedere",
+        "firearms-catalog": "Catalog arme de foc",
+        "most-wanted": {
+            "title": "Most Wanted",
+            "ro-wanted": "Persoane urmărite (RO)",
+            "ro-missing": "Persoane dispărute (RO)",
+            "eu-wanted": "Persoane urmărite (EU)"
+        },
+        "google-play-apps": {
+            "title": "Aplicații  Android",
+            "car-plates-ukraine": "Car Plates - Ukraine",
+            "qr-reader-visas": "QR Reader Visas",
+            "instacar-auto-hu": "Instacar-auto HU",
+            "total-car-check": "Total Car Check",
+            "kenteken-check-rdw": "Kenteken-Check RDW",
+            "immatriculation-scan": "Immatriculation Scan",
+            "duapp": "DUApp",
+            "targa-scan": "Targa Scan",
+            "veicolo": "Veicolo"
+        }
+    },
     "specimens": {
         "docis": "DOCIS",
         "prado-online": "PRADO-online",
