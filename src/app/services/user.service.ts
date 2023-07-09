@@ -28,4 +28,8 @@ export class UserService {
   public updateUser(userId: string, user: UpdateUser): Observable<boolean>{
     return this.http.put<boolean>(environment.apiUrl + 'api/users/'+userId, user);
   }
+
+  public clearHistoryForUserId(userId: string): Observable<boolean>{
+    return this.http.delete<boolean>(environment.apiUrl + 'api/historicalUsers/'+ userId + '/clearHistory');
+  }
 }

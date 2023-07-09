@@ -23,4 +23,5 @@ export interface HistoricalUser {
   sex: boolean;
   birthYear: number;
   timestamp: Date;
+  wasChecked: boolean;
 }

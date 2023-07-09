@@ -65,10 +65,19 @@ export class UserManagementComponent implements OnInit{
       );
   }
 
-  showHistoryForId(id: string){
-    this.selectedIdForShowingHistory === id 
+  showHistoryForUser(user: AppUser): void {
+    this.selectedIdForShowingHistory === user.id 
       ? this.selectedIdForShowingHistory = null 
-      : this.selectedIdForShowingHistory = id;
+      : this.selectedIdForShowingHistory = user.id;
+    
+    if(user.historicalUser && !user.historicalUser.wasChecked){
+      this.userService.clearHistoryForUserId(user.historicalUser.id)
+      .subscribe((result) => {
+        if(result === true){
+          user.historicalUser!.wasChecked = true;
+        }
+      });
+    }
   }
 
   getDate(){
