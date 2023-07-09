@@ -30,7 +30,7 @@
         "icon": "link"
     },
     {
-        "title": " Localizare serie sasiu pansonata - VIN auto",
+        "title": "Localizare serie sasiu pansonata - VIN auto",
         "url": "",
         "icon": "plus",
         "children": [
@@ -67,9 +67,51 @@
         ]
     },
     {
-        "title": " Decodor VIN",
-        "url": "https://www.vindecoderz.com/",
-        "icon": "link"
+        "title": "Decodor VIN",
+        "url": "",
+        "icon": "plus",
+        "children": [
+            {
+                "title": " Vindecoderz",
+                "url": "https://www.vindecoderz.com/",
+                "icon": "link"
+            },
+            {
+                "title": " Bmw",
+                "url": "https://bimmer.work/",
+                "icon": "link"
+            },
+            {
+                "title": "Land Rover",
+                "url": "https://www.vindecoderz.com/",
+                "icon": "link"
+            },
+            {
+                "title": "Mercedes",
+                "url": "https://www.vindecoderz.com/",
+                "icon": "link"
+            },
+            {
+                "title": "ToyoDIY",
+                "url": "https://www.toyodiy.com/parts/q.html",
+                "icon": "link"
+            },
+            {
+                "title": " Kawasaki",
+                "url": "https://www.ktisc.eu/k-tisc/user/loginForm?back=https%3A%2F%2Fwww.ktisc.eu%2Fk-tisc%2Fvehicle%2FlookupForm&timeout=true",
+                "icon": "link"
+            },
+            {
+                "title": " Fiat",
+                "url": "https://www.pekidi.com/navi?FORCED=TRUE",
+                "icon": "link"
+            },
+            {
+                "title": "Nissan",
+                "url": "https://nissan.catalogs-parts.com/#{client:1;page:models;lang:en;catalog:el}",
+                "icon": "link"
+            }
+        ]
     },
     {
         "title": " Auto furate (UE)",

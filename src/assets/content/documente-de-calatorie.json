@@ -43,5 +43,10 @@
         "country": "Carnet de marinar",
         "countryCode": "",
         "url": "http://marinari.altervista.org/?doing_wp_cron=1686084715.7434120178222656250000"
+    },
+    {
+        "country": "Laissez-Passer",
+        "countryCode": "",
+        "url": "https://cs.coe.int/team140/laissezpasser/_layouts/15/laissezpasser/default.aspx"
     }
 ]

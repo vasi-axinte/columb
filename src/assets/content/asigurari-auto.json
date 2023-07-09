@@ -55,6 +55,11 @@
         "url": "https://www.hic.gr/hic/Check_ins.aspx"
     },
     {
+        "country": "Italia",
+        "countryCode": "it",
+        "url": "https://www.ilportaledellautomobilista.it/web/portale-automobilista/verifica-copertura-rc"
+    },
+    {
         "country": "Letonia",
         "countryCode": "lv",
         "url": "https://services.ltab.lv/en/RespInsurer"
@@ -118,6 +123,10 @@
         "country": "Ucraina",
         "countryCode": "ua",
         "url": "https://policy-web.mtsbu.ua/Search/Main/en"
+    },
+    {
+        "country": "Cod Asiguratori EU",
+        "countryCode": "",
+        "url": "http://corespondent.baar.ro/"
     }
-    
 ]
