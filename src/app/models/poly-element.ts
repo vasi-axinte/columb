@@ -4,5 +4,6 @@ export interface PolyElement {
     icon: string,
     url: string,
     children: PolyElement[],
-    data: string
+    data: string,
+    key: string,
 }

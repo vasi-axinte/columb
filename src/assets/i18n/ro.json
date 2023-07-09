@@ -15,5 +15,37 @@
         "android-app": "Android APK",
         "telegram-group": "Grup Telegram",
         "tiaf": "T.I.A.F"
+    },
+    "tiaf": {
+        "euvid": "EUVID",
+        "cariffy": "CARIFFY - informații vehicul",
+        "license-plates-eu": "Plăcuțe înmatriculare Europa",
+        "license-plates-world": "Plăcuțe de înmatriculare (world license plates)",
+        "specimens-non-eu": "Specimene (Certificate Înmatriculare - nonUE)",
+        "make-photo-recognition": "Recunoaste marca/model auto dupa foto",
+        "vin-localization-auto": {
+          "title": "Localizare serie sasiu pansonata - VIN auto",
+          "znajdzvin": "Auto-ZNAJDZVIN.PL",
+          "autofil-auto": "Auto-AUTOFIL.IT",
+          "autofil-offroad": "Off road - AUTOFIL.IT",
+          "autofil-mopeds": "Mopede-AUTOFIL.IT",
+          "datatag-utility": "Utilaje-DATATAG",
+          "datatag-moto": "Motociclete-DATATAG"
+        },
+        "vin-decoder": {
+          "title": "Decodor VIN",
+          "vindecoderz": "Vindecoderz",
+          "bmw": "Bmw",
+          "fiat-elum": "Fiat-eLum",
+          "land-rover": "Land Rover",
+          "mercedes": "Mercedes",
+          "toyodiy": "ToyoDIY",
+          "kawasaki": "Kawasaki",
+          "fiat": "Fiat",
+          "nissan": "Nissan"
+        },
+        "stolen-auto-eu": "Auto furate (UE)",
+        "stolen-auto-it-slo-sk-cz-ro": "Auto furate - It/Slo/Sk/Cz/Ro",
+        "obd-localization": "Localizare mufa OBD"
     }
 }

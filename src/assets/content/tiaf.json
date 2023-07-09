@@ -1,136 +1,188 @@
 [
     {
+        "type": "direct-link",
         "title": "EUVID",
         "url": "http://spp.rf.gd/euvid/",
-        "icon": "link"
+        "icon": "link",
+        "key": "tiaf.euvid"
     },
     {
-        "title": " CARIFFY-informații vehicul",
+        "type": "direct-link",
+        "title": "CARIFFY-informații vehicul",
         "url": "https://cariffy.com/category/vehicle-registration-documents/",
-        "icon": "link"
+        "icon": "link",
+        "key": "tiaf.cariffy"
     },
     {
-        "title": " Plăcuțe înmatriculare Europa",
+        "type": "direct-link",
+        "title": "Plăcuțe înmatriculare Europa",
         "url": "https://drive.google.com/file/d/1gZcWfIxHAoGeuzGLhg4d-3VFbdqyvoaa/view?usp=share_link/",
-        "icon": "link"
+        "icon": "link",
+        "key": "tiaf.license-plates-eu"
     },
     {
-        "title": " Plăcuțe de înmatriculare (world license plates)",
+        "type": "direct-link",
+        "title": "Plăcuțe de înmatriculare (world license plates)",
         "url": "http://worldlicenseplates.com/",
-        "icon": "link"
+        "icon": "link",
+        "key": "tiaf.license-plates-world"
     },
     {
+        "type": "direct-link",
         "title": "Specimene (Certificate Înmatriculare - nonUE)",
         "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsimport-och-ursprungskontroll/import-fran-lander-utanfor-eu/regbevis-3jeland/#Q",
-        "icon": "link"
+        "icon": "link",
+        "key": "tiaf.specimens-non-eu"
     },
     {
+        "type": "direct-link",
         "title": "Recunoastemarca/model auto dupa foto",
         "url": "https://carnet.ai/",
-        "icon": "link"
+        "icon": "link",
+        "key": "tiaf.make-photo-recognition"
     },
     {
+        "type": "with-children",
         "title": "Localizare serie sasiu pansonata - VIN auto",
         "url": "",
         "icon": "plus",
+        "key": "tiaf.vin-localization-auto.title",
         "children": [
             {
-                "title": " Auto-ZNAJDZVIN.PL",
+                "type": "direct-link",
+                "title": "Auto-ZNAJDZVIN.PL",
                 "url": "http://znajdzvin.pl/",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.znajdzvin"
             },
             {
-                "title": " Auto-AUTOFIL.IT",
+                "type": "direct-link",
+                "title": "Auto-AUTOFIL.IT",
                 "url": "https://www.autofil.it/automotive/revisioni-veicoli/posizione-dei-numeri-di-telaio/",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.autofil-auto"
             },
             {
+                "type": "direct-link",
                 "title": " Off road-AUTOFIL.IT",
                 "url": "https://www.autofil.it/automotive/revisioni-veicoli/posizione-dei-numeri-di-telaio-fuoristrada/",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.autofil-offroad"
             },
             {
-                "title": " Mopede-AUTOFIL.IT",
+                "type": "direct-link",
+                "title": "Mopede-AUTOFIL.IT",
                 "url": "https://www.autofil.it/automotive/revisioni-veicoli/posizione-dei-numeri-di-telaio-nei-ciclomotori/",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.autofil-mopeds"
             },
             {
-                "title": " Utilaje-DATATAG",
+                "type": "direct-link",
+                "title": "Utilaje-DATATAG",
                 "url": "https://drive.google.com/file/d/1oUqBRo63p-0MNG8W7ccHgSZSVhr33vwC/view?usp=drivesdk",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.datatag-utility"
             },
             {
-                "title": " Motociclete-DATATAG",
+                "type": "direct-link",
+                "title": "Motociclete-DATATAG",
                 "url": "https://drive.google.com/file/d/1-SwGm968pDFVqRA4dEfkEVfg_pZRkerT/view?usp=drivesdk",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.datatag-moto"
             }
         ]
     },
     {
+        "type": "with-children",
         "title": "Decodor VIN",
         "url": "",
         "icon": "plus",
+        "key": "tiaf.vin-decoder.title",
         "children": [
             {
+                "type": "direct-link",
                 "title": "Vindecoderz",
                 "url": "https://www.vindecoderz.com/",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-decoder.vindecoderz"
             },
             {
+                "type": "direct-link",
                 "title": "Bmw",
                 "url": "https://bimmer.work/",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-decoder.bmw"
             },
             {
+                "type": "direct-link",
                 "title": "Fiat-eLum",
                 "url": "https://aftersales.fiat.com/eLum/Register.aspx?languageID=1&country=IT&fbclid=IwAR09-dpLiyidDRXjr6vMeRrLfyXMhtMDion1MlSV7kK9IpxEv3QghLeM_ic",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-decoder.fiat-elum"
             },
             {
+                "type": "direct-link",
                 "title": "Land Rover",
                 "url": "https://www.vindecoderz.com/",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-decoder.land-rover"
             },
             {
+                "type": "direct-link",
                 "title": "Mercedes",
                 "url": "https://www.vindecoderz.com/",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-decoder.mercedes"
             },
             {
+                "type": "direct-link",
                 "title": "ToyoDIY",
                 "url": "https://www.toyodiy.com/parts/q.html",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-decoder.toyodiy"
             },
             {
-                "title": " Kawasaki",
+                "type": "direct-link",
+                "title": "Kawasaki",
                 "url": "https://www.ktisc.eu/k-tisc/user/loginForm?back=https%3A%2F%2Fwww.ktisc.eu%2Fk-tisc%2Fvehicle%2FlookupForm&timeout=true",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-decoder.kawasaki"
             },
             {
+                "type": "direct-link",
                 "title": "Fiat",
                 "url": "https://www.pekidi.com/navi?FORCED=TRUE",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-decoder.fiat"
             },
             {
+                "type": "direct-link",
                 "title": "Nissan",
                 "url": "https://nissan.catalogs-parts.com/#{client:1;page:models;lang:en;catalog:el}",
-                "icon": "link"
+                "icon": "link",
+                "key": "tiaf.vin-decoder.nissan"
             }
         ]
     },
     {
-        "title": " Auto furate (UE)",
+        "type": "direct-link",
+        "title": "Auto furate (UE)",
         "url": "https://www.stolencars24.eu/en/main.php",
-        "icon": "link"
+        "icon": "link",
+        "key": "tiaf.stolen-auto-eu"
     },
     {
-        "title": " Auto furate - It/Slo/Sk/Cz/Ro",
+        "type": "direct-link",
+        "title": "Auto furate - It/Slo/Sk/Cz/Ro",
         "url": "https://kradenikoli.bg/index.php",
-        "icon": "link"
+        "icon": "link",
+        "key": "tiaf.stolen-auto-it-slo-sk-cz-ro"
     },
     {
+        "type": "direct-link",
         "title": "Localizare mufa OBD",
         "url": "https://www.outilsobdfacile.com/location-plug-connector-obd.php",
-        "icon": "link"
+        "icon": "link",
+        "key": "tiaf.obd-localization"
     }
 ]

@@ -15,5 +15,37 @@
         "android-app": "Android APK",
         "telegram-group": "Telegram Group",
         "tiaf": "T.I.A.F"
-    }
+    },
+    "tiaf": {
+        "euvid": "EUVID",
+        "cariffy": "CARIFFY-vehicle information",
+        "license-plates-eu": "European license plates",
+        "license-plates-world": "World license plates",
+        "specimens-non-eu": "Specimens (Non-EU Registration Certificates)",
+        "make-photo-recognition": "Make/model recognition from photo",
+        "vin-localization-auto": {
+          "title": "Chassis Number Localization - VIN auto",
+          "znajdzvin": "Auto-ZNAJDZVIN.PL",
+          "autofil-auto": "Auto-AUTOFIL.IT",
+          "autofil-offroad": "Off road-AUTOFIL.IT",
+          "autofil-mopeds": "Mopeds-AUTOFIL.IT",
+          "datatag-utility": "Utility vehicles-DATATAG",
+          "datatag-moto": "Motorcycles-DATATAG"
+        },
+        "vin-decoder": {
+          "title": "VIN Decoder",
+          "vindecoderz": "Vindecoderz",
+          "bmw": "Bmw",
+          "fiat-elum": "Fiat-eLum",
+          "land-rover": "Land Rover",
+          "mercedes": "Mercedes",
+          "toyodiy": "ToyoDIY",
+          "kawasaki": "Kawasaki",
+          "fiat": "Fiat",
+          "nissan": "Nissan"
+        },
+        "stolen-auto-eu": "Stolen vehicles (EU)",
+        "stolen-auto-it-slo-sk-cz-ro": "Stolen vehicles - IT/Slo/Sk/Cz/Ro",
+        "obd-localization": "OBD Connector Localization"
+      }
 }
