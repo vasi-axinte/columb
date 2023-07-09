@@ -16,6 +16,21 @@
         "telegram-group": "Telegram Group",
         "tiaf": "T.I.A.F"
     },
+    "specimens": {
+        "docis": "DOCIS",
+        "prado-online": "PRADO-online",
+        "prado-glossary": "PRADO (glossary)",
+        "regula": "REGULA",
+        "edison-td": "EdisonTD",
+        "pc-ue-see": "Specimens ID (EU and EEA)",
+        "pc-bura": "Specimens ID (by BURA)",
+        "pc-ue-commission": "Specimens ID (EU-European Commission)",
+        "pc-ex-soviet": "Specimens ID (Former Soviet Space)",
+        "pc-ukraine": "Specimens ID (Ukraine)",
+        "airline-info-handbook": "EU Documents for Foreigners (Airline Information Handbook)",
+        "north-america": "Specimens of North American Documents",
+        "south-america": "Specimens of South American Documents"
+    },
     "tiaf": {
         "euvid": "EUVID",
         "cariffy": "CARIFFY-vehicle information",

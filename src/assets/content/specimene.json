@@ -1,67 +1,93 @@
 [
     {
+        "type": "direct-link",
         "title": "DOCIS",
         "url": "http://spp.rf.gd/docis/english_version/inhalt.html?i=1",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.docis"
     },
     {
+        "type": "direct-link",
         "title": "PRADO-online",
         "url": "https://www.consilium.europa.eu/prado/ro/search-by-document-country.html",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.prado-online"
     },
     {
+        "type": "direct-link",
         "title": "PRADO (glosar)",
         "url": "https://drive.google.com/file/d/1GyON-gpE6Gt_jg-QYVOVTcuC5ozct1qI/view?usp=share_link",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.prado-glossary"
     },
     {
+        "type": "direct-link",
         "title": "REGULA",
         "url": "https://regulaforensics.com/explore/expert-hub/glossary/documents",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.regula"
     },
     {
+        "type": "direct-link",
         "title": "EdisonTD",
         "url": "https://www.edisontd.nl/",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.edison-td"
     },
     {
+        "type": "direct-link",
         "title": "Specimene P.C.(UE si SEE)",
         "url": "https://drive.google.com/file/d/1c9ZjJugDoY31o3SZ6-f0W86l3JCEpESU/view?usp=share_link",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.pc-ue-see"
     },
     {
+        "type": "direct-link",
         "title": "Specimene P.C.(by BURA)",
         "url": "https://webapps.politieacademie.nl/bura",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.pc-bura"
     },
     {
+        "type": "direct-link",
         "title": "Specimene P.C.(UE-Comisia Europeana)",
         "url": "https://road-safety.transport.ec.europa.eu/road-safety-member-states/driving-licence-member-states/driving-licence-models_en",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.pc-ue-commission"
     },
     {
+        "type": "direct-link",
         "title": "Specimene P.C.(Spatiu Ex-Sovietic)",
         "url": "https://drive.google.com/file/d/1Espz4ad4DJN9WAqLb-0O5TZfwedwifHE/view?usp=drivesdk",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.pc-ex-soviet"
     },
     {
+        "type": "direct-link",
         "title": "Specimene P.C.(Ucraina)",
         "url": "https://hsc.gov.ua/zrazki-ukrayinskih-posvidchen-vodiya-angl-versiya",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.pc-ukraine"
     },
     {
+        "type": "direct-link",
         "title": "Doc.UE pentru straini (Airline Information Handbook)",
         "url": "https://drive.google.com/file/d/1BN1_cTEnVyqQLD-FXVmGOuYlsa-wAKir/view?usp=drivesdk",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.airline-info-handbook"
     },
     {
+        "type": "direct-link",
         "title": "Specimene documente America de Nord",
         "url": "https://drive.google.com/file/d/1hbvHMpiM-nmY7vV5uVopCkQBTt4Q2H84/view?usp=share_link",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.north-america"
     },
     {
+        "type": "direct-link",
         "title": "Specimene documente America de Sud",
         "url": "https://drive.google.com/file/d/1q4SiAlVfMe2qNkJsiZpOyYgNPDvGkCS2/view?usp=share_link",
-        "icon": "link"
+        "icon": "link",
+        "key": "specimens.south-america"
     }
 ]

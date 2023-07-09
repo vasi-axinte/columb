@@ -16,6 +16,21 @@
         "telegram-group": "Grup Telegram",
         "tiaf": "T.I.A.F"
     },
+    "specimens": {
+        "docis": "DOCIS",
+        "prado-online": "PRADO-online",
+        "prado-glossary": "PRADO (glosar)",
+        "regula": "REGULA",
+        "edison-td": "EdisonTD",
+        "pc-ue-see": "Specimene P.C.(UE si SEE)",
+        "pc-bura": "Specimene P.C.(by BURA)",
+        "pc-ue-commission": "Specimene P.C.(UE-Comisia Europeana)",
+        "pc-ex-soviet": "Specimene P.C.(Spatiu Ex-Sovietic)",
+        "pc-ukraine": "Specimene P.C.(Ucraina)",
+        "airline-info-handbook": "Doc.UE pentru straini (Airline Information Handbook)",
+        "north-america": "Specimene documente America de Nord",
+        "south-america": "Specimene documente America de Sud"
+    },
     "tiaf": {
         "euvid": "EUVID",
         "cariffy": "CARIFFY - informații vehicul",
