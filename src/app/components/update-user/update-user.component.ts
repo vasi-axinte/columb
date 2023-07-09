@@ -49,7 +49,7 @@ export class UpdateUserComponent implements OnInit {
 
     return this.userService.updateUser(this.userId ? this.userId : "", user).subscribe({
       next: (result) => {
-
+        
       },
       error: (error: HttpErrorResponse) => {
         this.handleFailedUpdate(error);

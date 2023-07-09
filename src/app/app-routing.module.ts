@@ -22,6 +22,7 @@ import { CrimesDetailsComponent } from './components/crimes-details/crimes-detai
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 import { ResetPasswordEmailComponent } from './components/reset-password-email/reset-password-email.component';
 import { UpdateUserComponent } from './components/update-user/update-user.component';
+import { ChatComponent } from './components/chat/chat.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -79,6 +80,7 @@ const routes: Routes = [
 
   ]},
   { path: 'update-user/:userId', component: UpdateUserComponent },
+  { path: 'chat', component: ChatComponent },
   { path: '', component: HomeComponent },
 ];
 

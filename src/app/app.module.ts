@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -41,6 +41,7 @@ import { CrimesDetailsComponent } from './components/crimes-details/crimes-detai
 import { ResetPasswordEmailComponent } from './components/reset-password-email/reset-password-email.component';
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 import { UpdateUserComponent } from './components/update-user/update-user.component';
+import { ChatComponent } from './components/chat/chat.component';
 
 @NgModule({
   declarations: [
@@ -73,10 +74,12 @@ import { UpdateUserComponent } from './components/update-user/update-user.compon
     ResetPasswordEmailComponent,
     ResetPasswordComponent,
     UpdateUserComponent,
+    ChatComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
     PdfViewerModule,
