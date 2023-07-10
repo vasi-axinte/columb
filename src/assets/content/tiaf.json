@@ -64,7 +64,7 @@
             },
             {
                 "type": "direct-link",
-                "title": " Off road-AUTOFIL.IT",
+                "title": "Off road-AUTOFIL.IT",
                 "url": "https://www.autofil.it/automotive/revisioni-veicoli/posizione-dei-numeri-di-telaio-fuoristrada/",
                 "icon": "link",
                 "key": "tiaf.vin-localization-auto.autofil-offroad"
@@ -123,14 +123,14 @@
             {
                 "type": "direct-link",
                 "title": "Land Rover",
-                "url": "https://www.vindecoderz.com/",
+                "url": "https://osh.landrover.com/",
                 "icon": "link",
                 "key": "tiaf.vin-decoder.land-rover"
             },
             {
                 "type": "direct-link",
                 "title": "Mercedes",
-                "url": "https://www.vindecoderz.com/",
+                "url": "https://www.mbdecoder.com/",
                 "icon": "link",
                 "key": "tiaf.vin-decoder.mercedes"
             },
