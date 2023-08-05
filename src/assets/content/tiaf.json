@@ -161,6 +161,27 @@
                 "url": "https://nissan.catalogs-parts.com/#{client:1;page:models;lang:en;catalog:el}",
                 "icon": "link",
                 "key": "tiaf.vin-decoder.nissan"
+            },
+            {
+                "type": "direct-link",
+                "title": "ETKA Online",
+                "url": "https://webautocats.com/etka/",
+                "icon": "link",
+                "key": "tiaf.vin-decoder.etka"
+            },
+            {
+                "type": "direct-link",
+                "title": "Informatii auto Franta",
+                "url": "https://www.mister-auto.com/",
+                "icon": "link",
+                "key": "tiaf.vin-decoder.auto-france"
+            },
+            {
+                "type": "direct-link",
+                "title": "Informatii auto U.K",
+                "url": "https://doctorcarparts.com/",
+                "icon": "link",
+                "key": "tiaf.vin-decoder.auto-uk"
             }
         ]
     },

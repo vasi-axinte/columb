@@ -40,6 +40,11 @@
         "url": "https://www.utac-otc.com/v%c3%a9hicules-l%c3%a9gers/retrouver-un-contr%c3%b4le-vl-sur-immat"
     },
     {
+        "country": "Georgia",
+        "countryCode": "ge",
+        "url": "https://cs.coe.int/team140/laissezpasser/_layouts/15/laissezpasser/default.aspx"
+    },
+    {
         "country": "Irlanda",
         "countryCode": "ie",
         "url": "https://www.ncts.ie/1096"
@@ -108,6 +113,10 @@
         "country": "Suedia",
         "countryCode": "se",
         "url": "https://www.car.info/sv-se/search-car-registry"
+    },
+    {
+        "country": "ITP in UE/SEE",
+        "countryCode": "",
+        "url": "http://marinari.altervista.org/?doing_wp_cron=1686084715.7434120178222656250000"
     }
-    
 ]

@@ -25,6 +25,8 @@
         "term-calculator": "Calculator termene judiciare",
         "stay-days-calculator": "Calculator zile de sedere",
         "firearms-catalog": "Catalog arme de foc",
+        "notary-office": "Birouri notariale",
+        "instance-file": "Dosar Instanta",
         "most-wanted": {
             "title": "Most Wanted",
             "ro-wanted": "Persoane urmărite (RO)",
@@ -85,7 +87,10 @@
           "toyodiy": "ToyoDIY",
           "kawasaki": "Kawasaki",
           "fiat": "Fiat",
-          "nissan": "Nissan"
+          "nissan": "Nissan",
+          "etka": "ETKA Online",
+          "auto-france": "Informatii auto Franta",
+          "auto-uk": "Informatii auto U.K"
         },
         "stolen-auto-eu": "Auto furate (UE)",
         "stolen-auto-it-slo-sk-cz-ro": "Auto furate - It/Slo/Sk/Cz/Ro",

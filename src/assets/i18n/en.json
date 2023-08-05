@@ -25,6 +25,8 @@
         "term-calculator": "Judicial Deadlines Calculator",
         "stay-days-calculator": "Stay Days Calculator",
         "firearms-catalog": "Firearms Catalog",
+        "notary-office": "Notary Office",
+        "instance-file": "Instance File",
         "most-wanted": {
             "title": "Most Wanted",
             "ro-wanted": "Most Wanted Persons (RO)",
@@ -85,7 +87,10 @@
           "toyodiy": "ToyoDIY",
           "kawasaki": "Kawasaki",
           "fiat": "Fiat",
-          "nissan": "Nissan"
+          "nissan": "Nissan",
+          "etka": "ETKA Online",
+          "auto-france": "Auto Information France",
+          "auto-uk": "Auto Information U.K."
         },
         "stolen-auto-eu": "Stolen vehicles (EU)",
         "stolen-auto-it-slo-sk-cz-ro": "Stolen vehicles - IT/Slo/Sk/Cz/Ro",

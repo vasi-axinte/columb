@@ -125,6 +125,11 @@
         "url": "https://policy-web.mtsbu.ua/Search/Main/en"
     },
     {
+        "title": "Ungaria",
+        "url": "https://app.instacar.hu/",
+        "icon": "link"
+    },
+    {
         "country": "Cod Asiguratori EU",
         "countryCode": "",
         "url": "http://corespondent.baar.ro/"

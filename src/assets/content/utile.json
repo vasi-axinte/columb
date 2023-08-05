@@ -56,6 +56,20 @@
         "key": "useful-links.firearms-catalog"
     },
     {
+        "type": "direct-link",
+        "title": "Birouri notariale",
+        "url": "https://www.uniuneanotarilor.ro/?p=2.2.3&lang=ro",
+        "icon": "link",
+        "key": "useful-links.notary-office"
+    },
+    {
+        "type": "direct-link",
+        "title": "Dosar Instanta",
+        "url": "https://portal-justitie.ro/",
+        "icon": "link",
+        "key": "useful-links.instance-file"
+    },
+    {
         "type": "with-children",
         "title": "Most Wanted",
         "url": "",
