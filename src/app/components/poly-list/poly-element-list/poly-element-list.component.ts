@@ -22,7 +22,7 @@ export class PolyElementListComponent {
     this.urlNavigationReadingService.getDataFromPolyFile(this.contentFileName)
       .subscribe(result =>{
         this.originalList = result;
-        this.polyElements = this.getList('');
+        this.polyElements = this.getList('', this.originalList);
         
         console.log(this.polyElements);
       }
@@ -31,22 +31,39 @@ export class PolyElementListComponent {
 
   onSearchChange($event: any): void { 
     const searchValue = $event.target.value;  
-    this.polyElements = this.getList(searchValue);
+    this.polyElements = this.getList(searchValue, this.originalList);
   }
 
-  getList(searchedWord: string){
-    console.log("searched word is" + searchedWord);
-    this.originalList.forEach(el => el.shouldShow = false);
-    if(!searchedWord || searchedWord.trim() === '' || searchedWord === "" || searchedWord === null){
-      return this.originalList;
+  getList(searchedWord: string, originalList: PolyElement[]): PolyElement[] {
+    if (!searchedWord || searchedWord.trim() === '') {
+      return [...originalList];
     }
-
-    let filteredList = this.originalList.filter(el => 
-        el.title.search(new RegExp(searchedWord, "i")) !== -1 ||
-        (el.children != null && el.children.length !== 0 && el.children.some(c => c.title.search(new RegExp(searchedWord, "i")) !== -1))
+  
+    const filterRecursive = (item: PolyElement): PolyElement => {
+      const children = item.title.search(new RegExp(searchedWord, 'i')) !== -1 
+        ? item.children
+        : item.children?.filter(c =>
+          c.title.search(new RegExp(searchedWord, 'i')) !== -1
       );
-    
-    filteredList.forEach(el => el.shouldShow = true);
-    return filteredList;
+  
+      const newItem: PolyElement = {
+        ...item,
+        children: children && children.length ? children : [],
+        shouldShow: (
+          item.title.search(new RegExp(searchedWord, 'i')) !== -1 ||
+          (children && children.length > 0)
+        ),
+      };
+  
+      if (newItem.children) {
+        newItem.children = newItem.children.map(filterRecursive);
+      }
+  
+      return newItem;
+    };
+  
+    return originalList
+      .map(filterRecursive)
+      .filter(item => item.shouldShow);
   }
 }
