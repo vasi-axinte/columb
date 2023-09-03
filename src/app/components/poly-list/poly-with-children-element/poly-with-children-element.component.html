@@ -5,7 +5,7 @@
     [attr.data-bs-target]="'#flush-' + getId(element.title)" 
     aria-expanded="false" 
     [attr.aria-controls]="'flush-' + getId(element.title)">
-        <h3 *ngIf="element.title==='Elvetia'"> 
+        <h3 *ngIf="element.title==='Elveția'"> 
             <span class="flag-dropdown fi fi-ch"></span>
             <span>{{element.key | transloco}}</span> 
         </h3>
@@ -16,8 +16,8 @@
         </svg>
         
        
-        <span *ngIf="element.key && element.title!=='Elvetia'"> {{element.key | transloco}}</span>
-        <span *ngIf="!element.key && element.title!=='Elvetia'">{{element.title}}</span>
+        <span *ngIf="element.key && element.title!=='Elveția'"> {{element.key | transloco}}</span>
+        <span *ngIf="!element.key && element.title!=='Elveția'">{{element.title}}</span>
     </a>
     <div id="flush-{{getId(element.title)}}" class="accordion-collapse collapse" 
     [ngClass]="{'accordion-collapse' : true, 
