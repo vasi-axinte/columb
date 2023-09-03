@@ -100,5 +100,8 @@
         "others": "Other Driving Licenses",
         "usa": "U. S. A.",
         "encoding": "Encondig&Decoding D.L."
+    },
+    "vehicle-info": {
+        "switzerland": "Switzerland"
     }
 }

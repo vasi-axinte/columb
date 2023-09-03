@@ -1,132 +1,209 @@
 [
     {
-        "country": "Austria",
+        "title": "Austria",
         "countryCode": "at",
-        "url": "https://zulassung.oesd.at/fahrzeugdaten-online-abfrage/"
+        "url": "https://zulassung.oesd.at/fahrzeugdaten-online-abfrage/",
+        "type": "country"
     },
     {
-        "country": "Belgia",
+        "title": "Belgia",
         "countryCode": "be",
-        "url": "http://www.mobilit.fgov.be/WebdivPub_FR/wmvpstv1_fr?SUBSESSIONID=2240104"
+        "url": "http://www.mobilit.fgov.be/WebdivPub_FR/wmvpstv1_fr?SUBSESSIONID=2240104",
+        "type": "country"
     },
     {
-        "country": "Cehia",
+        "title": "Cehia",
         "countryCode": "cz",
-        "url": "https://www.kontrola-vin.cz/"
+        "url": "https://www.kontrola-vin.cz/",
+        "type": "country"
     },
     {
-        "country": "Danemarca",
+        "title": "Danemarca",
         "countryCode": "dk",
-        "url": "https://motorregister.skat.dk/dmr-kerne/koeretoejdetaljer/visKoeretoej?execution=e2s1"
+        "url": "https://motorregister.skat.dk/dmr-kerne/koeretoejdetaljer/visKoeretoej?execution=e2s1",
+        "type": "country"
     },
     {
-        "country": "Estonia",
+        "type": "with-children",
+        "title": "Elvetia",
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.switzerland",
+        "children": [
+            {
+                "title": "TI",
+                "url": "https://www4.ti.ch/di/sc/veicoli/elenco-targhe",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "FR",
+                "url": "https://www.ocn.ch/fr/conduire/plaques-et-carte-grise/auto-index-trouver-un-detenteur-ou-une-detentrice-de-vehicule",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "AG",
+                "url": "https://www.ocn.ch/fr/conduire/plaques-et-carte-grise/auto-index-trouver-un-detenteur-ou-une-detentrice-de-vehicule",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "LU",
+                "url": "https://www.viacar.ch/eindex/login.aspx?kanton=lu",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "SH",
+                "url": "https://www.viacar.ch/eindex/login.aspx?kanton=sh",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "ZG",
+                "url": "https://www.viacar.ch/eindex/login.aspx?kanton=zg",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "ZH",
+                "url": "https://www.viacar.ch/eindex/login.aspx?kanton=zh",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
+    },
+    {
+        "title": "Estonia",
         "countryCode": "ee",
-        "url": "https://eteenindus.mnt.ee/public/soidukTaustakontroll.jsf?lang=en"
+        "url": "https://eteenindus.mnt.ee/public/soidukTaustakontroll.jsf?lang=en",
+        "type": "country"
     },
     {
-        "country": "Finlanda",
+        "title": "Finlanda",
         "countryCode": "fi",
-        "url": "https://www.biltema.fi/auton-varaosahaku/"
+        "url": "https://www.biltema.fi/auton-varaosahaku/",
+        "type": "country"
     },
     {
-        "country": "Franța",
+        "title": "Franța",
         "countryCode": "fr",
-        "url": "https://siv-auto.fr/"
+        "url": "https://siv-auto.fr/",
+        "type": "country"
     },
     {
-        "country": "Germania",
+        "title": "Germania",
         "countryCode": "de",
-        "url": "https://www.autodna.de/fahrgestellnummer-fin-pruefen"
+        "url": "https://www.autodna.de/fahrgestellnummer-fin-pruefen",
+        "type": "country"
     },
     {
-        "country": "Irlanda",
+        "title": "Irlanda",
         "countryCode": "ie",
-        "url": "https://www.ncts.ie/1096"
+        "url": "https://www.ncts.ie/1096",
+        "type": "country"
     },
     {
-        "country": "Islanda",
+        "title": "Islanda",
         "countryCode": "is",
-        "url": "https://www.samgongustofa.is/umferd/okutaeki/okutaekjaskra/uppfletting/?vq="
+        "url": "https://www.samgongustofa.is/umferd/okutaeki/okutaekjaskra/uppfletting/?vq=",
+        "type": "country"
     },
     {
-        "country": "Lituania",
+        "title": "Lituania",
         "countryCode": "lt",
-        "url": "https://www.eregitra.lt/services/vehicle-registration/data-search"
+        "url": "https://www.eregitra.lt/services/vehicle-registration/data-search",
+        "type": "country"
     },
     {
-        "country": "Malta",
+        "title": "Malta",
         "countryCode": "mt",
-        "url": "https://licenzji-vetturi.gov.mt/default.aspx?page=licence_renewal&opt=otherfees&serv=general"
+        "url": "https://licenzji-vetturi.gov.mt/default.aspx?page=licence_renewal&opt=otherfees&serv=general",
+        "type": "country"
     },
     {
-        "country": "Marea Britanie",
+        "title": "Marea Britanie",
         "countryCode": "gb",
-        "url": "https://totalcarcheck.co.uk/"
+        "url": "https://totalcarcheck.co.uk/",
+        "type": "country"
     },
     {
-        "country": "Moldova",
+        "title": "Moldova",
         "countryCode": "md",
-        "url": "https://e-services.md/public/WebPublic/index.php?action=transport&lang=md"
+        "url": "https://e-services.md/public/WebPublic/index.php?action=transport&lang=md",
+        "type": "country"
     },
     {
-        "country": "Norvegia",
+        "title": "Norvegia",
         "countryCode": "no",
-        "url": "https://www.vegvesen.no/en/vehicles/buy-and-sell/vehicle-information/sjekk-kjoretoyopplysninger/"
+        "url": "https://www.vegvesen.no/en/vehicles/buy-and-sell/vehicle-information/sjekk-kjoretoyopplysninger/",
+        "type": "country"
     },
     {
-        "country": "Olanda",
+        "title": "Olanda",
         "countryCode": "nl",
-        "url": "https://ovi.rdw.nl/default.aspx"
+        "url": "https://ovi.rdw.nl/default.aspx",
+        "type": "country"
     },
     {
-        "country": "Polonia",
+        "title": "Polonia",
         "countryCode": "pl",
-        "url": "https://info-car.pl/infocar/vin.html"
+        "url": "https://info-car.pl/infocar/vin.html",
+        "type": "country"
     },
     {
-        "country": "Portugalia",
+        "title": "Portugalia",
         "countryCode": "pt",
-        "url": "https://www.automovelonline.mj.pt/AutoOnlineProd/FrontOfficeController?action=validaMatricula&url=FrontOfficeController%3Faction%3Dpedidocertidao&contr=FrontOfficeController"
+        "url": "https://www.automovelonline.mj.pt/AutoOnlineProd/FrontOfficeController?action=validaMatricula&url=FrontOfficeController%3Faction%3Dpedidocertidao&contr=FrontOfficeController",
+        "type": "country"
     },
     {
-        "country": "România",
+        "title": "România",
         "countryCode": "ro",
-        "url": "https://dgpci.mai.gov.ro/drpciv-forms/vehicle"
+        "url": "https://dgpci.mai.gov.ro/drpciv-forms/vehicle",
+        "type": "country"
     },
     {
-        "country": "Rusia",
+        "title": "Rusia",
         "countryCode": "ru",
-        "url": "https://avtokompromat.ru/m/"
+        "url": "https://avtokompromat.ru/m/",
+        "type": "country"
     },
     {
-        "country": "Slovacia",
+        "title": "Slovacia",
         "countryCode": "sk",
-        "url": "https://www.stkonline.sk/spz/BR129YC"
+        "url": "https://www.stkonline.sk/spz/BR129YC",
+        "type": "country"
     },
     {
-        "country": "Slovenia",
+        "title": "Slovenia",
         "countryCode": "si",
-        "url": "https://e-uprava.gov.si/javne-evidence/motorna-vozila.html"
+        "url": "https://e-uprava.gov.si/javne-evidence/motorna-vozila.html",
+        "type": "country"
     },
     {
-        "country": "Spania",
+        "title": "Spania",
         "countryCode": "es",
-        "url": "https://www.sedeelectronicaautomovil.com/sea/public/verify.html"
+        "url": "https://www.sedeelectronicaautomovil.com/sea/public/verify.html",
+        "type": "country"
     },
     {
-        "country": "Suedia",
+        "title": "Suedia",
         "countryCode": "se",
-        "url": "https://fordon-fu-regnr.transportstyrelsen.se/"
+        "url": "https://fordon-fu-regnr.transportstyrelsen.se/",
+        "type": "country"
     },
     {
-        "country": "Ucraina",
+        "title": "Ucraina",
         "countryCode": "ua",
-        "url": "https://opendata.hsc.gov.ua/check-vehicle-registration-certificate/"
+        "url": "https://opendata.hsc.gov.ua/check-vehicle-registration-certificate/",
+        "type": "country"
     },
     {
-        "country": "Ungaria",
+        "title": "Ungaria",
         "countryCode": "hu",
-        "url": "https://app.instacar.hu"
+        "url": "https://app.instacar.hu",
+        "type": "country"
     }
 ]
