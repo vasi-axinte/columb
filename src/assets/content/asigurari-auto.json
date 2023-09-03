@@ -125,9 +125,9 @@
         "url": "https://policy-web.mtsbu.ua/Search/Main/en"
     },
     {
-        "title": "Ungaria",
-        "url": "https://app.instacar.hu/",
-        "icon": "link"
+        "country": "Ungaria",
+        "countryCode": "hu",
+        "url": "https://app.instacar.hu/"
     },
     {
         "country": "Cod Asiguratori EU",

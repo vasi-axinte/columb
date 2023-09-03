@@ -6,4 +6,5 @@ export interface PolyElement {
     children: PolyElement[],
     data: string,
     key: string,
+    countryCode: string,
 }

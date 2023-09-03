@@ -1,77 +1,255 @@
 [
     {
-        "country": "Bulgaria",
+        "title": "Bulgaria",
         "countryCode": "bg",
-        "url": "https://www.mvr.bg/en/administrative-services/electronized-services/validity-verification-of-bulgarian-personal-documents"
+        "url": "https://www.mvr.bg/en/administrative-services/electronized-services/validity-verification-of-bulgarian-personal-documents",
+        "type": "country"
     },
     {
-        "country": "Croația",
+        "title": "Croația",
         "countryCode": "hr",
-        "url": "https://mup.gov.hr/status-vozacke-dozvole/283633"
+        "url": "https://mup.gov.hr/status-vozacke-dozvole/283633",
+        "type": "country"
     },
     {
-        "country": "Estonia",
+        "title": "Franta",
+        "countryCode": "fr",
+        "url": "https://candidat.permisdeconduire.gouv.fr/creation-compte",
+        "type": "country"
+    },
+    {
+        "title": "Estonia",
         "countryCode": "ee",
-        "url": "https://eteenindus.mnt.ee/public/juhiloaKehtivus.xhtml"
+        "url": "https://eteenindus.mnt.ee/public/juhiloaKehtivus.xhtml",
+        "type": "country"
     },
     {
-        "country": "Israel",
+        "title": "Irlanda",
+        "countryCode": "ie",
+        "url": "https://booking.ndls.ie/index.php",
+        "type": "country"
+    },
+    {
+        "title": "Israel",
         "countryCode": "il",
-        "url": "https://ecom.gov.il/voucherspa/input/209?language=en"
+        "url": "https://ecom.gov.il/voucherspa/input/209?language=en",
+        "type": "country"
     },
     {
-        "country": "Lituania",
+        "title": "Lituania",
         "countryCode": "lt",
-        "url": "https://www.eregitra.lt/services/driver-license/validity-info"
+        "url": "https://www.eregitra.lt/services/driver-license/validity-info",
+        "type": "country"
     },
     {
-        "country": "Malta",
+        "title": "Malta",
         "countryCode": "mt",
-        "url": "https://licenzji-xufiera.gov.mt/Login/Citizen?ReturnUrl=https%3A%2F%2Flicenzji-xufiera.gov.mt%2FLicence"
+        "url": "https://licenzji-xufiera.gov.mt/Login/Citizen?ReturnUrl=https%3A%2F%2Flicenzji-xufiera.gov.mt%2FLicence",
+        "type": "country"
     },
     {
-        "country": "Marea Britanie",
+        "title": "Marea Britanie",
         "countryCode": "gb",
-        "url": "https://www.viewdrivingrecord.service.gov.uk/driving-record/licence-number"
+        "url": "https://www.viewdrivingrecord.service.gov.uk/driving-record/licence-number",
+        "type": "country"
     },
     {
-        "country": "Moldova",
+        "title": "Moldova",
         "countryCode": "md",
-        "url": "https://e-services.md/public/WebPublic/index.php?action=document&lang=md"
+        "url": "https://e-services.md/public/WebPublic/index.php?action=document&lang=md",
+        "type": "country"
     },
     {
-        "country": "Polonia",
+        "title": "Polonia",
         "countryCode": "pl",
-        "url": "https://moj.gov.pl/uslugi/engine/ng/index?xFormsAppName=UprawnieniaKierowcow&xFormsOrigin=EXTERNAL"
+        "url": "https://moj.gov.pl/uslugi/engine/ng/index?xFormsAppName=UprawnieniaKierowcow&xFormsOrigin=EXTERNAL",
+        "type": "country"
     },
     {
-        "country": "România",
+        "title": "România",
         "countryCode": "ro",
-        "url": "https://dgpci.mai.gov.ro/drpciv-forms/license"
+        "url": "https://dgpci.mai.gov.ro/drpciv-forms/license",
+        "type": "country"
     },
     {
-        "country": "Slovenia",
+        "title": "Slovenia",
         "countryCode": "si",
-        "url": "https://e-uprava.gov.si/si/javne-evidence/statusi-dokumentov.html"
+        "url": "https://e-uprava.gov.si/si/javne-evidence/statusi-dokumentov.html",
+        "type": "country"
     },
     {
-        "country": "Spania",
+        "title": "Spania",
         "countryCode": "es",
-        "url": "https://sedeapl.dgt.gob.es/WEB_EST_PERSEO/busqueda.faces"
+        "url": "https://sedeapl.dgt.gob.es/WEB_EST_PERSEO/busqueda.faces",
+        "type": "country"
     },
     {
-        "country": "Turcia",
+        "title": "Turcia",
         "countryCode": "tr",
-        "url": "https://www.turkiye.gov.tr/belge-dogrulama"
+        "url": "https://www.turkiye.gov.tr/belge-dogrulama",
+        "type": "country"
     },
     {
-        "country": "Ucraina",
+        "title": "Ucraina",
         "countryCode": "ua",
-        "url": "https://opendata.hsc.gov.ua/check-driver-license/"
+        "url": "https://opendata.hsc.gov.ua/check-driver-license/",
+        "type": "country"
     },
     {
-        "country": "Ungaria",
+        "title": "Ungaria",
         "countryCode": "hu",
-        "url": "https://www.nyilvantarto.hu/ugyseged/OkmanyErvenyessegLekerdezes.xhtml"
+        "url": "https://www.nyilvantarto.hu/ugyseged/OkmanyErvenyessegLekerdezes.xhtml",
+        "type": "country"
+    },
+    {
+        "title": "Venezuela",
+        "countryCode": "ve",
+        "url": "http://www.intt.gob.ve:8080/consultas_publicas/consultas_publicas.php",
+        "type": "country"
+    },
+    {
+        "title": "Vietnam",
+        "countryCode": "vn",
+        "url": "https://gplx.gov.vn/",
+        "type": "country"
+    },
+    {
+        "type": "with-children",
+        "title": "Alte permise",
+        "url": "",
+        "icon": "plus",
+        "key": "driving-licenses.others",
+        "children": [
+            {
+                "title": "Arabia Saudita",
+                "url": "https://www.absher.sa/wps/portal/individuals/Home/myservices/einquiries/traffic/pqdlinfo/!ut/p/z0/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zizYx8nA09LIy8_Z3dLQ0Cjbw93Hy8fAwNLM30g1Pz9AuyHRUBGd-5-A!!/#d",
+                "type": "country",
+                "countryCode": "sa"
+            },
+            {
+                "title": "Bangladesh",
+                "url": "http://my.brta.gov.bd/dl_status.php",
+                "type": "country",
+                "countryCode": "bd"
+            },
+            {
+                "title": "E.A.U. Dubai",
+                "url": "https://traffic.rta.ae/trfesrv/public_resources/my-ecertificates.do?CSRFa88y2h=1o7i9jhzcpk23",
+                "type": "country",
+                "countryCode": "ae"
+            },
+            {
+                "title": "El Salvador",
+                "url": "https://www.sertracen.com.sv/index.php/consulta-de-validacion-de-licencia",
+                "type": "country",
+                "countryCode": "sv"
+            },
+            {
+                "title": "India",
+                "url": "https://web.archive.org/web/20220330080235/https:/sarathi.nic.in:8443/nrportal/sarathi/DlDetRequest.jsp",
+                "type": "country",
+                "countryCode": "in"
+            },
+            {
+                "title": "Kîrgîzstan",
+                "url": "https://portal.srs.kg/ru/service/eform/e1ce11fb-15db-4f52-b422-04ed81f8ee47",
+                "type": "country",
+                "countryCode": "kg"
+            },
+            {
+                "title": "Maroc",
+                "url": "http://authenticite.mtpnet.gov.ma/metl-authenticite-1/consulter.html/",
+                "type": "country",
+                "countryCode": "ma"
+            },
+            {
+                "title": "Nigeria",
+                "url": "https://www.nigeriadriverslicence.org/license/trackStatus",
+                "type": "country",
+                "countryCode": "ng"
+            },
+            {
+                "title": "Pakistan(Islamabad)",
+                "url": "https://ict.islamabadpolice.gov.pk:4433/verification/",
+                "type": "country",
+                "countryCode": "pk"
+            },
+            {
+                "title": "Palestina",
+                "url": "http://www.mot.gov.ps/practicalexam/",
+                "type": "country",
+                "countryCode": "ps"
+            },
+            {
+                "title": "Singapore",
+                "url": "https://eservices.police.gov.sg/content/policehubhome/homepage/enquiry/status-of-driving-licence.html",
+                "type": "country",
+                "countryCode": "sg"
+            }
+        ]
+    },
+    {
+        "type": "with-children",
+        "title": "SUA",
+        "url": "",
+        "icon": "plus",
+        "key": "driving-licenses.usa",
+        "children": [
+            {
+                "title": "Arizona",
+                "url": "https://webapps.azdps.gov/public_inq/sgrd/ShowLicenseStatus.action",
+                "type": "country",
+                "countryCode": "us"
+            },
+            {
+                "title": "Connecticut",
+                "url": "https://www.dmvselfservice.ct.gov/LicenseStatusService.aspx",
+                "type": "country",
+                "countryCode": "us"
+            },
+            {
+                "title": "D.C.Washington",
+                "url": "https://public.dmv.washingtondc.gov/BusinessPages/DL/DriverLicenseVerification.aspx",
+                "type": "country",
+                "countryCode": "us"
+            },
+            {
+                "title": "Florida",
+                "url": "https://services.flhsmv.gov/DLCheck/?AspxAutoDetectCookieSupport=1",
+                "type": "country",
+                "countryCode": "us"
+            },
+            {
+                "title": "Idaho",
+                "url": "https://www.accessidaho.org/itd/driver/license/status",
+                "type": "country",
+                "countryCode": "us"
+            },
+            {
+                "title": "Nebraska",
+                "url": "https://www.nebraska.gov/dmv/reinstatements/client.cgi",
+                "type": "country",
+                "countryCode": "us"
+            },
+            {
+                "title": "West Virginia",
+                "url": "https://apps.wv.gov/DMV/SelfService/DrivingRecord",
+                "type": "country",
+                "countryCode": "us"
+            },
+            {
+                "title": "Ontario",
+                "url": "https://www.dlc.rus.mto.gov.on.ca/dlc/enter-details",
+                "type": "country",
+                "countryCode": "ca"
+            },
+            {
+                "type": "direct-link",
+                "title": "Encondig&Decoding D.L.",
+                "url": "https://stevemorse.org/dl/dl.html",
+                "icon": "link",
+                "key": "driving-licenses.encoding"
+            }
+        ]
     }
 ]

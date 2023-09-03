@@ -95,5 +95,10 @@
         "stolen-auto-eu": "Stolen vehicles (EU)",
         "stolen-auto-it-slo-sk-cz-ro": "Stolen vehicles - IT/Slo/Sk/Cz/Ro",
         "obd-localization": "OBD Connector Localization"
-      }
+    },
+    "driving-licenses": {
+        "others": "Other Driving Licenses",
+        "usa": "U. S. A.",
+        "encoding": "Encondig&Decoding D.L."
+    }
 }

@@ -42,6 +42,7 @@ import { ResetPasswordEmailComponent } from './components/reset-password-email/r
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 import { UpdateUserComponent } from './components/update-user/update-user.component';
 import { ChatComponent } from './components/chat/chat.component';
+import { PolyCountryElementComponent } from './components/poly-list/poly-country-element/poly-country-element.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +71,7 @@ import { ChatComponent } from './components/chat/chat.component';
     PolyDirectLinkElementComponent,
     PolyWithChildrenElementComponent,
     PolyInSubpageUrlElementComponent,
+    PolyCountryElementComponent,
     TiafComponent,
     ResetPasswordEmailComponent,
     ResetPasswordComponent,

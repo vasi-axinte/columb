@@ -19,6 +19,7 @@
             <div *ngFor="let elementChild of element.children" >
                 <app-poly-direct-link-element *ngIf="elementChild.type === 'direct-link'" [element]="elementChild"></app-poly-direct-link-element>
                 <app-poly-in-subpage-url-element *ngIf="elementChild.type === 'in-subpage-url'" [element]="elementChild"></app-poly-in-subpage-url-element>
+                <app-poly-country-element *ngIf="elementChild.type === 'country'" [element]="elementChild" ></app-poly-country-element>
             </div>
         </div>
     </div>
