@@ -7,4 +7,5 @@ export interface PolyElement {
     data: string,
     key: string,
     countryCode: string,
+    shouldShow: boolean,
 }

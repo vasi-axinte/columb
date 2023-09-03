@@ -20,6 +20,9 @@
         <span *ngIf="!element.key && element.title!=='Elvetia'">{{element.title}}</span>
     </a>
     <div id="flush-{{getId(element.title)}}" class="accordion-collapse collapse" 
+    [ngClass]="{'accordion-collapse' : true, 
+                'collapse': !element.shouldShow,
+                'show': element.shouldShow }"
     [attr.data-bs-parent]="'#{{element.title}}'">
         <div class="accordion-body">
             <div *ngFor="let elementChild of element.children" >

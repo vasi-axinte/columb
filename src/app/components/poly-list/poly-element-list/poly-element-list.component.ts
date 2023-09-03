@@ -35,11 +35,18 @@ export class PolyElementListComponent {
   }
 
   getList(searchedWord: string){
-    return searchedWord && (searchedWord === '' || searchedWord === ' ' || searchedWord === null) 
-      ? this.originalList
-      :  this.originalList.filter(el => 
+    console.log("searched word is" + searchedWord);
+    this.originalList.forEach(el => el.shouldShow = false);
+    if(!searchedWord || searchedWord.trim() === '' || searchedWord === "" || searchedWord === null){
+      return this.originalList;
+    }
+
+    let filteredList = this.originalList.filter(el => 
         el.title.search(new RegExp(searchedWord, "i")) !== -1 ||
         (el.children != null && el.children.length !== 0 && el.children.some(c => c.title.search(new RegExp(searchedWord, "i")) !== -1))
       );
+    
+    filteredList.forEach(el => el.shouldShow = true);
+    return filteredList;
   }
 }
