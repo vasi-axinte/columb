@@ -78,6 +78,7 @@
         "license-plates-world": "Plăcuțe de înmatriculare (world license plates)",
         "specimens-non-eu": "Specimene (Certificate Înmatriculare - nonUE)",
         "make-photo-recognition": "Recunoaste marca/model auto dupa foto",
+        "vin-control-digit": "VIN Cifra de control",
         "vin-localization-auto": {
           "title": "Localizare serie sasiu pansonata - VIN auto",
           "znajdzvin": "Auto-ZNAJDZVIN.PL",
@@ -100,10 +101,18 @@
           "nissan": "Nissan",
           "etka": "ETKA Online",
           "auto-france": "Informatii auto Franta",
-          "auto-uk": "Informatii auto U.K"
+          "auto-uk": "Informatii auto U.K",
+          "ter-vin": "TER-VIN echipament industrial",
+          "pin-vin": "PIN-VIN echipament constructii"
         },
-        "stolen-auto-eu": "Auto furate (UE)",
-        "stolen-auto-it-slo-sk-cz-ro": "Auto furate - It/Slo/Sk/Cz/Ro",
+        "stolen-auto": {
+            "title": "Auto Furate",
+            "eu": "Auto furate (UE)",
+            "it-slo-sk-cz-ro": "Auto furate - It/Slo/Sk/Cz/Ro",
+            "spain": "Spania",
+            "netherlands": "Olanda",
+            "great-britain":"Marea Britanie"
+        },
         "obd-localization": "Localizare mufa OBD"
     },
     "driving-licenses": {

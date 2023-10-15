@@ -182,22 +182,66 @@
                 "url": "https://doctorcarparts.com/",
                 "icon": "link",
                 "key": "tiaf.vin-decoder.auto-uk"
+            },
+            {
+                "type": "direct-link",
+                "title": "TER-VIN echipament industrial",
+                "url": "https://www.ter-europe.org/about/plant-and-equipment-identification/",
+                "icon": "link",
+                "key": "tiaf.vin-decoder.ter-vin"
+            },
+            {
+                "type": "direct-link",
+                "title": "PIN-VIN echipament constructii",
+                "url": "https://www.ter-europe.org/about/plant-and-equipment-identification/",
+                "icon": "link",
+                "key": "tiaf.vin-decoder.pin-vin"
             }
         ]
     },
     {
-        "type": "direct-link",
-        "title": "Auto furate (UE)",
-        "url": "https://www.stolencars24.eu/en/main.php",
-        "icon": "link",
-        "key": "tiaf.stolen-auto-eu"
-    },
-    {
-        "type": "direct-link",
-        "title": "Auto furate - It/Slo/Sk/Cz/Ro",
-        "url": "https://kradenikoli.bg/index.php",
-        "icon": "link",
-        "key": "tiaf.stolen-auto-it-slo-sk-cz-ro"
+        "type": "with-children",
+        "title": "Auto Furate",
+        "url": "",
+        "icon": "plus",
+        "key": "tiaf.stolen-auto.title",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "Europa",
+                "url": "https://www.stolencars24.eu/en/main.php",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.eu"
+            },
+            {
+                "type": "direct-link",
+                "title": "It/Slo/Sk/Cz/Ro",
+                "url": "https://kradenikoli.bg/index.php",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.it-slo-sk-cz-ro"
+            },
+            {
+                "type": "direct-link",
+                "title": "Spania",
+                "url": "https://desmace.com/sustraidos/",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.spain"
+            },
+            {
+                "type": "direct-link",
+                "title": "Olanda",
+                "url": "https://gestolenobjectenregister.nl/",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.netherlands"
+            },
+            {
+                "type": "direct-link",
+                "title": "Marea Britanie",
+                "url": "https://isitnicked.com/",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.great-britain"
+            }
+        ]
     },
     {
         "type": "direct-link",
@@ -205,5 +249,12 @@
         "url": "https://www.outilsobdfacile.com/location-plug-connector-obd.php",
         "icon": "link",
         "key": "tiaf.obd-localization"
+    },
+    {
+        "type": "direct-link",
+        "title": "VIN Cifra de control",
+        "url": "https://vpic.nhtsa.dot.gov/decoder/CheckDigit/Index/5yj3e1eaxhf000316",
+        "icon": "link",
+        "key": "tiaf.vin-control-digit"
     }
 ]

@@ -78,6 +78,7 @@
         "license-plates-world": "World license plates",
         "specimens-non-eu": "Specimens (Non-EU Registration Certificates)",
         "make-photo-recognition": "Make/model recognition from photo",
+        "vin-control-digit": "Control Digit VIN",
         "vin-localization-auto": {
           "title": "Chassis Number Localization - VIN auto",
           "znajdzvin": "Auto-ZNAJDZVIN.PL",
@@ -100,10 +101,18 @@
           "nissan": "Nissan",
           "etka": "ETKA Online",
           "auto-france": "Auto Information France",
-          "auto-uk": "Auto Information U.K."
+          "auto-uk": "Auto Information U.K.",
+          "ter-vin": "TER-VIN Industrial Equipment",
+          "pin-vin": "PIN-VIN Construction Equipment"
         },
-        "stolen-auto-eu": "Stolen vehicles (EU)",
-        "stolen-auto-it-slo-sk-cz-ro": "Stolen vehicles - IT/Slo/Sk/Cz/Ro",
+        "stolen-auto": {
+            "title": "Stolen Vehicles",
+            "eu": "Stolen Vehicles (EU)",
+            "it-slo-sk-cz-ro": "Stolen Vehicles - IT/Slo/Sk/Cz/Ro",
+            "spain": "Spain",
+            "netherlands": "Netherlands",
+            "great-britain":"Great Britain"
+        },
         "obd-localization": "OBD Connector Localization"
     },
     "driving-licenses": {
