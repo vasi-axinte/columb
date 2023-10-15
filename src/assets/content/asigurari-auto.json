@@ -5,6 +5,11 @@
         "url": "https://www.vvo.at/vvo/vvo.nsf/sysPages/versichererauskunft.html"
     },
     {
+        "country": "Armenia",
+        "countryCode": "am",
+        "url": "https://aswa.am/vehicle-insurance"
+    },
+    {
         "country": "Belarus",
         "countryCode": "by",
         "url": "https://osgovts.btib.org/ords/buro/f?p=500:1"
