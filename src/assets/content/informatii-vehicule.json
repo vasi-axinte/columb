@@ -452,6 +452,12 @@
                 "type": "direct-link"
             },
             {
+                "title": "Autoficha",
+                "url": "https://autoficha.com/?fbclid=IwAR1a2kkYuGSP8OPNZmC1JMbdbmneBNp5e55Br3iHnJvDd7mXL1pYM16IASQ",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
                 "title": "Spania",
                 "url": "https://www.sedeelectronicaautomovil.com/sea/public/verify.html",
                 "icon": "link",
