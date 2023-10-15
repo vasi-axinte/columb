@@ -102,18 +102,6 @@
         "type": "country"
     },
     {
-        "title": "Venezuela",
-        "countryCode": "ve",
-        "url": "http://www.intt.gob.ve:8080/consultas_publicas/consultas_publicas.php",
-        "type": "country"
-    },
-    {
-        "title": "Vietnam",
-        "countryCode": "vn",
-        "url": "https://gplx.gov.vn/",
-        "type": "country"
-    },
-    {
         "type": "with-children",
         "title": "Alte permise",
         "url": "",
@@ -131,6 +119,28 @@
                 "url": "http://my.brta.gov.bd/dl_status.php",
                 "type": "country",
                 "countryCode": "bd"
+            },
+            {
+                "type": "with-children",
+                "title": "Canada",
+                "countryCode": "ca",
+                "url": "",
+                "icon": "plus",
+                "key": "driving-licenses.canada",
+                "children": [
+                    {
+                        "title": "Ontario",
+                        "url": "https://www.dlc.rus.mto.gov.on.ca/dlc/enter-details",
+                        "type": "country",
+                        "countryCode": "ca"
+                    },
+                    {
+                        "title": "British Columbia",
+                        "url": "https://onlinebusiness.icbc.com/clio/",
+                        "type": "country",
+                        "countryCode": "ca"
+                    }
+                ]
             },
             {
                 "title": "E.A.U. Dubai",
@@ -181,74 +191,93 @@
                 "countryCode": "ps"
             },
             {
+                "title": "Rp.Dominicana",
+                "url": "https://consultalicencia.intrant.gob.do/Default",
+                "type": "country",
+                "countryCode": "do"
+            },
+            {
                 "title": "Singapore",
                 "url": "https://eservices.police.gov.sg/content/policehubhome/homepage/enquiry/status-of-driving-licence.html",
                 "type": "country",
                 "countryCode": "sg"
-            }
-        ]
-    },
-    {
-        "type": "with-children",
-        "title": "SUA",
-        "url": "",
-        "icon": "plus",
-        "key": "driving-licenses.usa",
-        "children": [
-            {
-                "title": "Arizona",
-                "url": "https://webapps.azdps.gov/public_inq/sgrd/ShowLicenseStatus.action",
-                "type": "country",
-                "countryCode": "us"
             },
             {
-                "title": "Connecticut",
-                "url": "https://www.dmvselfservice.ct.gov/LicenseStatusService.aspx",
-                "type": "country",
-                "countryCode": "us"
+                "title": "Venezuela",
+                "countryCode": "ve",
+                "url": "http://www.intt.gob.ve:8080/consultas_publicas/consultas_publicas.php",
+                "type": "country"
             },
             {
-                "title": "D.C.Washington",
-                "url": "https://public.dmv.washingtondc.gov/BusinessPages/DL/DriverLicenseVerification.aspx",
-                "type": "country",
-                "countryCode": "us"
+                "title": "Vietnam",
+                "countryCode": "vn",
+                "url": "https://gplx.gov.vn/",
+                "type": "country"
             },
             {
-                "title": "Florida",
-                "url": "https://services.flhsmv.gov/DLCheck/?AspxAutoDetectCookieSupport=1",
-                "type": "country",
-                "countryCode": "us"
-            },
-            {
-                "title": "Idaho",
-                "url": "https://www.accessidaho.org/itd/driver/license/status",
-                "type": "country",
-                "countryCode": "us"
-            },
-            {
-                "title": "Nebraska",
-                "url": "https://www.nebraska.gov/dmv/reinstatements/client.cgi",
-                "type": "country",
-                "countryCode": "us"
-            },
-            {
-                "title": "West Virginia",
-                "url": "https://apps.wv.gov/DMV/SelfService/DrivingRecord",
-                "type": "country",
-                "countryCode": "us"
-            },
-            {
-                "title": "Ontario",
-                "url": "https://www.dlc.rus.mto.gov.on.ca/dlc/enter-details",
-                "type": "country",
-                "countryCode": "ca"
-            },
-            {
-                "type": "direct-link",
-                "title": "Encondig&Decoding D.L.",
-                "url": "https://stevemorse.org/dl/dl.html",
-                "icon": "link",
-                "key": "driving-licenses.encoding"
+                "type": "with-children",
+                "title": "SUA",
+                "countryCode": "us",
+                "url": "",
+                "icon": "plus",
+                "key": "driving-licenses.usa",
+                "children": [
+                    {
+                        "title": "Arizona",
+                        "url": "https://webapps.azdps.gov/public_inq/sgrd/ShowLicenseStatus.action",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
+                    {
+                        "title": "Connecticut",
+                        "url": "https://www.dmvselfservice.ct.gov/LicenseStatusService.aspx",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
+                    {
+                        "title": "D.C.Washington",
+                        "url": "https://public.dmv.washingtondc.gov/BusinessPages/DL/DriverLicenseVerification.aspx",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
+                    {
+                        "title": "Florida",
+                        "url": "https://services.flhsmv.gov/DLCheck/?AspxAutoDetectCookieSupport=1",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
+                    {
+                        "title": "Idaho",
+                        "url": "https://www.accessidaho.org/itd/driver/license/status",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
+                    {
+                        "title": "Nebraska",
+                        "url": "https://www.nebraska.gov/dmv/reinstatements/client.cgi",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
+                    {
+                        "title": "West Virginia",
+                        "url": "https://apps.wv.gov/DMV/SelfService/DrivingRecord",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
+                    {
+                        "title": "Ontario",
+                        "url": "https://www.dlc.rus.mto.gov.on.ca/dlc/enter-details",
+                        "type": "country",
+                        "countryCode": "ca"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Encondig&Decoding D.L.",
+                        "url": "https://stevemorse.org/dl/dl.html",
+                        "icon": "link",
+                        "key": "driving-licenses.encoding"
+                    }
+                ]
             }
         ]
     }

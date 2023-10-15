@@ -99,6 +99,7 @@
     "driving-licenses": {
         "others": "Other Driving Licenses",
         "usa": "U. S. A.",
+        "canada": "Canada",
         "encoding": "Encondig&Decoding D.L."
     },
     "vehicle-info": {

@@ -99,6 +99,7 @@
     "driving-licenses": {
         "others": "Alte Permise",
         "usa": "S.U.A.",
+        "canada": "Canada",
         "encoding": "Encondig&Decoding D.L."
     },
     "vehicle-info": {
