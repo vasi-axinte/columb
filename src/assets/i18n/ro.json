@@ -128,5 +128,8 @@
         "spain": "Spania",
         "sweden": "Suedia",
         "ukraine": "Ucraina"
+    },
+    "technical-check":{
+        "germany": "Germania"
     }
 }

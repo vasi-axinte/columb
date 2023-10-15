@@ -1,122 +1,168 @@
 [
     {
-        "country": "Belgia",
+        "title": "Belgia",
         "countryCode": "be",
-        "url": "http://www.mobilit.fgov.be/WebdivPub_FR/wmvpstv1_fr?SUBSESSIONID=2240104"
+        "url": "http://www.mobilit.fgov.be/WebdivPub_FR/wmvpstv1_fr?SUBSESSIONID=2240104",
+        "type": "country"
     },
     {
-        "country": "Bulgaria",
+        "title": "Bulgaria",
         "countryCode": "bg",
-        "url": "https://rta.government.bg/services/check-inspection/index.html"
+        "url": "https://rta.government.bg/services/check-inspection/index.html",
+        "type": "country"
     },
     {
-        "country": "Cehia",
+        "title": "Cehia",
         "countryCode": "cz",
-        "url": "https://www.kontrolatachometru.cz/"
+        "url": "https://www.kontrolatachometru.cz/",
+        "type": "country"
     },
     {
-        "country": "Croația",
+        "title": "Croația",
         "countryCode": "hr",
-        "url": "https://www.cvh.hr/naslovnica/#searchFields"
+        "url": "https://www.cvh.hr/naslovnica/#searchFields",
+        "type": "country"
     },
     {
-        "country": "Danemarca",
+        "title": "Danemarca",
         "countryCode": "dk",
-        "url": "https://findsynsrapport.fstyr.dk/sider/soegning.aspx"
+        "url": "https://findsynsrapport.fstyr.dk/sider/soegning.aspx",
+        "type": "country"
     },
     {
-        "country": "Elveția",
+        "title": "Elveția",
         "countryCode": "ch",
-        "url": "https://adm.appls.fr.ch/ocn/ecari-dispoweb/ui/app/init/#/circ/prive/login"
+        "url": "https://adm.appls.fr.ch/ocn/ecari-dispoweb/ui/app/init/#/circ/prive/login",
+        "type": "country"
     },
     {
-        "country": "Estonia",
+        "title": "Estonia",
         "countryCode": "ee",
-        "url": "https://www.tehnoulevaatus.ee/en/"
+        "url": "https://www.tehnoulevaatus.ee/en/",
+        "type": "country"
     },
     {
-        "country": "Franța",
+        "title": "Franța",
         "countryCode": "fr",
-        "url": "https://www.utac-otc.com/v%c3%a9hicules-l%c3%a9gers/retrouver-un-contr%c3%b4le-vl-sur-immat"
+        "url": "https://www.utac-otc.com/v%c3%a9hicules-l%c3%a9gers/retrouver-un-contr%c3%b4le-vl-sur-immat",
+        "type": "country"
     },
     {
-        "country": "Georgia",
+        "title": "Georgia",
         "countryCode": "ge",
-        "url": "https://cs.coe.int/team140/laissezpasser/_layouts/15/laissezpasser/default.aspx"
+        "url": "https://cs.coe.int/team140/laissezpasser/_layouts/15/laissezpasser/default.aspx",
+        "type": "country"
     },
     {
-        "country": "Irlanda",
+        "type": "with-children",
+        "title": "Germania",
+        "countryCode": "de",
+        "url": "",
+        "icon": "plus",
+        "key": "technical-check.germany",
+        "children": [
+            {
+                "title": "Germania TUV",
+                "url": "https://auto-serviceportal.tuev-sued.de/suche_anonym/suche_kennzeichen",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Germania TUV-GUT",
+                "url": "https://www.gtue.de/assets/ubsuche/relaunch/ubsuche_form.php",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
+    },
+    {
+        "title": "Irlanda",
         "countryCode": "ie",
-        "url": "https://www.ncts.ie/1096"
+        "url": "https://www.ncts.ie/1096",
+        "type": "country"
     },
     {
-        "country": "Islanda",
+        "title": "Islanda",
         "countryCode": "is",
-        "url": "https://www.samgongustofa.is/umferd/okutaeki/okutaekjaskra/uppfletting/?vq="
+        "url": "https://www.samgongustofa.is/umferd/okutaeki/okutaekjaskra/uppfletting/?vq=",
+        "type": "country"
     },
     {
-        "country": "Italia",
+        "title": "Italia",
         "countryCode": "it",
-        "url": "https://www.ilportaledellautomobilista.it/web/portale-automobilista/verifica-ultima-revisione"
+        "url": "https://www.ilportaledellautomobilista.it/web/portale-automobilista/verifica-ultima-revisione",
+        "type": "country"
     },
     {
-        "country": "Kazahstan",
+        "title": "Kazahstan",
         "countryCode": "kz",
-        "url": "https://findhow.org/3360-onlajn-proverka-tehosmotra-v-kazahstane.html"
+        "url": "https://findhow.org/3360-onlajn-proverka-tehosmotra-v-kazahstane.html",
+        "type": "country"
     },
     {
-        "country": "Lituania",
+        "title": "Lituania",
         "countryCode": "lt",
-        "url": "https://itais.vta.lt/itais/services/search;jsessionid=722AF76F7B71ED49AA96DED9390DD9FC?execution=e1s1"
+        "url": "https://itais.vta.lt/itais/services/search;jsessionid=722AF76F7B71ED49AA96DED9390DD9FC?execution=e1s1",
+        "type": "country"
     },
     {
-        "country": "Marea Britanie",
+        "title": "Marea Britanie",
         "countryCode": "gb",
-        "url": "https://www.check-mot.service.gov.uk/"
+        "url": "https://www.check-mot.service.gov.uk/",
+        "type": "country"
     },
     {
-        "country": "Norvegia",
+        "title": "Norvegia",
         "countryCode": "no",
-        "url": "https://www.vegvesen.no/en/vehicles/own-and-maintain/eu-mandatory-roadworthiness-test-eu-test/kontrollfrist/"
+        "url": "https://www.vegvesen.no/en/vehicles/own-and-maintain/eu-mandatory-roadworthiness-test-eu-test/kontrollfrist/",
+        "type": "country"
     },
     {
-        "country": "Olanda",
+        "title": "Olanda",
         "countryCode": "nl",
-        "url": "https://www.kentekencheck.nu/"
+        "url": "https://www.kentekencheck.nu/",
+        "type": "country"
     },
     {
-        "country": "Polonia",
+        "title": "Polonia",
         "countryCode": "pl",
-        "url": "https://historiapojazdu.gov.pl/strona-glowna"
+        "url": "https://historiapojazdu.gov.pl/strona-glowna",
+        "type": "country"
     },
     {
-        "country": "România",
+        "title": "România",
         "countryCode": "ro",
-        "url": "https://prog.rarom.ro/rarpol/"
+        "url": "https://prog.rarom.ro/rarpol/",
+        "type": "country"
     },
     {
-        "country": "Rusia",
+        "title": "Rusia",
         "countryCode": "ru",
-        "url": "https://kbm-osago.ru/osago/proverka-tehosmotra.html"
+        "url": "https://kbm-osago.ru/osago/proverka-tehosmotra.html",
+        "type": "country"
     },
     {
-        "country": "Slovacia",
+        "title": "Slovacia",
         "countryCode": "sk",
-        "url": "https://www.testek.sk/?lang=sk&menuid=406"
+        "url": "https://www.testek.sk/?lang=sk&menuid=406",
+        "type": "country"
     },
     {
-        "country": "Slovenia",
+        "title": "Slovenia",
         "countryCode": "si",
-        "url": "https://e-uprava.gov.si/javne-evidence/motorna-vozila.html"
+        "url": "https://e-uprava.gov.si/javne-evidence/motorna-vozila.html",
+        "type": "country"
     },
     {
-        "country": "Suedia",
+        "title": "Suedia",
         "countryCode": "se",
-        "url": "https://www.car.info/sv-se/search-car-registry"
+        "url": "https://www.car.info/sv-se/search-car-registry",
+        "type": "country"
     },
     {
-        "country": "ITP in UE/SEE",
+        "title": "ITP in UE/SEE",
         "countryCode": "",
-        "url": "https://road-safety.transport.ec.europa.eu/road-safety-member-states/roadworthiness-certificate-and-proof-test_en?fbclid=IwAR0aFuWVFlLykFvq6wWfnzoqikbX6ecZbNg5bo7556OiZnkZN7X7kQIBROM"
+        "url": "https://road-safety.transport.ec.europa.eu/road-safety-member-states/roadworthiness-certificate-and-proof-test_en?fbclid=IwAR0aFuWVFlLykFvq6wWfnzoqikbX6ecZbNg5bo7556OiZnkZN7X7kQIBROM",
+        "type": "country"
     }
 ]
