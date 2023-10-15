@@ -252,7 +252,7 @@
                         "countryCode": "us"
                     },
                     {
-                        "title": "D.C.Washington",
+                        "title": "Washington D.C.",
                         "url": "https://public.dmv.washingtondc.gov/BusinessPages/DL/DriverLicenseVerification.aspx",
                         "type": "country",
                         "countryCode": "us"
@@ -282,10 +282,10 @@
                         "countryCode": "us"
                     },
                     {
-                        "title": "Ontario",
-                        "url": "https://www.dlc.rus.mto.gov.on.ca/dlc/enter-details",
+                        "title": "New York",
+                        "url": "https://process.dmv.ny.gov/LicenseMailingStatus/lstEnterDrvInfo1.cfm#cf-transaction-error",
                         "type": "country",
-                        "countryCode": "ca"
+                        "countryCode": "us"
                     },
                     {
                         "type": "direct-link",
