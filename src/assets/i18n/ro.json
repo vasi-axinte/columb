@@ -44,6 +44,16 @@
             "duapp": "DUApp",
             "targa-scan": "Targa Scan",
             "veicolo": "Veicolo"
+        },
+        "cnp-validation":{
+            "title": "Validare CNP",
+            "cnp-ro": "Romanian CNP check",
+            "idnp-md": "Verificare IDNP Moldova",
+            "pesel": "Verificare Nr. PESEL Polonia",
+            "rodne-cislo": "Verificare 'Rodne Cislo' Cehia",
+            "nif-spain": "Verificare NIF/NIE Spania",
+            "national-registry-number-belgium": "Verificare Nr. Registru National Belgia",
+            "usn-bulgaria": "Verificare numar USN Bulgaria"
         }
     },
     "specimens": {

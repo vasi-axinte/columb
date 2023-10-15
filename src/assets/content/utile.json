@@ -170,5 +170,63 @@
                 "key": "useful-links.google-play-apps.veicolo"
             }
         ]
+    },
+    {
+        "type": "with-children",
+        "title": "Validare CNP",
+        "url": "",
+        "icon": "plus",
+        "key": "useful-links.cnp-validation.title",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "Verificare CNP Romania",
+                "url": "https://www.registrulelectoral.ro/",
+                "icon": "link",
+                "key": "useful-links.cnp-validation.cnp-ro"
+            },
+            {
+                "type": "direct-link",
+                "title": "Verificare IDNP Moldova",
+                "url": "https://a.cec.md/ro/verifica-te-in-rsa-3111.html",
+                "icon": "link",
+                "key": "useful-links.cnp-validation.idnp-md"
+            },
+            {
+                "type": "direct-link",
+                "title": "Verificare Nr. PESEL Polonia",
+                "url": "https://aswa.am/vehicle-insurance",
+                "icon": "link",
+                "key": "useful-links.cnp-validation.pesel"
+            },
+            {
+                "type": "direct-link",
+                "title": "Verificare 'Rodne Cislo' Cehia",
+                "url": "https://overeni-rodneho-cisla.peckapc.cz/",
+                "icon": "link",
+                "key": "useful-links.cnp-validation.rodne-cislo"
+            },
+            {
+                "type": "direct-link",
+                "title": "Verificare NIF/NIE Spania",
+                "url": "https://www.letranif.com/",
+                "icon": "link",
+                "key": "useful-links.cnp-validation.nif-spain"
+            },
+            {
+                "type": "direct-link",
+                "title": "Verificare Nr. Registru National Belgia",
+                "url": "https://z01.be/hst8_php/rijksregisternummer_opl.php",
+                "icon": "link",
+                "key": "useful-links.cnp-validation.national-registry-number-belgium"
+            },
+            {
+                "type": "direct-link",
+                "title": "Verificare numar USN Bulgaria",
+                "url": "https://georgi.unixsol.org/programs/egn.php",
+                "icon": "link",
+                "key": "useful-links.cnp-validation.usn-bulgaria"
+            }
+        ]
     }
 ]

@@ -9,9 +9,7 @@
             <span class="flag-dropdown fi fi-{{element.countryCode}}"></span>
             <span>{{element.key | transloco}}</span> 
         </h3>
-        <h3 *ngIf="!element.countryCode"> 
-            <span>{{element.key | transloco}}</span> 
-        </h3>
+        <span *ngIf="!element.countryCode">{{element.key | transloco}}</span> 
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus"
         viewBox="0 0 16 16">
         <path

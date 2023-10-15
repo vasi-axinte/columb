@@ -44,6 +44,16 @@
             "duapp": "DUApp",
             "targa-scan": "Targa Scan",
             "veicolo": "Veicolo"
+        },
+        "cnp-validation":{
+            "title": "CNP Validation",
+            "cnp-ro": "Romanian CNP check",
+            "idnp-md": "Moldovan IDNP check",
+            "pesel": "Polish PESEL Check",
+            "rodne-cislo": "Czech Rodne Cislo check",
+            "nif-spain": "Spanish NIF/NIE check",
+            "national-registry-number-belgium": "Belgium National Registry Number check",
+            "usn-bulgaria": "Bulgarian USN number check"
         }
     },
     "specimens": {
