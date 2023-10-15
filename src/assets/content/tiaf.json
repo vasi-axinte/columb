@@ -36,6 +36,13 @@
     },
     {
         "type": "direct-link",
+        "title": "Specimene (Certificate Înmatriculare - UE)",
+        "url": "https://road-safety.transport.ec.europa.eu/road-safety-member-states/vehicle-registration-certificate_en?fbclid=IwAR1jczEYOeJeGoOAwCGhZcp0YQeK8-F6evuJSgDv3-XHrIKMrrog6q08kv4",
+        "icon": "link",
+        "key": "tiaf.specimens-eu"
+    },
+    {
+        "type": "direct-link",
         "title": "Recunoastemarca/model auto dupa foto",
         "url": "https://carnet.ai/",
         "icon": "link",

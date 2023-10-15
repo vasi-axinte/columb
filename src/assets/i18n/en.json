@@ -113,6 +113,7 @@
             "netherlands": "Netherlands",
             "great-britain":"Great Britain"
         },
+        "specimens-eu": "Specimens (EU Registration Certificates)",
         "obd-localization": "OBD Connector Localization"
     },
     "driving-licenses": {
