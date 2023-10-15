@@ -18,18 +18,41 @@
         "type": "country"
     },
     {
+        "type": "with-children",
         "title": "Danemarca",
         "countryCode": "dk",
-        "url": "https://motorregister.skat.dk/dmr-kerne/koeretoejdetaljer/visKoeretoej?execution=e2s1",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.denmark",
+        "children": [
+            {
+                "title": "Nummerplade",
+                "url": "https://www.nummerplade.net/nummerplade/cf88958.html",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Skat.dk",
+                "url": "https://motorregister.skat.dk/dmr-kerne/koeretoejdetaljer/visKoeretoej?execution=e1s1",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "type": "with-children",
         "title": "Elveția",
+        "countryCode": "ch",
         "url": "",
         "icon": "plus",
         "key": "vehicle-info.switzerland",
         "children": [
+            {
+                "title": "Mister Auto",
+                "url": "https://www.mister-auto.ch/fr/",
+                "icon": "link",
+                "type": "direct-link"
+            },
             {
                 "title": "TI",
                 "url": "https://www4.ti.ch/di/sc/veicoli/elenco-targhe",
@@ -81,28 +104,150 @@
         "type": "country"
     },
     {
+        "type": "with-children",
         "title": "Finlanda",
         "countryCode": "fi",
-        "url": "https://www.biltema.fi/auton-varaosahaku/",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.finland",
+        "children": [
+            {
+                "title": "Mister Auto",
+                "url": "https://www.mister-auto.fi/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Insulele Aland",
+                "url": "https://www.mister-auto.fi/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
+        "type": "with-children",
         "title": "Franța",
         "countryCode": "fr",
-        "url": "https://siv-auto.fr/",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.france",
+        "children": [
+            {
+                "title": "SIV Auto",
+                "url": "https://siv-auto.fr/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "SIV Interieur",
+                "url": "https://siv-auto.fr/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Master Auto",
+                "url": "https://www.mister-auto.com/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "SIV Auto",
+                "url": "https://siv-auto.fr/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Carter Cash",
+                "url": "https://www.carter-cash.com/pieces-auto/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Immatriculation Auto ",
+                "url": "https://immatriculation-auto.info/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
+        "type": "with-children",
         "title": "Germania",
         "countryCode": "de",
-        "url": "https://www.autodna.de/fahrgestellnummer-fin-pruefen",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.germany",
+        "children": [
+            {
+                "title": "Mister Auto",
+                "url": "https://www.mister-auto.de/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "AutoDNA",
+                "url": "https://www.mister-auto.de/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Verificare Cifra Control",
+                "url": "https://www.kneifel.de/TSN_Pruefziffer.php",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
+        "type": "with-children",
         "title": "Irlanda",
         "countryCode": "ie",
-        "url": "https://www.ncts.ie/1096",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.ireland",
+        "children": [
+            {
+                "title": "Mister Auto",
+                "url": "https://www.mister-auto.ie/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "NCTS auto",
+                "url": "https://www.mister-auto.fi/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "CVRT Autoutilitare",
+                "url": "https://operator.cvrt.ie/Vehicle/CRWExpiryTestReminder",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
+    },
+    {
+        "type": "with-children",
+        "title": "Italia",
+        "countryCode": "it",
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.italy",
+        "children": [
+            {
+                "title": "Mister Auto",
+                "url": "https://www.mister-auto.it/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Carter Cash",
+                "url": "https://www.carter-cash.it/ricambi-auto/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "title": "Islanda",
@@ -123,10 +268,38 @@
         "type": "country"
     },
     {
+        "type": "with-children",
         "title": "Marea Britanie",
         "countryCode": "gb",
-        "url": "https://totalcarcheck.co.uk/",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.great-britain",
+        "children": [
+            {
+                "title": "TotalCarCheck",
+                "url": "https://totalcarcheck.co.uk/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Doctor Car Parts",
+                "url": "https://doctorcarparts.com/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "IsItNicked Vin Check",
+                "url": "https://isitnicked.com/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Insula Man",
+                "url": "https://services.gov.im/vehicles-driving/vehicle-search",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "title": "Moldova",
@@ -135,16 +308,48 @@
         "type": "country"
     },
     {
+        "type": "with-children",
         "title": "Norvegia",
         "countryCode": "no",
-        "url": "https://www.vegvesen.no/en/vehicles/buy-and-sell/vehicle-information/sjekk-kjoretoyopplysninger/",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.norway",
+        "children": [
+            {
+                "title": "Vegvesen",
+                "url": "https://www.vegvesen.no/en/vehicles/buy-and-sell/vehicle-information/sjekk-kjoretoyopplysninger/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Regnr.info",
+                "url": "https://regnr.info/husker-ikke-hele-regnr?s1=&s2=&s3=&s4=&s5=&s6=&s7=&biltype=&farge=&type=&yrf=&yrt=&chassinr=&",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
+        "type": "with-children",
         "title": "Olanda",
         "countryCode": "nl",
-        "url": "https://ovi.rdw.nl/default.aspx",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.netherlands",
+        "children": [
+            {
+                "title": "RDW Kentekencheck",
+                "url": "https://ovi.rdw.nl/default.aspx",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Finnik",
+                "url": "https://publiek.vwe.nl/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "title": "Polonia",
@@ -153,10 +358,32 @@
         "type": "country"
     },
     {
+        "type": "with-children",
         "title": "Portugalia",
         "countryCode": "pt",
-        "url": "https://www.automovelonline.mj.pt/AutoOnlineProd/FrontOfficeController?action=validaMatricula&url=FrontOfficeController%3Faction%3Dpedidocertidao&contr=FrontOfficeController",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.portugal",
+        "children": [
+            {
+                "title": "Mister Auto",
+                "url": "https://www.mister-auto.pt/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Automovel",
+                "url": "https://www.automovelonline.mj.pt/AutoOnlineProd/FrontOfficeController?action=validaMatricula&url=FrontOfficeController%3Faction%3Dpedidocertidao&contr=FrontOfficeController",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Auto Radiate",
+                "url": "https://www.imt-ip.pt/MatriculasCanceladas/matriculas.asp",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "title": "România",
@@ -171,10 +398,26 @@
         "type": "country"
     },
     {
+        "type": "with-children",
         "title": "Slovacia",
         "countryCode": "sk",
-        "url": "https://www.stkonline.sk/spz/BR129YC",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.slovakia",
+        "children": [
+            {
+                "title": "OverenieSTK",
+                "url": "https://www.overeniestk.sk/overenie-km",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Overenie.digital",
+                "url": "https://overenie.digital/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "title": "Slovenia",
@@ -183,22 +426,82 @@
         "type": "country"
     },
     {
+        "type": "with-children",
         "title": "Spania",
         "countryCode": "es",
-        "url": "https://www.sedeelectronicaautomovil.com/sea/public/verify.html",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.spain",
+        "children": [
+            {
+                "title": "Mister Auto",
+                "url": "https://www.mister-auto.es/recambios-coche/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Carter Cash",
+                "url": "https://www.carter-cash.es/piezas-auto/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Spania",
+                "url": "https://www.sedeelectronicaautomovil.com/sea/public/verify.html",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
+        "type": "with-children",
         "title": "Suedia",
         "countryCode": "se",
-        "url": "https://fordon-fu-regnr.transportstyrelsen.se/",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.sweden",
+        "children": [
+            {
+                "title": "TransportStyrelsen",
+                "url": "https://fordon-fu-regnr.transportstyrelsen.se/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "TransportStyrelsen2",
+                "url": "https://fordon-verifieraregistreringsbevis.transportstyrelsen.se/kollaregbevis.aspx",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "OverenieSTK",
+                "url": "https://biluppgifter.se/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
+        "type": "with-children",
         "title": "Ucraina",
         "countryCode": "ua",
-        "url": "https://opendata.hsc.gov.ua/check-vehicle-registration-certificate/",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.ukraine",
+        "children": [
+            {
+                "title": "Hsc.Gov.Ua",
+                "url": "https://opendata.hsc.gov.ua/check-vehicle-registration-certificate/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Carma Ucraina",
+                "url": "https://carma.com.ua/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "title": "Ungaria",

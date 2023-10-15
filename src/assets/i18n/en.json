@@ -102,6 +102,20 @@
         "encoding": "Encondig&Decoding D.L."
     },
     "vehicle-info": {
-        "switzerland": "Switzerland"
+        "switzerland": "Switzerland",
+        "denmark": "Denmark",
+        "finland": "Finland",
+        "france": "France",
+        "germany": "Germany",
+        "ireland": "Ireland",
+        "italy": "Italy",
+        "great-britain": "Great Britain",
+        "norway": "Norway",
+        "netherlands": "Netherlands",
+        "portugal": "Portugal",
+        "slovakia": "Slovakia",
+        "spain": "Spain",
+        "sweden": "Sweden",
+        "ukraine": "Ukraine"
     }
 }
