@@ -36,6 +36,12 @@
                 "url": "https://motorregister.skat.dk/dmr-kerne/koeretoejdetaljer/visKoeretoej?execution=e1s1",
                 "icon": "link",
                 "type": "direct-link"
+            },
+            {
+                "title": "AltOmBilen",
+                "url": "https://www.altombilen.dk/?fbclid=IwAR0G98rLGWLeqXiIugvqp_OIXZpvGmTDnmGrpjNLu6FDLL_nAQU6GXsc_7E",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
