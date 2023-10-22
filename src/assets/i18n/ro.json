@@ -47,13 +47,22 @@
         },
         "cnp-validation":{
             "title": "Validare CNP",
-            "cnp-ro": "Romanian CNP check",
             "idnp-md": "Verificare IDNP Moldova",
             "pesel": "Verificare Nr. PESEL Polonia",
             "rodne-cislo": "Verificare 'Rodne Cislo' Cehia",
             "nif-spain": "Verificare NIF/NIE Spania",
             "national-registry-number-belgium": "Verificare Nr. Registru National Belgia",
-            "usn-bulgaria": "Verificare numar USN Bulgaria"
+            "usn-bulgaria": "Verificare numar USN Bulgaria",
+            "romania": {
+                "title": "Validare CNP România",
+                "link1": "România Link 1",
+                "link2": "România Link 2"
+            },
+            "moldova": {
+                "title": "Validare CNP Moldova",
+                "link1": "Moldova Link 1",
+                "link2": "Moldova Link 2"
+            }
         }
     },
     "specimens": {

@@ -179,18 +179,50 @@
         "key": "useful-links.cnp-validation.title",
         "children": [
             {
-                "type": "direct-link",
+                "type": "with-children",
                 "title": "Verificare CNP Romania",
-                "url": "https://www.registrulelectoral.ro/",
-                "icon": "link",
-                "key": "useful-links.cnp-validation.cnp-ro"
+                "url": "",
+                "icon": "plus",
+                "key": "useful-links.cnp-validation.romania.title",
+                "children": [
+                    {
+                        "type": "direct-link",
+                        "title": "România Link1",
+                        "url": "https://www.registrulelectoral.ro/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.romania.link1"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "România Link2",
+                        "url": "http://www.validare.ro/validare-cnp.html",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.romania.link2"
+                    }
+                ]
             },
             {
-                "type": "direct-link",
-                "title": "Verificare IDNP Moldova",
-                "url": "https://a.cec.md/ro/verifica-te-in-rsa-3111.html",
-                "icon": "link",
-                "key": "useful-links.cnp-validation.idnp-md"
+                "type": "with-children",
+                "title": "Verificare CNP Moldova",
+                "url": "",
+                "icon": "plus",
+                "key": "useful-links.cnp-validation.moldova.title",
+                "children": [
+                    {
+                        "type": "direct-link",
+                        "title": "Moldova Link1",
+                        "url": "https://a.cec.md/ro/verifica-te-in-rsa-3111.html",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.moldova.link1"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Moldova Link2",
+                        "url": "https://e-services.md/public/WebPublic/index.php?action=person",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.moldova.link2"
+                    }
+                ]
             },
             {
                 "type": "direct-link",
