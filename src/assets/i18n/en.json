@@ -111,7 +111,8 @@
             "it-slo-sk-cz-ro": "Stolen Vehicles - IT/Slo/Sk/Cz/Ro",
             "spain": "Spain",
             "netherlands": "Netherlands",
-            "great-britain":"Great Britain"
+            "great-britain":"Great Britain",
+            "italy": "Italy"
         },
         "specimens-eu": "Specimens (EU Registration Certificates)",
         "obd-localization": "OBD Connector Localization"

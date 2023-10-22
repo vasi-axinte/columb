@@ -229,6 +229,13 @@
             },
             {
                 "type": "direct-link",
+                "title": "Italia",
+                "url": "https://crimnet.dcpc.interno.gov.it/crimnet/ricerca-targhe-telai-rubati-smarriti",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.italy"
+            },
+            {
+                "type": "direct-link",
                 "title": "Spania",
                 "url": "https://desmace.com/sustraidos/",
                 "icon": "link",
