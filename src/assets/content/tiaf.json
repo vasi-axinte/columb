@@ -50,7 +50,7 @@
     },
     {
         "type": "with-children",
-        "title": "Localizare serie sasiu pansonata - VIN auto",
+        "title": "Localizare serie sasiu poansonată - VIN auto",
         "url": "",
         "icon": "plus",
         "key": "tiaf.vin-localization-auto.title",

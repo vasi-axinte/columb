@@ -52,7 +52,7 @@
             "rodne-cislo": "Czech Rodne Cislo check",
             "nif-spain": "Spanish NIF/NIE check",
             "national-registry-number-belgium": "Belgium National Registry Number check",
-            "usn-bulgaria": "Bulgarian USN number check",
+            "egn-bulgaria": "Bulgarian EGN number check",
             "romania": {
                 "title": "CNP Validation Romania",
                 "link1": "Romania Link 1",

@@ -132,7 +132,7 @@
         "key": "driving-licenses.others",
         "children": [
             {
-                "title": "Arabia Saudita",
+                "title": "Arabia Saudită",
                 "url": "https://www.absher.sa/wps/portal/individuals/Home/myservices/einquiries/traffic/pqdlinfo/!ut/p/z0/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zizYx8nA09LIy8_Z3dLQ0Cjbw93Hy8fAwNLM30g1Pz9AuyHRUBGd-5-A!!/#d",
                 "type": "country",
                 "countryCode": "sa"
@@ -242,7 +242,7 @@
                 "countryCode": "ps"
             },
             {
-                "title": "Rp.Dominicana",
+                "title": "R. Dominicană",
                 "url": "https://consultalicencia.intrant.gob.do/Default",
                 "type": "country",
                 "countryCode": "do"

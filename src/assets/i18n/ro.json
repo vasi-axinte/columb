@@ -23,7 +23,7 @@
         "cazier-judiciar": "Autenticitate cazier judiciar (RO)",
         "eu-companies": "Căutare companii din UE",
         "term-calculator": "Calculator termene judiciare",
-        "stay-days-calculator": "Calculator zile de sedere",
+        "stay-days-calculator": "Calculator zile ședere",
         "firearms-catalog": "Catalog arme de foc",
         "notary-office": "Birouri notariale",
         "instance-file": "Dosar Instanta",
@@ -52,7 +52,7 @@
             "rodne-cislo": "Verificare 'Rodne Cislo' Cehia",
             "nif-spain": "Verificare NIF/NIE Spania",
             "national-registry-number-belgium": "Verificare Nr. Registru National Belgia",
-            "usn-bulgaria": "Verificare numar USN Bulgaria",
+            "egn-bulgaria": "Verificare numar EGN Bulgaria",
             "romania": {
                 "title": "Validare CNP România",
                 "link1": "România Link 1",
@@ -89,7 +89,7 @@
         "make-photo-recognition": "Recunoaste marca/model auto dupa foto",
         "vin-control-digit": "VIN Cifra de control",
         "vin-localization-auto": {
-          "title": "Localizare serie sasiu pansonata - VIN auto",
+          "title": "Localizare serie sasiu poansonată - VIN auto",
           "znajdzvin": "Auto-ZNAJDZVIN.PL",
           "autofil-auto": "Auto-AUTOFIL.IT",
           "autofil-offroad": "Off road - AUTOFIL.IT",
@@ -136,7 +136,7 @@
     },
     "vehicle-info": {
         "switzerland": "Elveția",
-        "denmark": "Denmark",
+        "denmark": "Danemarca",
         "finland": "Finlanda",
         "france": "Franța",
         "germany": "Germania",

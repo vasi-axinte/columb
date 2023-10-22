@@ -43,7 +43,7 @@
     },
     {
         "type": "direct-link",
-        "title": "Calculator zile de sedere",
+        "title": "Calculator zile ședere",
         "url": "https://ec.europa.eu/assets/home/visa-calculator/calculator.htm?lang=en",
         "icon": "link",
         "key": "useful-links.stay-days-calculator"
@@ -254,10 +254,10 @@
             },
             {
                 "type": "direct-link",
-                "title": "Verificare numar USN Bulgaria",
+                "title": "Verificare numar EGN Bulgaria",
                 "url": "https://georgi.unixsol.org/programs/egn.php",
                 "icon": "link",
-                "key": "useful-links.cnp-validation.usn-bulgaria"
+                "key": "useful-links.cnp-validation.egn-bulgaria"
             }
         ]
     }
