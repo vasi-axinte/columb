@@ -153,5 +153,11 @@
     },
     "technical-check":{
         "germany": "Germany"
+    },
+    "digit-calculator":{
+        "title": "Digit Calculator",
+        "user-input": "Input",
+        "result": "Result",
+        "calculate": "Calculate"
     }
 }

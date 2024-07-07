@@ -43,6 +43,9 @@ import { ResetPasswordComponent } from './components/reset-password/reset-passwo
 import { UpdateUserComponent } from './components/update-user/update-user.component';
 import { ChatComponent } from './components/chat/chat.component';
 import { PolyCountryElementComponent } from './components/poly-list/poly-country-element/poly-country-element.component';
+import { DigitCalculatorComponent } from './components/digit-calculator/digit-calculator.component';
+import { TravelDocsSamplesComponent } from './components/travel-docs-samples/travel-docs-samples.component';
+import { PolyNoTypeElementComponent } from './components/poly-list/poly-no-type-element/poly-no-type-element.component';
 
 @NgModule({
   declarations: [
@@ -77,6 +80,9 @@ import { PolyCountryElementComponent } from './components/poly-list/poly-country
     ResetPasswordComponent,
     UpdateUserComponent,
     ChatComponent,
+    DigitCalculatorComponent,
+    TravelDocsSamplesComponent,
+    PolyNoTypeElementComponent
   ],
   imports: [
     BrowserModule,

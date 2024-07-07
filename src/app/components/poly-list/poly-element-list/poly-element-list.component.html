@@ -14,5 +14,6 @@
         <app-poly-with-children-element *ngIf="element.type==='with-children'" [element]="element"></app-poly-with-children-element>
         <app-poly-in-subpage-url-element *ngIf="element.type==='in-subpage-url'" [element]="element"></app-poly-in-subpage-url-element >
         <app-poly-country-element *ngIf="element.type==='country'" [element]="element"></app-poly-country-element >
+        <app-poly-no-type-element *ngIf="!element.type" [element]="element"></app-poly-no-type-element>
     </div>
 </div>

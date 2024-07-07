@@ -153,5 +153,11 @@
     },
     "technical-check":{
         "germany": "Germania"
+    },
+    "digit-calculator":{
+        "title": "Calculator Cifra de control",
+        "user-input": "Introduceți valorile",
+        "result": "Rezultat",
+        "calculate": "Calculează"
     }
 }

@@ -1,0 +1,34 @@
+<div *ngIf="element && element.children" class="accordion-item list-group-item list-group-item-action list-item-container" id="{{element.title}}">
+    <a class="accordion-button" 
+    type="button" 
+    [attr.data-bs-toggle]="'collapse'" 
+    [attr.data-bs-target]="'#flush-' + getId(element.title)" 
+    aria-expanded="false" 
+    [attr.aria-controls]="'flush-' + getId(element.title)">
+        <h3 *ngIf="element.countryCode"> 
+            <span class="flag-dropdown fi fi-{{element.countryCode}}"></span>
+            <span>{{element.key | transloco}}</span> 
+        </h3>
+        <span>{{element.title | transloco}}</span> 
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus"
+        viewBox="0 0 16 16">
+        <path
+            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+        </svg>
+    </a>
+    <div id="flush-{{getId(element.title)}}" class="accordion-collapse collapse" 
+    [ngClass]="{'accordion-collapse' : true, 
+                'collapse': !element.shouldShow,
+                'show': element.shouldShow }"
+    [attr.data-bs-parent]="'#{{element.title}}'">
+        <div class="accordion-body">
+            <div *ngFor="let elementChild of element.children" >
+                <app-poly-direct-link-element *ngIf="elementChild.type === 'direct-link'" [element]="elementChild"></app-poly-direct-link-element>
+                <app-poly-direct-link-element *ngIf="!elementChild.type" [element]="elementChild"></app-poly-direct-link-element>
+                <app-poly-in-subpage-url-element *ngIf="elementChild.type === 'in-subpage-url'" [element]="elementChild"></app-poly-in-subpage-url-element>
+                <app-poly-country-element *ngIf="elementChild.type === 'country'" [element]="elementChild" ></app-poly-country-element>
+                <app-poly-with-children-element *ngIf="elementChild.type === 'with-children'" [element]="elementChild" ></app-poly-with-children-element >
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+
+<div class="card text-center col-sm-6 col-lg-6 col-12 mx-auto">
+    <div class="card-body">
+        <h2 class="fw-bold mb-2 text-uppercase">{{ 'digit-calculator.title' | transloco }}</h2>
+
+        <div class="form-outline form-dark mb-4">
+            <label class="form-label" for="email">{{ 'digit-calculator.user-input' | transloco }}</label>
+            <input type="text" class="form-control form-control-lg" placeholder="{{'digit-calculator.user-input' | transloco}}" id="input" type="input" [formControl]="input"/>
+        </div>
+
+        <button class="btn btn-outline-dark btn-lg px-5" type="button" (click)="calculate()">{{ 'digit-calculator.calculate' | transloco }}</button> 
+        <!-- <button class="btn btn-outline-dark btn-lg px-5" type="button" (click)="calculate()">{{ 'digit-calculator.reset' | transloco }}</button>  -->
+
+        <div class="form-outline form-dark">
+            <label class="form-label" for="result">{{ 'digit-calculator.result' | transloco }}</label>
+            <input type="text" class="form-control form-control-lg" placeholder="{{ 'digit-calculator.result' | transloco }}" id="result" type="result" [formControl]="result" readonly/>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function calculateControlDigit() {
+        // Obține valorile introduse și completează cu zero dacă este cazul
+        const inputValues = (document.getElementById('inputValues').value + '000000000000000000000000000000').toUpperCase().slice(0, 30);
+
+        // Converteste literele in valori numerice conform regulilor date
+        const values = Array.from(inputValues, char =>
+            char >= 'A' && char <= 'Z' ? char.charCodeAt(0) - 'A'.charCodeAt(0) + 10 : parseInt(char)
+        );
+
+        // Defineste vectorul de ponderi
+        const weights = [7, 3, 1, 7, 3, 1, 7, 3, 1, 7, 3, 1, 7, 3, 1, 7, 3, 1, 7, 3, 1, 7, 3, 1, 7, 3, 1, 7, 3, 1];
+
+        // Calculează suma produselor
+        const sum = values.reduce((acc, value, index) => acc + value * weights[index], 0);
+
+        // Calculează cifra de control
+        const controlDigit = sum % 10;
+
+        // Afișează rezultatul într-un chenar alb
+        var popupContainer = document.getElementById("popup-container");
+        const resultPopup = document.getElementById('resultPopup');
+        const resultText = document.getElementById('resultText');
+        resultText.textContent = `Cifra de control este: ${controlDigit}`
+        popupContainer.style.display = "flex";
+        resultPopup.style.display = 'block';
+    }
+
+    function closePopup() {
+        // Închide fereastra pop-up
+        const resultPopup = document.getElementById('resultPopup');
+        var popupContainer = document.getElementById("popup-container");
+        resultPopup.style.display = 'none';
+        popupContainer.style.display = "none";
+    }
+</script>
+    <!-- <img class="watermark" src="https://i.ibb.co/q9v4wW9/20230913-133046.png" alt="20230913-133046" border="0"></a> -->

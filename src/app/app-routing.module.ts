@@ -23,11 +23,28 @@ import { ResetPasswordComponent } from './components/reset-password/reset-passwo
 import { ResetPasswordEmailComponent } from './components/reset-password-email/reset-password-email.component';
 import { UpdateUserComponent } from './components/update-user/update-user.component';
 import { ChatComponent } from './components/chat/chat.component';
+import { DigitCalculatorComponent } from './components/digit-calculator/digit-calculator.component';
+import { TravelDocsSamplesComponent } from './components/travel-docs-samples/travel-docs-samples.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'create-user', component: CreateUserComponent },
-  { path: 'travel-docs', component: TravelDocsComponent, canActivate: [AuthGuard] },
+  { path: 'travel-docs', children: [
+    {
+      path:'',
+      component: TravelDocsComponent, 
+    },
+    { 
+      path: 'digit-calculator', 
+      component: DigitCalculatorComponent 
+    },
+    { 
+      path: 'samples', 
+      component: TravelDocsSamplesComponent 
+    }
+    ],
+    canActivate: [AuthGuard] 
+  },
   { path: 'vehicle-info', component: VehicleInfoComponent, canActivate: [AuthGuard] },
   { path: 'technical-check', component: TechnicalCheckComponent, canActivate: [AuthGuard] },
   { path: 'driving-license', component: DrivingLicenseComponent, canActivate: [AuthGuard] },
@@ -81,7 +98,7 @@ const routes: Routes = [
   ]},
   { path: 'update-user/:userId', component: UpdateUserComponent },
   { path: 'chat', component: ChatComponent },
-  { path: '', component: HomeComponent },
+  { path: '', component: HomeComponent }
 ];
 
 @NgModule({

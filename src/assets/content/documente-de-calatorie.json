@@ -49,4 +49,17 @@
         "countryCode": "",
         "url": "https://cs.coe.int/team140/laissezpasser/_layouts/15/laissezpasser/default.aspx"
     }
+    ,
+    {
+        "country": "Specimene+Documente Acceptate",
+        "countryCode": "",
+        "url": "",
+        "internalUrl": "samples"
+    },
+    {
+        "country": "Calculator Cifre De Control",
+        "countryCode": "",
+        "url": "",
+        "internalUrl": "digit-calculator"
+    }
 ]
