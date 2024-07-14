@@ -2,7 +2,7 @@
     {
         "country": "Austria",
         "countryCode": "at",
-        "url": "https://www.vvo.at/vvo/vvo.nsf/sysPages/versichererauskunft.html"
+        "url": "https://vvonet.vvo.at/vvonet_versichererauskunft"
     },
     {
         "country": "Armenia",
@@ -53,6 +53,11 @@
         "country": "Finlanda",
         "countryCode": "fi",
         "url": "https://www.claimsic.fi/#!/search"
+    },
+    {
+        "title": "Franta",
+        "countryCode": "fr",
+        "url": "https://www.consultation-fva.fr/"
     },
     {
         "country": "Grecia",
