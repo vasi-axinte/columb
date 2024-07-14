@@ -69,7 +69,6 @@
         "docis": "DOCIS",
         "prado-online": "PRADO-online",
         "prado-glossary": "PRADO (glosar)",
-        "regula": "REGULA",
         "edison-td": "EdisonTD",
         "pc-ue-see": "Specimene P.C.(UE si SEE)",
         "pc-bura": "Specimene P.C.(by BURA)",
@@ -79,7 +78,14 @@
         "airline-info-handbook": "Doc.UE pentru straini (Airline Information Handbook)",
         "north-america": "Specimene documente America de Nord",
         "south-america": "Specimene documente America de Sud",
-        "the-eye": "THE-EYE.NL"
+        "the-eye": "THE-EYE.NL",
+        "regula":{
+            "title": "REGULA",
+            "docs": "REGULA Documente",
+            "banknotes": "REGULA Bancnote",
+            "face-comparison": "REGULA Compararea Fetei",
+            "foto-face-comparison":"FOTO Compararea Fetei"
+        }
     },
     "tiaf": {
         "euvid": "EUVID",

@@ -69,7 +69,6 @@
         "docis": "DOCIS",
         "prado-online": "PRADO-online",
         "prado-glossary": "PRADO (glossary)",
-        "regula": "REGULA",
         "edison-td": "EdisonTD",
         "pc-ue-see": "Specimens ID (EU and EEA)",
         "pc-bura": "Specimens ID (by BURA)",
@@ -79,7 +78,14 @@
         "airline-info-handbook": "EU Documents for Foreigners (Airline Information Handbook)",
         "north-america": "Specimens of North American Documents",
         "south-america": "Specimens of South American Documents",
-        "the-eye": "THE-EYE.NL"
+        "the-eye": "THE-EYE.NL",
+        "regula":{
+            "title": "REGULA",
+            "docs": "REGULA Docs",
+            "banknotes": "REGULA Banknotes",
+            "face-comparison": "REGULA Face Comparison",
+            "foto-face-comparison":"Foto Face Comparison"
+        }
     },
     "tiaf": {
         "euvid": "EUVID",

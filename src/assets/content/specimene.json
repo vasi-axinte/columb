@@ -25,35 +25,35 @@
         "title": "Regula",
         "url": "",
         "icon": "plus",
-        "key": "specimens.regula",
+        "key": "specimens.regula.title",
         "children": [
             {
                 "type": "direct-link",
                 "title": "REGULA Documente",
                 "url": "https://regulaforensics.com/glossary/documents/",
                 "icon": "link",
-                "key": "tiaf.vin-localization-auto.znajdzvin"
+                "key": "specimens.regula.docs"
             },
             {
                 "type": "direct-link",
                 "title": "REGULA Bancnote",
                 "url": "https://regulaforensics.com/glossary/banknotes/",
                 "icon": "link",
-                "key": "tiaf.vin-localization-auto.autofil-auto"
+                "key": "specimens.regula.banknotes"
             },
             {
                 "type": "direct-link",
                 "title": "REGULA Compararea Fetei",
                 "url": "https://mobile.regulaforensics.com/",
                 "icon": "link",
-                "key": "tiaf.vin-localization-auto.autofil-offroad"
+                "key": "specimens.regula.face-comparison"
             },
             {
                 "type": "direct-link",
                 "title": "FOTO Compararea Fetei",
                 "url": "https://facecomparison.toolpie.com/",
                 "icon": "link",
-                "key": "tiaf.vin-localization-auto.autofil-mopeds"
+                "key": "specimens.regula.foto-face-comparison"
             }
         ]
     },
