@@ -152,7 +152,11 @@
         "ukraine": "Ukraine"
     },
     "technical-check":{
-        "germany": "Germany"
+        "germany": "Germany",
+        "france": "France",
+        "great-britain": "Great Britain",
+        "netherlands": "Netherlands",
+        "poland": "Poland"
     },
     "digit-calculator":{
         "title": "Digit Calculator",

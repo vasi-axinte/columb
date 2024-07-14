@@ -42,10 +42,32 @@
         "type": "country"
     },
     {
+        "type": "with-children",
         "title": "Franța",
         "countryCode": "fr",
-        "url": "https://www.utac-otc.com/v%c3%a9hicules-l%c3%a9gers/retrouver-un-contr%c3%b4le-vl-sur-immat",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "technical-check.france",
+        "children": [
+            {
+                "title": "Histovec Link1",
+                "url": "https://histovec.interieur.gouv.fr/histovec/proprietaire?fbclid=IwAR1reuSZVIjoMYRL7FNHawtyhExc4TSzGoFmEsRQFVxWImdYH_4tgyl56ts",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Utac-otc Link2",
+                "url": "https://www.utac-otc.com/v%C3%A9hicules-l%C3%A9gers/retrouver-un-contr%C3%B4le-vl-sur-immat",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Centre ITP Link3",
+                "url": "https://www.utac-otc.com/v%C3%A9hicules-l%C3%A9gers/retrouver-un-contr%C3%B4le-vl-%C3%A0-partir-de-la-vignette-pare-brise#:~:text=Vous%20devez%20contacter%20le%20centre,appos%C3%A9e%20sur%20votre%20pare%20brise",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "title": "Georgia",
@@ -106,10 +128,20 @@
         "type": "country"
     },
     {
+        "type": "with-children",
         "title": "Marea Britanie",
         "countryCode": "gb",
-        "url": "https://www.check-mot.service.gov.uk/",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "technical-check.great-britain",
+        "children": [
+            {
+                "title": "VehicleSmart Link1",
+                "url": "https://www.vehiclesmart.com/index.html",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "title": "Norvegia",
@@ -118,16 +150,54 @@
         "type": "country"
     },
     {
+        "type": "with-children",
         "title": "Olanda",
         "countryCode": "nl",
-        "url": "https://www.kentekencheck.nu/",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "technical-check.netherlands",
+        "children": [
+            {
+                "title": "Kentekencheck.me Link1",
+                "url": "https://www.kentekencheck.me/auto-overschrijven/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Kentekencheck.nu Link2",
+                "url": "https://www.kentekencheck.nu/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
+        "type": "with-children",
         "title": "Polonia",
         "countryCode": "pl",
-        "url": "https://historiapojazdu.gov.pl/strona-glowna",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "technical-check.poland",
+        "children": [
+            {
+                "title": "Historiapojazdu Link1",
+                "url": "https://historiapojazdu.gov.pl/strona-glowna",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Auto.Info Link2",
+                "url": "https://auto-info.gratis/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Autocare (ITP) Link3",
+                "url": "https://bezpiecznyautobus.gov.pl/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "title": "România",
@@ -158,6 +228,28 @@
         "countryCode": "se",
         "url": "https://www.car.info/sv-se/search-car-registry",
         "type": "country"
+    },
+    {
+        "type": "with-children",
+        "title": "Ucraina peste 3.5 tone",
+        "countryCode": "ua",
+        "url": "",
+        "icon": "plus",
+        "key": "technical-check.ukraine",
+        "children": [
+            {
+                "title": "Dupa numar de inmatriculare Link1",
+                "url": "https://opendata.hsc.gov.ua/search-otk/veh/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Dupa numarul certificatului tehnic Link2",
+                "url": "https://opendata.hsc.gov.ua/search-otk/num/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "title": "ITP in UE/SEE",

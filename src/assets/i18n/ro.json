@@ -152,7 +152,12 @@
         "ukraine": "Ucraina"
     },
     "technical-check":{
-        "germany": "Germania"
+        "germany": "Germania",
+        "france": "Franța",
+        "great-britain": "Marea Britanie",
+        "netherlands": "Olanda",
+        "poland": "Polonia",
+        "ukraine": "Ucraina peste 3.5 tone"
     },
     "digit-calculator":{
         "title": "Calculator Cifra de control",
