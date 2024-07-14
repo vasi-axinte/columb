@@ -21,11 +21,41 @@
         "key": "specimens.prado-glossary"
     },
     {
-        "type": "direct-link",
-        "title": "REGULA",
-        "url": "https://regulaforensics.com/explore/expert-hub/glossary/documents",
-        "icon": "link",
-        "key": "specimens.regula"
+        "type": "with-children",
+        "title": "Regula",
+        "url": "",
+        "icon": "plus",
+        "key": "specimens.regula",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "REGULA Documente",
+                "url": "https://regulaforensics.com/glossary/documents/",
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.znajdzvin"
+            },
+            {
+                "type": "direct-link",
+                "title": "REGULA Bancnote",
+                "url": "https://regulaforensics.com/glossary/banknotes/",
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.autofil-auto"
+            },
+            {
+                "type": "direct-link",
+                "title": "REGULA Compararea Fetei",
+                "url": "https://mobile.regulaforensics.com/",
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.autofil-offroad"
+            },
+            {
+                "type": "direct-link",
+                "title": "FOTO Compararea Fetei",
+                "url": "https://facecomparison.toolpie.com/",
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.autofil-mopeds"
+            }
+        ]
     },
     {
         "type": "direct-link",
@@ -89,5 +119,12 @@
         "url": "https://drive.google.com/file/d/1q4SiAlVfMe2qNkJsiZpOyYgNPDvGkCS2/view?usp=share_link",
         "icon": "link",
         "key": "specimens.south-america"
+    },
+    {
+        "type": "direct-link",
+        "title": "THE-EYE.NL",
+        "url": "https://the-eye.nl/",
+        "icon": "link",
+        "key": "specimens.the-eye"
     }
 ]
