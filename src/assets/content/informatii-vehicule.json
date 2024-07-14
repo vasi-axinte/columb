@@ -516,12 +516,6 @@
         ]        
     },
     {
-        "title": "Slovenia",
-        "countryCode": "si",
-        "url": "https://e-uprava.gov.si/javne-evidence/motorna-vozila.html",
-        "type": "country"
-    },
-    {
         "type": "with-children",
         "title": "Slovenia",
         "countryCode": "si",
