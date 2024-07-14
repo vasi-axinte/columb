@@ -136,6 +136,7 @@
     },
     "vehicle-info": {
         "switzerland": "Switzerland",
+        "czech-republic": "Czech Republic",
         "denmark": "Denmark",
         "finland": "Finland",
         "france": "France",
@@ -146,7 +147,10 @@
         "norway": "Norway",
         "netherlands": "Netherlands",
         "portugal": "Portugal",
+        "poland":"Poland",
+        "romania": "Romania",
         "slovakia": "Slovakia",
+        "slovenia": "Slovenia",
         "spain": "Spain",
         "sweden": "Sweden",
         "ukraine": "Ukraine"
@@ -156,7 +160,8 @@
         "france": "France",
         "great-britain": "Great Britain",
         "netherlands": "Netherlands",
-        "poland": "Poland"
+        "poland": "Poland",
+        "ukraine": "Ukraine"
     },
     "digit-calculator":{
         "title": "Digit Calculator",

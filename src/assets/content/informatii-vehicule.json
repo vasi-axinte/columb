@@ -12,10 +12,26 @@
         "type": "country"
     },
     {
+        "type": "with-children",
         "title": "Cehia",
         "countryCode": "cz",
-        "url": "https://www.kontrola-vin.cz/",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.czech-republic",
+        "children": [
+            {
+                "title": "Kontrola-VIN Link1",
+                "url": "https://www.kontrola-vin.cz/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "VIN Check Link2",
+                "url": "https://www.vincheck.cz/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "type": "with-children",
@@ -40,6 +56,18 @@
             {
                 "title": "AltOmBilen",
                 "url": "https://www.altombilen.dk/?fbclid=IwAR0G98rLGWLeqXiIugvqp_OIXZpvGmTDnmGrpjNLu6FDLL_nAQU6GXsc_7E",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Nummerplade Register Link1",
+                "url": "https://nummerpladeregister.dk/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "TjekBil Link2",
+                "url": "https://www.tjekbil.dk/",
                 "icon": "link",
                 "type": "direct-link"
             }
@@ -128,6 +156,12 @@
                 "url": "https://fordon.fma.ax/sok/annat",
                 "icon": "link",
                 "type": "direct-link"
+            },
+            {
+                "title": "Biltema Link1",
+                "url": "https://www.biltema.fi/autoilu---mp/",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
@@ -140,37 +174,31 @@
         "key": "vehicle-info.france",
         "children": [
             {
-                "title": "SIV Auto",
+                "title": "Siv-Auto Link1",
                 "url": "https://siv-auto.fr/",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
-                "title": "SIV Interieur",
-                "url": "https://siv-auto.fr/",
+                "title": "Siv Interieur Link2",
+                "url": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_retour_dem_certificat",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
-                "title": "Master Auto",
+                "title": "Master-Auto Link3",
                 "url": "https://www.mister-auto.com/",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
-                "title": "Histovec",
-                "url": "https://histovec.interieur.gouv.fr/histovec/proprietaire?fbclid=IwAR1reuSZVIjoMYRL7FNHawtyhExc4TSzGoFmEsRQFVxWImdYH_4tgyl56ts",
-                "icon": "link",
-                "type": "direct-link"
-            },
-            {
-                "title": "Carter Cash",
+                "title": "Carter-Cash Link4",
                 "url": "https://www.carter-cash.com/pieces-auto/",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
-                "title": "Immatriculation Auto ",
+                "title": "Immatriculation-Auto Link5",
                 "url": "https://immatriculation-auto.info/",
                 "icon": "link",
                 "type": "direct-link"
@@ -206,6 +234,12 @@
         ]        
     },
     {
+        "title": "Grecia",
+        "countryCode": "gr",
+        "url": "https://dilosi.services.gov.gr/templates/VEHICLE-INSURANCE/create",
+        "type": "country"
+    },
+    {
         "type": "with-children",
         "title": "Irlanda",
         "countryCode": "ie",
@@ -220,8 +254,8 @@
                 "type": "direct-link"
             },
             {
-                "title": "NCTS auto",
-                "url": "https://www.mister-auto.fi/",
+                "title": "NCST auto Link2",
+                "url": "https://www.ncts.ie/1096",
                 "icon": "link",
                 "type": "direct-link"
             },
@@ -262,6 +296,12 @@
         "type": "country"
     },
     {
+        "title": "Letonia",
+        "countryCode": "lv",
+        "url": "https://www.trodo.lv/rezerves-dalas",
+        "type": "country"
+    },
+    {
         "title": "Lituania",
         "countryCode": "lt",
         "url": "https://www.eregitra.lt/services/vehicle-registration/data-search",
@@ -281,6 +321,18 @@
         "icon": "plus",
         "key": "vehicle-info.great-britain",
         "children": [
+            {
+                "title": "Car Data Check",
+                "url": "https://www.cardatachecks.co.uk/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Check History",
+                "url": "https://checkhistory.uk/",
+                "icon": "link",
+                "type": "direct-link"
+            },
             {
                 "title": "TotalCarCheck",
                 "url": "https://totalcarcheck.co.uk/",
@@ -354,14 +406,36 @@
                 "url": "https://publiek.vwe.nl/",
                 "icon": "link",
                 "type": "direct-link"
+            },
+            {
+                "title": "Kentekencheck",
+                "url": "https://www.kentekencheck.me/auto-overschrijven/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Dagwaarde",
+                "url": "https://dagwaarde.nl/?kenteken",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
     {
+        "type": "with-children",
         "title": "Polonia",
         "countryCode": "pl",
-        "url": "https://info-car.pl/infocar/vin.html",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.poland",
+        "children": [
+            {
+                "title": "Auto.Info",
+                "url": "https://auto-info.gratis/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "type": "with-children",
@@ -388,14 +462,30 @@
                 "url": "https://www.imt-ip.pt/MatriculasCanceladas/matriculas.asp",
                 "icon": "link",
                 "type": "direct-link"
+            },
+            {
+                "title": "Mister-Auto",
+                "url": "https://www.mister-auto.pt/",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
     {
+        "type": "with-children",
         "title": "România",
         "countryCode": "ro",
-        "url": "https://dgpci.mai.gov.ro/drpciv-forms/vehicle",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.romania",
+        "children": [
+            {
+                "title": "Allianz-Tiriac",
+                "url": "https://cumpara-asigurare.allianztiriac.ro/my-car/vehicle",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "title": "Rusia",
@@ -430,6 +520,22 @@
         "countryCode": "si",
         "url": "https://e-uprava.gov.si/javne-evidence/motorna-vozila.html",
         "type": "country"
+    },
+    {
+        "type": "with-children",
+        "title": "Slovenia",
+        "countryCode": "si",
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.slovenia",
+        "children": [
+            {
+                "title": "Avtolog.si",
+                "url": "https://avtolog.si/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "type": "with-children",
@@ -503,12 +609,18 @@
         "children": [
             {
                 "title": "Hsc.Gov.Ua",
-                "url": "https://opendata.hsc.gov.ua/check-vehicle-registration-certificate/",
+                "url": "https://opendata.hsc.gov.ua/srtz/",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
-                "title": "Carma Ucraina",
+                "title": "Baza-Gai.ua",
+                "url": "https://baza-gai.com.ua/search",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Carma.com.ua",
                 "url": "https://carma.com.ua/",
                 "icon": "link",
                 "type": "direct-link"

@@ -136,6 +136,7 @@
     },
     "vehicle-info": {
         "switzerland": "Elveția",
+        "czech-republic": "Cehia",
         "denmark": "Danemarca",
         "finland": "Finlanda",
         "france": "Franța",
@@ -146,7 +147,10 @@
         "norway": "Norvegia",
         "netherlands": "Olanda",
         "portugal": "Portugalia",
+        "poland":"Polonia",
+        "romania": "România",
         "slovakia": "Slovacia",
+        "slovenia": "Slovenia",
         "spain": "Spania",
         "sweden": "Suedia",
         "ukraine": "Ucraina"
