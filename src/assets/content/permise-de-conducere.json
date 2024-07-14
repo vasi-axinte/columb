@@ -144,6 +144,24 @@
                 "countryCode": "bd"
             },
             {
+                "title": "Bhutan",
+                "countryCode": "bt",
+                "url": "https://eralis.rsta.gov.bt/services/driving/search?serviceType=driving-renewal",
+                "type": "country"
+            },
+            {
+                "title": "Chile",
+                "countryCode": "cl",
+                "url": "https://www.registrocivil.cl/bloqueo/runLicencia.jsp?accion=C",
+                "type": "country"
+            },
+            {
+                "title": "P.C. INTERNATIONAL",
+                "url": "https://internationaldrivingpermit.org/",
+                "type": "country",
+                "countryCode": "ch"
+            },
+            {
                 "type": "with-children",
                 "title": "Canada",
                 "countryCode": "ca",
@@ -151,6 +169,12 @@
                 "icon": "plus",
                 "key": "driving-licenses.canada",
                 "children": [
+                    {
+                        "title": "Canada VPN Link1",
+                        "url": "https://saaq.gouv.qc.ca/permis-conduire/verifier-validite-permis",
+                        "type": "country",
+                        "countryCode": "ca"
+                    },
                     {
                         "title": "Ontario",
                         "url": "https://www.dlc.rus.mto.gov.on.ca/dlc/enter-details",
@@ -224,22 +248,130 @@
                 "countryCode": "ma"
             },
             {
+                "title": "Mongolia",
+                "countryCode": "mn",
+                "url": "http://service.police.gov.mn/pages/Driver.aspx",
+                "type": "country"
+            },
+            {
+                "type": "with-children",
+                "title": "Nepal",
+                "countryCode": "np",
+                "url": "",
+                "icon": "plus",
+                "key": "driving-licenses.nepal",
+                "children": [
+                    {
+                        "title": "Nepal Link1",
+                        "url": "https://applydl.dotm.gov.np/licensecheck",
+                        "type": "country",
+                        "countryCode": "np"
+                    },
+                    {
+                        "title": "Nepal Link2",
+                        "url": "https://dotm.gov.np/DrivingLicense/SearchLicense",
+                        "type": "country",
+                        "countryCode": "np"
+                    }
+                ]
+            },
+            {
                 "title": "Nigeria",
                 "url": "https://www.nigeriadriverslicence.org/license/trackStatus",
                 "type": "country",
                 "countryCode": "ng"
             },
             {
-                "title": "Pakistan(Islamabad)",
-                "url": "https://ict.islamabadpolice.gov.pk:4433/verification/",
-                "type": "country",
-                "countryCode": "pk"
+                "type": "with-children",
+                "title": "Pakistan",
+                "countryCode": "pk",
+                "url": "",
+                "icon": "plus",
+                "key": "driving-licenses.pakistan",
+                "children": [
+                    {
+                        "title": "Teritoriul capitalei Islamabad",
+                        "url": "https://applydl.dotm.gov.np/licensecheck",
+                        "type": "country",
+                        "countryCode": "pk"
+                    },
+                    {
+                        "title": "Provincia Punjab",
+                        "url": "https://dotm.gov.np/DrivingLicense/SearchLicense",
+                        "type": "country",
+                        "countryCode": "pk"
+                    },
+                    {
+                        "title": "Provincia Sindh",
+                        "url": "https://applydl.dotm.gov.np/licensecheck",
+                        "type": "country",
+                        "countryCode": "pk"
+                    },
+                    {
+                        "title": "Khyber Pakhtunkhwa Model 1",
+                        "url": "https://dotm.gov.np/DrivingLicense/SearchLicense",
+                        "type": "country",
+                        "countryCode": "pk"
+                    },
+                    {
+                        "title": "Khyber Pakhtunkhwa Model 2",
+                        "url": "https://applydl.dotm.gov.np/licensecheck",
+                        "type": "country",
+                        "countryCode": "pk"
+                    },
+                    {
+                        "title": "Provincia Balochistan",
+                        "url": "https://qtp.gob.pk/driving",
+                        "type": "country",
+                        "countryCode": "pk"
+                    },
+                    {
+                        "title": "Azad Jammu & Kashmir",
+                        "url": "https://trafficpolice.ajk.gov.pk/VerifyLicense/",
+                        "type": "country",
+                        "countryCode": "pk"
+                    },
+                    {
+                        "title": "Provincia Gilgit-Baltistan",
+                        "url": "https://dlmis.gbp.gov.pk/verify/",
+                        "type": "country",
+                        "countryCode": "pk"
+                    },
+                    {
+                        "title": "Nat Highways&Motorway Pol",
+                        "url": "https://dla.nhmp.gov.pk/LicVerification.aspx",
+                        "type": "country",
+                        "countryCode": "pk"
+                    }
+                ]
             },
             {
                 "title": "Palestina",
                 "url": "http://www.mot.gov.ps/practicalexam/",
                 "type": "country",
                 "countryCode": "ps"
+            },
+            {
+                "type": "with-children",
+                "title": "Peru",
+                "countryCode": "pe",
+                "url": "",
+                "icon": "plus",
+                "key": "driving-licenses.peru",
+                "children": [
+                    {
+                        "title": "Licencias.mtc Link1",
+                        "url": "https://applydl.dotm.gov.np/licensecheck",
+                        "type": "country",
+                        "countryCode": "pe"
+                    },
+                    {
+                        "title": "Conductor.mtc Link2",
+                        "url": "https://dotm.gov.np/DrivingLicense/SearchLicense",
+                        "type": "country",
+                        "countryCode": "pe"
+                    }
+                ]
             },
             {
                 "title": "R. Dominicană",
@@ -252,6 +384,12 @@
                 "url": "https://eservices.police.gov.sg/content/policehubhome/homepage/enquiry/status-of-driving-licence.html",
                 "type": "country",
                 "countryCode": "sg"
+            },
+            {
+                "title": "Suriname",
+                "countryCode": "sr",
+                "url": "http://www.intt.gob.ve:8080/consultas_publicas/consultas_publicas.php",
+                "type": "country"
             },
             {
                 "title": "Venezuela",
@@ -329,6 +467,46 @@
                         "key": "driving-licenses.encoding"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "type": "with-children",
+        "title": "Certificate ADR",
+        "countryCode": "",
+        "url": "",
+        "icon": "plus",
+        "key": "driving-licenses.adr-certificates",
+        "children": [
+            {
+                "title": "ROMANIA",
+                "url": "https://www.arr.ro/rezultate-examene.htm",
+                "type": "country",
+                "countryCode": "ro"
+            },
+            {
+                "title": "LITUANIA",
+                "url": "https://keltra.eltsa.lt/kelappweb/web/adrKorteles.do",
+                "type": "country",
+                "countryCode": "lt"
+            },
+            {
+                "title": "POLONIA",
+                "url": "https://info-car.pl/new/adr/status-adr",
+                "type": "country",
+                "countryCode": "pl"
+            },
+            {
+                "title": "SLOVACIA",
+                "url": "https://www.jiscd.sk/registre/registre-kkv/overenie-platnosti-karty-kkv/",
+                "type": "country",
+                "countryCode": "sk"
+            },
+            {
+                "title": "Conventia Viena/Geneva - se va adauga",
+                "url": "https://www.jiscd.sk/registre/registre-kkv/overenie-platnosti-karty-kkv/",
+                "type": "country",
+                "countryCode": "sk"
             }
         ]
     }

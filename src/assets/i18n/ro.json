@@ -132,7 +132,11 @@
         "canada": "Canada",
         "encoding": "Encondig&Decoding D.L.",
         "spain": "Spania",
-        "columbia": "Columbia - VPN"
+        "columbia": "Columbia - VPN",
+        "nepal": "Nepal",
+        "pakistan": "Pakistan",
+        "peru": "Peru",
+        "adr-certificates": "Certificate ADR"
     },
     "vehicle-info": {
         "switzerland": "Elveția",
