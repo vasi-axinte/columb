@@ -14,32 +14,78 @@
         "key": "tiaf.cariffy"
     },
     {
-        "type": "direct-link",
-        "title": "Plăcuțe înmatriculare Europa",
-        "url": "https://drive.google.com/file/d/1gZcWfIxHAoGeuzGLhg4d-3VFbdqyvoaa/view?usp=share_link/",
-        "icon": "link",
-        "key": "tiaf.license-plates-eu"
+        "type": "with-children",
+        "title": "Specimenee certificate de inmatricularee",
+        "url": "",
+        "icon": "plus",
+        "key": "tiaf.specimens.title",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "UE(VRC)",
+                "url": "https://road-safety.transport.ec.europa.eu/road-safety-member-states/vehicle-registration-certificate_en",
+                "icon": "link",
+                "key": "tiaf.specimens.ue-vrc"
+            },
+            {
+                "type": "direct-link",
+                "title": "UE/SEE",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsimport-och-ursprungskontroll/import-fran-ett-eu-land/regbevis-eu/",
+                "icon": "link",
+                "key": "tiaf.specimens.ue-see"
+            },
+            {
+                "type": "direct-link",
+                "title": "NON-UE",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsimport-och-ursprungskontroll/import-fran-lander-utanfor-eu/regbevis-3jeland/#Q",
+                "icon": "link",
+                "key": "tiaf.specimens.non-ue"
+            },
+            {
+                "type": "direct-link",
+                "title": "SUA",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsimport-och-ursprungskontroll/import-fran-lander-utanfor-eu/usa/",
+                "icon": "link",
+                "key": "tiaf.specimens.usa"
+            }
+        ]
     },
     {
-        "type": "direct-link",
-        "title": "Plăcuțe de înmatriculare (world license plates)",
-        "url": "http://worldlicenseplates.com/",
-        "icon": "link",
-        "key": "tiaf.license-plates-world"
-    },
-    {
-        "type": "direct-link",
-        "title": "Specimene (Certificate Înmatriculare - nonUE)",
-        "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsimport-och-ursprungskontroll/import-fran-lander-utanfor-eu/regbevis-3jeland/#Q",
-        "icon": "link",
-        "key": "tiaf.specimens-non-eu"
-    },
-    {
-        "type": "direct-link",
-        "title": "Specimene (Certificate Înmatriculare - UE)",
-        "url": "https://road-safety.transport.ec.europa.eu/road-safety-member-states/vehicle-registration-certificate_en?fbclid=IwAR1jczEYOeJeGoOAwCGhZcp0YQeK8-F6evuJSgDv3-XHrIKMrrog6q08kv4",
-        "icon": "link",
-        "key": "tiaf.specimens-eu"
+        "type": "with-children",
+        "title": "Plăcuțe înmatriculare",
+        "url": "",
+        "icon": "plus",
+        "key": "tiaf.license-plates.title",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "PLACUTE 2024 (CAUTATE DUPA TARA)",
+                "url": "",
+                "icon": "link",
+                "key": "tiaf.license-plates.title"
+            },
+            {
+                "type": "direct-link",
+                "title": "LICENSE PLATES OF THE WORLD",
+                "url": "http://worldlicenseplates.com/",
+                "icon": "link",
+                "key": "tiaf.license-plates.world"
+            },
+            {
+                "type": "direct-link",
+                "title": "IDENTIFICARE PLACUTE IMATRICULARE",
+                "url": "https://matriculasdelmundo.com/dedonde.php#saber-matricula-coche",
+                "icon": "link",
+                "key": "tiaf.license-plates.identify-plates"
+            },
+            {
+                "type": "direct-link",
+                "title": "RECUNOASTE PLACUTA DE IMATRICULARE DUPA FOTO",
+                "url": "https://platerecognizer.com/",
+                "icon": "link",
+                "key": "tiaf.license-plates.photo-recognition"
+            }
+        ]
     },
     {
         "type": "direct-link",
@@ -47,6 +93,13 @@
         "url": "https://carnet.ai/",
         "icon": "link",
         "key": "tiaf.make-photo-recognition"
+    },
+    {
+        "type": "direct-link",
+        "title": "Auto VIN decoder",
+        "url": "",
+        "icon": "link",
+        "key": "tiaf.vin-decoder"
     },
     {
         "type": "with-children",
@@ -85,126 +138,61 @@
             },
             {
                 "type": "direct-link",
+                "title": "ATV-SUPERATV",
+                "url": "https://www.superatv.com/offroad-atlas/how-to-locate-your-utvs-vin#yamaha",
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.atv"
+            },
+            {
+                "type": "direct-link",
                 "title": "Utilaje-DATATAG",
-                "url": "https://drive.google.com/file/d/1oUqBRo63p-0MNG8W7ccHgSZSVhr33vwC/view?usp=drivesdk",
+                "url": "http://worldlicenseplates.com/",
                 "icon": "link",
                 "key": "tiaf.vin-localization-auto.datatag-utility"
             },
             {
                 "type": "direct-link",
                 "title": "Motociclete-DATATAG",
-                "url": "https://drive.google.com/file/d/1-SwGm968pDFVqRA4dEfkEVfg_pZRkerT/view?usp=drivesdk",
+                "url": "https://matriculasdelmundo.com/dedonde.php#saber-matricula-coche",
                 "icon": "link",
                 "key": "tiaf.vin-localization-auto.datatag-moto"
+            },
+            {
+                "type": "direct-link",
+                "title": "Utilaje-TER",
+                "url": "https://www.ter-europe.org/about/plant-and-equipment-identification/",
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.ter-utils"
+            },
+            {
+                "type": "direct-link",
+                "title": "VIN SI PIN UTILAJE-explicate",
+                "url": "https://www.constructionequipmentid.com/",
+                "icon": "link",
+                "key": "tiaf.vin-localization-auto.vin-and-pin-utils"
             }
         ]
     },
     {
-        "type": "with-children",
-        "title": "Decodor VIN",
-        "url": "",
-        "icon": "plus",
-        "key": "tiaf.vin-decoder.title",
-        "children": [
-            {
-                "type": "direct-link",
-                "title": "Vindecoderz",
-                "url": "https://www.vindecoderz.com/",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.vindecoderz"
-            },
-            {
-                "type": "direct-link",
-                "title": "Bmw",
-                "url": "https://bimmer.work/",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.bmw"
-            },
-            {
-                "type": "direct-link",
-                "title": "Fiat-eLum",
-                "url": "https://aftersales.fiat.com/eLum/Register.aspx?languageID=1&country=IT&fbclid=IwAR09-dpLiyidDRXjr6vMeRrLfyXMhtMDion1MlSV7kK9IpxEv3QghLeM_ic",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.fiat-elum"
-            },
-            {
-                "type": "direct-link",
-                "title": "Land Rover",
-                "url": "https://osh.landrover.com/",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.land-rover"
-            },
-            {
-                "type": "direct-link",
-                "title": "Mercedes",
-                "url": "https://www.mbdecoder.com/",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.mercedes"
-            },
-            {
-                "type": "direct-link",
-                "title": "ToyoDIY",
-                "url": "https://www.toyodiy.com/parts/q.html",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.toyodiy"
-            },
-            {
-                "type": "direct-link",
-                "title": "Kawasaki",
-                "url": "https://www.ktisc.eu/k-tisc/user/loginForm?back=https%3A%2F%2Fwww.ktisc.eu%2Fk-tisc%2Fvehicle%2FlookupForm&timeout=true",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.kawasaki"
-            },
-            {
-                "type": "direct-link",
-                "title": "Fiat",
-                "url": "https://www.pekidi.com/navi?FORCED=TRUE",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.fiat"
-            },
-            {
-                "type": "direct-link",
-                "title": "Nissan",
-                "url": "https://nissan.catalogs-parts.com/#{client:1;page:models;lang:en;catalog:el}",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.nissan"
-            },
-            {
-                "type": "direct-link",
-                "title": "ETKA Online",
-                "url": "https://webautocats.com/etka/",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.etka"
-            },
-            {
-                "type": "direct-link",
-                "title": "Informatii auto Franta",
-                "url": "https://www.mister-auto.com/",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.auto-france"
-            },
-            {
-                "type": "direct-link",
-                "title": "Informatii auto U.K",
-                "url": "https://doctorcarparts.com/",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.auto-uk"
-            },
-            {
-                "type": "direct-link",
-                "title": "TER-VIN echipament industrial",
-                "url": "https://www.ter-europe.org/about/plant-and-equipment-identification/",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.ter-vin"
-            },
-            {
-                "type": "direct-link",
-                "title": "PIN-VIN echipament constructii",
-                "url": "https://www.ter-europe.org/about/plant-and-equipment-identification/",
-                "icon": "link",
-                "key": "tiaf.vin-decoder.pin-vin"
-            }
-        ]
+        "type": "direct-link",
+        "title": "CIFRA CONTROL VIN AUTO SUA",
+        "url": "https://vpic.nhtsa.dot.gov/decoder/CheckDigit/Index/5yj3e1eaxhf000316",
+        "icon": "link",
+        "key": "tiaf.control-digit-vin-usa"
+    },
+    {
+        "type": "direct-link",
+        "title": "VIN-DECODERZ",
+        "url": "https://www.vindecoderz.com/",
+        "icon": "link",
+        "key": "tiaf.vin-decoder.vindecoderz"
+    },
+    {
+        "type": "direct-link",
+        "title": "LOCALIZARE PORT OBD II auto",
+        "url": "https://www.klavkarr.com/location-plug-connector-obd.php",
+        "icon": "link",
+        "key": "tiaf.obd-localization-2"
     },
     {
         "type": "with-children",
@@ -215,17 +203,17 @@
         "children": [
             {
                 "type": "direct-link",
-                "title": "Europa",
-                "url": "https://www.stolencars24.eu/en/main.php",
+                "title": "ROMANIA",
+                "url": "https://www.politiaromana.ro/",
                 "icon": "link",
-                "key": "tiaf.stolen-auto.eu"
+                "key": "tiaf.stolen-auto.romania"
             },
             {
                 "type": "direct-link",
-                "title": "It/Slo/Sk/Cz/Ro",
-                "url": "https://kradenikoli.bg/index.php",
+                "title": "UE(SI/IT/RO/CZ/SK)",
+                "url": "https://www.stolencars24.eu/en/main.php",
                 "icon": "link",
-                "key": "tiaf.stolen-auto.it-slo-sk-cz-ro"
+                "key": "tiaf.stolen-auto.eu"
             },
             {
                 "type": "direct-link",
@@ -254,21 +242,70 @@
                 "url": "https://isitnicked.com/",
                 "icon": "link",
                 "key": "tiaf.stolen-auto.great-britain"
+            },
+            {
+                "type": "direct-link",
+                "title": "SLOVENIA",
+                "url": "https://www.policija.si/seznami/ukradenavozila/uv_prikaz.php",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.slovenia"
+            },
+            {
+                "type": "direct-link",
+                "title": "UCRAINA",
+                "url": "https://wanted.mvs.gov.ua/searchtransport/",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.ukraine"
+            },
+            {
+                "type": "direct-link",
+                "title": "CEHIA",
+                "url": "https://aplikace.policie.cz/patrani-vozidla/",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.czech-republic"
+            },
+            {
+                "type": "direct-link",
+                "title": "SUEDIA",
+                "url": "https://www.larmtjanst.se/",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.sweden"
+            },
+            {
+                "type": "direct-link",
+                "title": "SLOVACIA",
+                "url": "https://www.minv.sk/?odcudzene-mot-vozidla",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.slovakia"
+            },
+            {
+                "type": "direct-link",
+                "title": "USA",
+                "url": "https://www.nicb.org/vincheck",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.usa"
+            },
+            {
+                "type": "direct-link",
+                "title": "CANADA",
+                "url": "https://www.cpic-cipc.ca/sve-rve-eng.htm#results",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.canada"
+            },
+            {
+                "type": "direct-link",
+                "title": "BELARUS VPN",
+                "url": "https://www.mvd.gov.by/m/ru/service/6",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.belarus"
+            },
+            {
+                "type": "direct-link",
+                "title": "NORVEGIA",
+                "url": "https://regnr.info/",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.norway"
             }
         ]
-    },
-    {
-        "type": "direct-link",
-        "title": "Localizare mufa OBD",
-        "url": "https://www.outilsobdfacile.com/location-plug-connector-obd.php",
-        "icon": "link",
-        "key": "tiaf.obd-localization"
-    },
-    {
-        "type": "direct-link",
-        "title": "VIN Cifra de control",
-        "url": "https://vpic.nhtsa.dot.gov/decoder/CheckDigit/Index/5yj3e1eaxhf000316",
-        "icon": "link",
-        "key": "tiaf.vin-control-digit"
     }
 ]

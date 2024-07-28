@@ -102,7 +102,10 @@
           "autofil-offroad": "Off road-AUTOFIL.IT",
           "autofil-mopeds": "Mopeds-AUTOFIL.IT",
           "datatag-utility": "Utility vehicles-DATATAG",
-          "datatag-moto": "Motorcycles-DATATAG"
+          "datatag-moto": "Motorcycles-DATATAG",
+          "atv":"ATV-SUPERATV",
+          "ter-utils": "Utility Vehicles-DATATAG",
+          "vin-and-pin-utils": "VIN and PIN utility vehicles"
         },
         "vin-decoder": {
           "title": "VIN Decoder",
@@ -128,10 +131,34 @@
             "spain": "Spain",
             "netherlands": "Netherlands",
             "great-britain":"Great Britain",
-            "italy": "Italy"
+            "italy": "Italy",
+            "romania": "Romania",
+            "slovenia": "Slovenia",
+            "ukraine": "Ukraine",
+            "czech-republic":"Czech Republic",
+            "sweden": "Sweden",
+            "slovakia": "Slovakia",
+            "usa": "USA",
+            "canada": "Canada",
+            "belarus": "Belarus",
+            "norway": "Norway"
+        },
+        "specimens": {
+            "title": "Registration certificate specimens",
+            "ue-vrc": "EU(VRC)",
+            "ue-see": "EU/EES",
+            "non-ue": "NON-EU",
+            "usa": "USA"
         },
         "specimens-eu": "Specimens (EU Registration Certificates)",
-        "obd-localization": "OBD Connector Localization"
+        "obd-localization-2": "OBD 2 Connector Localization",
+        "license-plates": {
+            "title": "License plates",
+            "world": "License plates of the world",
+            "identify-plates": "Licence plates identification",
+            "photo-recognition": "Licence plates photo recognition"
+        },
+        "control-digit-vin-usa": "Control digit VIN USA"
     },
     "driving-licenses": {
         "others": "Other Driving Licenses",

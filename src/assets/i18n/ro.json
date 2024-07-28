@@ -102,7 +102,10 @@
           "autofil-offroad": "Off road - AUTOFIL.IT",
           "autofil-mopeds": "Mopede-AUTOFIL.IT",
           "datatag-utility": "Utilaje-DATATAG",
-          "datatag-moto": "Motociclete-DATATAG"
+          "datatag-moto": "Motociclete-DATATAG",
+          "atv":"ATV-SUPERATV",
+          "ter-utils": "Utilaje-DATATAG",
+          "vin-and-pin-utils": "VIN și PIN utilaje - explicate"
         },
         "vin-decoder": {
           "title": "Decodor VIN",
@@ -128,10 +131,34 @@
             "spain": "Spania",
             "netherlands": "Olanda",
             "great-britain":"Marea Britanie",
-            "italy": "Italia"
+            "italy": "Italia",
+            "romania": "România",
+            "slovenia": "Slovenia",
+            "ukraine": "Ukraine",
+            "czech-republic":"Cehia",
+            "sweden": "Suedia",
+            "slovakia": "Slovacia",
+            "usa": "SUA",
+            "canada": "Canada",
+            "belarus": "Belarus",
+            "norway": "Norvegia"
+        },
+        "specimens": {
+            "title": "Specimene certificate de inmatriculare",
+            "ue-vrc": "UE(VRC)",
+            "ue-see": "UE/SEE",
+            "non-ue": "NON-UE",
+            "usa": "SUA"
         },
         "specimens-eu": "Specimene (Certificate Înmatriculare - UE)",
-        "obd-localization": "Localizare mufa OBD"
+        "obd-localization-2": "Localizare mufa OBD II auto",
+        "license-plates":{
+            "title": "Plăcuțe de înmatriculare",
+            "world": "Plăcuțe de înmatriculare din lume",
+            "identify-plates": "Identificare plăcuțe de înmatriculare",
+            "photo-recognition": "Recunoaște plăcuța de înmatriculare după foto"
+        },
+        "control-digit-vin-usa": "Cifra control VIN auto SUA"
     },
     "driving-licenses": {
         "others": "Alte Permise",
