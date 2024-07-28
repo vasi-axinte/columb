@@ -119,17 +119,13 @@
     },
     "specimens": {
         "docis": "DOCIS",
-        "prado-online": "PRADO-online",
-        "prado-glossary": "PRADO (glossary)",
+        "prado":{
+            "title": "PRADO",
+            "prado-online": "PRADO (online)",
+            "prado-glossary": "PRADO (offline glossary)"
+        },
         "edison-td": "EdisonTD",
-        "pc-ue-see": "Specimens ID (EU and EEA)",
-        "pc-bura": "Specimens ID (by BURA)",
-        "pc-ue-commission": "Specimens ID (EU-European Commission)",
-        "pc-ex-soviet": "Specimens ID (Former Soviet Space)",
-        "pc-ukraine": "Specimens ID (Ukraine)",
-        "airline-info-handbook": "EU Documents for Foreigners (Airline Information Handbook)",
-        "north-america": "Specimens of North American Documents",
-        "south-america": "Specimens of South American Documents",
+        "airline-info-handbook": "Airline Information Handbook - EU Documents for Foreigners",
         "the-eye": "THE-EYE.NL",
         "regula":{
             "title": "REGULA",
@@ -137,6 +133,19 @@
             "banknotes": "REGULA Banknotes",
             "face-comparison": "REGULA Face Comparison",
             "foto-face-comparison":"Foto Face Comparison"
+        },
+        "driving-licenses":{
+            "title": "Driving License Specimens",
+            "pc-ue-see": "Specimens ID (EU and EEA)",
+            "pc-bura": "Specimens ID (by BURA)",
+            "pc-ue-commission": "Specimens ID (EU-European Commission)",
+            "pc-ex-soviet": "Specimens ID (Former Soviet Space)",
+            "pc-ukraine": "Specimens ID (Ukraine)"
+        },
+        "america": {
+            "title": "American document specimens",
+            "north-america": "Specimens of North American Documents",
+            "south-america": "Specimens of South American Documents"
         }
     },
     "tiaf": {

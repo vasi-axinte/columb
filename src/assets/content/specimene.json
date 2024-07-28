@@ -7,18 +7,27 @@
         "key": "specimens.docis"
     },
     {
-        "type": "direct-link",
-        "title": "PRADO-online",
-        "url": "https://www.consilium.europa.eu/prado/ro/search-by-document-country.html",
-        "icon": "link",
-        "key": "specimens.prado-online"
-    },
-    {
-        "type": "direct-link",
-        "title": "PRADO (glosar)",
-        "url": "https://drive.google.com/file/d/1GyON-gpE6Gt_jg-QYVOVTcuC5ozct1qI/view?usp=share_link",
-        "icon": "link",
-        "key": "specimens.prado-glossary"
+        "type": "with-children",
+        "title": "PRADO",
+        "url": "",
+        "icon": "plus",
+        "key": "specimens.prado.title",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "PRADO (online)",
+                "url": "https://www.consilium.europa.eu/prado/ro/search-by-document-country.html",
+                "icon": "link",
+                "key": "specimens.prado.prado-online"
+            },
+            {
+                "type": "direct-link",
+                "title": "PRADO (Glosar Offline)",
+                "url": "https://drive.google.com/file/d/1GyON-gpE6Gt_jg-QYVOVTcuC5ozct1qI/view?usp=share_link",
+                "icon": "link",
+                "key": "specimens.prado.prado-glossary"
+            }
+        ]
     },
     {
         "type": "with-children",
@@ -65,39 +74,48 @@
         "key": "specimens.edison-td"
     },
     {
-        "type": "direct-link",
-        "title": "Specimene P.C.(UE si SEE)",
-        "url": "https://drive.google.com/file/d/1c9ZjJugDoY31o3SZ6-f0W86l3JCEpESU/view?usp=share_link",
-        "icon": "link",
-        "key": "specimens.pc-ue-see"
-    },
-    {
-        "type": "direct-link",
-        "title": "Specimene P.C.(by BURA)",
-        "url": "https://webapps.politieacademie.nl/bura",
-        "icon": "link",
-        "key": "specimens.pc-bura"
-    },
-    {
-        "type": "direct-link",
-        "title": "Specimene P.C.(UE-Comisia Europeana)",
-        "url": "https://road-safety.transport.ec.europa.eu/road-safety-member-states/driving-licence-member-states/driving-licence-models_en",
-        "icon": "link",
-        "key": "specimens.pc-ue-commission"
-    },
-    {
-        "type": "direct-link",
-        "title": "Specimene P.C.(Spatiu Ex-Sovietic)",
-        "url": "https://drive.google.com/file/d/1Espz4ad4DJN9WAqLb-0O5TZfwedwifHE/view?usp=drivesdk",
-        "icon": "link",
-        "key": "specimens.pc-ex-soviet"
-    },
-    {
-        "type": "direct-link",
-        "title": "Specimene P.C.(Ucraina)",
-        "url": "https://hsc.gov.ua/zrazki-ukrayinskih-posvidchen-vodiya-angl-versiya",
-        "icon": "link",
-        "key": "specimens.pc-ukraine"
+        "type": "with-children",
+        "title": "Specimene permise de conducere",
+        "url": "",
+        "icon": "plus",
+        "key": "specimens.driving-licenses.title",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "Specimene P.C.(UE si SEE)",
+                "url": "https://drive.google.com/file/d/1c9ZjJugDoY31o3SZ6-f0W86l3JCEpESU/view?usp=share_link",
+                "icon": "link",
+                "key": "specimens.driving-licenses.pc-ue-see"
+            },
+            {
+                "type": "direct-link",
+                "title": "Specimene P.C.(by BURA)",
+                "url": "https://webapps.politieacademie.nl/bura",
+                "icon": "link",
+                "key": "specimens.driving-licenses.pc-bura"
+            },
+            {
+                "type": "direct-link",
+                "title": "Specimene P.C.(UE-Comisia Europeana)",
+                "url": "https://road-safety.transport.ec.europa.eu/road-safety-member-states/driving-licence-member-states/driving-licence-models_en",
+                "icon": "link",
+                "key": "specimens.driving-licenses.pc-ue-commission"
+            },
+            {
+                "type": "direct-link",
+                "title": "Specimene P.C.(Spatiu Ex-Sovietic)",
+                "url": "https://drive.google.com/file/d/1Espz4ad4DJN9WAqLb-0O5TZfwedwifHE/view?usp=drivesdk",
+                "icon": "link",
+                "key": "specimens.driving-licenses.pc-ex-soviet"
+            },
+            {
+                "type": "direct-link",
+                "title": "Specimene P.C.(Ucraina)",
+                "url": "https://hsc.gov.ua/zrazki-ukrayinskih-posvidchen-vodiya-angl-versiya",
+                "icon": "link",
+                "key": "specimens.driving-licenses.pc-ukraine"
+            }
+        ]
     },
     {
         "type": "direct-link",
@@ -107,18 +125,27 @@
         "key": "specimens.airline-info-handbook"
     },
     {
-        "type": "direct-link",
-        "title": "Specimene documente America de Nord",
-        "url": "https://drive.google.com/file/d/1hbvHMpiM-nmY7vV5uVopCkQBTt4Q2H84/view?usp=share_link",
-        "icon": "link",
-        "key": "specimens.north-america"
-    },
-    {
-        "type": "direct-link",
-        "title": "Specimene documente America de Sud",
-        "url": "https://drive.google.com/file/d/1q4SiAlVfMe2qNkJsiZpOyYgNPDvGkCS2/view?usp=share_link",
-        "icon": "link",
-        "key": "specimens.south-america"
+        "type": "with-children",
+        "title": "Specimene documente America",
+        "url": "",
+        "icon": "plus",
+        "key": "specimens.america.title",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "Specimene documente America de Nord",
+                "url": "https://drive.google.com/file/d/1hbvHMpiM-nmY7vV5uVopCkQBTt4Q2H84/view?usp=share_link",
+                "icon": "link",
+                "key": "specimens.america.north-america"
+            },
+            {
+                "type": "direct-link",
+                "title": "Specimene documente America de Sud",
+                "url": "https://drive.google.com/file/d/1q4SiAlVfMe2qNkJsiZpOyYgNPDvGkCS2/view?usp=share_link",
+                "icon": "link",
+                "key": "specimens.america.south-america"
+            }
+        ]
     },
     {
         "type": "direct-link",
