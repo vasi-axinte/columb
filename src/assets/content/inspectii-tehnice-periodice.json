@@ -112,7 +112,7 @@
     {
         "title": "Italia",
         "countryCode": "it",
-        "url": "https://www.ilportaledellautomobilista.it/web/portale-automobilista/verifica-ultima-revisione",
+        "url": "https://www.ilportaledellautomobilista.it/interrogazionistoricorevisioni/spa/",
         "type": "country"
     },
     {
@@ -136,7 +136,13 @@
         "key": "technical-check.great-britain",
         "children": [
             {
-                "title": "VehicleSmart Link1",
+                "title": "Check Moto Service",
+                "url": "https://www.check-mot.service.gov.uk/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "VehicleSmart",
                 "url": "https://www.vehiclesmart.com/index.html",
                 "icon": "link",
                 "type": "direct-link"
