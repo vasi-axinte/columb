@@ -67,6 +67,20 @@
             {
                 "type": "direct-link",
                 "title": "LICENSE PLATES OF THE WORLD",
+                "url": "https://drive.google.com/file/d/1VMLRH_c8XcEkgCiJ-Xes_BRrpfp3ovVR/view?usp=drivesdk",
+                "icon": "link",
+                "key": "tiaf.license-plates.world-drive"
+            },
+            {
+                "type": "direct-link",
+                "title": "LICENSE PLATES GUIDE EUROPA",
+                "url": "https://drive.google.com/file/d/1VMLRH_c8XcEkgCiJ-Xes_BRrpfp3ovVR/view?usp=drivesdk",
+                "icon": "link",
+                "key": "tiaf.license-plates.europe"
+            },
+            {
+                "type": "direct-link",
+                "title": "WORLD License Plates",
                 "url": "http://worldlicenseplates.com/",
                 "icon": "link",
                 "key": "tiaf.license-plates.world"

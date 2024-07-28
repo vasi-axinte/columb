@@ -215,7 +215,9 @@
         "obd-localization-2": "OBD 2 Connector Localization",
         "license-plates": {
             "title": "License plates",
-            "world": "License plates of the world",
+            "world": "World License Plates",
+            "world-drive": "License Plates of the World",
+            "europe": "License Plate Guide Europe",
             "identify-plates": "Licence plates identification",
             "photo-recognition": "Licence plates photo recognition"
         },

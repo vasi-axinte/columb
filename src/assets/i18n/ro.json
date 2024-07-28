@@ -215,7 +215,9 @@
         "obd-localization-2": "Localizare mufa OBD II auto",
         "license-plates":{
             "title": "Plăcuțe de înmatriculare",
-            "world": "Plăcuțe de înmatriculare din lume",
+            "world": "World License Plates",
+            "world-drive": "License Plates of the World",
+            "europe": "License Plate Guide Europa",
             "identify-plates": "Identificare plăcuțe de înmatriculare",
             "photo-recognition": "Recunoaște plăcuța de înmatriculare după foto"
         },
