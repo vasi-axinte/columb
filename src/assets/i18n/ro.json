@@ -46,7 +46,7 @@
             "veicolo": "Veicolo"
         },
         "cnp-validation":{
-            "title": "Validare CNP",
+            "title": "Validare CNP/nID Personal",
             "idnp-md": "Verificare IDNP Moldova",
             "pesel": "Verificare Nr. PESEL Polonia",
             "rodne-cislo": "Verificare 'Rodne Cislo' Cehia",
@@ -62,6 +62,58 @@
                 "title": "Validare CNP Moldova",
                 "link1": "Moldova Link 1",
                 "link2": "Moldova Link 2"
+            },
+            "belgium": {
+                "title": "Validare CNP Belgia",
+                "link1": "Rijksregisternumer Link1",
+                "link2": "LuDev.be Link2"
+            },
+            "spain": {
+                "title": "Validare CNP Spania",
+                "link1": "DNI/NIE Link1",
+                "link2": "NIE Link2",
+                "link3": "DIE Link3"
+            },
+            "czech-republic": {
+                "title": "Validare CNP Cehia",
+                "link1": "Vaildare Rodne cislo 1 Link1",
+                "link2": "Vaildare Rodne cislo 2 Link2",
+                "link3": "Vaildare Rodne cislo 3 Link3"
+            },
+            "portugal": {
+                "title": "Validare CNP Portugalia",
+                "link1": "Nr.ID Civil 1 Link1",
+                "link2": "Nr.ID Civil 2 Link2"
+            },
+            "norway": "Norway",
+            "sweden": {
+                "title": "Validare CNP Suedia",
+                "link1": "Identificare persoane Link1",
+                "link2": "Culano Link2",
+                "link3": "Pers.ID Number Link3"
+            },
+            "others": {
+                "title": "Validare CNP/ID altele",
+                "argentina":{
+                    "title": "Validare DNI Argentina",
+                    "link1": "Linti.seguridadvial Link1",
+                    "link2": "Dateas Link2"
+                },
+                "bangladesh": "Validare CNP Bangladesh",
+                "bolivia": "Validare OEP Bolivia",
+                "bosnia": "Validare JMBG Bosnia-H",
+                "brazil": "Validare CFP Brazilia",
+                "chile": "Validare RUT Chile",
+                "costa-rica": "Validare ID Costa Rica",
+                "mexic": "Validare CURP Mexic",
+                "paraguay": "Validare CIN Paraguay",
+                "venezuela": "Validare CNE Venezuela"
+            },
+            "calculator": {
+                "title": "Calculator Zile/Termene",
+                "link1": "Calculator termene juridice Link1",
+                "link2": "Calculator zi din săptamână Link2",
+                "link3": "Calculator zile ședere"
             }
         }
     },

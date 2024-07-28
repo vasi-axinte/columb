@@ -225,39 +225,272 @@
                 ]
             },
             {
-                "type": "direct-link",
-                "title": "Verificare Nr. PESEL Polonia",
-                "url": "https://aswa.am/vehicle-insurance",
-                "icon": "link",
-                "key": "useful-links.cnp-validation.pesel"
+                "type": "with-children",
+                "title": "Validaree CNP Belgia",
+                "url": "",
+                "icon": "plus",
+                "key": "useful-links.cnp-validation.belgium.title",
+                "children": [
+                    {
+                        "type": "direct-link",
+                        "title": "Rijksregisternumer Link1",
+                        "url": "https://z01.be/hst8_php/rijksregisternummer_opl.php",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.belgium.link1"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "LuDev.be Link2",
+                        "url": "http://www.ludev.be/code/rrn",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.belgium.link2"
+                    }
+                ]
+            },
+            {
+                "type": "with-children",
+                "title": "Validaree CNP Spania",
+                "url": "",
+                "icon": "plus",
+                "key": "useful-links.cnp-validation.spain.title",
+                "children": [
+                    {
+                        "type": "direct-link",
+                        "title": "DNI/NIE Link1",
+                        "url": "https://www.letranif.com/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.spain.link1"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "NIE Link2",
+                        "url": "https://calcular.io/letra-nie/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.spain.link2"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "DIE Link3",
+                        "url": "https://calcular.io/letra-nie/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.spain.link3"
+                    }
+                ]
+            },
+            {
+                "type": "with-children",
+                "title": "Validaree CNP Cehia",
+                "url": "",
+                "icon": "plus",
+                "key": "useful-links.cnp-validation.czech-republic.title",
+                "children": [
+                    {
+                        "type": "direct-link",
+                        "title": "Vaildare Rodne cislo 1 Link1",
+                        "url": "https://overeni-rodneho-cisla.peckapc.cz/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.czech-republic.link1"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Vaildare Rodne cislo 2 Link2",
+                        "url": "https://www.martik.cz/validace-rodneho-cisla/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.czech-republic.link2"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Vaildare Rodne cislo 3 Link3",
+                        "url": "https://www.manyminiapp.com/apps/national-ids/rodne-cislo-validator",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.czech-republic.link3"
+                    }
+                ]
+            },
+            {
+                "type": "with-children",
+                "title": "Validaree CNP Portugalia",
+                "url": "",
+                "icon": "plus",
+                "key": "useful-links.cnp-validation.portugal.title",
+                "children": [
+                    {
+                        "type": "direct-link",
+                        "title": "Nr.ID Civil 1 Link1",
+                        "url": "https://www.letranif.com/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.portugal.link1"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Nr.ID Civil 2 Link2",
+                        "url": "https://calcular.io/letra-nie/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.portugal.link2"
+                    }
+                ]
             },
             {
                 "type": "direct-link",
-                "title": "Verificare 'Rodne Cislo' Cehia",
-                "url": "https://overeni-rodneho-cisla.peckapc.cz/",
+                "title": "Validare CNP Norvegia",
+                "url": "https://www.gulesider.no/",
                 "icon": "link",
-                "key": "useful-links.cnp-validation.rodne-cislo"
+                "key": "useful-links.cnp-validation.norway"
             },
             {
-                "type": "direct-link",
-                "title": "Verificare NIF/NIE Spania",
-                "url": "https://www.letranif.com/",
-                "icon": "link",
-                "key": "useful-links.cnp-validation.nif-spain"
+                "type": "with-children",
+                "title": "Validaree CNP Suedia",
+                "url": "",
+                "icon": "plus",
+                "key": "useful-links.cnp-validation.sweden.title",
+                "children": [
+                    {
+                        "type": "direct-link",
+                        "title": "Identificare persoane Link1",
+                        "url": "https://www.hitta.se/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.sweden.link1"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Culano Link2",
+                        "url": "https://www.culano.com",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.sweden.link2"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Pers.ID Number Link3",
+                        "url": "https://swedish.identityinfo.net/personalidentitynumber/validate",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.sweden.link3"
+                    }
+                ]
             },
             {
-                "type": "direct-link",
-                "title": "Verificare Nr. Registru National Belgia",
-                "url": "https://z01.be/hst8_php/rijksregisternummer_opl.php",
-                "icon": "link",
-                "key": "useful-links.cnp-validation.national-registry-number-belgium"
+                "type": "with-children",
+                "title": "Validaree CNP/ID Altele",
+                "url": "",
+                "icon": "plus",
+                "key": "useful-links.cnp-validation.others.title",
+                "children": [
+                    {
+                        "type": "with-children",
+                        "title": "Validaree DNI Argentina",
+                        "url": "",
+                        "icon": "plus",
+                        "key": "useful-links.cnp-validation.others.argentina.title",
+                        "children": [
+                            {
+                                "type": "direct-link",
+                                "title": " Linti.seguridadvial  Link1",
+                                "url": "https://linti.seguridadvial.gob.ar/choferes",
+                                "icon": "link",
+                                "key": "useful-links.cnp-validation.others.argentina.link1"
+                            },
+                            {
+                                "type": "direct-link",
+                                "title": "Dateas Link2",
+                                "url": "https://www.dateas.com/es/consulta_cuit_cuil",
+                                "icon": "link",
+                                "key": "useful-links.cnp-validation.others.argentina.link2"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Validare CNP Bangladesh",
+                        "url": "https://everify.bdris.gov.bd/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.bangladesh"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Validare OEP Bolivia",
+                        "url": "https://yoparticipo.oep.org.bo/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.bolivia"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Validare JMBG Bosnia-H",
+                        "url": "https://dijanal.github.io/JMBG/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.bosnia"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Validare CFP Brazilia",
+                        "url": "https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.brazil"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Validare RUT Chile",
+                        "url": "https://rutchile.cl/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.chile"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Validare ID Costa Rica",
+                        "url": "https://servicioselectorales.tse.go.cr/chc/consulta_cedula.aspx",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.costa-rica"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Validare CURP Mexic",
+                        "url": "https://www.gob.mx/curp/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.mexic"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Validare CIN Paraguay",
+                        "url": "https://tsje.gov.py/padron/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.paraguay"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Validare CNE Venezuela",
+                        "url": "http://www.cne.gov.ve/web/enlaces/index_enlaces.php",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.venezuela"
+                    }
+                ]
             },
             {
-                "type": "direct-link",
-                "title": "Verificare numar EGN Bulgaria",
-                "url": "https://georgi.unixsol.org/programs/egn.php",
-                "icon": "link",
-                "key": "useful-links.cnp-validation.egn-bulgaria"
+                "type": "with-children",
+                "title": "Calculator zile/termene",
+                "url": "",
+                "icon": "plus",
+                "key": "useful-links.cnp-validation.calculator.title",
+                "children": [
+                    {
+                        "type": "direct-link",
+                        "title": "CALCULATOR TERMENE JURIDICE Link1",
+                        "url": "https://calculator-termene.ro/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.calculator.link1"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "CALCULATOR ZI DIN SAPTAMANA Link2",
+                        "url": "https://www.topster.ro/calendar/wochentag.php",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.calculator.link2"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "CALCULATOR ZILE SEDERE Link3",
+                        "url": "https://ec.europa.eu/assets/home/visa-calculator/calculator.htm?lang=en",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.calculator.link3"
+                    }
+                ]
             }
         ]
     }

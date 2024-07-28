@@ -46,7 +46,7 @@
             "veicolo": "Veicolo"
         },
         "cnp-validation":{
-            "title": "CNP Validation",
+            "title": "CNP/Personal nID Validation",
             "idnp-md": "Moldovan IDNP check",
             "pesel": "Polish PESEL Check",
             "rodne-cislo": "Czech Rodne Cislo check",
@@ -62,6 +62,58 @@
                 "title": "CNP Validation Moldova",
                 "link1": "Moldova Link 1",
                 "link2": "Moldova Link 2"
+            },
+            "belgium": {
+                "title": "CNP Validation Belgium",
+                "link1": "Rijksregisternumer Link1",
+                "link2": "LuDev.be Link2"
+            },
+            "spain": {
+                "title": "CNP Validation Spain",
+                "link1": "DNI/NIE Link1",
+                "link2": "NIE Link2",
+                "link3": "DIE Link3"
+            },
+            "czech-republic": {
+                "title": "CNP Validation Czech Republic",
+                "link1": "Rodne cislo 1 Validation Link1",
+                "link2": "Rodne cislo 2 Validation Link2",
+                "link3": "Rodne cislo 3 Validation Link3"
+            },
+            "portugal": {
+                "title": "CNP Validation Portugal",
+                "link1": "Civil ID No. 1 Link1",
+                "link2": "Civil ID No. 2 Link2"
+            },
+            "norway": "Norway",
+            "sweden": {
+                "title": "CNP Validation Sweden",
+                "link1": "People identification Link1",
+                "link2": "Culano Link2",
+                "link3": "Pers. ID Number Link3"
+            },
+            "others": {
+                "title": "DNI Validation Argentina",
+                "argentina":{
+                    "title": "",
+                    "link1": "Linti.seguridadvial Link1",
+                    "link2": "Dateas Link2"
+                },
+                "bangladesh": "CNP Validation Bangladesh",
+                "bolivia": "OEP Validation Bolivia",
+                "bosnia": "JMBG Validation Bosnia-H",
+                "brazil": "CFP Validation Brazilia",
+                "chile": "RUT Validation Chile",
+                "costa-rica": "ID Validation Costa Rica",
+                "mexic": "CURP Validation Mexic",
+                "paraguay": "CIN Validation Paraguay",
+                "venezuela": "CNE Validation Venezuela"
+            },
+            "calculator": {
+                "title": "Days/Terms Calculator",
+                "link1": "Judiciary terms Calculator Link1",
+                "link2": "Days of Week Calculator Link2",
+                "link3": "Staying days Calculator Link3"
             }
         }
     },
