@@ -434,6 +434,12 @@
                 "url": "https://auto-info.gratis/",
                 "icon": "link",
                 "type": "direct-link"
+            },
+            {
+                "title": "Info-Car",
+                "url": "https://info-car.pl/infocar/vin.html",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
@@ -464,8 +470,8 @@
                 "type": "direct-link"
             },
             {
-                "title": "Mister-Auto",
-                "url": "https://www.mister-auto.pt/",
+                "title": "Infomatricula",
+                "url": "https://infomatricula.pt/",
                 "icon": "link",
                 "type": "direct-link"
             }
@@ -480,8 +486,20 @@
         "key": "vehicle-info.romania",
         "children": [
             {
+                "title": "DRPCIV",
+                "url": "https://dgpci.mai.gov.ro/drpciv-forms/vehicle",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
                 "title": "Allianz-Tiriac",
                 "url": "https://cumpara-asigurare.allianztiriac.ro/my-car/vehicle",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Istoric RAR",
+                "url": "https://pro.rarom.ro/istoric_vehicul/dosar_vehicul.aspx?from=fillForm",
                 "icon": "link",
                 "type": "direct-link"
             }
@@ -523,6 +541,12 @@
         "icon": "plus",
         "key": "vehicle-info.slovenia",
         "children": [
+            {
+                "title": "e-Uprava.Gov.si",
+                "url": "https://e-uprava.gov.si/javne-evidence/motorna-vozila.html",
+                "icon": "link",
+                "type": "direct-link"
+            },
             {
                 "title": "Avtolog.si",
                 "url": "https://avtolog.si/",
