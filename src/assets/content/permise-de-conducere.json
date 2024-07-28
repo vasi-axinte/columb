@@ -60,10 +60,26 @@
         "type": "country"
     },
     {
+        "type": "with-children",
         "title": "Polonia",
         "countryCode": "pl",
-        "url": "https://moj.gov.pl/uslugi/engine/ng/index?xFormsAppName=UprawnieniaKierowcow&xFormsOrigin=EXTERNAL",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "driving-licenses.poland",
+        "children": [
+            {
+                "title": "Polonia P.C.",
+                "url": "https://moj.gov.pl/uslugi/engine/ng/index?xFormsAppName=UprawnieniaKierowcow&xFormsOrigin=EXTERNAL",
+                "type": "country",
+                "countryCode": "pl"
+            },
+            {
+                "title": "Litera de control P.C.",
+                "url": "",
+                "type": "country",
+                "countryCode": "pl"
+            }
+        ]
     },
     {
         "title": "România",
@@ -154,12 +170,6 @@
                 "countryCode": "cl",
                 "url": "https://www.registrocivil.cl/bloqueo/runLicencia.jsp?accion=C",
                 "type": "country"
-            },
-            {
-                "title": "P.C. INTERNATIONAL",
-                "url": "https://internationaldrivingpermit.org/",
-                "type": "country",
-                "countryCode": "ch"
             },
             {
                 "type": "with-children",
@@ -501,13 +511,25 @@
                 "url": "https://www.jiscd.sk/registre/registre-kkv/overenie-platnosti-karty-kkv/",
                 "type": "country",
                 "countryCode": "sk"
-            },
-            {
-                "title": "Conventia Viena/Geneva - se va adauga",
-                "url": "https://www.jiscd.sk/registre/registre-kkv/overenie-platnosti-karty-kkv/",
-                "type": "country",
-                "countryCode": "sk"
             }
         ]
+    },
+    {
+        "title": "P.C. INTERNATIONAL",
+        "countryCode": "ch",
+        "url": "https://internationaldrivingpermit.org/",
+        "type": "country"
+    },
+    {
+        "title": "Conventia Viena/Geneva - se va adauga",
+        "url": "",
+        "type": "country",
+        "countryCode": "sk"
+    },
+    {
+        "title": "Coduri P.C. (U.E.) - se va adauga",
+        "url": "",
+        "type": "country",
+        "countryCode": "sk"
     }
 ]
