@@ -301,7 +301,7 @@
                 "children": [
                     {
                         "title": "Teritoriul capitalei Islamabad",
-                        "url": "https://applydl.dotm.gov.np/licensecheck",
+                        "url": "https://ict.islamabadpolice.gov.pk:4433/verification/",
                         "type": "country",
                         "countryCode": "pk"
                     },

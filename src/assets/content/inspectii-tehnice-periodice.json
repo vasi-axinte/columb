@@ -42,6 +42,12 @@
         "type": "country"
     },
     {
+        "title": "Finlanda",
+        "countryCode": "fi",
+        "url": "https://helppokatsastus.fi/katsastuspalvelut/katsastusaika/",
+        "type": "country"
+    },
+    {
         "type": "with-children",
         "title": "Franța",
         "countryCode": "fr",
