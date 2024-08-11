@@ -18,6 +18,7 @@ export class UserManagementComponent implements OnInit{
   numberOfActiveUsers: number = 0;
   numberOfPendingUsers: number = 0;
   numberOfInactiveUsers: number = 0;
+  numberOfTiafUsers: number = 0;
 
   constructor(private userService: UserService){
 
@@ -29,6 +30,7 @@ export class UserManagementComponent implements OnInit{
       this.numberOfActiveUsers = this.users.filter(u => u.state === this.stateEnum.Active).length;
       this.numberOfPendingUsers = this.users.filter(u => u.state === this.stateEnum.Pending).length;
       this.numberOfInactiveUsers = this.users.filter(u => u.state === this.stateEnum.Inactive).length;
+      this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.hasTiafRequestAccess).length;
     })
   }
 
@@ -57,6 +59,10 @@ export class UserManagementComponent implements OnInit{
     this.filteredUsers = this.users.filter(u => u.state === this.selectedState);
   }
 
+  selectTiafUsers(){
+    this.filteredUsers = this.users.filter(u => u.hasTiafAccess || u.hasTiafRequestAccess);
+  }
+
   onSearchChange($event: any): void { 
     const searchValue = $event.target.value;  
     this.filteredUsers = this.users.filter(u => 
@@ -78,6 +84,22 @@ export class UserManagementComponent implements OnInit{
         }
       });
     }
+  }
+
+  updateRequestTiafAccess(user: AppUser){
+    console.log("Requesting TIAF access for user with id: " + user.id);
+    user.hasTiafRequestAccess = !user.hasTiafRequestAccess
+    this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.hasTiafRequestAccess).length;
+  }
+
+  updateAccessTiafAccess(user: AppUser){
+    console.log("Updating TIAF access for user with id: " + user.id);
+    user.hasTiafAccess = !user.hasTiafAccess
+    this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.hasTiafRequestAccess).length;
+  }
+
+  testSwithcChange($event: any){
+    console.log($event);
   }
 
   getDate(){

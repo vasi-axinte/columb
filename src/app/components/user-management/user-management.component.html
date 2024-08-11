@@ -25,6 +25,12 @@
     <label class="btn btn-outline-primary" for="btnradio3">Inactivi
         <span class="badge rounded-pill text-bg-danger">{{numberOfInactiveUsers}}</span>
     </label>
+
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off"
+    (click)="selectTiafUsers()">
+    <label class="btn btn-outline-primary" for="btnradio4">Tiaf
+        <span class="badge rounded-pill text-bg-primary">{{numberOfTiafUsers}}</span>
+    </label>
 </div>
 
 <div class="accordion" id="'accordionUsers'">
@@ -99,6 +105,16 @@
                 </div>
                 <div *ngIf="!user.historicalUser && selectedIdForShowingHistory === user.id" class="card-footer border-info history-footer">
                     <p>No History</p>
+                </div>
+                <div class="card-footer">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" (click)="updateRequestTiafAccess(user)">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Cere Acces Tiaf</label>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" (click)="updateAccessTiafAccess(user)">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Acces Tiaf</label>
+                    </div>
                 </div>
             </div>
         </div>
