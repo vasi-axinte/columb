@@ -22,8 +22,9 @@
       <h5 class="card-title">Bine ai venit, {{getUserName()}}</h5>
       <p class="card-text">Foloseste meniul din dreapta sus pentru navigare</p>
       <a *ngIf="shouldShowLoginButton()" class="btn btn-secondary" routerLink="/login">Login</a>
-      <div class="d-grid gap-2 col-6 mx-auto">
+      <div class="d-grid gap-2 col-7 mx-auto">
         <a class="btn btn-warning" [routerLink]="['/update-user', getUserId()]">Update Profile</a>
+        <a *ngIf="hasAccessToTiaf" class="btn btn-secondary" href="https://drive.google.com/drive/folders/1hTegKqNbbz10A9ytPtK2usYQGXdZDTll">Cere Acces TIAF</a>
         <a *ngIf="hasAccessToTiaf" class="btn btn-secondary" [routerLink]="['/tiaf-app']">Acces TIAF</a>
       </div>
     </div>
