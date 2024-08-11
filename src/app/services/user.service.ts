@@ -30,7 +30,7 @@ export class UserService {
   }
 
   public updateUserHasTiafAccess(userId: string, userHasTiafAccess: boolean): Observable<boolean> {
-    return this.http.post<boolean>(environment.apiUrl + 'api/updateUserHasTiafAccess', {userId: userId, userHasTiafAccess: userHasTiafAccess} );
+    return this.http.post<boolean>(environment.apiUrl + 'api/users/updateUserHasTiafAccess', {userId: userId, userHasTiafAccess: userHasTiafAccess} );
   }
 
   public updateUser(userId: string, user: UpdateUser): Observable<boolean>{
