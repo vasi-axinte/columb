@@ -45,6 +45,7 @@ export class UpdateUserComponent implements OnInit {
       this.structure.value!,
       this.sex.value! === "true",
       +this.birthYear.value!,
+      false
     )
 
     return this.userService.updateUser(this.userId ? this.userId : "", user).subscribe({

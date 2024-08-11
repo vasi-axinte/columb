@@ -25,6 +25,7 @@ import { UpdateUserComponent } from './components/update-user/update-user.compon
 import { ChatComponent } from './components/chat/chat.component';
 import { DigitCalculatorComponent } from './components/digit-calculator/digit-calculator.component';
 import { TravelDocsSamplesComponent } from './components/travel-docs-samples/travel-docs-samples.component';
+import { TiafAppComponent } from './components/tiaf-app/tiaf-app.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -78,6 +79,7 @@ const routes: Routes = [
   },
   { path: 'specimens', component: SpecimensComponent, canActivate: [AuthGuard] },
   { path: 'tiaf', component: TiafComponent, canActivate: [AuthGuard] },
+  { path: 'tiaf-app', component: TiafAppComponent, canActivate: [AuthGuard] },
   { path: 'useful-sites', component: UsefulSitesComponent, canActivate: [AuthGuard] },
   { path: 'user-management', 
     component: UserManagementComponent, 

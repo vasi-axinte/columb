@@ -46,6 +46,7 @@ import { PolyCountryElementComponent } from './components/poly-list/poly-country
 import { DigitCalculatorComponent } from './components/digit-calculator/digit-calculator.component';
 import { TravelDocsSamplesComponent } from './components/travel-docs-samples/travel-docs-samples.component';
 import { PolyNoTypeElementComponent } from './components/poly-list/poly-no-type-element/poly-no-type-element.component';
+import { TiafAppComponent } from './components/tiaf-app/tiaf-app.component';
 
 @NgModule({
   declarations: [
@@ -82,7 +83,8 @@ import { PolyNoTypeElementComponent } from './components/poly-list/poly-no-type-
     ChatComponent,
     DigitCalculatorComponent,
     TravelDocsSamplesComponent,
-    PolyNoTypeElementComponent
+    PolyNoTypeElementComponent,
+    TiafAppComponent
   ],
   imports: [
     BrowserModule,

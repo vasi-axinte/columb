@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { StateEnum } from 'src/app/models/state.enum';
 import { AuthService } from 'src/app/services/auth.service';
+import { UserService } from 'src/app/services/user.service';
 
 @Component({
   selector: 'app-home',
@@ -10,9 +11,25 @@ import { AuthService } from 'src/app/services/auth.service';
 })
 export class HomeComponent {
 
+  hasAccessToTiaf: boolean = false;
 
-  constructor(private authService: AuthService, private router: Router){
+  constructor(private authService: AuthService, private router: Router, private userService: UserService) {
 
+  }
+
+  ngOnInit(){
+    const user = localStorage.getItem("user");
+
+    if(!user){
+      return;
+    }
+
+    let typedState: keyof typeof StateEnum;
+    const userData = JSON.parse(user);
+
+    this.userService.getUser(userData.userId).subscribe(user => {
+      this.hasAccessToTiaf = user.hasTiafAccess;
+    });
   }
 
   getUserState(): StateEnum {
