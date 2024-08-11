@@ -89,13 +89,21 @@ export class UserManagementComponent implements OnInit{
   updateRequestTiafAccess(user: AppUser){
     console.log("Requesting TIAF access for user with id: " + user.id);
     user.hasTiafRequestAccess = !user.hasTiafRequestAccess
-    this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.hasTiafRequestAccess).length;
+    this.userService.updateUserCanRequestTiafAccess(user.id, user.hasTiafRequestAccess).subscribe(result => {
+      if (result) {
+        this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.hasTiafRequestAccess).length;
+      }
+    });
   }
 
   updateAccessTiafAccess(user: AppUser){
     console.log("Updating TIAF access for user with id: " + user.id);
     user.hasTiafAccess = !user.hasTiafAccess
-    this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.hasTiafRequestAccess).length;
+    this.userService.updateUserHasTiafAccess(user.id, user.hasTiafAccess).subscribe(result => {
+      if (result) {
+        this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.hasTiafRequestAccess).length;
+      }
+    });
   }
 
   testSwithcChange($event: any){

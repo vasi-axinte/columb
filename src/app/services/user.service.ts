@@ -25,6 +25,14 @@ export class UserService {
     return this.http.post<boolean>(environment.apiUrl + 'api/users', {userId: userId, userState: userState} );
   }
 
+  public updateUserCanRequestTiafAccess(userId: string, userCanRequestTiafAccess: boolean): Observable<boolean> {
+    return this.http.post<boolean>(environment.apiUrl + 'api/users/updateUserCanRequestTiafAccess', {userId: userId, userCanRequestTiafAccess: userCanRequestTiafAccess} );
+  }
+
+  public updateUserHasTiafAccess(userId: string, userHasTiafAccess: boolean): Observable<boolean> {
+    return this.http.post<boolean>(environment.apiUrl + 'api/updateUserHasTiafAccess', {userId: userId, userHasTiafAccess: userHasTiafAccess} );
+  }
+
   public updateUser(userId: string, user: UpdateUser): Observable<boolean>{
     return this.http.put<boolean>(environment.apiUrl + 'api/users/'+userId, user);
   }
