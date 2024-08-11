@@ -30,7 +30,7 @@ export class UserManagementComponent implements OnInit{
       this.numberOfActiveUsers = this.users.filter(u => u.state === this.stateEnum.Active).length;
       this.numberOfPendingUsers = this.users.filter(u => u.state === this.stateEnum.Pending).length;
       this.numberOfInactiveUsers = this.users.filter(u => u.state === this.stateEnum.Inactive).length;
-      this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.hasTiafRequestAccess).length;
+      this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.canRequestTiafAccess).length;
     })
   }
 
@@ -60,7 +60,7 @@ export class UserManagementComponent implements OnInit{
   }
 
   selectTiafUsers(){
-    this.filteredUsers = this.users.filter(u => u.hasTiafAccess || u.hasTiafRequestAccess);
+    this.filteredUsers = this.users.filter(u => u.hasTiafAccess || u.canRequestTiafAccess);
   }
 
   onSearchChange($event: any): void { 
@@ -88,10 +88,10 @@ export class UserManagementComponent implements OnInit{
 
   updateRequestTiafAccess(user: AppUser){
     console.log("Requesting TIAF access for user with id: " + user.id);
-    user.hasTiafRequestAccess = !user.hasTiafRequestAccess
-    this.userService.updateUserCanRequestTiafAccess(user.id, user.hasTiafRequestAccess).subscribe(result => {
+    user.canRequestTiafAccess = !user.canRequestTiafAccess
+    this.userService.updateUserCanRequestTiafAccess(user.id, user.canRequestTiafAccess).subscribe(result => {
       if (result) {
-        this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.hasTiafRequestAccess).length;
+        this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.canRequestTiafAccess).length;
       }
     });
   }
@@ -101,7 +101,7 @@ export class UserManagementComponent implements OnInit{
     user.hasTiafAccess = !user.hasTiafAccess
     this.userService.updateUserHasTiafAccess(user.id, user.hasTiafAccess).subscribe(result => {
       if (result) {
-        this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.hasTiafRequestAccess).length;
+        this.numberOfTiafUsers = this.users.filter(u => u.hasTiafAccess || u.canRequestTiafAccess).length;
       }
     });
   }

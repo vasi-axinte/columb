@@ -11,7 +11,7 @@ export interface AppUser {
     birthYear: number;
     isActive: boolean;
     state: StateEnum;
-    hasTiafRequestAccess: boolean;
+    canRequestTiafAccess: boolean;
     hasTiafAccess: boolean;
     historicalUser: HistoricalUser | null;
   }
