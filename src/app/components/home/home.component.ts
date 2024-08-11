@@ -12,6 +12,7 @@ import { UserService } from 'src/app/services/user.service';
 export class HomeComponent {
 
   hasAccessToTiaf: boolean = false;
+  canRequestAccessToTiaf: boolean = false;
 
   constructor(private authService: AuthService, private router: Router, private userService: UserService) {
 
@@ -29,6 +30,7 @@ export class HomeComponent {
 
     this.userService.getUser(userData.userId).subscribe(user => {
       this.hasAccessToTiaf = user.hasTiafAccess;
+      this.canRequestAccessToTiaf = user.canRequestTiafAccess;
     });
   }
 

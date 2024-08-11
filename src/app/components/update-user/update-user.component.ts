@@ -45,6 +45,7 @@ export class UpdateUserComponent implements OnInit {
       this.structure.value!,
       this.sex.value! === "true",
       +this.birthYear.value!,
+      false,
       false
     )
 

@@ -108,7 +108,7 @@
                 </div>
                 <div class="card-footer">
                     <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" (click)="updateRequestTiafAccess(user)">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" [checked]="user.canRequestTiafAccess" (click)="updateRequestTiafAccess(user)">
                         <label class="form-check-label" for="flexSwitchCheckDefault">Cere Acces Tiaf</label>
                     </div>
                     <div class="form-check form-switch">
