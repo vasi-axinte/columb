@@ -11,6 +11,10 @@ export class PolyElementListComponent {
 
   @Input()
   contentFileName: string = '';
+
+  @Input()
+  shouldDisplayList: boolean = true;
+
   polyElements: PolyElement[] = [];
   originalList: PolyElement[] = [];
  
@@ -22,7 +26,10 @@ export class PolyElementListComponent {
     this.urlNavigationReadingService.getDataFromPolyFile(this.contentFileName)
       .subscribe(result =>{
         this.originalList = result;
-        this.polyElements = this.getList('', this.originalList);
+        
+        if(this.shouldDisplayList) {
+          this.polyElements = this.getList('', this.originalList)
+        };
         
         console.log(this.polyElements);
       }
@@ -36,7 +43,7 @@ export class PolyElementListComponent {
 
   getList(searchedWord: string, originalList: PolyElement[]): PolyElement[] {
     if (!searchedWord || searchedWord.trim() === '') {
-      return [...originalList];
+      return this.shouldDisplayList ? [...originalList] : [];
     }
   
     const filterRecursive = (item: PolyElement): PolyElement => {
