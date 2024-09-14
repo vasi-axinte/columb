@@ -340,8 +340,14 @@
                 "type": "direct-link"
             },
             {
-                "title": "Doctor Car Parts",
+                "title": "Doctor Car Parts (NR. => VIN)",
                 "url": "https://doctorcarparts.com/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Car Guide (VIN => NR.)",
+                "url": "https://www.carguide.co.uk/vin-check-landing/#car-check-panel-title",
                 "icon": "link",
                 "type": "direct-link"
             },
