@@ -322,12 +322,6 @@
         "key": "vehicle-info.great-britain",
         "children": [
             {
-                "title": "Car Data Check",
-                "url": "https://www.cardatachecks.co.uk/",
-                "icon": "link",
-                "type": "direct-link"
-            },
-            {
                 "title": "Check History",
                 "url": "https://checkhistory.uk/",
                 "icon": "link",
@@ -336,6 +330,12 @@
             {
                 "title": "TotalCarCheck",
                 "url": "https://totalcarcheck.co.uk/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Car Data Check",
+                "url": "https://www.cardatachecks.co.uk/",
                 "icon": "link",
                 "type": "direct-link"
             },
@@ -352,7 +352,7 @@
                 "type": "direct-link"
             },
             {
-                "title": "IsItNicked Vin Check",
+                "title": "IsItNicked - Vin Check",
                 "url": "https://isitnicked.com/",
                 "icon": "link",
                 "type": "direct-link"
