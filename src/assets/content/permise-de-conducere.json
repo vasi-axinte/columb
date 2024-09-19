@@ -527,9 +527,9 @@
         "countryCode": ""
     },
     {
-        "title": "Coduri P.C. (U.E.) - se va adauga",
-        "url": "",
+        "title": "Coduri P.C. (U.E.)",
+        "url": "https://rawcdn.githack.com/stefffy79/coduriarmonizate/13fff5c40f02a0ee0f27a03c46e11833f248edd2/coduri.html",
         "type": "country",
-        "countryCode": "sk"
+        "countryCode": ""
     }
 ]
