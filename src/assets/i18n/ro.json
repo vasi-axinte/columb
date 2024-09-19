@@ -214,6 +214,7 @@
         "specimens-eu": "Specimene (Certificate Înmatriculare - UE)",
         "obd-localization-2": "Localizare mufa OBD II auto",
         "license-plates":{
+          "2024": "Plăcuțe 2024 (căutare după țară)",
             "title": "Plăcuțe de înmatriculare",
             "world": "World License Plates",
             "world-drive": "License Plates of the World",
