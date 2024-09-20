@@ -156,6 +156,7 @@
         "specimens-non-eu": "Specimene (Certificate Înmatriculare - nonUE)",
         "make-photo-recognition": "Recunoaste marca/model auto dupa foto",
         "vin-control-digit": "VIN Cifra de control",
+      "decoder-brand": "VIN decoder (căutare după marcă)",
         "vin-localization-auto": {
           "title": "Localizare serie sasiu poansonată - VIN auto",
           "znajdzvin": "Auto-ZNAJDZVIN.PL",
