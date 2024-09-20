@@ -236,7 +236,9 @@
         "pakistan": "Pakistan",
         "peru": "Peru",
         "adr-certificates": "Certificate ADR",
-        "poland": "Polonia"
+        "poland":{
+          "poland-dl": "P.C. Polonia",
+          "letter-dl": "Literă de vontrol P.C.",
     },
     "vehicle-info": {
         "switzerland": "Elveția",
