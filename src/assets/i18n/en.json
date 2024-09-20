@@ -236,7 +236,9 @@
         "pakistan": "Pakistan",
         "peru": "Peru",
         "adr-certificates": "ADR Certificates",
-        "poland": "Poland"
+        "poland":{
+          "poland-dl": "Poland D.L.",
+          "letter-dl": "D.L. controk letter",
     },
     "vehicle-info": {
         "switzerland": "Switzerland",
