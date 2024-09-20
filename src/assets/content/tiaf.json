@@ -111,7 +111,7 @@
     {
         "type": "direct-link",
         "title": "Auto VIN decoder",
-        "url": "",
+        "url": "https://rawcdn.githack.com/stefffy79/autovindecoder/b543798a3adba03cf5cda5fb923707cd6c8f9aa7/autovindecoder.html",
         "icon": "link",
         "key": "tiaf.vin-decoder"
     },
