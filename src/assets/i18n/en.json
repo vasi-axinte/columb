@@ -156,6 +156,7 @@
         "specimens-non-eu": "Specimens (Non-EU Registration Certificates)",
         "make-photo-recognition": "Make/model recognition from photo",
         "vin-control-digit": "Control Digit VIN",
+        "decoder-brand": "VIN decoder (search by brand)",
         "vin-localization-auto": {
           "title": "Chassis Number Localization - VIN auto",
           "znajdzvin": "Auto-ZNAJDZVIN.PL",
