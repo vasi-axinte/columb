@@ -72,12 +72,14 @@
                 "url": "https://moj.gov.pl/uslugi/engine/ng/index?xFormsAppName=UprawnieniaKierowcow&xFormsOrigin=EXTERNAL",
                 "type": "country",
                 "countryCode": "pl"
+              "key": "driving-licenses.poland.poland-dl",
             },
             {
                 "title": "Litera de control P.C.",
                 "url": "https://rawcdn.githack.com/stefffy79/pcpolonia/ba8e144a8c6854ed5e206cb0aa91cefd37f73814/pcpolonia.html",
                 "type": "country",
                 "countryCode": "pl"
+              "key": "driving-licenses.poland.letter-dl",
             }
         ]
     },
