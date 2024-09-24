@@ -87,12 +87,28 @@
         "url": "https://dgpci.mai.gov.ro/drpciv-forms/license",
         "type": "country"
     },
-    {
-        "title": "Rusia - VPN",
-        "countryCode": "ru",
-        "url": "https://xn--90adear.xn--p1ai/check/driver#+",
-        "type": "country"
-    },
+   {
+"type": "with-children",
+"title": "Rusia",
+"countryCode": "ru",
+"url": "",
+"icon": "plus",
+"key": "driving-licenses.rusia",
+"children": [
+{
+"title": "Rusia",
+"url": "https://bip.ru/shtrafy/proverka-voditelya/",
+"type": "country",
+"countryCode": "ru"
+},
+{
+"title": "Rusia - VPN",
+"countryCode": "ru",
+"url": "https://xn--90adear.xn--p1ai/check/driver#+",
+"type": "country"
+}
+]
+},
     {
         "title": "Slovenia",
         "countryCode": "si",
