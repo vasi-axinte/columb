@@ -307,70 +307,70 @@
                 "type": "country",
                 "countryCode": "ng"
             },
-            {
-                "type": "with-children",
-                "title": "Pakistan",
-                "countryCode": "pk",
-                "url": "",
-                "icon": "plus",
-                "key": "driving-licenses.pakistan",
-                "children": [
-                    {
-                        "title": "Teritoriul capitalei Islamabad",
-                        "url": "https://ict.islamabadpolice.gov.pk:4433/verification/",
-                        "type": "country",
-                        "countryCode": "pk"
-                    },
-                    {
-                        "title": "Provincia Punjab",
-                        "url": "https://dotm.gov.np/DrivingLicense/SearchLicense",
-                        "type": "country",
-                        "countryCode": "pk"
-                    },
-                    {
-                        "title": "Provincia Sindh",
-                        "url": "https://applydl.dotm.gov.np/licensecheck",
-                        "type": "country",
-                        "countryCode": "pk"
-                    },
-                    {
-                        "title": "Khyber Pakhtunkhwa Model 1",
-                        "url": "https://dotm.gov.np/DrivingLicense/SearchLicense",
-                        "type": "country",
-                        "countryCode": "pk"
-                    },
-                    {
-                        "title": "Khyber Pakhtunkhwa Model 2",
-                        "url": "https://applydl.dotm.gov.np/licensecheck",
-                        "type": "country",
-                        "countryCode": "pk"
-                    },
-                    {
-                        "title": "Provincia Balochistan",
-                        "url": "https://qtp.gob.pk/driving",
-                        "type": "country",
-                        "countryCode": "pk"
-                    },
-                    {
-                        "title": "Azad Jammu & Kashmir",
-                        "url": "https://trafficpolice.ajk.gov.pk/VerifyLicense/",
-                        "type": "country",
-                        "countryCode": "pk"
-                    },
-                    {
-                        "title": "Provincia Gilgit-Baltistan",
-                        "url": "https://dlmis.gbp.gov.pk/verify/",
-                        "type": "country",
-                        "countryCode": "pk"
-                    },
-                    {
-                        "title": "Nat Highways&Motorway Pol",
-                        "url": "https://dla.nhmp.gov.pk/LicVerification.aspx",
-                        "type": "country",
-                        "countryCode": "pk"
-                    }
-                ]
-            },
+           {
+"type": "with-children",
+"title": "Pakistan",
+"countryCode": "pk",
+"url": "",
+"icon": "plus",
+"key": "driving-licenses.pakistan",
+"children": [
+{
+"title": "Teritoriul capitalei Islamabad",
+"url": "https://ict.islamabadpolice.gov.pk:4433/verification/",
+"type": "country",
+"countryCode": "pk"
+},
+{
+"title": "Provincia Punjab",
+"url": "https://dlims.punjab.gov.pk/elicense",
+"type": "country",
+"countryCode": "pk"
+},
+{
+"title": "Provincia Sindh",
+"url": "https://dls.gos.pk/online-verification.html",
+"type": "country",
+"countryCode": "pk"
+},
+{
+"title": "Khyber Pakhtunkhwa Model 1",
+"url": "https://transport.kpdata.gov.pk/",
+"type": "country",
+"countryCode": "pk"
+},
+{
+"title": "Khyber Pakhtunkhwa Model 2",
+"url": "https://ptpkp.gov.pk/driving-license-verification/",
+"type": "country",
+"countryCode": "pk"
+},
+{
+"title": "Provincia Balochistan",
+"url": "https://qtp.gob.pk/driving",
+"type": "country",
+"countryCode": "pk"
+},
+{
+"title": "Azad Jammu & Kashmir",
+"url": "https://trafficpolice.ajk.gov.pk/VerifyLicense/",
+"type": "country",
+"countryCode": "pk"
+},
+{
+"title": "Provincia Gilgit-Baltistan",
+"url": "https://dlmis.gbp.gov.pk/verify/",
+"type": "country",
+"countryCode": "pk"
+},
+{
+"title": "Nat Highways&Motorway Pol",
+"url": "https://dla.nhmp.gov.pk/LicVerification.aspx",
+"type": "country",
+"countryCode": "pk"
+}
+]
+},
             {
                 "title": "Palestina",
                 "url": "http://www.mot.gov.ps/practicalexam/",
