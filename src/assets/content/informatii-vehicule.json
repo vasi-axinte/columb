@@ -631,6 +631,12 @@
         "icon": "plus",
         "key": "vehicle-info.ukraine",
         "children": [
+          {
+                "title": "CarPlates",
+                "url": "https://ua.carplates.app/",
+                "icon": "link",
+                "type": "direct-link"
+            },
             {
                 "title": "Hsc.Gov.Ua",
                 "url": "https://opendata.hsc.gov.ua/srtz/",
