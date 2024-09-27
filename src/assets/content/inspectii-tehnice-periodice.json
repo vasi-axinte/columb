@@ -1,4 +1,10 @@
 [
+  {
+        "title": "Austria",
+        "countryCode": "at",
+        "url": "https://portal.kfzgutachten.at/",
+        "type": "country"
+    },
     {
         "title": "Belgia",
         "countryCode": "be",
