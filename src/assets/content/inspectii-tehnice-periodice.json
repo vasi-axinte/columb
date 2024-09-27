@@ -229,11 +229,27 @@
         "url": "https://kbm-osago.ru/osago/proverka-tehosmotra.html",
         "type": "country"
     },
-    {
+  {
+        "type": "with-children",
+        "title": "Slovacia",
+        "countryCode": "sk",
+        "url": "",
+        "icon": "plus",
+        "key": "technical-check.slovakia",
+        "children": [
+            {
         "title": "Slovacia",
         "countryCode": "sk",
         "url": "https://www.testek.sk/?lang=sk&menuid=406",
         "type": "country"
+            },
+            {
+        "title": "Slovacia",
+        "countryCode": "sk",
+        "url": "https://rpzv.sk/",
+        "type": "country"
+            }
+        ]        
     },
     {
         "title": "Slovenia",
