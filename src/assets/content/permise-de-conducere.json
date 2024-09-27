@@ -47,11 +47,27 @@
         "url": "https://licenzji-xufiera.gov.mt/Login/Citizen?ReturnUrl=https%3A%2F%2Flicenzji-xufiera.gov.mt%2FLicence",
         "type": "country"
     },
-    {
+  {
+        "type": "with-children",
+        "title": "Marea Britanie",
+        "countryCode": "gb",
+        "url": "",
+        "icon": "plus",
+        "key": "driving-licenses.great.britain",
+        "children": [
+            {
         "title": "Marea Britanie",
         "countryCode": "gb",
         "url": "https://www.viewdrivingrecord.service.gov.uk/driving-record/licence-number",
         "type": "country"
+            },
+            {
+         "title": "Verifică cifra de control",
+        "countryCode": "gb",
+        "url": "https://romek.info/ut/UK-driving-licence.php",
+        "type": "country"
+            }
+        ]
     },
     {
         "title": "Moldova",
