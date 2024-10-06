@@ -107,6 +107,7 @@
                 "costa-rica": "ID Validation Costa Rica",
                 "mexic": "CURP Validation Mexic",
                 "paraguay": "CIN Validation Paraguay",
+                "peru": "DNI Validation Peru",
                 "venezuela": "CNE Validation Venezuela"
             },
             "calculator": {
