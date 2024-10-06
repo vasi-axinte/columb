@@ -453,6 +453,13 @@
                         "icon": "link",
                         "key": "useful-links.cnp-validation.others.paraguay"
                     },
+                  {
+                        "type": "direct-link",
+                        "title": "Validare DNI Peru",
+                        "url": "https://dniperu.com/buscar-dni-nombres-apellidos/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.peru"
+                    },
                     {
                         "type": "direct-link",
                         "title": "Validare CNE Venezuela",
