@@ -24,8 +24,8 @@ export const oug97List: LawDetails[] = [
             SANCȚIONATĂ DE: Art. 43, lit. b).                                                                                                                        
             _________________________________________________
             
-            AMENDĂ CONTRAVENŢIONALĂ: amendă de la 40 la 80 lei.
-            JUMĂTATE DIN MINIM ÎN 15 ZILE : 20 lei.
+            AMENDĂ CONTRAVENŢIONALĂ: amendă de la 500 la 1000 lei.
+            JUMĂTATE DIN MINIM ÎN 15 ZILE : 250 lei.
             _________________________________________________
             
             MĂSURI COMPLEMENTARE: NU
