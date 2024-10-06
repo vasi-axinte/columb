@@ -107,6 +107,7 @@
                 "costa-rica": "Validare ID Costa Rica",
                 "mexic": "Validare CURP Mexic",
                 "paraguay": "Validare CIN Paraguay",
+                "peru": "Validare DNI Peru",
                 "venezuela": "Validare CNE Venezuela"
             },
             "calculator": {
