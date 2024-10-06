@@ -147,6 +147,12 @@
         "icon": "plus",
         "key": "technical-check.great-britain",
         "children": [
+          {
+                "title": "Istoric ITP",
+                "url": "https://mothistorycheck.co.uk/results/",
+                "icon": "link",
+                "type": "direct-link"
+            },
             {
                 "title": "Check Moto Service",
                 "url": "https://www.check-mot.service.gov.uk/",
