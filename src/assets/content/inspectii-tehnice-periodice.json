@@ -17,12 +17,27 @@
         "url": "https://rta.government.bg/services/check-inspection/index.html",
         "type": "country"
     },
-    {
+  {
+        "type": "with-children",
         "title": "Cehia",
         "countryCode": "cz",
-        "url": "https://www.kontrolatachometru.cz/",
-        "type": "country"
-    },
+        "url": "",
+        "icon": "plus",
+        "key": "technical-check.czech-republic",
+        "children": [
+          {
+                "title": "Kurzy.cz",
+                "url": "https://www.kurzy.cz/auto/e-technicak/#vin-form",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Kontrolatachometru.cz",
+                "url": "https://www.kontrolatachometru.cz/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     {
         "title": "Croația",
         "countryCode": "hr",
