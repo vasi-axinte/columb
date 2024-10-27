@@ -418,14 +418,20 @@
                 "key": "driving-licenses.peru",
                 "children": [
                     {
-                        "title": "Licencias.mtc Link1",
-                        "url": "https://applydl.dotm.gov.np/licensecheck",
+                        "title": "Licencias.mtc",
+                        "url": "https://licencias.mtc.gob.pe/#/index",
                         "type": "country",
                         "countryCode": "pe"
                     },
                     {
-                        "title": "Conductor.mtc Link2",
-                        "url": "https://dotm.gov.np/DrivingLicense/SearchLicense",
+                        "title": "Conductor.mtc",
+                        "url": "https://recordconductor.mtc.gob.pe/",
+                        "type": "country",
+                        "countryCode": "pe"
+                    }
+                  {
+                        "title": "Informații P.C.",
+                        "url": "https://www.gob.pe/262-tipos-de-licencia-de-conducir-brevete",
                         "type": "country",
                         "countryCode": "pe"
                     }
