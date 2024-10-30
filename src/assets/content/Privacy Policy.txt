@@ -1,0 +1,34 @@
+Culegere de link-uri și materiale utile pentru verificarea documentelor persoanelor și mijloacelor de transport cu ocazia controlului la frontieră. 
+
+Nu este o aplicație oficială a Inspectoratului General al Poliţiei de Frontieră. 
+ 
+IMPORTANT!!!
+
+CONTURILE COMPLETATE SUPERFICIAL SAU NECORESPUNZĂTOR NU VOR FI VALIDATE!
+  
+  Informațiile de profil pe baza cărora s-a validat contul NU VOR FI MODIFICATE ULTERIOR. 
+
+  Datele din profilul personal al utilizatorului nu sunt publice și nu pot fi accesate de către alți utilizatori cu excepția administratorilor aplicației. 
+
+Informațiile de profil nu vor fi postate sau  distribuite terțelor persoane, iar după ștergerea contului nu vor fi păstrate/stocate de către echipa de dezvoltare.
+
+Aceste informații sunt solicitate doar pentru a încerca păstrarea aplicației în rândul personalului MAI. 
+
+-------------------------------------------------------------------
+Câteva considerente cu privire la pagina web:
+1. Nu este o bază de date oficială. 
+2. Orice măsură se va lua numai în baza rezultatelor obținute din surse oficiale. 
+3. Exactitatea datelor nu ține de echipa care a dezvoltat aplicația.
+Va rugăm ca această aplicație să rămână pentru uz intern,instruire și învățământ.
+4. Aplicația este gratuită fără nici un beneficiu pentru dezvoltatori. 
+5. Echipa care dezvoltă aplicația dorește, ca aceasta să fie folosită numai în cadrul instituțional, fără a fi dată publicității. Nu este destinată publicului larg. 
+6. Aplicația nu solicită permisiuni de acces la funcții ori servicii de pe dispozitivul utilizatorului. 
+Ne rezervăm dreptul de a schimba politica de confidențialitate cu privire la aplicație. 
+Pentru orice nelămurire cu privire la această aplicație vă stăm la dispoziție.
+Ne puteți contacta la adresa de e-mail : verificari.contact@gmail.com .
+
+Created by 
+Enache Adrian,
+Iacab Ștefan, 
+Nicola Ovidiu 
+-2023 
