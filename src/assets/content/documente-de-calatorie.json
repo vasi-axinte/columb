@@ -19,6 +19,11 @@
         "countryCode": "md",
         "url": "https://e-services.md/public/WebPublic/index.php?action=document&lang=md"
     },
+  {
+        "country": "Polonia",
+        "countryCode": "si",
+        "url": "https://sprawdz-numer.com/dowod-osobisty"
+    },
     {
         "country": "Slovenia",
         "countryCode": "si",
