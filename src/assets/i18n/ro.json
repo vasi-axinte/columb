@@ -226,6 +226,9 @@
         },
         "control-digit-vin-usa": "Cifra control VIN auto SUA"
     },
+  "travel-docs": {
+        "poland": "Polonia"
+     },
     "driving-licenses": {
         "others": "Alte Permise",
         "usa": "S.U.A.",
