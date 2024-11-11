@@ -39,12 +39,28 @@
             }
         ]   
     },
-    {
-        "title": "Croația",
-        "countryCode": "hr",
-        "url": "https://www.cvh.hr/naslovnica/#searchFields",
-        "type": "country"
-    },
+   {
+"type": "with-children",
+"title": "Croația",
+"countryCode": "hr",
+"url": "",
+"icon": "plus",
+"key": "technical-check.croatia",
+"children": [
+{
+"title": "Kompare.hr",
+"url": "https://kompare.hr/tehnicki-pregled/#kompare-technical-inspection-calculator-mount",
+"icon": "link",
+"type": "direct-link"
+},
+{
+"title": "Cvh.hr",
+"url": "https://www.cvh.hr/naslovnica/#searchFields",
+"icon": "link",
+"type": "direct-link"
+}
+]
+},
     {
         "title": "Danemarca",
         "countryCode": "dk",
