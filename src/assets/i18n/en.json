@@ -226,6 +226,9 @@
         },
         "control-digit-vin-usa": "Control digit VIN USA"
     },
+  "travel-docs": {
+        "poland": "Polonia"
+     },
     "driving-licenses": {
         "others": "Other Driving Licenses",
         "usa": "U. S. A.",
