@@ -25,7 +25,7 @@
     "countryCode": "pl",
     "url": "",
     "icon": "plus",
-    "key": "driving-licenses.poland",
+    "key": "travel-docs.poland",
     "children": [
         {
             "title": "Carte de identitate",
