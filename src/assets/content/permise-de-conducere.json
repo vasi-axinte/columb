@@ -279,6 +279,12 @@
                 "icon": "plus",
                 "key": "driving-licenses.india",
                 "children": [
+                   {
+                "title": "toate provinciile",
+                "url": "https://parivahan.gov.in/rcdlstatus/?pur_cd=101",
+                "type": "country",
+                "countryCode": "in"
+                    },
                     {
                 "title": "web.archive.org",
                 "url": "https://web.archive.org/web/20220330080235/https:/sarathi.nic.in:8443/nrportal/sarathi/DlDetRequest.jsp",
