@@ -20,10 +20,27 @@
         "url": "https://e-services.md/public/WebPublic/index.php?action=document&lang=md"
     },
   {
-        "country": "Polonia",
-        "countryCode": "pl",
-        "url": "https://sprawdz-numer.com/dowod-osobisty"
-    },
+"type": "with-children",
+"title": "Polonia",
+"countryCode": "pl",
+"url": "",
+"icon": "plus",
+"key": "travel-docs.poland",
+"children": [
+{
+"title": "Carte de identitate",
+"url": "https://sprawdz-numer.com/dowod-osobisty",
+"icon": "link",
+"type": "direct-link"
+},
+{
+"title": "Pașaport",
+"url": "https://sprawdz-numer.com/paszport",
+"icon": "link",
+"type": "direct-link"
+}
+]
+},
     {
         "country": "Slovenia",
         "countryCode": "si",
