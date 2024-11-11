@@ -36,6 +36,12 @@
                 "url": "https://www.vincheck.cz/",
                 "icon": "link",
                 "type": "direct-link"
+            },
+          {
+                "title": "Yauto.cz",
+                "url": "https://yauto.cz/vin/kontrola-vin-kodu-zdarma/",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
