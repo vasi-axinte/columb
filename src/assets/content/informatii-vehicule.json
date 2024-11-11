@@ -129,6 +129,18 @@
                 "icon": "link",
                 "type": "direct-link"
             },
+          {
+                "title": "VD",
+                "url": "https://www.viacar.ch/eindex/login.aspx?kanton=vd",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "VS",
+                "url": "https://ecari.vs.ch/ecari-rechDet/ui/app/init/search",
+                "icon": "link",
+                "type": "direct-link"
+            },
             {
                 "title": "ZG",
                 "url": "https://www.viacar.ch/eindex/login.aspx?kanton=zg",
