@@ -455,8 +455,8 @@
                     },
                   {
                         "type": "direct-link",
-                        "title": "Validare DNI Peru",
-                        "url": "https://dniperu.com/buscar-dni-nombres-apellidos/",
+                        "title": "Verificare persoană Peru",
+                        "url": "https://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/FrameCriterioBusquedaWeb.jsp",
                         "icon": "link",
                         "key": "useful-links.cnp-validation.others.peru"
                     },
