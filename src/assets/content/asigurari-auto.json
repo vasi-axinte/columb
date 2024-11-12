@@ -143,5 +143,10 @@
         "country": "Cod Asiguratori EU",
         "countryCode": "",
         "url": "http://corespondent.baar.ro/"
+    },
+  {
+        "country": "Asiguratori EU",
+        "countryCode": "",
+        "url": "https://www.bcf.asso.fr/qui-sommes-nous/les-membres/recherche-des-societes/"
     }
 ]
