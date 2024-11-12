@@ -709,6 +709,12 @@
                 "icon": "link",
                 "type": "direct-link"
             },
+          {
+                "title": "Autozona.com.ua",
+                "url": "https://autozona.com.ua/",
+                "icon": "link",
+                "type": "direct-link"
+            },
             {
                 "title": "Carma.com.ua",
                 "url": "https://carma.com.ua/",
