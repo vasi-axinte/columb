@@ -266,6 +266,12 @@
                 "url": "https://kneifel.de/vin.php",
                 "icon": "link",
                 "type": "direct-link"
+            },
+          {
+                "title": "Detalii plăcuțe de înmatriculare",
+                "url": "https://www.autokennzeichen.info/index.htm?lpc=Dgf&reg=&subm=1",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
