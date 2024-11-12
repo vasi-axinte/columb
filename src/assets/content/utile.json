@@ -439,6 +439,13 @@
                         "icon": "link",
                         "key": "useful-links.cnp-validation.others.costa-rica"
                     },
+                  {
+                        "type": "direct-link",
+                        "title": "Verificare persoană Honduras",
+                        "url": "https://www.sar.gob.hn/consulta-rtn/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.honduras"
+                    },
                     {
                         "type": "direct-link",
                         "title": "Validare CURP Mexic",
