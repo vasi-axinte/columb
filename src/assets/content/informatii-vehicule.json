@@ -42,6 +42,12 @@
                 "url": "https://yauto.cz/vin/kontrola-vin-kodu-zdarma/",
                 "icon": "link",
                 "type": "direct-link"
+            },
+          {
+                "title": "Check plăcuță înmatriculare",
+                "url": "https://www.klik.cz/blog/aplikace-e-technicak/#product-box-pb-1",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
