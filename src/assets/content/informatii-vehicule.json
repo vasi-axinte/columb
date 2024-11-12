@@ -624,8 +624,20 @@
                 "type": "direct-link"
             },
             {
-                "title": "Spania",
+                "title": "Provizoriu",
                 "url": "https://www.sedeelectronicaautomovil.com/sea/public/verify.html",
+                "icon": "link",
+                "type": "direct-link"
+            },
+           {
+                "title": "Bulină mediu",
+                "url": "https://sede.dgt.gob.es/es/vehiculos/informacion-de-vehiculos/distintivo-ambiental/index.html",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Dată înmatriculare",
+                "url": "https://www.dieselogasolina.com/fecha-de-matriculacion-de-vehiculos-por-matricula.html#b1",
                 "icon": "link",
                 "type": "direct-link"
             }
