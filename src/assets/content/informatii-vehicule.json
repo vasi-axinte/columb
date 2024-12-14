@@ -44,8 +44,14 @@
                 "type": "direct-link"
             },
           {
-                "title": "Check plăcuță înmatriculare",
+                "title": "Check plăcuță înmatriculare1",
                 "url": "https://www.klik.cz/blog/aplikace-e-technicak/#product-box-pb-1",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
+                "title": "Check plăcuță înmatriculare2",
+                "url": "https://www.srovnator.cz/povinne-ruceni/kalkulacka/",
                 "icon": "link",
                 "type": "direct-link"
             }
