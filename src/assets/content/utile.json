@@ -460,6 +460,13 @@
                         "icon": "link",
                         "key": "useful-links.cnp-validation.others.honduras"
                     },
+                  {
+                        "type": "direct-link",
+                        "title": "Verificare persoană Guatemala",
+                        "url": "https://portal.sat.gob.gt/portal/consulta-cui-nit/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.guatemala"
+                    },
                     {
                         "type": "direct-link",
                         "title": "Validare CURP Mexic",
