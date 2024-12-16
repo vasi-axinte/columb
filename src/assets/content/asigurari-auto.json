@@ -69,6 +69,11 @@
         "countryCode": "it",
         "url": "https://www.ilportaledellautomobilista.it/web/portale-automobilista/verifica-copertura-rc"
     },
+  {
+        "country": "Kosovo",
+        "countryCode": "xk",
+        "url": "https://bks-sip.insurex-ks.com/TplOnlineSearch"
+    },
     {
         "country": "Letonia",
         "countryCode": "lv",
