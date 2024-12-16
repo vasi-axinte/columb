@@ -439,6 +439,13 @@
                         "icon": "link",
                         "key": "useful-links.cnp-validation.others.costa-rica"
                     },
+                   {
+                        "type": "direct-link",
+                        "title": "Verificare ID Columbia",
+                        "url": "https://consultasrc.registraduria.gov.co:28080/ProyectoSCCRC/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.columbia"
+                    },
                   {
                         "type": "direct-link",
                         "title": "Verificare persoană Honduras",
