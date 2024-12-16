@@ -167,12 +167,29 @@
             }
         ]        
     },
-    {
-        "title": "Estonia",
-        "countryCode": "ee",
-        "url": "https://eteenindus.mnt.ee/public/soidukTaustakontroll.jsf?lang=en",
-        "type": "country"
-    },
+   {
+    "type": "with-children",
+    "title": "Estonia",
+    "countryCode": "ee",
+    "url": "",
+    "icon": "plus",
+    "key": "vehicle-info.estonia",
+    "children": [
+        {
+            "title": "Estonia",
+            "url": "https://eteenindus.mnt.ee/public/soidukTaustakontroll.jsf?lang=en",
+            "icon": "link",
+            "type": "direct-link"
+        },
+      
+        {
+            "title": "Estonia-plăcuță provizorie",
+            "url": "https://www.lkf.ee/et/kahjukontroll",
+            "icon": "link",
+            "type": "direct-link"
+        }
+    ]        
+},
     {
         "type": "with-children",
         "title": "Finlanda",
