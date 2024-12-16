@@ -446,6 +446,13 @@
                         "icon": "link",
                         "key": "useful-links.cnp-validation.others.columbia"
                     },
+                   {
+                        "type": "direct-link",
+                        "title": "Verificare persoană Ecuador",
+                        "url": "https://www.ecuadorlegalonline.com/consultas/registro-civil/consultar-cedulas/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.ecuador"
+                    },
                   {
                         "type": "direct-link",
                         "title": "Verificare persoană Honduras",
