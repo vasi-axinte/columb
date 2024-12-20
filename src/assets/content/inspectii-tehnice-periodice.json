@@ -303,20 +303,20 @@
     },
     {
         "type": "with-children",
-        "title": "Ucraina peste 3.5 tone",
+        "title": "Ucraina",
         "countryCode": "ua",
         "url": "",
         "icon": "plus",
         "key": "technical-check.ukraine",
         "children": [
             {
-                "title": "Dupa numar de inmatriculare Link1",
+                "title": "Dupa numar de inmatriculare",
                 "url": "https://opendata.hsc.gov.ua/search-otk/veh/",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
-                "title": "Dupa numarul certificatului tehnic Link2",
+                "title": "Dupa numarul certificatului tehnic",
                 "url": "https://opendata.hsc.gov.ua/search-otk/num/",
                 "icon": "link",
                 "type": "direct-link"
