@@ -30,21 +30,21 @@
             {
                 "type": "direct-link",
                 "title": "UE/SEE",
-                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsimport-och-ursprungskontroll/import-fran-ett-eu-land/regbevis-eu/",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/import-och-export-av-fordon/fordonsimport-och-ursprungskontroll/import-fran-ett-eu-land/regbevis-eu/",
                 "icon": "link",
                 "key": "tiaf.specimens.ue-see"
             },
             {
                 "type": "direct-link",
                 "title": "NON-UE",
-                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsimport-och-ursprungskontroll/import-fran-lander-utanfor-eu/regbevis-3jeland/#Q",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/import-och-export-av-fordon/fordonsimport-och-ursprungskontroll/import-fran-lander-utanfor-eu/regbevis-3jeland/",
                 "icon": "link",
                 "key": "tiaf.specimens.non-ue"
             },
             {
                 "type": "direct-link",
                 "title": "SUA",
-                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsimport-och-ursprungskontroll/import-fran-lander-utanfor-eu/usa/",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/import-och-export-av-fordon/fordonsimport-och-ursprungskontroll/import-fran-lander-utanfor-eu/usa/",
                 "icon": "link",
                 "key": "tiaf.specimens.usa"
             }
