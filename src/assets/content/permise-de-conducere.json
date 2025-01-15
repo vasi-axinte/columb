@@ -415,12 +415,34 @@
 }
 ]
 },
-            {
-                "title": "Palestina",
-                "url": "http://www.mot.gov.ps/?page_id=647",
-                "type": "country",
-                "countryCode": "ps"
-            },
+{
+    "type": "with-children",
+    "title": "Palestina",
+    "countryCode": "ps",
+    "url": "",
+    "icon": "plus",
+    "key": "driving-licenses.palestina",
+    "children": [
+        {
+            "title": "Rezultatele examenului teoretic",
+            "url": "http://www.mot.gov.ps/?page_id=641",
+            "type": "country",
+            "countryCode": "ps"
+        },
+        {
+            "title": "Rezultatele examenului practic",
+            "url": "http://www.mot.gov.ps/?page_id=647",
+            "type": "country",
+            "countryCode": "ps"
+        },
+        {
+            "title": "Incalcari ale traficului",
+            "url": "http://www.mot.gov.ps/?page_id=175231",
+            "type": "country",
+            "countryCode": "ps"
+        }
+        ]
+    },
             {
                 "type": "with-children",
                 "title": "Peru",
