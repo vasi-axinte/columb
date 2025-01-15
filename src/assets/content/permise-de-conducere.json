@@ -361,7 +361,7 @@
 "children": [
 {
 "title": "Teritoriul capitalei Islamabad",
-"url": "https://ict.islamabadpolice.gov.pk:4433/verification/",
+"url": "https://ict.islamabadpolice.gov.pk:8083/verification/",
 "type": "country",
 "countryCode": "pk"
 },
@@ -417,7 +417,7 @@
 },
             {
                 "title": "Palestina",
-                "url": "http://www.mot.gov.ps/practicalexam/",
+                "url": "http://www.mot.gov.ps/?page_id=647",
                 "type": "country",
                 "countryCode": "ps"
             },
