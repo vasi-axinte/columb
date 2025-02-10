@@ -105,6 +105,12 @@
         "icon": "plus",
         "key": "vehicle-info.switzerland",
         "children": [
+          {
+                "title": "AutoScout24",
+                "url": "https://autoscout24.ch/fr/direct?openWidget=true",
+                "icon": "link",
+                "type": "direct-link"
+            },
             {
                 "title": "Mister Auto",
                 "url": "https://www.mister-auto.ch/fr/",
