@@ -345,6 +345,12 @@
                     }
                 ]
             },
+          {
+                "title": "Mozambic",
+                "url": "https://balcaovirtual.inatro.gov.mz/auth-login.php?q=consulta_multas",
+                "type": "country",
+                "countryCode": "mz"
+            },
             {
                 "title": "Nigeria",
                 "url": "https://www.nigeriadriverslicence.org/license/trackStatus",
