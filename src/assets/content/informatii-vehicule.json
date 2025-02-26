@@ -285,6 +285,12 @@
                 "type": "direct-link"
             },
           {
+                "title": "HSN/TSN=Marca/model auto",
+                "url": "https://www.myparto.com/en/content/Reading-the-vehicle-registration-document.html",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
                 "title": "Dată eliberare certificat de înmatriculare",
                 "url": "https://rawcdn.githack.com/stefffy79/talongerman/af208f0b7ec1fd5f3c99ed9c9a7dcbc35dff65b0/talongerman.html",
                 "icon": "link",
@@ -527,6 +533,12 @@
             {
                 "title": "Info-Car",
                 "url": "https://info-car.pl/infocar/vin.html",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
+                "title": "Info din nr. de înmatriculare",
+                "url": "https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=NormaEuro#/search",
                 "icon": "link",
                 "type": "direct-link"
             }
