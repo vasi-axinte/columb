@@ -1,0 +1,292 @@
+{
+    "menu": {
+        "home": "Hola",
+        "travel-docs": "Documentos de viaje",
+        "driving-licenses": "Driving licenses",
+        "vehicle-info": "Vehicle information",
+        "technical-check": "Periodical Technical Check",
+        "car-insurance": "Car Insurance",
+        "sanctions": "Sanctions",
+        "crimes": "Crimes",
+        "specimens": "Specimens",
+        "useful-links": "Useful Links",
+        "legis": "Legis",
+        "forum": "Forum",
+        "android-app": "Android APK",
+        "telegram-group": "Telegram Group",
+        "tiaf": "T.I.A.F"
+    },
+    "useful-links": {
+        "roviniete": "Road Tax Check",
+        "sumal": "SUMAL Check",
+        "arr-atestat": "ARR Certificate Verification",
+        "cazier-judiciar": "Judicial Record Authenticity (RO)",
+        "eu-companies": "Search EU Companies",
+        "term-calculator": "Judicial Deadlines Calculator",
+        "stay-days-calculator": "Stay Days Calculator",
+        "firearms-catalog": "Firearms Catalog",
+        "notary-office": "Notary Office",
+        "instance-file": "Instance File",
+        "most-wanted": {
+            "title": "Most Wanted",
+            "ro-wanted": "Most Wanted Persons (RO)",
+            "ro-missing": "Missing Persons (RO)",
+            "eu-wanted": "Most Wanted Persons (EU)"
+        },
+        "google-play-apps": {
+            "title": "Google Play Apps",
+            "car-plates-ukraine": "Car Plates - Ukraine",
+            "qr-reader-visas": "QR Reader Visas",
+            "instacar-auto-hu": "Instacar-auto HU",
+            "total-car-check": "Total Car Check",
+            "kenteken-check-rdw": "Kenteken-Check RDW",
+            "immatriculation-scan": "Immatriculation Scan",
+            "duapp": "DUApp",
+            "targa-scan": "Targa Scan",
+            "veicolo": "Veicolo"
+        },
+        "cnp-validation":{
+            "title": "CNP/Personal nID Validation",
+            "idnp-md": "Moldovan IDNP check",
+            "pesel": "Polish PESEL Check",
+            "rodne-cislo": "Czech Rodne Cislo check",
+            "nif-spain": "Spanish NIF/NIE check",
+            "national-registry-number-belgium": "Belgium National Registry Number check",
+            "egn-bulgaria": "Bulgarian EGN number check",
+            "romania": {
+                "title": "CNP Validation Romania",
+                "link1": "Romania Link 1",
+                "link2": "Romania Link 2"
+            },
+            "moldova": {
+                "title": "CNP Validation Moldova",
+                "link1": "Moldova Link 1",
+                "link2": "Moldova Link 2"
+            },
+            "belgium": {
+                "title": "CNP Validation Belgium",
+                "link1": "Rijksregisternumer Link1",
+                "link2": "LuDev.be Link2"
+            },
+            "spain": {
+                "title": "CNP Validation Spain",
+                "link1": "DNI/NIE Link1",
+                "link2": "NIE Link2",
+                "link3": "DIE Link3"
+            },
+            "czech-republic": {
+                "title": "CNP Validation Czech Republic",
+                "link1": "Rodne cislo 1 Validation Link1",
+                "link2": "Rodne cislo 2 Validation Link2",
+                "link3": "Rodne cislo 3 Validation Link3"
+            },
+            "portugal": {
+                "title": "CNP Validation Portugal",
+                "link1": "Civil ID No. 1 Link1",
+                "link2": "Civil ID No. 2 Link2"
+            },
+            "norway": "Norway",
+            "sweden": {
+                "title": "CNP Validation Sweden",
+                "link1": "People identification Link1",
+                "link2": "Culano Link2",
+                "link3": "Pers. ID Number Link3"
+            },
+            "others": {
+                "title": "DNI Validation Argentina",
+                "argentina":{
+                    "title": "",
+                    "link1": "Linti.seguridadvial Link1",
+                    "link2": "Dateas Link2"
+                },
+                "bangladesh": "CNP Validation Bangladesh",
+                "bolivia": "OEP Validation Bolivia",
+                "bosnia": "JMBG Validation Bosnia-H",
+                "brazil": "CFP Validation Brazilia",
+                "chile": "RUT Validation Chile",
+                "costa-rica": "ID Validation Costa Rica",
+                "columbia": "ID Validation Columbia",
+                "ecuador": "ID Validation Ecuador",
+                "guatemala": "CUI Validation Columbia",
+                "honduras": "Check people Honduras",
+                "mexic": "CURP Validation Mexic",
+                "israel": "ID Validation Israel",
+                "paraguay": "CIN Validation Paraguay",
+                "peru": "Check people Peru",
+                "venezuela": "CNE Validation Venezuela"
+            },
+            "calculator": {
+                "title": "Days/Terms Calculator",
+                "link1": "Judiciary terms Calculator Link1",
+                "link2": "Days of Week Calculator Link2",
+                "link3": "Staying days Calculator Link3"
+            }
+        }
+    },
+    "specimens": {
+        "docis": "DOCIS",
+        "prado":{
+            "title": "PRADO",
+            "prado-online": "PRADO (online)",
+            "prado-glossary": "PRADO (offline glossary)"
+        },
+        "edison-td": "EdisonTD",
+        "airline-info-handbook": "Airline Information Handbook - EU Documents for Foreigners",
+        "the-eye": "THE-EYE.NL",
+        "regula":{
+            "title": "REGULA",
+            "docs": "REGULA Docs",
+            "banknotes": "REGULA Banknotes",
+            "face-comparison": "REGULA Face Comparison",
+            "foto-face-comparison":"Foto Face Comparison"
+        },
+        "driving-licenses":{
+            "title": "Driving License Specimens",
+            "pc-ue-see": "Specimens ID (EU and EEA)",
+            "pc-bura": "Specimens ID (by BURA)",
+            "pc-ue-commission": "Specimens ID (EU-European Commission)",
+            "pc-ex-soviet": "Specimens ID (Former Soviet Space)",
+            "pc-ukraine": "Specimens ID (Ukraine)"
+        },
+        "america": {
+            "title": "American document specimens",
+            "north-america": "Specimens of North American Documents",
+            "south-america": "Specimens of South American Documents"
+        }
+    },
+    "tiaf": {
+        "euvid": "EUVID",
+        "cariffy": "CARIFFY-vehicle information",
+        "license-plates-eu": "European license plates",
+        "license-plates-world": "World license plates",
+        "specimens-non-eu": "Specimens (Non-EU Registration Certificates)",
+        "make-photo-recognition": "Make/model recognition from photo",
+        "vin-control-digit": "Control Digit VIN",
+        "decoder-brand": "VIN decoder (search by brand)",
+        "vin-localization-auto": {
+          "title": "Chassis Number Localization - VIN auto",
+          "znajdzvin": "Auto-ZNAJDZVIN.PL",
+          "autofil-auto": "Auto-AUTOFIL.IT",
+          "autofil-offroad": "Off road-AUTOFIL.IT",
+          "autofil-mopeds": "Mopeds-AUTOFIL.IT",
+          "datatag-utility": "Utility vehicles-DATATAG",
+          "datatag-moto": "Motorcycles-DATATAG",
+          "atv":"ATV-SUPERATV",
+          "ter-utils": "Utility Vehicles-DATATAG",
+          "vin-and-pin-utils": "VIN and PIN utility vehicles"
+        },
+        "vin-decoder": {
+          "title": "VIN Decoder",
+          "vindecoderz": "Vindecoderz",
+          "bmw": "Bmw",
+          "fiat-elum": "Fiat-eLum",
+          "land-rover": "Land Rover",
+          "mercedes": "Mercedes",
+          "toyodiy": "ToyoDIY",
+          "kawasaki": "Kawasaki",
+          "fiat": "Fiat",
+          "nissan": "Nissan",
+          "etka": "ETKA Online",
+          "auto-france": "Auto Information France",
+          "auto-uk": "Auto Information U.K.",
+          "ter-vin": "TER-VIN Industrial Equipment",
+          "pin-vin": "PIN-VIN Construction Equipment"
+        },
+        "stolen-auto": {
+            "title": "Stolen Vehicles",
+            "eu": "Stolen Vehicles (EU)",
+            "it-slo-sk-cz-ro": "Stolen Vehicles - IT/Slo/Sk/Cz/Ro",
+            "spain": "Spain",
+            "netherlands": "Netherlands",
+            "great-britain":"Great Britain",
+            "italy": "Italy",
+            "romania": "Romania",
+            "slovenia": "Slovenia",
+            "ukraine": "Ukraine",
+            "czech-republic":"Czech Republic",
+            "sweden": "Sweden",
+            "slovakia": "Slovakia",
+            "usa": "USA",
+            "canada": "Canada",
+            "belarus": "Belarus",
+            "norway": "Norway"
+        },
+        "specimens": {
+            "title": "Registration certificate specimens",
+            "ue-vrc": "EU(VRC)",
+            "ue-see": "EU/EES",
+            "non-ue": "NON-EU",
+            "usa": "USA"
+        },
+        "specimens-eu": "Specimens (EU Registration Certificates)",
+        "obd-localization-2": "OBD 2 Connector Localization",
+        "license-plates": {
+          "2025": "License plates 2025 (search by country)",
+            "title": "License plates",
+            "world": "World License Plates",
+            "world-drive": "License Plates of the World",
+            "europe": "License Plate Guide Europe",
+            "identify-plates": "Licence plates identification",
+            "photo-recognition": "Licence plates photo recognition"
+        },
+        "control-digit-vin-usa": "Control digit VIN USA"
+    },
+  "travel-docs": { "poland": "Poland"
+       },
+    "driving-licenses": {
+        "others": "Other Driving Licenses",
+        "usa": "U. S. A.",
+        "canada": "Canada",
+        "encoding": "Encondig&Decoding D.L.",
+        "spain": "Spain",
+        "columbia": "Columbia - VPN",
+        "nepal": "Nepal",
+        "great.britain": "Great Britain",
+        "india": "India",
+        "pakistan": "Pakistan",
+        "peru": "Peru",
+        "palestina": "Palestina",
+        "rusia": "Russia",
+        "adr-certificates": "ADR Certificates",
+        "poland": "Poland"
+    },
+    "vehicle-info": {
+        "switzerland": "Switzerland",
+        "czech-republic": "Czech Republic",
+        "denmark": "Denmark",
+        "estonia": "Estonia",
+        "finland": "Finland",
+        "france": "France",
+        "germany": "Germany",
+        "ireland": "Ireland",
+        "italy": "Italy",
+        "great-britain": "Great Britain",
+        "norway": "Norway",
+        "netherlands": "Netherlands",
+        "portugal": "Portugal",
+        "poland":"Poland",
+        "romania": "Romania",
+        "slovakia": "Slovakia",
+        "slovenia": "Slovenia",
+        "spain": "Spain",
+        "sweden": "Sweden",
+        "ukraine": "Ukraine"
+    },
+    "technical-check":{
+      "croatia": "Croatia",
+        "germany": "Germany",
+        "france": "France",
+        "great-britain": "Great Britain",
+        "netherlands": "Netherlands",
+        "poland": "Poland",
+        "slovakia": "Slovakia",
+        "czech-republic": "Czech Republic",
+        "ukraine": "Ukraine"
+    },
+    "digit-calculator":{
+        "title": "Digit Calculator",
+        "user-input": "Input",
+        "result": "Result",
+        "calculate": "Calculate"
+    }
+}
