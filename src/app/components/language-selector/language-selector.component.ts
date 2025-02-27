@@ -24,12 +24,7 @@ export class LanguageSelectorComponent {
       name: 'English',
       shorthand: 'ENG',
     },
-    {
-      countryCode: 'es',
-      code: 'es',
-      name: 'Espana',
-      shorthand: 'ESP',
-    },
+ 
     {
       countryCode: 'ro',
       code: 'ro',
