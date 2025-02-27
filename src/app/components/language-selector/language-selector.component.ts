@@ -25,6 +25,12 @@ export class LanguageSelectorComponent {
       shorthand: 'ENG',
     },
     {
+      countryCode: 'es',
+      code: 'es',
+      name: 'Espana',
+      shorthand: 'ESP',
+    },
+    {
       countryCode: 'ro',
       code: 'ro',
       name: 'Română',
