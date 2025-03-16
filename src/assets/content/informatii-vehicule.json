@@ -665,6 +665,18 @@
         "icon": "plus",
         "key": "vehicle-info.spain",
         "children": [
+          {
+                "title": "Historialvehiculo",
+                "url": "https://www.historialvehiculo.com/informes-gratis-vehiculos/#buscador",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
+                "title": "Seisenlinea",
+                "url": "https://www.seisenlinea.com/informe-numero-de-bastidor-coche/#div-gpt-ad-7639767-3",
+                "icon": "link",
+                "type": "direct-link"
+            },
             {
                 "title": "Mister Auto",
                 "url": "https://www.mister-auto.es/recambios-coche/",
@@ -698,6 +710,12 @@
             {
                 "title": "Dată înmatriculare",
                 "url": "https://www.dieselogasolina.com/fecha-de-matriculacion-de-vehiculos-por-matricula.html#b1",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
+                "title": "Dată plăcuțe",
+                "url": "https://www.dieselogasolina.com/tabla-matriculas-por-anos.html#b1",
                 "icon": "link",
                 "type": "direct-link"
             }
