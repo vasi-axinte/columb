@@ -29,7 +29,7 @@
     {
       "country": "africa de sud",
       "countryCode": "za",
-      "title": " Republica Africa De Sud",
+      "title": "_Republica Africa De Sud",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -56,7 +56,7 @@
     {
       "country": "albania",
       "countryCode": "al",
-      "title": "Republica Albania",
+      "title": "_Republica Albania",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -83,7 +83,7 @@
     {
       "country": "algeria",
       "countryCode": "dz",
-      "title": "Republica Algeriană Democratică Și Populară / Algeria",
+      "title": "_Republica Algeriană Democratică Și Populară / Algeria",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -110,7 +110,7 @@
     {
       "country": "andorra",
       "countryCode": "ad",
-      "title": "Principatul Andorra",
+      "title": "_Principatul Andorra",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -137,7 +137,7 @@
     {
       "country": "angola",
       "countryCode": "ao",
-      "title": "Republica Angola",
+      "title": "_Republica Angola",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -164,7 +164,7 @@
     {
       "country": "antigua și barbuda",
       "countryCode": "ag",
-      "title": "Antigua Și Barbuda",
+      "title": "_Antigua Și Barbuda",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -183,7 +183,7 @@
     {
       "country": "arabia saudită",
       "countryCode": "sa",
-      "title": "Regatul Arabiei Saudite / Arabia Saudită",
+      "title": "_Regatul Arabiei Saudite / Arabia Saudită",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -210,7 +210,7 @@
     {
       "country": "argentina",
       "countryCode": "ar",
-      "title": "Republica Argentina",
+      "title": "_Republica Argentina",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -237,7 +237,7 @@
     {
       "country": "armenia",
       "countryCode": "am",
-      "title": "Republica Armenia",
+      "title": "_Republica Armenia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -264,7 +264,7 @@
     {
       "country": "australia",
       "countryCode": "au",
-      "title": "Australia",
+      "title": "_Australia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -291,7 +291,7 @@
     {
       "country": "austria",
       "countryCode": "at",
-      "title": "Republica Austria",
+      "title": "_Republica Austria",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -318,7 +318,7 @@
     {
       "country": "azerbaidjan",
       "countryCode": "az",
-      "title": "Republica Azerbaidjan",
+      "title": "_Republica Azerbaidjan",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -345,7 +345,7 @@
     {
       "country": "bahamas",
       "countryCode": "bs",
-      "title": "Uniunea Bahamas",
+      "title": "_Uniunea Bahamas",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -368,7 +368,7 @@
     {
       "country": "bahrain",
       "countryCode": "bh",
-      "title": "Regatul Bahrain",
+      "title": "_Regatul Bahrain",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -395,7 +395,7 @@
     {
       "country": "bangladesh",
       "countryCode": "bd",
-      "title": "Republica Populară Bangladesh",
+      "title": "_Republica Populară Bangladesh",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -422,7 +422,7 @@
     {
       "country": "barbados",
       "countryCode": "bb",
-      "title": "Barbados",
+      "title": "_Barbados",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -441,7 +441,7 @@
     {
       "country": "belarus",
       "countryCode": "by",
-      "title": "Republica Belarus",
+      "title": "_Republica Belarus",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -468,7 +468,7 @@
     {
       "country": "belgia",
       "countryCode": "be",
-      "title": "Regatul Belgiei / Belgia",
+      "title": "_Regatul Belgiei / Belgia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -495,7 +495,7 @@
     {
       "country": "belize",
       "countryCode": "bz",
-      "title": "\uD83C\uDDE7\uD83C\uDDFF Belize",
+      "title": "_Belize",
       "children": [
         {
           "title": "Specimen-(prado)",
@@ -522,7 +522,7 @@
     {
       "country": "benin",
       "countryCode": "bj",
-      "title": "\uD83C\uDDE7\uD83C\uDDEF Republica Benin",
+      "title": "_Republica Benin",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -549,7 +549,7 @@
     {
       "country": "bolivia",
       "countryCode": "bo",
-      "title": "\uD83C\uDDE7\uD83C\uDDF4 Statul Plurinațional Al Bolivieibolivia",
+      "title": "_Statul Plurinațional Al Boliviei / Bolivia",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -572,7 +572,7 @@
     {
       "country": "bosnia - herțegovina",
       "countryCode": "ba",
-      "title": "\uD83C\uDDE7\uD83C\uDDE6 Bosnia Și Herțegovinabosnia Si Hertegovina",
+      "title": "_Bosnia Și Herțegovina",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -599,7 +599,7 @@
     {
       "country": "botswana",
       "countryCode": "bw",
-      "title": "\uD83C\uDDE7\uD83C\uDDFC Republica Botswana",
+      "title": "_Republica Botswana",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -626,7 +626,7 @@
     {
       "country": "brazilia",
       "countryCode": "br",
-      "title": "\uD83C\uDDE7\uD83C\uDDF7 Republica Federativă A Brazilieibrazilia",
+      "title": "_Republica Federativă A Braziliei / Brazilia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -653,7 +653,7 @@
     {
       "country": "brunei",
       "countryCode": "bn",
-      "title": "\uD83C\uDDE7\uD83C\uDDF3 Statul Brunei Darussalam",
+      "title": "_Statul Brunei Darussalam",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -680,7 +680,7 @@
     {
       "country": "burkina faso",
       "countryCode": "bf",
-      "title": "\uD83C\uDDE7\uD83C\uDDEB Burkina Faso",
+      "title": "_Burkina Faso",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -707,7 +707,7 @@
     {
       "country": "bulgaria",
       "countryCode": "bg",
-      "title": "\uD83C\uDDE7\uD83C\uDDEC Republica Bulgariaschengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Bulgaria",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -734,7 +734,7 @@
     {
       "country": "burundi",
       "countryCode": "bi",
-      "title": "\uD83C\uDDE7\uD83C\uDDEE Republica Burundi",
+      "title": "_Republica Burundi",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -757,7 +757,7 @@
     {
       "country": "bhutan",
       "countryCode": "bt",
-      "title": "\uD83C\uDDE7\uD83C\uDDF9 Regatul Bhutan",
+      "title": "_Regatul Bhutan",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -780,7 +780,7 @@
     {
       "country": "cambodgia",
       "countryCode": "kh",
-      "title": "\uD83C\uDDF0\uD83C\uDDED Regatul Cambodgieicambodgia",
+      "title": "_Regatul Cambodgiei / Cambodgia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -803,7 +803,7 @@
     {
       "country": "camerun",
       "countryCode": "cm",
-      "title": "\uD83C\uDDE8\uD83C\uDDF2 Republica Camerun",
+      "title": "_Republica Camerun",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -830,7 +830,7 @@
     {
       "country": "canada",
       "countryCode": "ca",
-      "title": "\uD83C\uDDE8\uD83C\uDDE6 Canada",
+      "title": "_Canada",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -857,7 +857,7 @@
     {
       "country": "capul verde",
       "countryCode": "cv",
-      "title": "\uD83C\uDDE8\uD83C\uDDFB Republica Capului Verde",
+      "title": "_Republica Capului Verde",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -884,7 +884,7 @@
     {
       "country": "cehia",
       "countryCode": "cz",
-      "title": "\uD83C\uDDE8\uD83C\uDDFF Republica Cehăcehia,schengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Cehă / Cehia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -911,7 +911,7 @@
     {
       "country": "africa centrală",
       "countryCode": "cf",
-      "title": "\uD83C\uDDE8\uD83C\uDDEB Republica Centrafricanăafrica Centrala, Centrală",
+      "title": "_Republica Centrafricană / Africa Centrală",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -938,7 +938,7 @@
     {
       "country": "chile",
       "countryCode": "cl",
-      "title": "\uD83C\uDDE8\uD83C\uDDF1 Republica Chile",
+      "title": "_Republica Chile",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -965,7 +965,7 @@
     {
       "country": "china",
       "countryCode": "cn",
-      "title": "\uD83C\uDDE8\uD83C\uDDF3 Republica Populară Chinezăchina,taiwan,taywan,taivan, Hong Kong, Macao",
+      "title": "_Republica Populară Chineză / China / Taiwan / Hong Kong / Macao",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1028,7 +1028,7 @@
     {
       "country": "ciad",
       "countryCode": "td",
-      "title": "\uD83C\uDDF9\uD83C\uDDE9 Republica Ciad",
+      "title": "_Republica Ciad",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -1051,7 +1051,7 @@
     {
       "country": "cipru",
       "countryCode": "cy",
-      "title": "\uD83C\uDDE8\uD83C\uDDFE Republica Cipru,u.e.,uniunea Europeana,see",
+      "title": "_Republica Cipru",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1078,7 +1078,7 @@
     {
       "country": "coasta de fildeș",
       "countryCode": "ci",
-      "title": "\uD83C\uDDE8\uD83C\uDDEE Republica Coasta De Fildeșfildes",
+      "title": "_Republica Coasta De Fildeș",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1101,7 +1101,7 @@
     {
       "country": "columbia",
       "countryCode": "co",
-      "title": "\uD83C\uDDE8\uD83C\uDDF4 Republica Columbia",
+      "title": "_Republica Columbia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1128,7 +1128,7 @@
     {
       "country": "insulele comore",
       "countryCode": "km",
-      "title": "\uD83C\uDDF0\uD83C\uDDF2 Uniunea Comorelorinsulele Comore",
+      "title": "_Uniunea Comorelor / Insulele Comore",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1151,7 +1151,7 @@
     {
       "country": "r.d.congo",
       "countryCode": "cd",
-      "title": "\uD83C\uDDE8\uD83C\uDDE9 Republica Democratică Congozair",
+      "title": "_Republica Democratică Congo / Zair",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1178,7 +1178,7 @@
     {
       "country": "republica congo",
       "countryCode": "cg",
-      "title": "\uD83C\uDDE8\uD83C\uDDEC Republica Congo",
+      "title": "_Republica Congo",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1205,7 +1205,7 @@
     {
       "country": "coreea de sud",
       "countryCode": "kr",
-      "title": "\uD83C\uDDF0\uD83C\uDDF7 Republica Coreeacoreea De Sud, Corea",
+      "title": "Republica Coreea / Corea De Sud",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1232,7 +1232,7 @@
     {
       "country": "coreea de nord",
       "countryCode": "kp",
-      "title": "\uD83C\uDDF0\uD83C\uDDF5 Republica Populară Democrată Coreeană\n Coreea De Nord, Corea",
+      "title": "_Republica Populară Democrată Coreeană / Corea De Nord",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1255,7 +1255,7 @@
     {
       "country": "costa rica",
       "countryCode": "cr",
-      "title": "\uD83C\uDDE8\uD83C\uDDF7 Republica Costa Rica",
+      "title": "_Republica Costa Rica",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1282,7 +1282,7 @@
     {
       "country": "croația",
       "countryCode": "hr",
-      "title": "\uD83C\uDDED\uD83C\uDDF7 Republica Croațiacroatia,schengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Croația",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1309,7 +1309,7 @@
     {
       "country": "cuba",
       "countryCode": "cu",
-      "title": "\uD83C\uDDE8\uD83C\uDDFA Republica Cuba",
+      "title": "_Republica Cuba",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1336,7 +1336,7 @@
     {
       "country": "danemarca",
       "countryCode": "dk",
-      "title": "\uD83C\uDDE9\uD83C\uDDF0 Regatul Danemarceidanrmarca, Insulele Feroe, Groenlanda,schengen,u.e.,uniunea Europeana,see",
+      "title": "_Regatul Danemarcei / Danrmarca / Insulele Feroe / Groenlanda",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1371,7 +1371,7 @@
     {
       "country": "djibouti",
       "countryCode": "dj",
-      "title": "\uD83C\uDDE9\uD83C\uDDEF Republica Djibouti",
+      "title": "_Republica Djibouti",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1394,7 +1394,7 @@
     {
       "country": "uniunea dominica",
       "countryCode": "dm",
-      "title": "\uD83C\uDDE9\uD83C\uDDF2 Uniunea Dominica",
+      "title": "_Uniunea Dominica",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1417,7 +1417,7 @@
     {
       "country": "republica dominicana",
       "countryCode": "do",
-      "title": "\uD83C\uDDE9\uD83C\uDDF4 Republica Dominicana",
+      "title": "_Republica Dominicana",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1444,7 +1444,7 @@
     {
       "country": "ecuador",
       "countryCode": "ec",
-      "title": "\uD83C\uDDEA\uD83C\uDDE8 Republica Ecuador",
+      "title": "_Republica Ecuador",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1471,7 +1471,7 @@
     {
       "country": "egipt",
       "countryCode": "eg",
-      "title": "\uD83C\uDDEA\uD83C\uDDEC Republica Arabă Egipt",
+      "title": "_Republica Arabă Egipt",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1498,7 +1498,7 @@
     {
       "country": "el salvador",
       "countryCode": "sv",
-      "title": "\uD83C\uDDF8\uD83C\uDDFB Republica El Salvador",
+      "title": "_Republica El Salvador",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1525,7 +1525,7 @@
     {
       "country": "elveția",
       "countryCode": "ch",
-      "title": "\uD83C\uDDE8\uD83C\uDDED Confederația Elvețianăconfederatia, Elveția, Elvetiana,schengen",
+      "title": "_Confederația Elvețiană / Elveția",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1552,7 +1552,7 @@
     {
       "country": "e.a.u.",
       "countryCode": "ae",
-      "title": "\uD83C\uDDE6\uD83C\uDDEA Emiratele Arabe Unite",
+      "title": "_Emiratele Arabe Unite",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1579,7 +1579,7 @@
     {
       "country": "eritreea",
       "countryCode": "er",
-      "title": "\uD83C\uDDEA\uD83C\uDDF7 Statul Eritreeaeritrea",
+      "title": "_Statul Eritreea",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1606,7 +1606,7 @@
     {
       "country": "estonia",
       "countryCode": "ee",
-      "title": "\uD83C\uDDEA\uD83C\uDDEA Republica Estoniaschengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Estonia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1633,7 +1633,7 @@
     {
       "country": "etiopia",
       "countryCode": "et",
-      "title": "\uD83C\uDDEA\uD83C\uDDF9 Republica Federală Democrată Etiopia",
+      "title": "_Republica Federală Democrată Etiopia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1660,7 +1660,7 @@
     {
       "country": "insulele fiji",
       "countryCode": "fj",
-      "title": "\uD83C\uDDEB\uD83C\uDDEF Republica Insulelor Fiji",
+      "title": "_Republica Insulelor Fiji",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -1679,7 +1679,7 @@
     {
       "country": "filipine",
       "countryCode": "ph",
-      "title": "\uD83C\uDDF5\uD83C\uDDED Republica Filipine",
+      "title": "_Republica Filipine",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1706,7 +1706,7 @@
     {
       "country": "finlanda",
       "countryCode": "fi",
-      "title": "\uD83C\uDDEB\uD83C\uDDEE Republica Finlandaschengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Finlanda",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1733,7 +1733,7 @@
     {
       "country": "franța",
       "countryCode": "fr",
-      "title": "\uD83C\uDDEB\uD83C\uDDF7 Republica Francezăfranța, Franta, Franceza, Noua,coasta De Azur,côte D'azur,\n Caledonie, Polinezia Franceză, Nouvelle Calédonie,schengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Franceză / Franta / Coasta De Azur / Polinezia Franceză / Noua Caledonie",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1768,7 +1768,7 @@
     {
       "country": "gabon",
       "countryCode": "ga",
-      "title": "\uD83C\uDDEC\uD83C\uDDE6 Republica Gabonezăgabon",
+      "title": "_Republica Gaboneză / Gabon",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1791,7 +1791,7 @@
     {
       "country": "gambia",
       "countryCode": "gm",
-      "title": "\uD83C\uDDEC\uD83C\uDDF2 Republica Gambia",
+      "title": "_Republica Gambia",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -1814,7 +1814,7 @@
     {
       "country": "georgia",
       "countryCode": "ge",
-      "title": "\uD83C\uDDEC\uD83C\uDDEA Georgia",
+      "title": "_Georgia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1841,7 +1841,7 @@
     {
       "country": "germania",
       "countryCode": "de",
-      "title": "\uD83C\uDDE9\uD83C\uDDEA Republica Federală Germaniaschengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Federală Germania",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1868,7 +1868,7 @@
     {
       "country": "ghana",
       "countryCode": "gh",
-      "title": "\uD83C\uDDEC\uD83C\uDDED Republica Ghana",
+      "title": "_Republica Ghana",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1895,7 +1895,7 @@
     {
       "country": "grecia",
       "countryCode": "gr",
-      "title": "\uD83C\uDDEC\uD83C\uDDF7 Republica Elenăgrecia, Elena,schengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Elenă / Grecia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1922,7 +1922,7 @@
     {
       "country": "grenada",
       "countryCode": "gd",
-      "title": "\uD83C\uDDEC\uD83C\uDDE9 Grenada",
+      "title": "_Grenada",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1945,7 +1945,7 @@
     {
       "country": "guatemala",
       "countryCode": "gt",
-      "title": "\uD83C\uDDEC\uD83C\uDDF9 Republica Guatemala",
+      "title": "_Republica Guatemala",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -1968,7 +1968,7 @@
     {
       "country": "guineea",
       "countryCode": "gn",
-      "title": "\uD83C\uDDEC\uD83C\uDDF3 Republica Guineeaguinea",
+      "title": "_Republica Guineea",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -1995,7 +1995,7 @@
     {
       "country": "guineea ecuatorială",
       "countryCode": "gq",
-      "title": "\uD83C\uDDEC\uD83C\uDDF6 Republica Guineea Ecuatorialăguinea Ecuatoriala",
+      "title": "_Republica Guineea Ecuatorială",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -2014,7 +2014,7 @@
     {
       "country": "guineea-bissau",
       "countryCode": "gw",
-      "title": "\uD83C\uDDEC\uD83C\uDDFC Republica Guineea-bissauguinea, Bisau",
+      "title": "_Republica Guineea-Bissau",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2041,7 +2041,7 @@
     {
       "country": "guyana",
       "countryCode": "gy",
-      "title": "\uD83C\uDDEC\uD83C\uDDFE Republica Cooperatistă Guyana",
+      "title": "_Republica Cooperatistă Guyana",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2064,7 +2064,7 @@
     {
       "country": "haiti",
       "countryCode": "ht",
-      "title": "\uD83C\uDDED\uD83C\uDDF9 Republica Haiti",
+      "title": "_Republica Haiti",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2091,7 +2091,7 @@
     {
       "country": "honduras",
       "countryCode": "hn",
-      "title": "\uD83C\uDDED\uD83C\uDDF3 Republica Honduras",
+      "title": "_Republica Honduras",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2118,7 +2118,7 @@
     {
       "country": "india",
       "countryCode": "in",
-      "title": "\uD83C\uDDEE\uD83C\uDDF3 Republica India",
+      "title": "_Republica India",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2145,7 +2145,7 @@
     {
       "country": "indonezia",
       "countryCode": "id",
-      "title": "\uD83C\uDDEE\uD83C\uDDE9 Republica Indonezia",
+      "title": "_Republica Indonezia",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -2168,7 +2168,7 @@
     {
       "country": "insulele marshall",
       "countryCode": "mh",
-      "title": "\uD83C\uDDF2\uD83C\uDDED Republica Insulelor Marshallinsulele Marshall, Marchall, Marsall",
+      "title": "_Republica Insulelor Marshall",
       "children": [
         {
           "title": "Informații Țară",
@@ -2187,7 +2187,7 @@
     {
       "country": "iordania",
       "countryCode": "jo",
-      "title": "\uD83C\uDDEF\uD83C\uDDF4 Regatul Hașemit Al Iordaniei Iordania",
+      "title": "_Regatul Hașemit Al Iordaniei / Iordania",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2214,7 +2214,7 @@
     {
       "country": "irak",
       "countryCode": "iq",
-      "title": "\uD83C\uDDEE\uD83C\uDDF6 Republica Irak",
+      "title": "_Republica Irak",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2241,7 +2241,7 @@
     {
       "country": "iran",
       "countryCode": "ir",
-      "title": "\uD83C\uDDEE\uD83C\uDDF7 Republica Islamică Iran",
+      "title": "_Republica Islamică Iran",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2268,7 +2268,7 @@
     {
       "country": "irlanda",
       "countryCode": "ie",
-      "title": "\uD83C\uDDEE\uD83C\uDDEA Irlandau.e.,uniunea Europeana,see",
+      "title": "_Irlanda",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2295,7 +2295,7 @@
     {
       "country": "islanda",
       "countryCode": "is",
-      "title": "\uD83C\uDDEE\uD83C\uDDF8 Republica Islandaschengen,see",
+      "title": "_Republica Islanda",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2322,7 +2322,7 @@
     {
       "country": "israel",
       "countryCode": "il",
-      "title": "\uD83C\uDDEE\uD83C\uDDF1 Statul Israel",
+      "title": "_Statul Israel",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2349,7 +2349,7 @@
     {
       "country": "italia",
       "countryCode": "it",
-      "title": "\uD83C\uDDEE\uD83C\uDDF9 Republica Italianăitalia, Italiana,schengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Italiană / Italia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2376,7 +2376,7 @@
     {
       "country": "jamaica",
       "countryCode": "jm",
-      "title": "\uD83C\uDDEF\uD83C\uDDF2 Jamaica",
+      "title": "_Jamaica",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2403,7 +2403,7 @@
     {
       "country": "japonia",
       "countryCode": "jp",
-      "title": "\uD83C\uDDEF\uD83C\uDDF5 Japonia",
+      "title": "_Japonia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2430,7 +2430,7 @@
     {
       "country": "kazahstan",
       "countryCode": "kz",
-      "title": "\uD83C\uDDF0\uD83C\uDDFF Republica Kazahstan",
+      "title": "_Republica Kazahstan",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2457,7 +2457,7 @@
     {
       "country": "kenya",
       "countryCode": "ke",
-      "title": "\uD83C\uDDF0\uD83C\uDDEA Republica Kenya",
+      "title": "_Republica Kenya",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2484,7 +2484,7 @@
     {
       "country": "kiribati",
       "countryCode": "ki",
-      "title": "\uD83C\uDDF0\uD83C\uDDEE Republica Kiribati",
+      "title": "_Republica Kiribati",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -2503,7 +2503,7 @@
     {
       "country": "kuweit",
       "countryCode": "kw",
-      "title": "\uD83C\uDDF0\uD83C\uDDFC Statul Kuweit",
+      "title": "_Statul Kuweit",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2530,7 +2530,7 @@
     {
       "country": "kirghizstan",
       "countryCode": "kg",
-      "title": "\uD83C\uDDF0\uD83C\uDDEC Republica Kârgâzăkirghizstan, Kyrgyzstan, Kirgiztan",
+      "title": "_Republica Kârgâză / Kirgiztan",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2557,7 +2557,7 @@
     {
       "country": "laos",
       "countryCode": "la",
-      "title": "\uD83C\uDDF1\uD83C\uDDE6 Republica Democrată Populară Laos",
+      "title": "_Republica Democrată Populară Laos",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2580,7 +2580,7 @@
     {
       "country": "lesotho",
       "countryCode": "ls",
-      "title": "\uD83C\uDDF1\uD83C\uDDF8 Regatul Lesotho",
+      "title": "_Regatul Lesotho",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2603,7 +2603,7 @@
     {
       "country": "letonia",
       "countryCode": "lv",
-      "title": "\uD83C\uDDF1\uD83C\uDDFB Republica Letoniaschengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Letonia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2630,7 +2630,7 @@
     {
       "country": "liban",
       "countryCode": "lb",
-      "title": "\uD83C\uDDF1\uD83C\uDDE7 Republica Libanezăliban, Libaneza, Lebanon",
+      "title": "_Republica Libaneză / Liban",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2657,7 +2657,7 @@
     {
       "country": "liberia",
       "countryCode": "lr",
-      "title": "\uD83C\uDDF1\uD83C\uDDF7 Republica Liberia",
+      "title": "_Republica Liberia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2684,7 +2684,7 @@
     {
       "country": "libia",
       "countryCode": "ly",
-      "title": "\uD83C\uDDF1\uD83C\uDDFE Libialibya",
+      "title": "_Libia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2711,7 +2711,7 @@
     {
       "country": "liechtenstein",
       "countryCode": "li",
-      "title": "\uD83C\uDDF1\uD83C\uDDEE Principatul Liechtensteinlichtenstein,see",
+      "title": "_Principatul Liechtenstein",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2738,7 +2738,7 @@
     {
       "country": "lituania",
       "countryCode": "lt",
-      "title": "\uD83C\uDDF1\uD83C\uDDF9 Republica Lituaniaschengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Lituania",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2765,7 +2765,7 @@
     {
       "country": "luxemburg",
       "countryCode": "lu",
-      "title": "\uD83C\uDDF1\uD83C\uDDFA Marele Ducat De Luxemburgschengen,u.e.,uniunea Europeana,see",
+      "title": "_Marele Ducat De Luxemburg",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2792,7 +2792,7 @@
     {
       "country": "macedonia de nord",
       "countryCode": "mk",
-      "title": "\uD83C\uDDF2\uD83C\uDDF0 Republica Macedonia De Nord",
+      "title": "_Republica Macedonia De Nord",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2819,7 +2819,7 @@
     {
       "country": "madagascar",
       "countryCode": "mg",
-      "title": "\uD83C\uDDF2\uD83C\uDDEC Republica Madagascar",
+      "title": "_Republica Madagascar",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2846,7 +2846,7 @@
     {
       "country": "malaezia",
       "countryCode": "my",
-      "title": "\uD83C\uDDF2\uD83C\uDDFE Malaeziamalaisya, Malaezia, Malaysia",
+      "title": "_Malaezia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2873,7 +2873,7 @@
     {
       "country": "malawi",
       "countryCode": "mw",
-      "title": "\uD83C\uDDF2\uD83C\uDDFC Republica Malawi",
+      "title": "_Republica Malawi",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2900,7 +2900,7 @@
     {
       "country": "maldive",
       "countryCode": "mv",
-      "title": "\uD83C\uDDF2\uD83C\uDDFB Republica Maldivelormaldive",
+      "title": "_Republica Maldivelor",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2927,7 +2927,7 @@
     {
       "country": "mali",
       "countryCode": "ml",
-      "title": "\uD83C\uDDF2\uD83C\uDDF1 Republica Mali",
+      "title": "_Republica Mali",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2954,7 +2954,7 @@
     {
       "country": "malta",
       "countryCode": "mt",
-      "title": "\uD83C\uDDF2\uD83C\uDDF9 Republica Maltaschengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Malta",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -2981,7 +2981,7 @@
     {
       "country": "maroc",
       "countryCode": "ma",
-      "title": "\uD83C\uDDF2\uD83C\uDDE6 Regatul Maroc",
+      "title": "_Regatul Maroc",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3008,7 +3008,7 @@
     {
       "country": "mauritania",
       "countryCode": "mr",
-      "title": "\uD83C\uDDF2\uD83C\uDDF7 Republica Islamică Mauritania",
+      "title": "_Republica Islamică Mauritania",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3035,7 +3035,7 @@
     {
       "country": "mauritius",
       "countryCode": "mu",
-      "title": "\uD83C\uDDF2\uD83C\uDDFA Republica Mauritius",
+      "title": "_Republica Mauritius",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -3058,7 +3058,7 @@
     {
       "country": "mexic",
       "countryCode": "mx",
-      "title": "\uD83C\uDDF2\uD83C\uDDFD Statele Unite Mexicanemexic",
+      "title": "_Statele Unite Mexicane / Mexic",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3085,7 +3085,7 @@
     {
       "country": "micronezia",
       "countryCode": "fm",
-      "title": "\uD83C\uDDEB\uD83C\uDDF2 Statele Federate Ale Micronezieimicronezia",
+      "title": "_Statele Federate Ale Microneziei",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -3104,7 +3104,7 @@
     {
       "country": "moldova",
       "countryCode": "md",
-      "title": "\uD83C\uDDF2\uD83C\uDDE9 Republica Moldova",
+      "title": "_Republica Moldova",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3131,7 +3131,7 @@
     {
       "country": "monaco",
       "countryCode": "mc",
-      "title": "\uD83C\uDDF2\uD83C\uDDE8 Principatul Monaco",
+      "title": "_Principatul Monaco",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3158,7 +3158,7 @@
     {
       "country": "mongolia",
       "countryCode": "mn",
-      "title": "\uD83C\uDDF2\uD83C\uDDF3 Mongolia",
+      "title": "_Mongolia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3185,7 +3185,7 @@
     {
       "country": "mozambic",
       "countryCode": "mz",
-      "title": "\uD83C\uDDF2\uD83C\uDDFF Republica Mozambic",
+      "title": "_Republica Mozambic",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3212,7 +3212,7 @@
     {
       "country": "muntenegru",
       "countryCode": "me",
-      "title": "\uD83C\uDDF2\uD83C\uDDEA Muntenegrumontenegro",
+      "title": "_Muntenegru",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3239,7 +3239,7 @@
     {
       "country": "myanmar",
       "countryCode": "mm",
-      "title": "\uD83C\uDDF2\uD83C\uDDF2 Uniunea Myanmarbirmania",
+      "title": "_Uniunea Myanmar / Birmania",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -3262,7 +3262,7 @@
     {
       "country": "namibia",
       "countryCode": "na",
-      "title": "\uD83C\uDDF3\uD83C\uDDE6 Republica Namibia",
+      "title": "_Republica Namibia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3289,7 +3289,7 @@
     {
       "country": "nauru",
       "countryCode": "nr",
-      "title": "\uD83C\uDDF3\uD83C\uDDF7 Republica Nauru",
+      "title": "_Republica Nauru",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -3308,7 +3308,7 @@
     {
       "country": "nepal",
       "countryCode": "np",
-      "title": "\uD83C\uDDF3\uD83C\uDDF5 Republica Federală Democrată Nepal",
+      "title": "_Republica Federală Democrată Nepal",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3335,7 +3335,7 @@
     {
       "country": "nicaragua",
       "countryCode": "ni",
-      "title": "\uD83C\uDDF3\uD83C\uDDEE Republica Nicaragua",
+      "title": "_Republica Nicaragua",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3362,7 +3362,7 @@
     {
       "country": "niger",
       "countryCode": "ne",
-      "title": "\uD83C\uDDF3\uD83C\uDDEA Republica Niger",
+      "title": "_Republica Niger",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -3381,7 +3381,7 @@
     {
       "country": "nigeria",
       "countryCode": "ng",
-      "title": "\uD83C\uDDF3\uD83C\uDDEC Republica Federală Nigeria",
+      "title": "_Republica Federală Nigeria",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3408,7 +3408,7 @@
     {
       "country": "norvegia",
       "countryCode": "no",
-      "title": "\uD83C\uDDF3\uD83C\uDDF4 Regatul Norvegieinorvegia,schengen,see",
+      "title": "_Regatul Norvegiei / Norvegia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3435,7 +3435,7 @@
     {
       "country": "noua zeelandă",
       "countryCode": "nz",
-      "title": "\uD83C\uDDF3\uD83C\uDDFF Noua Zeelandă",
+      "title": "_Noua Zeelandă",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3462,7 +3462,7 @@
     {
       "country": "olanda",
       "countryCode": "nl",
-      "title": "\uD83C\uDDF3\uD83C\uDDF1 Regatul Țărilor De Josolanda, Netherlands, Hollandia,schengen,u.e.,uniunea Europeana,see, Antilele,\n Olandeze",
+      "title": "_Regatul Țărilor De Jos / Olanda",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3489,7 +3489,7 @@
     {
       "country": "oman",
       "countryCode": "om",
-      "title": "\uD83C\uDDF4\uD83C\uDDF2 Sultanatul Oman",
+      "title": "_Sultanatul Oman",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3516,7 +3516,7 @@
     {
       "country": "pakistan",
       "countryCode": "pk",
-      "title": "\uD83C\uDDF5\uD83C\uDDF0 Republica Islamică Pakistan",
+      "title": "_Republica Islamică Pakistan",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3543,7 +3543,7 @@
     {
       "country": "palau",
       "countryCode": "pw",
-      "title": "\uD83C\uDDF5\uD83C\uDDFC Republica Palau",
+      "title": "_Republica Palau",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3566,7 +3566,7 @@
     {
       "country": "palestina",
       "countryCode": "ps",
-      "title": "\uD83C\uDDF5\uD83C\uDDF8 Palestina",
+      "title": "_Palestina",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3593,7 +3593,7 @@
     {
       "country": "panama",
       "countryCode": "pa",
-      "title": "\uD83C\uDDF5\uD83C\uDDE6 Republica Panama",
+      "title": "_Republica Panama",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3620,7 +3620,7 @@
     {
       "country": "papua noua guinee",
       "countryCode": "pg",
-      "title": "\uD83C\uDDF5\uD83C\uDDEC Statul Independent Papua Noua Guinee",
+      "title": "_Statul Independent Papua Noua Guinee",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -3639,7 +3639,7 @@
     {
       "country": "paraguay",
       "countryCode": "py",
-      "title": "\uD83C\uDDF5\uD83C\uDDFE Republica Paraguay",
+      "title": "_Republica Paraguay",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3666,7 +3666,7 @@
     {
       "country": "peru",
       "countryCode": "pe",
-      "title": "\uD83C\uDDF5\uD83C\uDDEA Republica Peru",
+      "title": "_Republica Peru",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3693,7 +3693,7 @@
     {
       "country": "polonia",
       "countryCode": "pl",
-      "title": "\uD83C\uDDF5\uD83C\uDDF1 Republica Polonăpolonia,schengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Polonă / Polonia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3720,7 +3720,7 @@
     {
       "country": "portugalia",
       "countryCode": "pt",
-      "title": "\uD83C\uDDF5\uD83C\uDDF9 Republica Portughezăportugalia,schengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Portugheză / Portugalia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3747,7 +3747,7 @@
     {
       "country": "qatar",
       "countryCode": "qa",
-      "title": "\uD83C\uDDF6\uD83C\uDDE6 Statul Qatar",
+      "title": "_Statul Qatar",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3774,7 +3774,7 @@
     {
       "country": "marea britanie",
       "countryCode": "gb",
-      "title": "\uD83C\uDDEC\uD83C\uDDE7 Regatul Unit Al Marii Britanii Și Irlandei\n De Nord Jersey,montserrat,sfânta Elena,\n Insula,insulele,cayman,guernsey,virgine,britanice,gibraltar,insula Man,mann,uk,anglia, Marea Britanie,\n Britania,",
+      "title": "_Regatul Unit Al Marii Britanii Și Irlandei De Nord/Jersey/Montserrat/Sfânta Elena/Cayman/Guernsey/Virgine/Gibraltar/Man/Anglia/Marea Britanie",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3841,7 +3841,7 @@
     {
       "country": "ruanda",
       "countryCode": "rw",
-      "title": "\uD83C\uDDF7\uD83C\uDDFC Republica Rwandaruanda",
+      "title": "_Republica Rwandaruanda",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3868,7 +3868,7 @@
     {
       "country": "rusia",
       "countryCode": "ru",
-      "title": "\uD83C\uDDF7\uD83C\uDDFA Federația Rusărusia",
+      "title": "_Federația Rusă / Rusia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3895,7 +3895,7 @@
     {
       "country": "samoa",
       "countryCode": "ws",
-      "title": "\uD83C\uDDFC\uD83C\uDDF8 Statul Independent Samoa",
+      "title": "_Statul Independent Samoa",
       "children": [
         {
           "title": "Specimene- (docis)",
@@ -3914,7 +3914,7 @@
     {
       "country": "san marino",
       "countryCode": "sm",
-      "title": "\uD83C\uDDF8\uD83C\uDDF2 Republica San Marino",
+      "title": "_Republica San Marino",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3945,7 +3945,7 @@
     {
       "country": "sao tome și principe",
       "countryCode": "st",
-      "title": "\uD83C\uDDF8\uD83C\uDDF9 Republica Democrată Sao Tome Și\n Principe",
+      "title": "_Republica Democrată Sao Tome Și Principe",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3968,7 +3968,7 @@
     {
       "country": "senegal",
       "countryCode": "sn",
-      "title": "\uD83C\uDDF8\uD83C\uDDF3 Republica Senegal",
+      "title": "_Republica Senegal",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -3995,7 +3995,7 @@
     {
       "country": "serbia",
       "countryCode": "rs",
-      "title": "\uD83C\uDDF7\uD83C\uDDF8 Republica Serbia",
+      "title": "_Republica Serbia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4022,7 +4022,7 @@
     {
       "country": "seychelles",
       "countryCode": "sc",
-      "title": "\uD83C\uDDF8\uD83C\uDDE8 Republica Seychellesinsulele Seyshels, Seichel",
+      "title": "_Republica Seychelles",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4049,7 +4049,7 @@
     {
       "country": "sierra leone",
       "countryCode": "sl",
-      "title": "\uD83C\uDDF8\uD83C\uDDF1 Republica Sierra Leone",
+      "title": "_Republica Sierra Leone",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4076,7 +4076,7 @@
     {
       "country": "singapore",
       "countryCode": "sg",
-      "title": "\uD83C\uDDF8\uD83C\uDDEC Republica Singapore",
+      "title": "_Republica Singapore",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4103,7 +4103,7 @@
     {
       "country": "siria",
       "countryCode": "sy",
-      "title": "\uD83C\uDDF8\uD83C\uDDFE Republica Arabă Sirianăsyria,siria,sirya",
+      "title": "_Republica Arabă Siriană / Siria",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4130,7 +4130,7 @@
     {
       "country": "slovacia",
       "countryCode": "sk",
-      "title": "\uD83C\uDDF8\uD83C\uDDF0 Republica Slovacăslovacia,schengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Slovacă / Slovacia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4157,7 +4157,7 @@
     {
       "country": "slovenia",
       "countryCode": "si",
-      "title": "\uD83C\uDDF8\uD83C\uDDEE Republica Sloveniaschengen,u.e.,uniunea Europeana,see",
+      "title": "_Republica Slovenia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4184,7 +4184,7 @@
     {
       "country": "insulele solomon",
       "countryCode": "sb",
-      "title": "\uD83C\uDDF8\uD83C\uDDE7 Insulele Solomon",
+      "title": "_Insulele Solomon",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -4203,7 +4203,7 @@
     {
       "country": "somalia",
       "countryCode": "so",
-      "title": "\uD83C\uDDF8\uD83C\uDDF4 Republica Somalia",
+      "title": "_Republica Somalia",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4230,7 +4230,7 @@
     {
       "country": "spania",
       "countryCode": "es",
-      "title": "\uD83C\uDDEA\uD83C\uDDF8 Regatul Spanieispania,schengen,u.e.,uniunea Europeana,see",
+      "title": "_Regatul Spaniei / Spania",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4257,7 +4257,7 @@
     {
       "country": "sri lanka",
       "countryCode": "lk",
-      "title": "\uD83C\uDDF1\uD83C\uDDF0 Republica Democrată Socialistă Sri\n Lanka",
+      "title": "_Republica Democrată Socialistă Sri Lanka",
       "children": [
         {
           "title": "Specimene- (docis)",
@@ -4280,7 +4280,7 @@
     {
       "country": "sfântul kitts și nevis",
       "countryCode": "kn",
-      "title": "\uD83C\uDDF0\uD83C\uDDF3 Federația Sfântul Kitts Și Nevisfederatia,sfantul,si",
+      "title": "_Federația Sfântul Kitts Și Nevis",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4303,7 +4303,7 @@
     {
       "country": "sfânta lucia",
       "countryCode": "lc",
-      "title": "\uD83C\uDDF1\uD83C\uDDE8 Sfânta Luciasfanta",
+      "title": "_Sfânta Lucia",
       "children": [
         {
           "title": "Specimene- (docis)",
@@ -4322,7 +4322,7 @@
     {
       "country": "sfântul vincent și grenadine",
       "countryCode": "vc",
-      "title": "\uD83C\uDDFB\uD83C\uDDE8 Sfântul Vincent Și Grenadinesfantul",
+      "title": "_Sfântul Vincent Și Grenadine",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -4341,7 +4341,7 @@
     {
       "country": "statele unite ale americii",
       "countryCode": "us",
-      "title": "\uD83C\uDDFA\uD83C\uDDF8 Statele Unite Ale Americiisua,usa,america,puerto Rico, Porto Rico,insulele Mariane",
+      "title": "_Statele Unite Ale Americii / Porto Rico / Insulele Mariane",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4372,7 +4372,7 @@
     {
       "country": "sudan",
       "countryCode": "sd",
-      "title": "\uD83C\uDDF8\uD83C\uDDE9 Republica Sudan",
+      "title": "_Republica Sudan",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4399,7 +4399,7 @@
     {
       "country": "sudanul de sud",
       "countryCode": "ss",
-      "title": "\uD83C\uDDF8\uD83C\uDDF8 Republica Sudanului De Sud",
+      "title": "_Republica Sudanului De Sud",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4422,7 +4422,7 @@
     {
       "country": "suedia",
       "countryCode": "se",
-      "title": "\uD83C\uDDF8\uD83C\uDDEA Regatul Suedieisuedia,schengen,u.e.,uniunea Europeana,see",
+      "title": "_Regatul Suediei / Suedia",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4449,7 +4449,7 @@
     {
       "country": "suriname",
       "countryCode": "sr",
-      "title": "\uD83C\uDDF8\uD83C\uDDF7 Republica Suriname",
+      "title": "_Republica Suriname",
       "children": [
         {
           "title": "Specimene- (docis)",
@@ -4468,7 +4468,7 @@
     {
       "country": "swaziland",
       "countryCode": "sz",
-      "title": "\uD83C\uDDF8\uD83C\uDDFF Regatul Swaziland-eswatinieswatini",
+      "title": "_Regatul Swaziland / Eswatini",
       "children": [
         {
           "title": "Specimene- (docis)",
@@ -4487,7 +4487,7 @@
     {
       "country": "tadjikistan",
       "countryCode": "tj",
-      "title": "\uD83C\uDDF9\uD83C\uDDEF Republica Tadjikistan",
+      "title": "_Republica Tadjikistan",
       "children": [
         {
           "title": "Specimene- (docis)",
@@ -4506,7 +4506,7 @@
     {
       "country": "thailanda",
       "countryCode": "th",
-      "title": "\uD83C\uDDF9\uD83C\uDDED Regatul Thailandeithailanda,tailanda,taylanda",
+      "title": "_Regatul Thailandei / Tailanda",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4533,7 +4533,7 @@
     {
       "country": "tanzania",
       "countryCode": "tz",
-      "title": "\uD83C\uDDF9\uD83C\uDDFF Republica Unită Tanzania",
+      "title": "_Republica Unită Tanzania",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4560,7 +4560,7 @@
     {
       "country": "timorul de est",
       "countryCode": "tl",
-      "title": "\uD83C\uDDF9\uD83C\uDDF1 Republica Democrată A Timorului De\n Est",
+      "title": "_Republica Democrată A Timorului De Est",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4583,7 +4583,7 @@
     {
       "country": "togo",
       "countryCode": "tg",
-      "title": "\uD83C\uDDF9\uD83C\uDDEC Republica Togolezătogo",
+      "title": "_Republica Togoleză / Togo",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4610,7 +4610,7 @@
     {
       "country": "tonga",
       "countryCode": "to",
-      "title": "\uD83C\uDDF9\uD83C\uDDF4 Regatul Tonga",
+      "title": "_Regatul Tonga",
       "children": [
         {
           "title": "Specimene- (docis)",
@@ -4629,7 +4629,7 @@
     {
       "country": "trinidad și tobago",
       "countryCode": "tt",
-      "title": "\uD83C\uDDF9\uD83C\uDDF9 Republica Trinidad Și Tobago",
+      "title": "_Republica Trinidad Și Tobago",
       "children": [
         {
           "title": "Specimene- (docis)",
@@ -4652,7 +4652,7 @@
     {
       "country": "tunisia",
       "countryCode": "tn",
-      "title": "\uD83C\uDDF9\uD83C\uDDF3 Republica Tunisiană",
+      "title": "_Republica Tunisiană",
       "children": [
         {
           "title": "Specimene -(prado)",
@@ -4679,7 +4679,7 @@
     {
       "country": "turcia",
       "countryCode": "tr",
-      "title": "\uD83C\uDDF9\uD83C\uDDF7 Republica Turcia",
+      "title": "_Republica Turcia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4706,7 +4706,7 @@
     {
       "country": "turkmenistan",
       "countryCode": "tm",
-      "title": "\uD83C\uDDF9\uD83C\uDDF2 Turkmenistan",
+      "title": "_Turkmenistan",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4733,7 +4733,7 @@
     {
       "country": "tuvalu",
       "countryCode": "tv",
-      "title": "\uD83C\uDDF9\uD83C\uDDFB Tuvalu",
+      "title": "_Tuvalu",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4756,7 +4756,7 @@
     {
       "country": "ucraina",
       "countryCode": "ua",
-      "title": "\uD83C\uDDFA\uD83C\uDDE6 Ucraina",
+      "title": "_Ucraina",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4783,7 +4783,7 @@
     {
       "country": "uganda",
       "countryCode": "ug",
-      "title": "\uD83C\uDDFA\uD83C\uDDEC Republica Uganda",
+      "title": "_Republica Uganda",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4810,7 +4810,7 @@
     {
       "country": "ungaria",
       "countryCode": "hu",
-      "title": "\uD83C\uDDED\uD83C\uDDFA Ungariahungary,magyarorszag,schengen,u.e.,uniunea Europeana,see",
+      "title": "_Ungaria",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4837,7 +4837,7 @@
     {
       "country": "uruguay",
       "countryCode": "uy",
-      "title": "\uD83C\uDDFA\uD83C\uDDFE Republica Orientală A Uruguayului",
+      "title": "_Republica Orientală A Uruguayului",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4864,7 +4864,7 @@
     {
       "country": "uzbekistan",
       "countryCode": "uz",
-      "title": "\uD83C\uDDFA\uD83C\uDDFF Republica Uzbekistan",
+      "title": "_Republica Uzbekistan",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4891,7 +4891,7 @@
     {
       "country": "vanuatu",
       "countryCode": "vu",
-      "title": "\uD83C\uDDFB\uD83C\uDDFA Republica Vanuatu",
+      "title": "_Republica Vanuatu",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -4910,7 +4910,7 @@
     {
       "country": "vatican",
       "countryCode": "va",
-      "title": "\uD83C\uDDFB\uD83C\uDDE6 Sfântul Scaun (vatican)sfantul Scaun",
+      "title": "_Sfântul Scaun / Vatican",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4933,7 +4933,7 @@
     {
       "country": "venezuela",
       "countryCode": "ve",
-      "title": "\uD83C\uDDFB\uD83C\uDDEA Republica Bolivariană A Venezueleivenezuela,bolivariana",
+      "title": "_Republica Bolivariană A Venezuelei / Venezuela",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4960,7 +4960,7 @@
     {
       "country": "vietnam",
       "countryCode": "vn",
-      "title": "\uD83C\uDDFB\uD83C\uDDF3 Republica Socialistă Vietnam",
+      "title": "_Republica Socialistă Vietnam",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4987,7 +4987,7 @@
     {
       "country": "yemen",
       "countryCode": "ye",
-      "title": "\uD83C\uDDFE\uD83C\uDDEA Republica Yemen",
+      "title": "_Republica Yemen",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -5010,7 +5010,7 @@
     {
       "country": "zambia",
       "countryCode": "zm",
-      "title": "\uD83C\uDDFF\uD83C\uDDF2 Republica Zambia",
+      "title": "_Republica Zambia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -5033,7 +5033,7 @@
     {
       "country": "zimbabwe",
       "countryCode": "zw",
-      "title": "\uD83C\uDDFF\uD83C\uDDFC Republica Zimbabwe",
+      "title": "_Republica Zimbabwe",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -5060,7 +5060,7 @@
     {
       "country": "o.n.u.",
       "countryCode": "un",
-      "title": "\uD83C\uDDFA\uD83C\uDDF3 Organizația Națiunilor Uniteonu,o.n.u., Organizatia Natiunilor Unite, Entități, Entitati,\n Internaționale",
+      "title": "_Organizația Națiunilor Unite / ONU",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -5083,7 +5083,7 @@
     {
       "country": "u.n.m.i.k.",
       "countryCode": "xk",
-      "title": "\uD83C\uDDFD\uD83C\uDDF0 Unmik *1 Misiunea De Administrație\n Interimară A O.n.u. În Kosovoentități, Entitati,\n Internaționale",
+      "title": "_Unmik *1 Misiunea De Administrație Interimară A ONU În Kosovo",
       "children": [
         {
           "title": "Specimene- (docis)",
@@ -5102,7 +5102,7 @@
     {
       "country": "n.a.t.o.",
       "countryCode": "㖏",
-      "title": "✴ Organizația Tratatului Atlanticului De\n Nordnato, Entități, Entitati,\n Internaționale",
+      "title": "✴ Organizația Tratatului Atlanticului De Nord",
       "children": [
         {
           "title": "Doc. Acceptate (cf. Ordin 1124/15)",
@@ -5113,7 +5113,7 @@
     {
       "country": "uniunea europeană",
       "countryCode": "eu",
-      "title": "\uD83C\uDDEA\uD83C\uDDFA Uniunea Europeanăue, U.e. ,entități,\n Entitati,schengen,\n Internaționale",
+      "title": "_Uniunea Europeană",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -5136,7 +5136,7 @@
     {
       "country": "crucea roșie",
       "countryCode": "㕴",
-      "title": "✙ Comitetul Internațional Al Crucii Roșiientități,\n Entitati,\n Internaționale, Icrc-crucea Rosie",
+      "title": "✙ Comitetul Internațional Al Crucii Roșii",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -5151,7 +5151,7 @@
     {
       "country": "ordinul suveran al cavalerilor de malta",
       "countryCode": "㕻",
-      "title": "✠ Ordinul Suveran Al Cavalerilor De Maltaentități,\n Entitati,\n Internaționale",
+      "title": "✠ Ordinul Suveran Al Cavalerilor De Malta",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -5170,7 +5170,7 @@
     {
       "country": "kosovo",
       "countryCode": "xk",
-      "title": "\uD83C\uDDFD\uD83C\uDDF0 Kosovo",
+      "title": "_Kosovo",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -5197,7 +5197,7 @@
     {
       "country": "alte organizații",
       "countryCode": "ũ",
-      "title": "\uD83C\uDF0D Alte Organizațiiinterpol,comunitatea Economică A Statelor Din Africa De Vest Ecowas, Uniunea\n Africană Africana,serbia,montenegro,yugoslavia,america De Sud",
+      "title": "_Alte Organizațiiinterpol,comunitatea Economică A Statelor Din Africa De Vest Ecowas/Uniunea Africană/serbia/montenegro/yugoslavia/america De Sud",
       "children": [
         {
           "title": "Interpol-specimene-(prado)",
@@ -5220,7 +5220,7 @@
     {
       "country": "documente fanteziste",
       "countryCode": "̝",
-      "title": "\uD83D\uDCC2 Documente Fantezistepseudo",
+      "title": "_Documente Fanteziste / Pseudo",
       "children": [
         {
           "title": "Documente Fanteziste-specimene-(docis)",
@@ -5235,7 +5235,7 @@
     {
       "country": "românia",
       "countryCode": "ro",
-      "title": "\uD83C\uDDF7\uD83C\uDDF4 Româniaromania,schengen,u.e.,uniunea Europeana,see",
+      "title": "_România",
       "children": [
         {
           "title": "Specimene-(prado)",
