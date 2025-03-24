@@ -29,7 +29,7 @@
     {
       "country": "africa de sud",
       "countryCode": "za",
-      "title": "\uD83C\uDDFF\uD83C\uDDE6 Republica Africa De Sud",
+      "title": "Republica Africa De Sud",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -56,7 +56,7 @@
     {
       "country": "albania",
       "countryCode": "al",
-      "title": "\uD83C\uDDE6\uD83C\uDDF1 Republica Albania",
+      "title": "Republica Albania",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -83,7 +83,7 @@
     {
       "country": "algeria",
       "countryCode": "dz",
-      "title": "\uD83C\uDDE9\uD83C\uDDFF Republica Algeriană Democratică Și Populară\n Algeria",
+      "title": "Republica Algeriană Democratică Și Populară / Algeria",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -110,7 +110,7 @@
     {
       "country": "andorra",
       "countryCode": "ad",
-      "title": "\uD83C\uDDE6\uD83C\uDDE9 Principatul Andorra",
+      "title": "Principatul Andorra",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -137,7 +137,7 @@
     {
       "country": "angola",
       "countryCode": "ao",
-      "title": "\uD83C\uDDE6\uD83C\uDDF4 Republica Angola",
+      "title": "Republica Angola",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -164,7 +164,7 @@
     {
       "country": "antigua și barbuda",
       "countryCode": "ag",
-      "title": "\uD83C\uDDE6\uD83C\uDDEC Antigua Și Barbuda",
+      "title": "Antigua Și Barbuda",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -183,7 +183,7 @@
     {
       "country": "arabia saudită",
       "countryCode": "sa",
-      "title": "\uD83C\uDDF8\uD83C\uDDE6 Regatul Arabiei Sauditearabia Saudita, Saudită",
+      "title": "Regatul Arabiei Saudite / Arabia Saudită",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -210,7 +210,7 @@
     {
       "country": "argentina",
       "countryCode": "ar",
-      "title": "\uD83C\uDDE6\uD83C\uDDF7 Republica Argentina",
+      "title": "Republica Argentina",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -237,7 +237,7 @@
     {
       "country": "armenia",
       "countryCode": "am",
-      "title": "\uD83C\uDDE6\uD83C\uDDF2 Republica Armenia",
+      "title": "Republica Armenia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -264,7 +264,7 @@
     {
       "country": "australia",
       "countryCode": "au",
-      "title": "\uD83C\uDDE6\uD83C\uDDFA Australia",
+      "title": "Australia",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -291,7 +291,7 @@
     {
       "country": "austria",
       "countryCode": "at",
-      "title": "\uD83C\uDDE6\uD83C\uDDF9 Republica Austriaschengen,u.e.,uniunea Europeana,see",
+      "title": "Republica Austria",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -318,7 +318,7 @@
     {
       "country": "azerbaidjan",
       "countryCode": "az",
-      "title": "\uD83C\uDDE6\uD83C\uDDFF Republica Azerbaidjan",
+      "title": "Republica Azerbaidjan",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -345,7 +345,7 @@
     {
       "country": "bahamas",
       "countryCode": "bs",
-      "title": "\uD83C\uDDE7\uD83C\uDDF8 Uniunea Bahamas",
+      "title": "Uniunea Bahamas",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -368,7 +368,7 @@
     {
       "country": "bahrain",
       "countryCode": "bh",
-      "title": "\uD83C\uDDE7\uD83C\uDDED Regatul Bahrain",
+      "title": "Regatul Bahrain",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -395,7 +395,7 @@
     {
       "country": "bangladesh",
       "countryCode": "bd",
-      "title": "\uD83C\uDDE7\uD83C\uDDE9 Republica Populară Bangladesh",
+      "title": "Republica Populară Bangladesh",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -422,7 +422,7 @@
     {
       "country": "barbados",
       "countryCode": "bb",
-      "title": "\uD83C\uDDE7\uD83C\uDDE7 Barbados",
+      "title": "Barbados",
       "children": [
         {
           "title": "Specimene-(docis)",
@@ -441,7 +441,7 @@
     {
       "country": "belarus",
       "countryCode": "by",
-      "title": "\uD83C\uDDE7\uD83C\uDDFE Republica Belarus",
+      "title": "Republica Belarus",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -468,7 +468,7 @@
     {
       "country": "belgia",
       "countryCode": "be",
-      "title": "\uD83C\uDDE7\uD83C\uDDEA Regatul Belgieibelgia,schengen,u.e.,uniunea Europeana,see",
+      "title": "Regatul Belgiei / Belgia",
       "children": [
         {
           "title": "Specimene-(prado)",
