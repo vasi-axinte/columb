@@ -600,6 +600,12 @@
                 "type": "direct-link"
             },
           {
+                "title": "Verificare stare înmatriculare",
+                "url": "https://dgpci.mai.gov.ro/drpciv-forms/vehicle",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
                 "title": "Allianz-Tiriac",
                 "url": "https://cumpara-asigurare.allianztiriac.ro/my-car/vehicle",
                 "icon": "link",
