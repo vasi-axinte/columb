@@ -588,7 +588,7 @@
         "key": "vehicle-info.romania",
         "children": [
             {
-                "title": "DRPCIV",
+                "title": "Verificare stare înmatriculare",
                 "url": "https://dgpci.mai.gov.ro/drpciv-forms/vehicle",
                 "icon": "link",
                 "type": "direct-link"
@@ -596,12 +596,6 @@
             {
                 "title": "Verificare emitere certificat",
                 "url": "https://dgpci.mai.gov.ro/drpciv-forms/certificate",
-                "icon": "link",
-                "type": "direct-link"
-            },
-          {
-                "title": "Verificare stare înmatriculare",
-                "url": "https://dgpci.mai.gov.ro/drpciv-forms/vehicle",
                 "icon": "link",
                 "type": "direct-link"
             },
