@@ -592,16 +592,16 @@
                 "url": "https://dgpci.mai.gov.ro/drpciv-forms/vehicle",
                 "icon": "link",
                 "type": "direct-link"
-            },
+            },            
             {
-                "title": "Allianz-Tiriac",
-                "url": "https://cumpara-asigurare.allianztiriac.ro/my-car/vehicle",
+                "title": "Verificare emitere certificat",
+                "url": "https://dgpci.mai.gov.ro/drpciv-forms/certificate",
                 "icon": "link",
                 "type": "direct-link"
             },
-            {
-                "title": "Istoric RAR",
-                "url": "https://pro.rarom.ro/istoric_vehicul/dosar_vehicul.aspx?from=fillForm",
+          {
+                "title": "Allianz-Tiriac",
+                "url": "https://cumpara-asigurare.allianztiriac.ro/my-car/vehicle",
                 "icon": "link",
                 "type": "direct-link"
             }
