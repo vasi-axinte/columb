@@ -2,7 +2,7 @@ import { LawDetails } from "../models/sanction";
 
 export const l176List: LawDetails[] = [
     {
-        parentId: 9,
+        parentId: 10,
         contentId: 1,
         title: "1  Pescuitul recreativ fără permis",
         text: `       
@@ -32,7 +32,7 @@ export const l176List: LawDetails[] = [
         `,
     },
     {
-        parentId: 9,
+        parentId: 10,
         contentId: 2,
         title: "2  Refuzul prezentării permisului, licenței sau autorizatiei",
         text: `       
@@ -62,7 +62,7 @@ export const l176List: LawDetails[] = [
         `
     },
     {
-        parentId: 9,
+        parentId: 10,
         contentId: 3,
         title: "3 Pescuitul pe Dunare cu peste 3 undițe 4 lansete...",
         text: `       
