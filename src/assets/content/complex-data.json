@@ -409,7 +409,7 @@
                 "icon": "link",
                 "url": "details",
                 "children": [],
-                "data": "8.1"
+                "data": "9.1"
             },
           {
                 "type": "in-subpage-url",
@@ -417,7 +417,7 @@
                 "icon": "link",
                 "url": "details",
                 "children": [],
-                "data": "8.2"
+                "data": "9.2"
             },
             {
                 "type": "in-subpage-url",
@@ -425,7 +425,7 @@
                 "icon": "link",
                 "url": "details",
                 "children": [],
-                "data": "8.3"
+                "data": "9.3"
             }
         ],
         "data":""
