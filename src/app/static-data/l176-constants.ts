@@ -2,7 +2,7 @@ import { LawDetails } from "../models/sanction";
 
 export const l176List: LawDetails[] = [
     {
-        parentId: 8,
+        parentId: 9,
         contentId: 1,
         title: "1  Pescuitul recreativ fără permis",
         text: `       
@@ -32,7 +32,7 @@ export const l176List: LawDetails[] = [
         `,
     },
     {
-        parentId: 8,
+        parentId: 9,
         contentId: 2,
         title: "2  Refuzul prezentării permisului, licenței sau autorizatiei",
         text: `       
@@ -62,7 +62,7 @@ export const l176List: LawDetails[] = [
         `
     },
     {
-        parentId: 8,
+        parentId: 9,
         contentId: 3,
         title: "3 Pescuitul pe Dunare cu peste 3 undițe 4 lansete...",
         text: `       
@@ -91,7 +91,7 @@ export const l176List: LawDetails[] = [
         `
     },
     {
-        parentId: 8,
+        parentId: 9,
         contentId: 4,
         title: "4   Transportul deșeurilor periculoase rezultate din activitatea medicală",
         text: `       
@@ -145,7 +145,7 @@ export const l176List: LawDetails[] = [
         `
     },
     {
-        parentId: 8,
+        parentId: 9,
         contentId: 5,
         title: "5  Transportul deșeurilor periculoase pe altă rută",
         text: `       
@@ -178,7 +178,7 @@ export const l176List: LawDetails[] = [
         `
     },
     {
-        parentId: 8,
+        parentId: 9,
         contentId: 6,
         title: "6 Abandonarea deșeurilor pe traseu",
         text: `       
