@@ -9,6 +9,7 @@ import { oug194List } from 'src/app/static-data/oug194-constants';
 import { oug23List } from 'src/app/static-data/oug23-constants';
 import { oug97List } from 'src/app/static-data/oug97-constants';
 import { tabacoList } from 'src/app/static-data/tabaco-constants';
+import { l176List } from 'src/app/static-data/l176-constants';
 
 @Component({
   selector: 'app-sanction-details',
@@ -27,6 +28,7 @@ export class SanctionDetailsComponent implements OnInit {
   readonly oug105Sanctions = oug105List;
   readonly oug194Sanctions = oug194List;
   readonly tabacoSanctions = tabacoList;
+  readonly l176Sanctions = l176List;
   
   selectedLaw: LawDetails = {
     parentId: 0,
@@ -44,6 +46,7 @@ export class SanctionDetailsComponent implements OnInit {
     this.detailLists["6"] = oug23List;
     this.detailLists["7"] = hg1061List;
     this.detailLists["8"] = tabacoList;
+    this.detailLists["10"] = l176List;
   }
 
   ngOnInit() {
