@@ -389,6 +389,47 @@
         ],
         "data":""
     },
+  {
+        "type": "with-children",
+        "title": "LEGEA nr. 176/2024",
+        "icon": "plus",
+        "url": "",
+        "children": [
+            {
+                "type": "direct-link",
+                "title": "DESCHIDE ACTUL NORMATIV",
+                "icon": "outside",
+                "url": "https://legislatie.just.ro/public/DetaliiDocument/283479",
+                "children": [],
+                "data":""
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Pescuitul recreativ fără permis",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "8.1"
+            },
+          {
+                "type": "in-subpage-url",
+                "title": "Refuzul prezentării permisului, licenței sau autorizatiei",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "8.2"
+            },
+            {
+                "type": "in-subpage-url",
+                "title": "Pescuitul pe Dunare cu peste 3 undițe 4 lansete...",
+                "icon": "link",
+                "url": "details",
+                "children": [],
+                "data": "8.3"
+            }
+        ],
+        "data":""
+    },
     {
         "type": "with-children",
         "title": "H.G. nr. 1061/2008 (deșeuri)",
