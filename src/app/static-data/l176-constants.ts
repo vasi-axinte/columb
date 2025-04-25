@@ -91,7 +91,7 @@ export const l176List: LawDetails[] = [
         `
     },
     {
-        parentId: 9,
+        parentId: 10,
         contentId: 4,
         title: "4 Nerespectarea păstrării curățeniei...",
         text: `       
