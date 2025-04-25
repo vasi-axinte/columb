@@ -93,7 +93,7 @@ export const l176List: LawDetails[] = [
     {
         parentId: 9,
         contentId: 4,
-        title: "4   Transportul deșeurilor periculoase rezultate din activitatea medicală",
+        title: "4 Nerespectarea păstrării curățeniei...",
         text: `       
             ACT NORMATIV
 
@@ -103,46 +103,22 @@ export const l176List: LawDetails[] = [
             
             FAPTA COMISĂ
             
-            Art. 25
-            (2) Următoarele fapte constituie contravenții și se sancționează după cum urmează:
+            Art. 52
             
-            a) ... nerespectarea prevederilor art. 24 alin. (2), alin. (3) lit. a), b) și d) §
-            
-            § Art. 24
-            alin. (2) Nu se vor accepta la transport deșeurile ale căror ambalaje nu sunt etichetate cu următoarele informații: datele de identificare ale unității sanitare, secția/laborator, cantitate și data umplerii.
-            
-            alin. (3) Transportul deșeurilor periculoase rezultate din activitatea medicală se face ținându-se cont de următoarele:
-            
-            a) toate vehiculele utilizate pentru transportul deșeurilor periculoase rezultate din activitatea medicală sunt evaluate de Ministerul Sănătății Publice, prin institutele de sănătate publică, pe baza unei metodologii ce va fi aprobată prin ordin al ministrului sănătății publice, în termen de 60 de zile de la intrarea în vigoare a prezentei hotărâri. În interiorul vehiculelor, deșeurile periculoase rezultate din activitatea medicală se transportă în containere din plastic cu capac, tip europubelă, în poziție verticală;
-            
-            b) vehiculul utilizat pentru transportul deșeurilor periculoase rezultate din activitatea medicală trebuie să îndeplinească următoarele cerințe :
-            (i) să fie destinat, amenajat special și utilizat numai pentru transportul deșeurilor periculoase rezultate din activitatea medicală;
-            (ii) să fie autoutilitară sau autovehicul cu masa totală maximă autorizată;
-            (iii) compartimentul destinat containerelor să fie separat de cabina șoferului, să fie realizat din materiale ușor lavabile și rezistente la abur și agenți chimici folosiți la curățenie și dezinfecție;
-            (iv) să aibă în dotare containere din plastic cu capac, tip europubelă, în care sunt depozitate deșeurile ambalate în timpul transportului, în condiții de siguranță;
-            (v) să aibă dispozitive de fixare a containerelor în timpul transportului;
-            (vi) să conțină sisteme de asigurare împotriva răspândirii deșeurilor periculoase în mediu în caz de accident;
-            (vii) să existe permanent o trusă sau un minicompartiment ce conține saci din plastic, echipament de protecție, echipamente de curățenie, dezinfecție, trusă de prim-ajutor;
-            (viii) să fie prevăzut cu trusă conform prevederilor Acordului european privind transportul internațional rutier al mărfurilor periculoase (A.D.R.);
-            (ix) compartimentul destinat containerelor va fi prevăzut cu sisteme de răcire a aerului: aer condiționat, echipament frigorific;
-            (x) autovehiculul va fi marcat și inscripționat cu datele de identificare ale societății transportatoare pe ambele părți laterale, activitatea prestată "Transport deșeuri periculoase rezultate din activitatea medicală", pictograma "Pericol biologic" și marcaj A.D.R.;
-            
-            d) transportul deșeurilor periculoase de la unitatea medicală în care acestea se produc și care este expeditorul deșeurilor și până la destinatarul deșeurilor, reprezentat de instalația în care acestea sunt tratate sau eliminate, se realizează cu respectarea prevederilor prezentei hotărâri.
-            
+            i) nerespectarea păstrării curățeniei și necolectarea în saci menajeri a deșeurilor existente în zona de pescuit/habitatele acvatice naturale, de către pescarii recreativi.
+   
             _________________________________________________
             
-            PREVĂZUTĂ DE:   Art. 24, alin (2) și (3) lit. a), b) și d)
-            SANCȚIONATĂ DE: Art. 25, alin.(2), lit. a)
+            PREVĂZUTĂ DE:   Art. 52, lit. i)
+            SANCȚIONATĂ DE: Art. 52
             _________________________________________________
             
-            AMENDĂ CONTRAVENŢIONALĂ: amendă de la 15000 la 30000 lei.
-            JUMĂTATE DIN MINIM ÎN 15 ZILE : 7500 lei.
+            AMENDĂ CONTRAVENŢIONALĂ: amendă de la 2000 la 4000 lei.
+            JUMĂTATE DIN MINIM ÎN 15 ZILE : 1000 lei.
             _________________________________________________
             
-            MĂSURI COMPLEMENTARE:        
-            Art. 25
-            alin. (3) În cazul săvârșirii contravențiilor prevăzute la alin. (2) lit. a), se aplică pe lângă sancțiunea contravențională principală și sancțiunea contravențională complementară a confiscării mijlocului de transport destinat sau folosit la săvârșirea faptei.
-        `
+            MĂSURI COMPLEMENTARE: NU SUNT       
+                  `
     },
     {
         parentId: 9,
