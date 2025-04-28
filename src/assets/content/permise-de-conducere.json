@@ -551,6 +551,12 @@
                         "type": "country",
                         "countryCode": "us"
                     },
+                  {
+                        "title": "Ilinois (VPN)",
+                        "url": "https://apps.ilsos.gov/dlstatus/",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
                     {
                         "title": "Nebraska",
                         "url": "https://www.nebraska.gov/dmv/reinstatements/client.cgi",
