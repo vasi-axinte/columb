@@ -57,6 +57,12 @@
             }
         ]        
     },
+  {
+        "title": "Croația",
+        "countryCode": "hr",
+        "url": "https://provjeravozila.com.hr/en",
+        "type": "country"
+    },
     {
         "type": "with-children",
         "title": "Danemarca",
