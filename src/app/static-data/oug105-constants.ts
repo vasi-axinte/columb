@@ -7,25 +7,19 @@ export const oug105List: LawDetails[] = [
         title: "1 Tragerea cu arma peste frontieră",
         text: `
             ACT NORMATIV
-
             ORDONANȚĂ DE URGENȚĂ nr. 105 din 27 iunie 2001
             Privind frontiera de stat a României
-            __________________________________
-            
-            FAPTA COMISĂ
-            
+            _____________________________
+            FAPTA COMISĂ  
             Art. 75
             lit. a) Tragerea cu arma peste frontiera de stat.
-            __________________________________
-            
+            _____________________________    
             PREVĂZUTĂ DE:   Art. 75 ,lit. a)
             SANCȚIONATĂ DE: Art. 76, alin.1, lit. a).
-            __________________________________
-            
+            _____________________________    
             AMENDĂ CONTRAVENŢIONALĂ: amendă de la 500 la 5000 lei.
             JUMĂTATE DIN MINIM ÎN 15 ZILE : 250 lei.
-            __________________________________
-            
+            _____________________________ 
             MĂSURI COMPLEMENTARE: Art.77 (3) În cazul contravențiilor prevăzute la art. 75 lit. a) §, dacă agentul constatator apreciază că sancțiunea amenzii este îndestulătoare, aplica amenda. În caz contrar procesul-verbal de constatare a contravenției se trimite de îndată judecătoriei în a carei raza teritoriala a fost săvârșită contravenția, pentru judecarea cauzei și aplicarea sancțiunii. Participarea procurorului este obligatorie. Împotriva hotărârii instanței se poate face cerere de reexaminare de către contravenient sau procuror în termen de 24 de ore de la pronunțare, pentru procuror și contravenientul prezenți, sau de la comunicare, când contravenientul a lipsit la dezbateri.
             
             § Art.75,lit. a) tragerea cu arma peste frontiera de stat, deteriorarea ori distrugerea semnelor de frontieră, a instalațiilor sau mijloacelor tehnice de pază, supraveghere și control ale Poliției de Frontieră Române, utilizarea focului deschis fără luarea masurilor pentru împiedicarea propagării focului la vecinătăți, în apropierea liniei de frontiera.        
