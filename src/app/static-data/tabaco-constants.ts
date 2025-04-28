@@ -32,7 +32,7 @@ export const tabacoList: LawDetails[] = [
             _________________
             
             AMENDĂ CONTRAVENŢIONALĂ: amendă de la 20000 la 100000 lei.
-            JUMĂTATE DIN MINIM ÎN 15 ZILE : 10000 lei.
+            JUMĂTATE DIN MINIM ÎN 15 ZILE : NU SE APLICĂ! (în cazul acestei fapte contravenționale Legea 296/2023 abrogă art.22 alin(2) din Legea 203/2018).
             _________________
             
             MĂSURI COMPLEMENTARE: 
