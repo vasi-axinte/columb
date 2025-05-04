@@ -44,12 +44,13 @@ const routes: Routes = [
       component: TravelDocsSamplesComponent 
     }
     ],
-    canActivate: [AuthGuard] 
+    canActivate: [AuthGuard],
+    data: { roles: [RoleEnum.User, RoleEnum.Admin, RoleEnum.LimitedUser] }
   },
-  { path: 'vehicle-info', component: VehicleInfoComponent, canActivate: [AuthGuard] },
-  { path: 'technical-check', component: TechnicalCheckComponent, canActivate: [AuthGuard] },
-  { path: 'driving-license', component: DrivingLicenseComponent, canActivate: [AuthGuard] },
-  { path: 'vehicle-insurance', component: VehicleInsuranceComponent, canActivate: [AuthGuard] },
+  { path: 'vehicle-info', component: VehicleInfoComponent, canActivate: [AuthGuard], data: { roles: [RoleEnum.User, RoleEnum.Admin, RoleEnum.LimitedUser] } },
+  { path: 'technical-check', component: TechnicalCheckComponent, canActivate: [AuthGuard], data: { roles: [RoleEnum.User, RoleEnum.Admin, RoleEnum.LimitedUser] } },
+  { path: 'driving-license', component: DrivingLicenseComponent, canActivate: [AuthGuard], data: { roles: [RoleEnum.User, RoleEnum.Admin, RoleEnum.LimitedUser] } },
+  { path: 'vehicle-insurance', component: VehicleInsuranceComponent, canActivate: [AuthGuard], data: { roles: [RoleEnum.User, RoleEnum.Admin, RoleEnum.LimitedUser] } },
   { path: 'sanctions', children: [
       {
         path: '',
@@ -63,7 +64,8 @@ const routes: Routes = [
         path: 'details/:contentId',
         component: SanctionDetailsComponent
       }],
-      canActivate: [AuthGuard]
+      canActivate: [AuthGuard],
+      data: { roles: [RoleEnum.User, RoleEnum.Admin] }
   },
   { 
     path: 'crimes', children: [
@@ -75,12 +77,13 @@ const routes: Routes = [
       path:'details/:contentId',
       component: CrimesDetailsComponent
     }], 
-    canActivate: [AuthGuard] 
+    canActivate: [AuthGuard],
+    data: { roles: [RoleEnum.User, RoleEnum.Admin] }
   },
-  { path: 'specimens', component: SpecimensComponent, canActivate: [AuthGuard] },
-  { path: 'tiaf', component: TiafComponent, canActivate: [AuthGuard] },
-  { path: 'tiaf-app', component: TiafAppComponent, canActivate: [AuthGuard] },
-  { path: 'useful-sites', component: UsefulSitesComponent, canActivate: [AuthGuard] },
+  { path: 'specimens', component: SpecimensComponent, canActivate: [AuthGuard], data: { roles: [RoleEnum.User, RoleEnum.Admin] } },
+  { path: 'tiaf', component: TiafComponent, canActivate: [AuthGuard], data: { roles: [RoleEnum.User, RoleEnum.Admin] } },
+  { path: 'tiaf-app', component: TiafAppComponent, canActivate: [AuthGuard], data: { roles: [RoleEnum.User, RoleEnum.Admin] } },
+  { path: 'useful-sites', component: UsefulSitesComponent, canActivate: [AuthGuard], data: { roles: [RoleEnum.User, RoleEnum.Admin, RoleEnum.LimitedUser] } },
   { path: 'user-management', 
     component: UserManagementComponent, 
     canActivate: [AuthGuard], 

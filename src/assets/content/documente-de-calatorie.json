@@ -47,7 +47,8 @@
     {
         "country": "Carnet de marinar",
         "countryCode": "",
-        "url": "http://marinari.altervista.org/?doing_wp_cron=1686084715.7434120178222656250000"
+        "url": "http://marinari.altervista.org/?doing_wp_cron=1686084715.7434120178222656250000",
+        "restrictedToLimitedUser": true
     },
     {
         "country": "Laissez-Passer",
@@ -59,12 +60,14 @@
         "country": "Specimene+Documente Acceptate",
         "countryCode": "",
         "url": "",
-        "internalUrl": "samples"
+        "internalUrl": "samples",
+        "restrictedToLimitedUser": true
     },
     {
         "country": "Calculator Cifre De Control",
         "countryCode": "",
         "url": "",
-        "internalUrl": "digit-calculator"
+        "internalUrl": "digit-calculator",
+        "restrictedToLimitedUser": true
     }
 ]

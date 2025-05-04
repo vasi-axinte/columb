@@ -105,6 +105,7 @@
         "url": "",
         "icon": "plus",
         "key": "useful-links.google-play-apps.title",
+        "restrictedToLimitedUser": true,
         "children": [
             {
                 "type": "direct-link",
@@ -177,6 +178,7 @@
         "url": "",
         "icon": "plus",
         "key": "useful-links.cnp-validation.title",
+        "restrictedToLimitedUser": true,
         "children": [
             {
                 "type": "with-children",

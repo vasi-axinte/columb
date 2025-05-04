@@ -307,13 +307,15 @@
                 "title": "Verificare Cifra Control Talon",
                 "url": "https://www.kneifel.de/TSN_Pruefziffer.php",
                 "icon": "link",
-                "type": "direct-link"
+                "type": "direct-link",
+                "restrictedToLimitedUser": true
             },
             {
                 "title": "Verificare Cifra Control VIN",
                 "url": "https://kneifel.de/vin.php",
                 "icon": "link",
-                "type": "direct-link"
+                "type": "direct-link",
+                "restrictedToLimitedUser": true
             },
           {
                 "title": "Detalii plăcuțe de înmatriculare",

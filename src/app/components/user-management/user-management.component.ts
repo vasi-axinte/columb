@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AppUser } from 'src/app/models/app-user';
 import { StateEnum } from 'src/app/models/state.enum';
 import { UserService } from 'src/app/services/user.service';
+import { RoleEnum } from 'src/app/models/role.enum';
 
 @Component({
   selector: 'app-user-management',
@@ -9,6 +10,8 @@ import { UserService } from 'src/app/services/user.service';
   styleUrls: ['./user-management.component.scss']
 })
 export class UserManagementComponent implements OnInit{
+
+  roleEnum = RoleEnum;
 
   stateEnum = StateEnum;
   users: AppUser[] = [];
@@ -69,6 +72,14 @@ export class UserManagementComponent implements OnInit{
         u.state === this.selectedState && 
         (u.firstName.search(new RegExp(searchValue, "i")) !== -1 || u.lastName.search(new RegExp(searchValue, "i")) !== -1)
       );
+  }
+
+  changeUserRole(user: AppUser, roleEnum: RoleEnum): void {
+    this.userService.changeUserRole(user.id, roleEnum).subscribe(result => {
+      if (result === true) {
+        user.userRole = roleEnum;
+      }
+    });
   }
 
   showHistoryForUser(user: AppUser): void {

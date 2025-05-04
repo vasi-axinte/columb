@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { NavigationCountry } from 'src/app/models/navigation-country';
 import { CountryNavigationReadingService } from 'src/app/services/country-navigation-reading.service';
+import { RoleEnum } from 'src/app/models/role.enum';
 
 @Component({
   selector: 'app-country-navigation',
@@ -25,5 +26,17 @@ export class CountryNavigationComponent implements OnInit {
       .subscribe(result =>
         this.navigationCountries = result
       )
+  }
+
+  isLimitedUser(){
+    const user = localStorage.getItem("user");
+
+    if(!user){
+      return false;
+    }
+
+    let userData = JSON.parse(user);
+
+    return userData.roles == RoleEnum.LimitedUser;
   }
 }

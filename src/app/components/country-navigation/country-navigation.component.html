@@ -14,7 +14,7 @@
             'list-group-item list-item border-top py-2': true,
             'list-group-item-success':  !navigationCountry.countryCode}">
             
-            <a *ngIf="!navigationCountry.internalUrl" class="nav-link" href="{{navigationCountry.url}}" target="_blank">
+            <a *ngIf="!navigationCountry.internalUrl && !(navigationCountry.restrictedToLimitedUser && isLimitedUser())" class="nav-link" href="{{navigationCountry.url}}" target="_blank">
                 <h3>
                     <span *ngIf="navigationCountry.countryCode" class="fi fi-{{navigationCountry.countryCode}}"></span>
                     <svg *ngIf="!navigationCountry.countryCode" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">
@@ -26,7 +26,7 @@
                 </h3>
             </a>
 
-            <a *ngIf="navigationCountry.internalUrl" class="nav-link"  [routerLink]="navigationCountry.internalUrl">
+            <a *ngIf="navigationCountry.internalUrl && !(navigationCountry.restrictedToLimitedUser && isLimitedUser())" class="nav-link"  [routerLink]="navigationCountry.internalUrl">
                 <h3>
                     <span *ngIf="navigationCountry.countryCode" class="fi fi-{{navigationCountry.countryCode}}"></span>
                     <svg *ngIf="!navigationCountry.countryCode" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">

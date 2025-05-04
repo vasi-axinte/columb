@@ -1,4 +1,5 @@
 import { StateEnum } from "./state.enum";
+import { RoleEnum } from "./role.enum";
 
 export interface AppUser {
     id: string;
@@ -14,6 +15,8 @@ export interface AppUser {
     canRequestTiafAccess: boolean;
     hasTiafAccess: boolean;
     historicalUser: HistoricalUser | null;
+    userRole: RoleEnum;
+    userRoleId: string;
   }
 
 export interface HistoricalUser {

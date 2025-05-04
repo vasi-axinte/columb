@@ -5,6 +5,7 @@ import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { StateEnum } from '../models/state.enum';
 import { UpdateUser } from '../models/update-user';
+import { RoleEnum } from '../models/role.enum';
 
 @Injectable({
   providedIn: 'root'
@@ -39,5 +40,9 @@ export class UserService {
 
   public clearHistoryForUserId(userId: string): Observable<boolean>{
     return this.http.delete<boolean>(environment.apiUrl + 'api/historicalUsers/'+ userId + '/clearHistory');
+  }
+
+  public changeUserRole(userId: string, userRole: RoleEnum): Observable<boolean> {
+    return this.http.post<boolean>(environment.apiUrl + 'api/users/changeUserRole', {userId: userId, userRole: userRole});
   }
 }

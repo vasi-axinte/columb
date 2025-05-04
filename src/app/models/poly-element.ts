@@ -8,4 +8,5 @@ export interface PolyElement {
     key: string,
     countryCode: string,
     shouldShow: boolean,
+    restrictedToLimitedUser?: boolean,
 }

@@ -1,4 +1,4 @@
-<div *ngIf="element && element.children" class="accordion-item list-group-item list-group-item-action list-item-container" id="{{element.title}}">
+<div *ngIf="element && element.children && !(element.restrictedToLimitedUser && isLimitedUser())" class="accordion-item list-group-item list-group-item-action list-item-container" id="{{element.title}}">
     <a class="accordion-button" 
     type="button" 
     [attr.data-bs-toggle]="'collapse'" 
@@ -23,7 +23,7 @@
                 'show': element.shouldShow }"
     [attr.data-bs-parent]="'#{{element.title}}'">
         <div class="accordion-body">
-            <div *ngFor="let elementChild of element.children" >
+            <div *ngFor="let elementChild of element.children | filterRestrictedElements" >
                 <app-poly-direct-link-element *ngIf="elementChild.type === 'direct-link'" [element]="elementChild"></app-poly-direct-link-element>
                 <app-poly-in-subpage-url-element *ngIf="elementChild.type === 'in-subpage-url'" [element]="elementChild"></app-poly-in-subpage-url-element>
                 <app-poly-country-element *ngIf="elementChild.type === 'country'" [element]="elementChild" ></app-poly-country-element>

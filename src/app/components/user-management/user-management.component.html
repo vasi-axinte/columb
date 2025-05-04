@@ -95,6 +95,17 @@
                     <div>
                         {{getAge(user.birthYear)}}
                     </div>
+                    <div>
+                        Role:
+                        <div class="btn-group btn-group-sm mt-2" role="group">
+                            <button type="button" class="btn btn-outline-primary" 
+                                    [class.active]="user.userRole === roleEnum.User"
+                                    (click)="changeUserRole(user, roleEnum.User)">User</button>
+                            <button type="button" class="btn btn-outline-primary" 
+                                    [class.active]="user.userRole === roleEnum.LimitedUser"
+                                    (click)="changeUserRole(user, roleEnum.LimitedUser)">Limited User</button>
+                        </div>
+                    </div>
                 </div>
                 <div *ngIf="user.historicalUser && selectedIdForShowingHistory === user.id" class="card-footer border-info history-footer">
                     <div><strong>Istoric ({{user.historicalUser.timestamp | date: 'dd.MM.yyyy'}})</strong></div>

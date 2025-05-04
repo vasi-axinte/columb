@@ -9,11 +9,12 @@
   </div>
 
 <div class="list-group">
-    <div *ngFor="let element of polyElements">
-        <app-poly-direct-link-element *ngIf="element.type==='direct-link'" [element]="element"></app-poly-direct-link-element>
-        <app-poly-with-children-element *ngIf="element.type==='with-children'" [element]="element"></app-poly-with-children-element>
-        <app-poly-in-subpage-url-element *ngIf="element.type==='in-subpage-url'" [element]="element"></app-poly-in-subpage-url-element >
-        <app-poly-country-element *ngIf="element.type==='country'" [element]="element"></app-poly-country-element >
-        <app-poly-no-type-element *ngIf="!element.type" [element]="element"></app-poly-no-type-element>
+    <div *ngFor="let element of polyElements | filterRestrictedElements">
+
+        <app-poly-direct-link-element *ngIf="element.type==='direct-link' && !(element.restrictedToLimitedUser && isLimitedUser())" [element]="element"></app-poly-direct-link-element>
+        <app-poly-with-children-element *ngIf="element.type==='with-children' && !(element.restrictedToLimitedUser && isLimitedUser())" [element]="element"></app-poly-with-children-element>
+        <app-poly-in-subpage-url-element *ngIf="element.type==='in-subpage-url' && !(element.restrictedToLimitedUser && isLimitedUser())" [element]="element"></app-poly-in-subpage-url-element >
+        <app-poly-country-element *ngIf="element.type==='country' && !(element.restrictedToLimitedUser && isLimitedUser())" [element]="element"></app-poly-country-element >
+        <app-poly-no-type-element *ngIf="!element.type && !(element.restrictedToLimitedUser && isLimitedUser())" [element]="element"></app-poly-no-type-element>
     </div>
 </div>

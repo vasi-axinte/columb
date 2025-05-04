@@ -47,6 +47,7 @@ import { DigitCalculatorComponent } from './components/digit-calculator/digit-ca
 import { TravelDocsSamplesComponent } from './components/travel-docs-samples/travel-docs-samples.component';
 import { PolyNoTypeElementComponent } from './components/poly-list/poly-no-type-element/poly-no-type-element.component';
 import { TiafAppComponent } from './components/tiaf-app/tiaf-app.component';
+import { FilterRestrictedElementsPipe } from './pipes/filter-restricted-elements.pipe';
 
 @NgModule({
   declarations: [
@@ -84,7 +85,8 @@ import { TiafAppComponent } from './components/tiaf-app/tiaf-app.component';
     DigitCalculatorComponent,
     TravelDocsSamplesComponent,
     PolyNoTypeElementComponent,
-    TiafAppComponent
+    TiafAppComponent,
+    FilterRestrictedElementsPipe
   ],
   imports: [
     BrowserModule,

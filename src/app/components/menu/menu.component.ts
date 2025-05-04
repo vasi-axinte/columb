@@ -26,6 +26,18 @@ export class MenuComponent {
     return userData.roles == RoleEnum.Admin;
   }
 
+  isLimitedUser(){
+    const user = localStorage.getItem("user");
+
+    if(!user){
+      return false;
+    }
+
+    let userData = JSON.parse(user);
+
+    return userData.roles == RoleEnum.LimitedUser;
+  }
+
   logout(){
     this.authService.logout();
   }

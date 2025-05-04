@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { PolyElement } from 'src/app/models/poly-element';
+import { RoleEnum } from 'src/app/models/role.enum';
 import { UrlNavigationReadingService } from 'src/app/services/url-navigation-reading.service';
 
 @Component({
@@ -72,5 +73,17 @@ export class PolyElementListComponent {
     return originalList
       .map(filterRecursive)
       .filter(item => item.shouldShow);
+  }
+
+  isLimitedUser(){
+    const user = localStorage.getItem("user");
+
+    if(!user){
+      return false;
+    }
+
+    let userData = JSON.parse(user);
+
+    return userData.roles == RoleEnum.LimitedUser;
   }
 }

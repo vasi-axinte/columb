@@ -2,5 +2,6 @@ export interface NavigationCountry{
     country: string,
     countryCode: string,
     url: string,
-    internalUrl: string
+    internalUrl: string,
+    restrictedToLimitedUser: boolean
 }
