@@ -59,6 +59,11 @@
         "countryCode": "fr",
         "url": "https://www.consultation-fva.fr/"
     },
+  {
+        "country": "Germania",
+        "countryCode": "de",
+        "url": "https://www.zentralruf.de/online-anfrage/anfrageformular"
+    },
     {
         "country": "Grecia",
         "countryCode": "gr",
