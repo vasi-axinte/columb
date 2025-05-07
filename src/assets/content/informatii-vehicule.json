@@ -729,6 +729,34 @@
             }
         ]        
     },
+  {
+        "type": "with-children",
+        "title": "SUA",
+        "countryCode": "us",
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.usa",
+        "children": [
+            {
+                "title": "Nr.înmatriculare ==> VIN",
+                "url": "https://epicvin.com/?a_aid=nicb",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Verificare nr. înmatriculare",
+                "url": "https://www.lookupaplate.com/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Verificare nr. înmatriculare 2",
+                "url": "https://www.clearvin.com/ro/?a_aid=df34205d",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
+    },
     {
         "type": "with-children",
         "title": "Suedia",
