@@ -1,4 +1,62 @@
 [
+  {
+        "type": "with-children",
+        "title": "Australia",
+        "countryCode": "au",
+        "url": "",
+        "icon": "plus",
+        "key": "Australia",
+        "children": [
+          {
+                "title": "New South Wales - (NSW)",
+                "url": "https://check-registration.service.nsw.gov.au/vhc?isLoginRequired=true",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Victoria - (Vic)",
+                "url": "https://www.vicroads.vic.gov.au/registration/buy-sell-or-transfer-a-vehicle/check-vehicle-registration/vehicle-registration-enquiry",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Queensland - (Qld)",
+                "url": "https://www.service.transport.qld.gov.au/checkrego/application/VehicleSearch.xhtml?dswid=4729",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
+                "title": "Western Australia - (WA)",
+                "url": "https://online.transport.wa.gov.au/webExternal/registration/;jsessionid=qFe39ILCFFn4gaMZP58rOvY05H0xydXvXyyPsfQgh_eeYnt2sRRn!-552448075!-1708380323?0",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
+                "title": "South Australia - (SA) (🛡️VPN)",
+                "url": "https://account.ezyreg.sa.gov.au/account/check-registration.htm",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
+                "title": "Tasmania - (Tas)",
+                "url": "https://transport.stgro-2780.saas.squiz.cloud/rego-status/search",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
+                "title": "Teritoriul Capitalei Australiene - (ACT)",
+                "url": "https://rego.act.gov.au/regosoawicket/public/reg/FindRegistrationPage?0",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
+                "title": "Teritoriul de Nord - (NT)",
+                "url": "https://nt.gov.au/driving/rego/existing-nt-registration/rego-check",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
+    },
     {
         "title": "Austria",
         "countryCode": "at",
