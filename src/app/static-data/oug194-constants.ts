@@ -156,8 +156,8 @@ export const oug194List: LawDetails[] = [
             SANCȚIONATĂ DE: Art. 135 lit. a)
             _________________________________________________
             
-            AMENDĂ CONTRAVENŢIONALĂ: amendă de la 100 la 500 lei
-            JUMĂTATE DIN MINIM ÎN 15 ZILE : 50 lei.
+            AMENDĂ CONTRAVENŢIONALĂ: amendă de la 400 la 800 lei
+            JUMĂTATE DIN MINIM ÎN 15 ZILE : 200 lei.
             _________________________________________________
             
             MĂSURI COMPLEMENTARE: NU
