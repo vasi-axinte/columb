@@ -96,6 +96,14 @@
                 "countryCode": "pl",
                 "restrictedToLimitedUser": true
             }
+          ,
+            {
+                "title": "Cod emitent/cod an emitere",
+                "url": "https://rawcdn.githack.com/stefffy79/emitentpcpol/caf16757b6a8a9518b7c1f160713faec917bfa24/emitentpcpol.html",
+                "type": "country",
+                "countryCode": "pl",
+                "restrictedToLimitedUser": true
+            }
         ]
     },
     {
