@@ -14,6 +14,11 @@
         "countryCode": "ge",
         "url": "https://intpass.sda.gov.ge/eIDCardHolderCheckStatus.aspx"
     },
+  {
+        "country": "Kârgâzstan",
+        "countryCode": "kg",
+        "url": "https://portal.tunduk.kg/public_services/opisanie/5149750"
+    }, 
     {
         "country": "Moldova",
         "countryCode": "md",
