@@ -319,6 +319,13 @@
                 "url": "https://regnr.info/",
                 "icon": "link",
                 "key": "tiaf.stolen-auto.norway"
+            },
+          {
+                "type": "direct-link",
+                "title": "NOUA ZEEALDĂ",
+                "url": "https://www.police.govt.nz/can-you-help-us/stolen-vehicles?nondesktop",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.newzeeland"
             }
         ]
     }
