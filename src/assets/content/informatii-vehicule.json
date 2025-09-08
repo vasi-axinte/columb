@@ -555,6 +555,40 @@
             }
         ]        
     },
+  {
+        "type": "with-children",
+        "title": "Noua Zeelanda",
+        "countryCode": "nz",
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.newzeeland",
+        "children": [
+            {
+                "title": "ITP (funcționează doar în engleză)",
+                "url": "https://transact.nzta.govt.nz/transactions/CheckExpiry/entry",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Carjam (info auto)",
+                "url": "https://www.carjam.co.nz/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Thatcar (info auto)",
+                "url": "https://thatcar.nz/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Hcb (info motociclete)",
+                "url": "https://hcb.co.nz/motorbike-search",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
+    },
     {
         "type": "with-children",
         "title": "Olanda",
