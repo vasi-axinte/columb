@@ -330,11 +330,27 @@
                     }
                 ]
             },
-            {
+          {
+                "type": "with-children",
                 "title": "Kîrgîzstan",
+                "countryCode": "kg",
+                "url": "",
+                "icon": "plus",
+                "key": "driving-licenses.kyrgyzstan",
+                "children": [
+                   {
+                "title": "Valabilitate p.c.",
                 "url": "https://portal.tunduk.kg/beta_public_services/opisanie/213",
                 "type": "country",
                 "countryCode": "kg"
+                    },
+                    {
+                 "title": "Stare de producție p.c.",
+                "url": "https://portal.tunduk.kg/public_services/opisanie/10751597",
+                "type": "country",
+                "countryCode": "kg"
+                    }
+                ]
             },
             {
                 "title": "Maroc",
