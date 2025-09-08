@@ -518,6 +518,12 @@
                 "url": "https://services.gov.im/vehicles-driving/vehicle-search",
                 "icon": "link",
                 "type": "direct-link"
+            },
+          {
+                "title": "Jersey",
+                "url": "https://vehicle-search.gov.je/",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
