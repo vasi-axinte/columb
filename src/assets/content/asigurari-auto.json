@@ -104,6 +104,11 @@
         "countryCode": "md",
         "url": "https://rca.bnm.md/online#rca-check"
     },
+   {
+        "country": "Nigeria",
+        "countryCode": "ng",
+        "url": "https://askniid.org/VerifyPolicy.aspx"
+    },
     {
         "country": "Polonia",
         "countryCode": "pl",
