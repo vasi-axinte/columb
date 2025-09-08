@@ -89,6 +89,11 @@
         "countryCode": "lt",
         "url": "https://www.cab.lt/draustumo-patikra/"
     },
+  {
+        "country": "Macedonia de Nord",
+        "countryCode": "mk",
+        "url": "https://webshop.uniqa.mk/MK/Car/Home"
+    },
     {
         "country": "Marea Britanie",
         "countryCode": "gb",
