@@ -14,6 +14,11 @@
         "countryCode": "ge",
         "url": "https://intpass.sda.gov.ge/eIDCardHolderCheckStatus.aspx"
     },
+   {
+        "country": "Italia",
+        "countryCode": "it",
+        "url": "https://www.cartaidentita.interno.gov.it/info-utili/servizio-di-verifica/#articolo-dettaglio-testo"
+    },
   {
         "country": "Kârgâzstan",
         "countryCode": "kg",
