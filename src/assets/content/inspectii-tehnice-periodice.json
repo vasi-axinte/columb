@@ -159,10 +159,16 @@
         "url": "https://www.ilportaledellautomobilista.it/interrogazionistoricorevisioni/spa/",
         "type": "country"
     },
-    {
+  {
         "title": "Kazahstan",
         "countryCode": "kz",
         "url": "https://findhow.org/3360-onlajn-proverka-tehosmotra-v-kazahstane.html",
+        "type": "country"
+    },
+   {
+        "title": "Kârgâzstan",
+        "countryCode": "kg",
+        "url": "https://portal.tunduk.kg/public_services/opisanie/42577",
         "type": "country"
     },
     {
