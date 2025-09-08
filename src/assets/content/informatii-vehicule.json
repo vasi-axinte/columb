@@ -121,6 +121,12 @@
         "url": "https://provjeravozila.com.hr/en",
         "type": "country"
     },
+  {
+        "title": "Costa Rica",
+        "countryCode": "cr",
+        "url": "https://registronacional.com/costarica/vehiculos_placa_consultas.htm",
+        "type": "country"
+    },
     {
         "type": "with-children",
         "title": "Danemarca",
@@ -554,6 +560,12 @@
                 "type": "direct-link"
             }
         ]        
+    },
+  {
+        "title": "Nigeria",
+        "countryCode": "ng",
+        "url": "https://nvis.frsc.gov.ng/",
+        "type": "country"
     },
   {
         "type": "with-children",
