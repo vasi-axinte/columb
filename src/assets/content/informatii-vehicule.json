@@ -457,6 +457,28 @@
         "url": "https://www.samgongustofa.is/umferd/okutaeki/okutaekjaskra/uppfletting/?vq=",
         "type": "country"
     },
+  {
+        "type": "with-children",
+        "title": "Kirghizstan",
+        "countryCode": "kg",
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.kirgiztan",
+        "children": [
+            {
+                "title": "portal.tunduk (info auto)",
+                "url": "https://portal.tunduk.kg/public_services/opisanie/207",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "m.mashina (info auto)",
+                "url": "https://m.mashina.kg/en/carcheck/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
+    },
     {
         "title": "Letonia",
         "countryCode": "lv",
