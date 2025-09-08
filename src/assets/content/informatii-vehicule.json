@@ -195,25 +195,25 @@
             },
             {
                 "title": "AG",
-                "url": "https://www.ocn.ch/fr/conduire/plaques-et-carte-grise/auto-index-trouver-un-detenteur-ou-une-detentrice-de-vehicule",
+                "url": "https://ag-autoindex.viacar-system.ch/home",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
                 "title": "LU",
-                "url": "https://www.viacar.ch/eindex/login.aspx?kanton=lu",
+                "url": "https://lu-autoindex.viacar-system.ch/home",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
                 "title": "SH",
-                "url": "https://www.viacar.ch/eindex/login.aspx?kanton=sh",
+                "url": "https://sh-autoindex.viacar-system.ch/home",
                 "icon": "link",
                 "type": "direct-link"
             },
           {
                 "title": "VD",
-                "url": "https://www.viacar.ch/eindex/login.aspx?kanton=vd",
+                "url": "https://vd-autoindex.viacar-system.ch/home",
                 "icon": "link",
                 "type": "direct-link"
             },
@@ -225,7 +225,7 @@
             },
             {
                 "title": "ZG",
-                "url": "https://www.viacar.ch/eindex/login.aspx?kanton=zg",
+                "url": "https://zg-autoindex.viacar-system.ch/home",
                 "icon": "link",
                 "type": "direct-link"
             },
