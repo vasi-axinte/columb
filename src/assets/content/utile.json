@@ -197,7 +197,7 @@
                     {
                         "type": "direct-link",
                         "title": "România Link2",
-                        "url": "http://www.validare.ro/validare-cnp.html",
+                        "url": "https://cnpgenerator.ro/verificare-cnp",
                         "icon": "link",
                         "key": "useful-links.cnp-validation.romania.link2"
                     }
