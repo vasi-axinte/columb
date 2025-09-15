@@ -34,6 +34,13 @@
                 "icon": "link",
                 "key": "tiaf.specimens.ue-see"
             },
+           {
+                "type": "direct-link",
+                "title": "Europa",
+                "url": "https://www.germanemissionssticker.com/vehicle-registration-certificates/",
+                "icon": "link",
+                "key": "tiaf.specimens.euro"
+            },
             {
                 "type": "direct-link",
                 "title": "NON-UE",
