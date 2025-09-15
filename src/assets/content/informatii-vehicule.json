@@ -543,7 +543,7 @@
             },
             {
                 "title": "Insula Man",
-                "url": "https://services.gov.im/vehicles-driving/vehicle-search",
+                "url": "https://services.gov.im/service/VehicleSearch",
                 "icon": "link",
                 "type": "direct-link"
             },
