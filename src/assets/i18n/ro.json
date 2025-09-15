@@ -69,6 +69,11 @@
                 "link1": "Rijksregisternumer Link1",
                 "link2": "LuDev.be Link2"
             },
+           "italy": {
+                "title": "Validation Codice fiscale",
+                "link1": "Validation Codice fiscale",
+                "link2": "Coresp. dintre codul fiscal și date pers."
+            },      
             "spain": {
                 "title": "Validare CNP Spania",
                 "link1": "DNI/NIE Link1",
