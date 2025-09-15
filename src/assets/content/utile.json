@@ -309,6 +309,13 @@
                     }
                 ]
             },
+          {
+                        "type": "direct-link",
+                        "title": "Validare JMBG Croația",
+                        "url": "https://www.nobium.hr/jmbg/?JMBGbase=110699517163",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.croatia"
+                    },
             {
                 "type": "with-children",
                 "title": "Validaree CNP Portugalia",
