@@ -249,6 +249,29 @@
                     }
                 ]
             },
+           {
+                "type": "with-children",
+                "title": "Validare Codice fiscale",
+                "url": "",
+                "icon": "plus",
+                "key": "useful-links.cnp-validation.italy.title",
+                "children": [
+                    {
+                        "type": "direct-link",
+                        "title": "Validare Codice fiscale",
+                        "url": "https://telematici.agenziaentrate.gov.it/VerificaCF/Scegli.do?parameter=verificaCf",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.italy.link1"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Coresp. dintre codul fiscal și date pers.",
+                        "url": "https://telematici.agenziaentrate.gov.it/VerificaCF/Scegli.do?parameter=verificaCfPf",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.italy.link2"
+                    }
+                ]
+            },
             {
                 "type": "with-children",
                 "title": "Validaree CNP Spania",
