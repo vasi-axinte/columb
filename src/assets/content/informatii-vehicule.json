@@ -682,6 +682,12 @@
                 "url": "https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=NormaEuro#/search",
                 "icon": "link",
                 "type": "direct-link"
+            },
+          {
+                "title": "Cititor cod QR talon",
+                "url": "https://kalkulator.ubea.pl/",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
