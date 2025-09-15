@@ -53,6 +53,7 @@
             "nif-spain": "Spanish NIF/NIE check",
             "national-registry-number-belgium": "Belgium National Registry Number check",
             "egn-bulgaria": "Bulgarian EGN number check",
+            "croatia": "Validation JMBG Croatia",
             "romania": {
                 "title": "CNP Validation Romania",
                 "link1": "Romania Link 1",
