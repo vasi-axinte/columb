@@ -404,14 +404,14 @@
         "key": "vehicle-info.ireland",
         "children": [
             {
-                "title": "Mister Auto",
+                "title": "Mister Auto NR=>VIN",
                 "url": "https://www.mister-auto.ie/",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
                 "title": "NCST",
-                "url": "https://www.ncts.ie/1101/",
+                "url": "https://www.ncts.ie/about-the-test/check-nct-validity/",
                 "icon": "link",
                 "type": "direct-link"
             },
