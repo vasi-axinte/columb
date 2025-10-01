@@ -580,6 +580,12 @@
                         "type": "country",
                         "countryCode": "us"
                     },
+                  {
+                        "title": "Washington (VPN)",
+                        "url": "https://fortress.wa.gov/dol/extdriveses/esp/NoLogon/_/#1",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
                     {
                         "title": "Florida",
                         "url": "https://services.flhsmv.gov/DLCheck/?AspxAutoDetectCookieSupport=1",
