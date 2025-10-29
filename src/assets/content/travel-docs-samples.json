@@ -965,7 +965,7 @@
     {
       "country": "china",
       "countryCode": "cn",
-      "title": "_Republica Populară Chineză / China / Taiwan / Hong Kong / Macao",
+      "title": "_Republica Populară Chineză / China / Hong Kong / Macao",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -4492,7 +4492,6 @@
       "countryCode": "tw",
       "title": "_Taiwan",
       "children": [
-        {
         {
           "title": "Specimene-(prado)",
           "url": "https://www.consilium.europa.eu/prado/ro/prado-documents/TWN/index.html"
