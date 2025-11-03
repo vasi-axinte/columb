@@ -149,6 +149,8 @@
         "driving-licenses":{
             "title": "Driving License Specimens",
             "pc-ue-see": "Specimens ID (EU and EEA)",
+            "nonuebelgium": "Specimens DL (NON EU belgium.be)",
+            "uebelgium": "Specimens DL (EU belgium.be)",
             "pc-bura": "Specimens ID (by BURA)",
             "pc-ue-commission": "Specimens ID (EU-European Commission)",
             "pc-ex-soviet": "Specimens ID (Former Soviet Space)",
