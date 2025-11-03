@@ -576,6 +576,12 @@
                 "url": "https://gplx.gov.vn/",
                 "type": "country"
             },
+          {
+                "title": "Senegal",
+                "countryCode": "sn",
+                "url": "https://cappkarange.sn/existe/",
+                "type": "country"
+            },
             {
                 "type": "with-children",
                 "title": "SUA",
