@@ -87,6 +87,20 @@
                 "icon": "link",
                 "key": "specimens.driving-licenses.pc-ue-see"
             },
+          {
+                "type": "direct-link",
+                "title": "Specimene P.C.(UE si SEE - belgium)",
+                "url": "https://mobilit.belgium.be/fr/route/conduire/permis-de-conduire/info-pour-les-communes/les-permis-reconnus-delivres-par-les-pays",
+                "icon": "link",
+                "key": "specimens.driving-licenses.uebelgium"
+            },
+          {
+                "type": "direct-link",
+                "title": "Specimene P.C.(NON UE - belgium)",
+                "url": "https://mobilit.belgium.be/fr/route/conduire/permis-de-conduire/info-pour-les-communes/les-permis-reconnus-delivres-par-les-0",
+                "icon": "link",
+                "key": "specimens.driving-licenses.nonuebelgium"
+            },
             {
                 "type": "direct-link",
                 "title": "Specimene P.C.(by BURA)",
