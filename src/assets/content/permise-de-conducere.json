@@ -210,6 +210,28 @@
                 "type": "country",
                 "countryCode": "sa"
             },
+           {
+                "type": "with-children",
+                "title": "Australia",
+                "countryCode": "au",
+                "url": "",
+                "icon": "plus",
+                "key": "driving-licenses.australia",
+                "children": [
+                    {
+                        "title": "Queensland",
+                        "url": "https://www.service.transport.qld.gov.au/tmrauthentication/public/TermsAndConditions.xhtml?serviceName=CheckDriverLicenceStatus&qgovLoginSelected=N&entryPage=/application/SpecifyCustomer.xhtml&exitPage=/public/Farewell.xhtml&executionContext=qt&dswid=3767",
+                        "type": "country",
+                        "countryCode": "au"
+                    },
+                    {
+                        "title": "Western Australia",
+                        "url": "https://online.transport.wa.gov.au/webExternal/driver/;jsessionid=CfVJIOhaRWSb8e0UsBerhvmjoGbX-k-cg0VYnhGK_vkk1p5vtWJF!-824963571!1023286578?0",
+                        "type": "country",
+                        "countryCode": "au"
+                    }
+                ]
+            },
             {
                 "title": "Bangladesh",
                 "url": "http://my.brta.gov.bd/dl_status.php",
