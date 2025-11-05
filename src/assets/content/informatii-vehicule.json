@@ -530,8 +530,20 @@
                 "type": "direct-link"
             },
             {
+                "title": "Carscheck (NR.=> VIN parțial)",
+                "url": "https://carscheck.uk/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
                 "title": "Car Guide (VIN => NR.)",
                 "url": "https://www.carguide.co.uk/vin-check-landing/#car-check-panel-title",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
+                "title": "Vinreport (VIN => NR.)",
+                "url": "https://www.vinreport.co.uk/",
                 "icon": "link",
                 "type": "direct-link"
             },
