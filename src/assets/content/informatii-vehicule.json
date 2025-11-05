@@ -931,6 +931,18 @@
         "icon": "plus",
         "key": "vehicle-info.ukraine",
         "children": [
+            {
+                "title": "Verificare nr înmatriculare - UNDA",
+                "url": "http://www.unda.com.ua/proverka-gosnomer-UA/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Verificare VIN - UNDA",
+                "url": "http://www.unda.com.ua/proverka-VIN/",
+                "icon": "link",
+                "type": "direct-link"
+            },
           {
                 "title": "CarPlates",
                 "url": "https://ua.carplates.app/",
