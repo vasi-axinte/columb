@@ -993,4 +993,78 @@
         "url": "https://app.instacar.hu",
         "type": "country"
     }
+   {
+        "type": "with-children",
+        "title": "Vignete",
+        "countryCode": " ",
+        "url": "",
+        "icon": "plus",
+        "key": "Vignete",
+        "children": [
+            {
+                "title": "Austria",
+                "url": "https://evidenz.asfinag.at/en/",
+                "type": "country",
+                "countryCode": "at"
+            },
+             {
+                "title": "Bulgaria",
+                "url": "https://tollpass.bg/en/evignettes/check",
+                "type": "country",
+                "countryCode": "bg"
+            },
+           {
+                "type": "with-children",
+                "title": "Cehia",
+                "countryCode": "cz",
+                "url": "",
+                "icon": "plus",
+                "key": "Cehia",
+                "children": [
+                    {
+                        "title": "Cehia Link 1",
+                        "url": "https://digitale-vignette-online.cz/en/check-plate",
+                        "type": "country",
+                        "countryCode": "cz"
+                    },
+                    {
+                        "title": "Cehie Link 2",
+                        "url": "https://edalnice.cz/en/index.html#/validation",
+                        "type": "country",
+                        "countryCode": "cz"
+                    }
+                ]
+            },
+            {
+                "title": "Elveția",
+                "url": "https://via.admin.ch/shop/dashboard?side=opt_in_query",
+                "type": "country",
+                "countryCode": "ch"
+            },
+            {
+                "title": "România",
+                "countryCode": "ro",
+                "url": "https://inforovinete.blogspot.com/2021/03/blog-post.html?m=1",
+                "type": "country"
+            },
+            {
+                "title": "Slovacia",
+                "countryCode": "sk",
+                "url": "https://www.elektronicke-znamky.sk/#platnost",
+                "type": "country"
+            },
+            {
+                "title": "Slovenia",
+                "countryCode": "si",
+                "url": "https://evinjeta.dars.si/selfcare/en/check-validity/request",
+                "type": "country"
+            },
+             {
+                "title": "Ungaria",
+                "countryCode": "hu",
+                "url": "https://nemzetiutdij.hu/en/e-vignette/sticker-query",
+                "type": "country"
+            }
+          ] 
+        }
 ]
