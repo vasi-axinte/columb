@@ -192,7 +192,7 @@
                 "type": "direct-link"
             },
             {
-                "title": "Check Moto Service",
+                "title": "Check Moto Service ✅",
                 "url": "https://www.check-mot.service.gov.uk/",
                 "icon": "link",
                 "type": "direct-link"
@@ -248,19 +248,19 @@
         "key": "technical-check.poland",
         "children": [
             {
-                "title": "Historiapojazdu Link1",
+                "title": "Historiapojazdu ✅",
                 "url": "https://historiapojazdu.gov.pl/strona-glowna",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
-                "title": "Auto.Info Link2",
+                "title": "Auto.Info",
                 "url": "https://auto-info.gratis/",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
-                "title": "Autocare (ITP) Link3",
+                "title": "Autocare (ITP)",
                 "url": "https://bezpiecznyautobus.gov.pl/",
                 "icon": "link",
                 "type": "direct-link"
