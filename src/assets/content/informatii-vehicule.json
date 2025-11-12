@@ -142,7 +142,7 @@
                 "type": "direct-link"
             },
             {
-                "title": "Skat.dk✅",
+                "title": "Skat.dk ✅",
                 "url": "https://motorregister.skat.dk/dmr-kerne/koeretoejdetaljer/visKoeretoej?execution=e1s1",
                 "icon": "link",
                 "type": "direct-link"
@@ -309,7 +309,7 @@
                 "type": "direct-link"
             },
             {
-                "title": "Siv Interieur✅",
+                "title": "Siv Interieur ✅",
                 "url": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_retour_dem_certificat",
                 "icon": "link",
                 "type": "direct-link"
@@ -644,7 +644,7 @@
         "key": "vehicle-info.netherlands",
         "children": [
             {
-                "title": "RDW Kentekencheck✅",
+                "title": "RDW Kentekencheck ✅",
                 "url": "https://ovi.rdw.nl/default.aspx",
                 "icon": "link",
                 "type": "direct-link"
