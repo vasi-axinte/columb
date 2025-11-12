@@ -303,13 +303,13 @@
         "key": "vehicle-info.france",
         "children": [
             {
-                "title": "Siv-Auto Link1",
+                "title": "Siv-Auto",
                 "url": "https://siv-auto.fr/",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
-                "title": "Siv Interieur Link2",
+                "title": "Siv Interieur✅",
                 "url": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_retour_dem_certificat",
                 "icon": "link",
                 "type": "direct-link"
@@ -644,7 +644,7 @@
         "key": "vehicle-info.netherlands",
         "children": [
             {
-                "title": "RDW Kentekencheck",
+                "title": "RDW Kentekencheck✅",
                 "url": "https://ovi.rdw.nl/default.aspx",
                 "icon": "link",
                 "type": "direct-link"
