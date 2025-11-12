@@ -208,6 +208,13 @@
         "icon": "link",
         "key": "tiaf.vin-decoder.vindecoderz"
     },
+  {
+        "type": "direct-link",
+        "title": "VIN-Decodor SUA/Canada",
+        "url": "https://www.vindecoderz.com/",
+        "icon": "link",
+        "key": "VIN-Decodor SUA/Canada"
+    },
     {
         "type": "direct-link",
         "title": "LOCALIZARE PORT OBD II auto",
