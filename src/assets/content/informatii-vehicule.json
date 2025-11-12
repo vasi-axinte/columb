@@ -758,6 +758,12 @@
                 "type": "direct-link"
             },
           {
+                "title": "Verificare disponibilitate nr. înmatriculare",
+                "url": "https://dgpci.mai.gov.ro/drpciv-forms/plate-number",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
                 "title": "Allianz-Tiriac",
                 "url": "https://cumpara-asigurare.allianztiriac.ro/my-car/vehicle",
                 "icon": "link",
