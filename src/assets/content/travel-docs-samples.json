@@ -965,7 +965,7 @@
     {
       "country": "china",
       "countryCode": "cn",
-      "title": "_Republica Populară Chineză / China / Taiwan / Hong Kong / Macao",
+      "title": "_Republica Populară Chineză / China / Hong Kong / Macao",
       "children": [
         {
           "title": "Specimene-(prado)",
@@ -978,22 +978,6 @@
         {
           "title": "Specimene-(milano)",
           "url": "https://drive.google.com/drive/folders/15-B77lEzv1vycRNw2RVJhyOPnGHJO-6L?usp=sharing"
-        },
-        {
-          "title": "Viză Ro.(visaindex)",
-          "url": "https://visaindex.com/romania-visa-for-china-citizens"
-        },
-        {
-          "title": "Taiwan-specimene-(prado)",
-          "url": "https://www.consilium.europa.eu/prado/ro/prado-documents/TWN/index.html"
-        },
-        {
-          "title": "Taiwan-specimene-(docis)",
-          "url": "http://spp.rf.gd/docis/english_version/taiwan.htm"
-        },
-        {
-          "title": "Taiwan-viză Ro.(visaindex)",
-          "url": "https://visaindex.com/romania-visa-for-taiwan-citizens"
         },
         {
           "title": "Hong Kong-specimene-(prado)",
@@ -4500,6 +4484,29 @@
         {
           "title": "Viză Ro.(visaindex)",
           "url": "https://visaindex.com/romania-visa-for-tajikistan-citizens"
+        }
+      ]
+    },
+   {
+      "country": "taiwan",
+      "countryCode": "tw",
+      "title": "_Taiwan",
+      "children": [
+        {
+          "title": "Specimene-(prado)",
+          "url": "https://www.consilium.europa.eu/prado/ro/prado-documents/TWN/index.html"
+        },
+        {
+          "title": "Specimene-(docis)",
+          "url": "http://spp.rf.gd/docis/english_version/taiwan.htm"
+        },
+        {
+          "title": "Viză Ro.(visaindex)",
+          "url": "https://visaindex.com/romania-visa-for-taiwan-citizens"
+        },
+        {
+          "title": "Doc. Acceptate (cf. Ordin 1124/15)",
+          "url": "https://www.socialcreator.com/documente/?s=320383"
         }
       ]
     },

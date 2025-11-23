@@ -149,6 +149,8 @@
         "driving-licenses":{
             "title": "Specimene Permise de Conducere",
             "pc-ue-see": "Specimene P.C.(UE si SEE)",
+            "nonuebelgium": "Specimene P.C.(NON EU belgium.be)",
+            "uebelgium": "Specimene P.C.(UE și SEE belgium.be)",
             "pc-bura": "Specimene P.C.(by BURA)",
             "pc-ue-commission": "Specimene P.C.(UE-Comisia Europeana)",
             "pc-ex-soviet": "Specimene P.C.(Spatiu Ex-Sovietic)",
@@ -245,6 +247,7 @@
     "driving-licenses": {
         "others": "Alte Permise",
         "usa": "S.U.A.",
+        "australia": "Australia",
         "canada": "Canada",
         "encoding": "Encondig&Decoding D.L.",
         "spain": "Spania",

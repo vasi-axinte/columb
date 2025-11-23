@@ -184,7 +184,7 @@
           {
         "title": "Serie/An p.c Ucraina",
         "countryCode": "ua",
-        "url": "https://rawcdn.githack.com/stefffy79/codpcucraina/174b3ca9b172879b94eada390ab2f4812ec85f9f/codpcucraina.html",
+        "url": "https://rawcdn.githack.com/stefffy79/codpcucraina/a1f12627e1724c74d4bf33d23ada09c50835a214/codpcucraina.html",
         "type": "country"
     }
           
@@ -209,6 +209,28 @@
                 "url": "https://www.absher.sa/wps/portal/individuals/Home/myservices/einquiries/traffic/pqdlinfo/!ut/p/z0/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zizYx8nA09LIy8_Z3dLQ0Cjbw93Hy8fAwNLM30g1Pz9AuyHRUBGd-5-A!!/#d",
                 "type": "country",
                 "countryCode": "sa"
+            },
+           {
+                "type": "with-children",
+                "title": "Australia",
+                "countryCode": "au",
+                "url": "",
+                "icon": "plus",
+                "key": "driving-licenses.australia",
+                "children": [
+                    {
+                        "title": "Queensland",
+                        "url": "https://www.service.transport.qld.gov.au/tmrauthentication/public/TermsAndConditions.xhtml?serviceName=CheckDriverLicenceStatus&qgovLoginSelected=N&entryPage=/application/SpecifyCustomer.xhtml&exitPage=/public/Farewell.xhtml&executionContext=qt&dswid=3767",
+                        "type": "country",
+                        "countryCode": "au"
+                    },
+                    {
+                        "title": "Western Australia",
+                        "url": "https://online.transport.wa.gov.au/webExternal/driver/;jsessionid=CfVJIOhaRWSb8e0UsBerhvmjoGbX-k-cg0VYnhGK_vkk1p5vtWJF!-824963571!1023286578?0",
+                        "type": "country",
+                        "countryCode": "au"
+                    }
+                ]
             },
             {
                 "title": "Bangladesh",
@@ -554,6 +576,12 @@
                 "url": "https://gplx.gov.vn/",
                 "type": "country"
             },
+          {
+                "title": "Senegal",
+                "countryCode": "sn",
+                "url": "https://cappkarange.sn/existe/",
+                "type": "country"
+            },
             {
                 "type": "with-children",
                 "title": "SUA",
@@ -577,6 +605,12 @@
                     {
                         "title": "Washington D.C.",
                         "url": "https://public.dmv.washingtondc.gov/BusinessPages/DL/DriverLicenseVerification.aspx",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
+                  {
+                        "title": "Washington (VPN)",
+                        "url": "https://fortress.wa.gov/dol/extdriveses/esp/NoLogon/_/#1",
                         "type": "country",
                         "countryCode": "us"
                     },
@@ -669,7 +703,7 @@
     },
     {
         "title": "Conventia Viena/Geneva",
-        "url": "https://rawcdn.githack.com/stefffy79/conventiaviena/75538a2b63e3db4f525a161292f39dd2b45e4f3c/listapcintern.html",
+        "url": "https://rawcdn.githack.com/stefffy79/conventiaviena/3aeadcfccb1881f265079a4fc506318b4f97cb5b/listapcintern.html",
         "type": "country",
         "countryCode": "",
         "restrictedToLimitedUser": true

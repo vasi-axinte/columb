@@ -142,7 +142,7 @@
                 "type": "direct-link"
             },
             {
-                "title": "Skat.dk",
+                "title": "Skat.dk ✅",
                 "url": "https://motorregister.skat.dk/dmr-kerne/koeretoejdetaljer/visKoeretoej?execution=e1s1",
                 "icon": "link",
                 "type": "direct-link"
@@ -303,13 +303,13 @@
         "key": "vehicle-info.france",
         "children": [
             {
-                "title": "Siv-Auto Link1",
+                "title": "Siv-Auto",
                 "url": "https://siv-auto.fr/",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
-                "title": "Siv Interieur Link2",
+                "title": "Siv Interieur ✅",
                 "url": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_retour_dem_certificat",
                 "icon": "link",
                 "type": "direct-link"
@@ -524,14 +524,26 @@
                 "type": "direct-link"
             },
             {
-                "title": "Doctor Car Parts (NR. => VIN)",
+                "title": "Doctor Car Parts",
                 "url": "https://doctorcarparts.com/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Carscheck (NR.=> VIN parțial)",
+                "url": "https://carscheck.uk/",
                 "icon": "link",
                 "type": "direct-link"
             },
             {
                 "title": "Car Guide (VIN => NR.)",
                 "url": "https://www.carguide.co.uk/vin-check-landing/#car-check-panel-title",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
+                "title": "Vinreport (VIN => NR.)",
+                "url": "https://www.vinreport.co.uk/",
                 "icon": "link",
                 "type": "direct-link"
             },
@@ -632,7 +644,7 @@
         "key": "vehicle-info.netherlands",
         "children": [
             {
-                "title": "RDW Kentekencheck",
+                "title": "RDW Kentekencheck ✅",
                 "url": "https://ovi.rdw.nl/default.aspx",
                 "icon": "link",
                 "type": "direct-link"
@@ -742,6 +754,12 @@
             {
                 "title": "Verificare emitere certificat",
                 "url": "https://dgpci.mai.gov.ro/drpciv-forms/certificate",
+                "icon": "link",
+                "type": "direct-link"
+            },
+          {
+                "title": "Verificare disponibilitate nr. înmatriculare",
+                "url": "https://dgpci.mai.gov.ro/drpciv-forms/plate-number",
                 "icon": "link",
                 "type": "direct-link"
             },
@@ -931,6 +949,18 @@
         "icon": "plus",
         "key": "vehicle-info.ukraine",
         "children": [
+            {
+                "title": "Verificare nr înmatriculare - UNDA",
+                "url": "http://www.unda.com.ua/proverka-gosnomer-UA/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Verificare VIN - UNDA",
+                "url": "http://www.unda.com.ua/proverka-VIN/",
+                "icon": "link",
+                "type": "direct-link"
+            },
           {
                 "title": "CarPlates",
                 "url": "https://ua.carplates.app/",
@@ -968,5 +998,79 @@
         "countryCode": "hu",
         "url": "https://app.instacar.hu",
         "type": "country"
-    }
+    },
+   {
+        "type": "with-children",
+        "title": "Vignete",
+        "countryCode": "eu",
+        "url": "",
+        "icon": "plus",
+        "key": "Vignete",
+        "children": [
+            {
+                "title": "Austria",
+                "url": "https://evidenz.asfinag.at/en/",
+                "type": "country",
+                "countryCode": "at"
+            },
+             {
+                "title": "Bulgaria",
+                "url": "https://tollpass.bg/en/evignettes/check",
+                "type": "country",
+                "countryCode": "bg"
+            },
+           {
+                "type": "with-children",
+                "title": "Cehia",
+                "countryCode": "cz",
+                "url": "",
+                "icon": "plus",
+                "key": "Cehia",
+                "children": [
+                    {
+                        "title": "Cehia Link 1",
+                        "url": "https://digitale-vignette-online.cz/en/check-plate",
+                        "type": "country",
+                        "countryCode": "cz"
+                    },
+                    {
+                        "title": "Cehie Link 2",
+                        "url": "https://edalnice.cz/en/index.html#/validation",
+                        "type": "country",
+                        "countryCode": "cz"
+                    }
+                ]
+            },
+            {
+                "title": "Elveția",
+                "url": "https://via.admin.ch/shop/dashboard?side=opt_in_query",
+                "type": "country",
+                "countryCode": "ch"
+            },
+            {
+                "title": "România",
+                "countryCode": "ro",
+                "url": "https://inforovinete.blogspot.com/2021/03/blog-post.html?m=1",
+                "type": "country"
+            },
+            {
+                "title": "Slovacia",
+                "countryCode": "sk",
+                "url": "https://www.elektronicke-znamky.sk/#platnost",
+                "type": "country"
+            },
+            {
+                "title": "Slovenia",
+                "countryCode": "si",
+                "url": "https://evinjeta.dars.si/selfcare/en/check-validity/request",
+                "type": "country"
+            },
+             {
+                "title": "Ungaria",
+                "countryCode": "hu",
+                "url": "https://nemzetiutdij.hu/en/e-vignette/sticker-query",
+                "type": "country"
+            }
+          ] 
+        }
 ]
