@@ -86,12 +86,6 @@
         ]        
     },
     {
-        "title": "Belgia",
-        "countryCode": "be",
-        "url": "https://myvehiclemyplate.mobilit.fgov.be/",
-        "type": "country"
-    },
-    {
         "type": "with-children",
         "title": "Cehia",
         "countryCode": "cz",
