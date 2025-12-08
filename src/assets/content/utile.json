@@ -450,6 +450,13 @@
                         "icon": "link",
                         "key": "useful-links.cnp-validation.others.bosnia"
                     },
+                   {
+                        "type": "direct-link",
+                        "title": "Cifră de control (Bosnia-H.)",
+                        "url": "https://www.nobium.hr/jmbg/?JMBGbase=110699517163",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.bosnia"
+                    },
                     {
                         "type": "direct-link",
                         "title": "Validare CFP Brazilia",
@@ -515,8 +522,15 @@
                     },
                     {
                         "type": "direct-link",
-                        "title": "Validare CIN Paraguay",
+                        "title": "Validare CIN Paraguay1",
                         "url": "https://tsje.gov.py/padron/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.paraguay"
+                    },
+                   {
+                        "type": "direct-link",
+                        "title": "Validare CIN Paraguay2",
+                        "url": "https://rcpe.tsje.gov.py/",
                         "icon": "link",
                         "key": "useful-links.cnp-validation.others.paraguay"
                     },
