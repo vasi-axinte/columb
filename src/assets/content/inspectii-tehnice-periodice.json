@@ -171,6 +171,12 @@
         "url": "https://portal.tunduk.kg/public_services/opisanie/42577",
         "type": "country"
     },
+   {
+        "title": "Letonia",
+        "countryCode": "lv",
+        "url": "https://e.csdd.lv/chkta?sfnsn=scwspmo",
+        "type": "country"
+    },
     {
         "title": "Lituania",
         "countryCode": "lt",
