@@ -63,6 +63,28 @@
         "url": "https://zulassung.oesd.at/fahrzeugdaten-online-abfrage/",
         "type": "country"
     },
+   {
+        "type": "with-children",
+        "title": "Belgia",
+        "countryCode": "be",
+        "url": "",
+        "icon": "plus",
+        "key": "Belgia",
+        "children": [
+            {
+        "title": "myvehiclemyplate",
+        "countryCode": "be",
+        "url": "https://myvehiclemyplate.mobilit.fgov.be/",
+        "type": "country"
+    },
+            {
+        "title": "rendez-vous (VPN)",
+        "countryCode": "be",
+        "url": "https://rendez-vous.autosecurite.be/public/booking-process/vehicle?step=xo4Kz1",
+        "type": "country"
+    }
+        ]        
+    },
     {
         "title": "Belgia",
         "countryCode": "be",
