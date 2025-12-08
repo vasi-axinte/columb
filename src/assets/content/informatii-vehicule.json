@@ -1030,6 +1030,12 @@
                 "url": "https://carma.com.ua/",
                 "icon": "link",
                 "type": "direct-link"
+            },
+           {
+                "title": "Autorept.com",
+                "url": "https://autorept.com/",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
