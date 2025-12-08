@@ -978,6 +978,12 @@
                 "url": "https://biluppgifter.se/",
                 "icon": "link",
                 "type": "direct-link"
+            },
+           {
+                "title": "Corespondent nr. și proprietar",
+                "url": "https://fordon-regbev.transportstyrelsen.se/BestallRegbevis/AngeUppgifter",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
