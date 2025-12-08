@@ -818,6 +818,18 @@
                 "url": "https://overenie.digital/",
                 "icon": "link",
                 "type": "direct-link"
+            },
+           {
+                "title": "Seka.sk",
+                "url": "https://www.seka.sk/verejnost/sluzby/overenie-emisnej-kontroly",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Zdruzenie-sova.sk",
+                "url": "https://www.zdruzenie-sova.sk/sk/seznam-aut-s-podezrenim-na-zasah-do-stavu-tachometru",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
