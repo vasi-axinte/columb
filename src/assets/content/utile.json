@@ -258,8 +258,15 @@
                 "children": [
                     {
                         "type": "direct-link",
-                        "title": "Validare Codice fiscale",
+                        "title": "Validare Codice fiscale1",
                         "url": "https://telematici.agenziaentrate.gov.it/VerificaCF/Scegli.do?parameter=verificaCf",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.italy.link1"
+                    },
+                   {
+                        "type": "direct-link",
+                        "title": "Validare Codice fiscale2",
+                        "url": "https://codicefiscale.com/",
                         "icon": "link",
                         "key": "useful-links.cnp-validation.italy.link1"
                     },
