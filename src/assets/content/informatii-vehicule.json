@@ -473,6 +473,12 @@
         "url": "https://www.samgongustofa.is/umferd/okutaeki/okutaekjaskra/uppfletting/?vq=",
         "type": "country"
     },
+   {
+        "title": "Israel",
+        "countryCode": "il",
+        "url": "https://meshumeshet.com/",
+        "type": "country"
+    },
   {
         "type": "with-children",
         "title": "Kirghizstan",
@@ -494,13 +500,7 @@
                 "type": "direct-link"
             }
         ]        
-    },
-   {
-        "title": "Israel",
-        "countryCode": "il",
-        "url": "https://meshumeshet.com/",
-        "type": "country"
-    },
+    },  
     {
         "title": "Letonia",
         "countryCode": "lv",
