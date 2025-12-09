@@ -153,11 +153,27 @@
         "url": "https://www.samgongustofa.is/umferd/okutaeki/okutaekjaskra/uppfletting/?vq=",
         "type": "country"
     },
-    {
+   {
+        "type": "with-children",
         "title": "Italia",
         "countryCode": "it",
-        "url": "https://www.ilportaledellautomobilista.it/interrogazionistoricorevisioni/spa/",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "Italia",
+        "children": [
+          {
+                "title": "Ilportaledellautomobilista",
+                "url": "https://www.ilportaledellautomobilista.it/interrogazionistoricorevisioni/spa/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Agenziagammariccione",
+                "url": "https://www.agenziagammariccione.it/utilita/verifica-ultima-revisione-e-km-reali/",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]   
     },
   {
         "title": "Kazahstan",
