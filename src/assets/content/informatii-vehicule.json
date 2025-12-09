@@ -700,6 +700,12 @@
                 "url": "https://dagwaarde.nl/?kenteken",
                 "icon": "link",
                 "type": "direct-link"
+            },
+           {
+                "title": "Verificare cert. de înmatriculare",
+                "url": "https://documentnummercontroleren.rdw.nl/geldig",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
