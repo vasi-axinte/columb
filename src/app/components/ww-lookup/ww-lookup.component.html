@@ -1,0 +1,7 @@
+<div class="ww-lookup">
+  <form (ngSubmit)="submit()" class="search-form">
+    <label for="wwQuery">WW registration number</label>
+    <input id="wwQuery" name="wwQuery" type="text" [(ngModel)]="query" placeholder="e.g. WW-123-AB" />
+    <button type="submit">Search</button>
+  </form>
+</div>

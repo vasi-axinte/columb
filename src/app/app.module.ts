@@ -48,6 +48,7 @@ import { TravelDocsSamplesComponent } from './components/travel-docs-samples/tra
 import { PolyNoTypeElementComponent } from './components/poly-list/poly-no-type-element/poly-no-type-element.component';
 import { TiafAppComponent } from './components/tiaf-app/tiaf-app.component';
 import { FilterRestrictedElementsPipe } from './pipes/filter-restricted-elements.pipe';
+import { WwLookupComponent } from './components/ww-lookup/ww-lookup.component';
 
 @NgModule({
   declarations: [
@@ -86,6 +87,7 @@ import { FilterRestrictedElementsPipe } from './pipes/filter-restricted-elements
     TravelDocsSamplesComponent,
     PolyNoTypeElementComponent,
     TiafAppComponent,
+    WwLookupComponent,
     FilterRestrictedElementsPipe
   ],
   imports: [

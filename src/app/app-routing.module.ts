@@ -26,6 +26,7 @@ import { ChatComponent } from './components/chat/chat.component';
 import { DigitCalculatorComponent } from './components/digit-calculator/digit-calculator.component';
 import { TravelDocsSamplesComponent } from './components/travel-docs-samples/travel-docs-samples.component';
 import { TiafAppComponent } from './components/tiaf-app/tiaf-app.component';
+import { WwLookupComponent } from './components/ww-lookup/ww-lookup.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -103,6 +104,7 @@ const routes: Routes = [
   ]},
   { path: 'update-user/:userId', component: UpdateUserComponent },
   { path: 'chat', component: ChatComponent },
+  { path: 'ww-lookup', component: WwLookupComponent, canActivate: [AuthGuard], data: { roles: [RoleEnum.User, RoleEnum.Admin, RoleEnum.LimitedUser] } },
   { path: '', component: HomeComponent }
 ];
 
