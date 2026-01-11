@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { WwLookupService } from '../../services/ww-lookup.service';
 
 @Component({
   selector: 'app-ww-lookup',
@@ -7,8 +8,32 @@ import { Component } from '@angular/core';
 })
 export class WwLookupComponent {
   query = '';
+  loading = false;
+  error: string | null = null;
+  resultDate: string | null = null;
+
+  constructor(private wwService: WwLookupService) {}
 
   submit(): void {
-    // Placeholder for the upcoming algorithm
+    this.error = null;
+    this.resultDate = null;
+    const q = this.query?.trim();
+    if (!q) {
+      this.error = 'Please enter a WW plate (format: WW-123-AB).';
+      return;
+    }
+    this.loading = true;
+    this.wwService.getDateForPlateAllYears(q).subscribe({
+      next: (date) => {
+        this.resultDate = date;
+        if (!date) this.error = 'Not found in available datasets or invalid format.';
+      },
+      error: () => {
+        this.error = 'Failed to load data.';
+      },
+      complete: () => {
+        this.loading = false;
+      }
+    });
   }
 }

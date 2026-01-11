@@ -14,7 +14,8 @@
         "forum": "Forum",
         "android-app": "Android APK",
         "telegram-group": "Telegram Group",
-        "tiaf": "T.I.A.F"
+        "tiaf": "T.I.A.F",
+        "ww-lookup": "WW Lookup"
     },
     "useful-links": {
         "roviniete": "Road Tax Check",
@@ -45,7 +46,7 @@
             "targa-scan": "Targa Scan",
             "veicolo": "Veicolo"
         },
-        "cnp-validation":{
+        "cnp-validation": {
             "title": "CNP/Personal nID Validation",
             "idnp-md": "Moldovan IDNP check",
             "pesel": "Polish PESEL Check",
@@ -69,7 +70,7 @@
                 "link1": "Rijksregisternumer Link1",
                 "link2": "LuDev.be Link2"
             },
-          "italy": {
+            "italy": {
                 "title": "Validation Codice fiscale Italy",
                 "link1": "Validation Codice fiscale",
                 "link2": "Correspondence between tax code and personal data"
@@ -100,7 +101,7 @@
             },
             "others": {
                 "title": "DNI Validation Argentina",
-                "argentina":{
+                "argentina": {
                     "title": "",
                     "link1": "Linti.seguridadvial Link1",
                     "link2": "Dateas Link2"
@@ -131,7 +132,7 @@
     },
     "specimens": {
         "docis": "DOCIS",
-        "prado":{
+        "prado": {
             "title": "PRADO",
             "prado-online": "PRADO (online)",
             "prado-glossary": "PRADO (offline glossary)"
@@ -139,14 +140,14 @@
         "edison-td": "EdisonTD",
         "airline-info-handbook": "Airline Information Handbook - EU Documents for Foreigners",
         "the-eye": "THE-EYE.NL",
-        "regula":{
+        "regula": {
             "title": "REGULA",
             "docs": "REGULA Docs",
             "banknotes": "REGULA Banknotes",
             "face-comparison": "REGULA Face Comparison",
-            "foto-face-comparison":"Foto Face Comparison"
+            "foto-face-comparison": "Foto Face Comparison"
         },
-        "driving-licenses":{
+        "driving-licenses": {
             "title": "Driving License Specimens",
             "pc-ue-see": "Specimens ID (EU and EEA)",
             "nonuebelgium": "Specimens DL (NON EU belgium.be)",
@@ -172,33 +173,33 @@
         "vin-control-digit": "Control Digit VIN",
         "decoder-brand": "VIN decoder (search by brand)",
         "vin-localization-auto": {
-          "title": "Chassis Number Localization - VIN auto",
-          "znajdzvin": "Auto-ZNAJDZVIN.PL",
-          "autofil-auto": "Auto-AUTOFIL.IT",
-          "autofil-offroad": "Off road-AUTOFIL.IT",
-          "autofil-mopeds": "Mopeds-AUTOFIL.IT",
-          "datatag-utility": "Utility vehicles-DATATAG",
-          "datatag-moto": "Motorcycles-DATATAG",
-          "atv":"ATV-SUPERATV",
-          "ter-utils": "Utility Vehicles-DATATAG",
-          "vin-and-pin-utils": "VIN and PIN utility vehicles"
+            "title": "Chassis Number Localization - VIN auto",
+            "znajdzvin": "Auto-ZNAJDZVIN.PL",
+            "autofil-auto": "Auto-AUTOFIL.IT",
+            "autofil-offroad": "Off road-AUTOFIL.IT",
+            "autofil-mopeds": "Mopeds-AUTOFIL.IT",
+            "datatag-utility": "Utility vehicles-DATATAG",
+            "datatag-moto": "Motorcycles-DATATAG",
+            "atv": "ATV-SUPERATV",
+            "ter-utils": "Utility Vehicles-DATATAG",
+            "vin-and-pin-utils": "VIN and PIN utility vehicles"
         },
         "vin-decoder": {
-          "title": "VIN Decoder",
-          "vindecoderz": "Vindecoderz",
-          "bmw": "Bmw",
-          "fiat-elum": "Fiat-eLum",
-          "land-rover": "Land Rover",
-          "mercedes": "Mercedes",
-          "toyodiy": "ToyoDIY",
-          "kawasaki": "Kawasaki",
-          "fiat": "Fiat",
-          "nissan": "Nissan",
-          "etka": "ETKA Online",
-          "auto-france": "Auto Information France",
-          "auto-uk": "Auto Information U.K.",
-          "ter-vin": "TER-VIN Industrial Equipment",
-          "pin-vin": "PIN-VIN Construction Equipment"
+            "title": "VIN Decoder",
+            "vindecoderz": "Vindecoderz",
+            "bmw": "Bmw",
+            "fiat-elum": "Fiat-eLum",
+            "land-rover": "Land Rover",
+            "mercedes": "Mercedes",
+            "toyodiy": "ToyoDIY",
+            "kawasaki": "Kawasaki",
+            "fiat": "Fiat",
+            "nissan": "Nissan",
+            "etka": "ETKA Online",
+            "auto-france": "Auto Information France",
+            "auto-uk": "Auto Information U.K.",
+            "ter-vin": "TER-VIN Industrial Equipment",
+            "pin-vin": "PIN-VIN Construction Equipment"
         },
         "stolen-auto": {
             "title": "Stolen Vehicles",
@@ -206,12 +207,12 @@
             "it-slo-sk-cz-ro": "Stolen Vehicles - IT/Slo/Sk/Cz/Ro",
             "spain": "Spain",
             "netherlands": "Netherlands",
-            "great-britain":"Great Britain",
+            "great-britain": "Great Britain",
             "italy": "Italy",
             "romania": "Romania",
             "slovenia": "Slovenia",
             "ukraine": "Ukraine",
-            "czech-republic":"Czech Republic",
+            "czech-republic": "Czech Republic",
             "sweden": "Sweden",
             "slovakia": "Slovakia",
             "usa": "USA",
@@ -231,7 +232,7 @@
         "specimens-eu": "Specimens (EU Registration Certificates)",
         "obd-localization-2": "OBD 2 Connector Localization",
         "license-plates": {
-          "2025": "License plates 2025 (search by country)",
+            "2025": "License plates 2025 (search by country)",
             "title": "License plates",
             "world": "World License Plates",
             "world-drive": "License Plates of the World",
@@ -241,8 +242,9 @@
         },
         "control-digit-vin-usa": "Control digit VIN USA"
     },
-  "travel-docs": { "poland": "Poland"
-       },
+    "travel-docs": {
+        "poland": "Poland"
+    },
     "driving-licenses": {
         "others": "Other Driving Licenses",
         "usa": "U. S. A.",
@@ -279,7 +281,7 @@
         "norway": "Norway",
         "netherlands": "Netherlands",
         "portugal": "Portugal",
-        "poland":"Poland",
+        "poland": "Poland",
         "romania": "Romania",
         "slovakia": "Slovakia",
         "slovenia": "Slovenia",
@@ -288,8 +290,8 @@
         "sweden": "Sweden",
         "ukraine": "Ukraine"
     },
-    "technical-check":{
-      "croatia": "Croatia",
+    "technical-check": {
+        "croatia": "Croatia",
         "germany": "Germany",
         "france": "France",
         "great-britain": "Great Britain",
@@ -299,13 +301,19 @@
         "czech-republic": "Czech Republic",
         "ukraine": "Ukraine"
     },
-    "digit-calculator":{
+    "digit-calculator": {
         "title": "Digit Calculator",
         "user-input": "Input",
         "result": "Result",
         "calculate": "Calculate"
     },
-  "car-insurance":{
-    "bulgaria": "Bulgaria" 
-  }
+    "car-insurance": {
+        "bulgaria": "Bulgaria"
+    },
+    "ww-lookup": {
+        "label": "WW registration number",
+        "search": "Search",
+        "searching": "Searching...",
+        "generated-on": "Generated on"
+    }
 }

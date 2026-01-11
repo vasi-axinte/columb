@@ -14,7 +14,8 @@
         "forum": "Forum",
         "android-app": "Android APK",
         "telegram-group": "Grup Telegram",
-        "tiaf": "T.I.A.F"
+        "tiaf": "T.I.A.F",
+        "ww-lookup": "Căutare WW"
     },
     "useful-links": {
         "roviniete": "Verificare Rovinieta",
@@ -307,7 +308,13 @@
         "result": "Rezultat",
         "calculate": "Calculează"
     },
-  "car-insurance":{
-    "bulgaria": "Bulgaria" 
-  }
+    "car-insurance": {
+        "bulgaria": "Bulgaria"
+    },
+    "ww-lookup": {
+        "label": "Număr de înregistrare WW",
+        "search": "Caută",
+        "searching": "Se caută...",
+        "generated-on": "Generat pe"
+    }
 }

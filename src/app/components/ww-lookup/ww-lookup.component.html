@@ -1,7 +1,39 @@
-<div class="ww-lookup">
-  <form (ngSubmit)="submit()" class="search-form">
-    <label for="wwQuery">WW registration number</label>
-    <input id="wwQuery" name="wwQuery" type="text" [(ngModel)]="query" placeholder="e.g. WW-123-AB" />
-    <button type="submit">Search</button>
-  </form>
+<div class="page-title">
+    <h1>{{ 'menu.ww-lookup' | transloco }}</h1>
+</div>
+
+<div class="ww-lookup container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6">
+      <form (ngSubmit)="submit()" class="search-form row g-2 align-items-end">
+        <div class="col-12">
+          <label for="wwQuery" class="form-label">{{ 'ww-lookup.label' | transloco }}</label>
+          <input
+            id="wwQuery"
+            name="wwQuery"
+            type="text"
+            [(ngModel)]="query"
+            class="form-control"
+            autocomplete="off"
+            placeholder="e.g. WW-123-AB"
+          />
+        </div>
+        <div class="col-12 col-sm-auto">
+          <button type="submit" class="btn btn-primary w-100">{{ 'ww-lookup.search' | transloco }}</button>
+        </div>
+      </form>
+
+      <div *ngIf="loading" class="alert alert-info mt-3" role="status">
+        {{ 'ww-lookup.searching' | transloco }}
+      </div>
+
+      <div *ngIf="!loading && error" class="alert alert-danger mt-3" role="alert">
+        {{ error }}
+      </div>
+
+      <div *ngIf="!loading && resultDate" class="alert alert-success mt-3" role="status">
+        {{ 'ww-lookup.generated-on' | transloco }}: <strong>{{ resultDate }}</strong>
+      </div>
+    </div>
+  </div>
 </div>
