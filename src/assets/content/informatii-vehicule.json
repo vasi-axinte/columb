@@ -363,7 +363,7 @@
             {
                 "type": "in-subpage-url",
                 "title": "Cautare W/WW",
-                "icon": "link",
+                "icon": "search",
                 "url": "ww-lookup",
                 "children": []
             }
