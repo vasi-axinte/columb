@@ -20,8 +20,8 @@ export class WwLookupService {
 
   // Convenience for current dataset year (2024). Use getDateForPlateForYear to specify other years.
   getDateForPlate(plate: string): Observable<string | null> {
-    if (!plate) return of(null);
-    const normalized = plate.trim().toUpperCase();
+    const normalized = this.normalize(plate);
+    if (!normalized) return of(null);
     const plateIndex = this.toIndex(normalized);
     if (plateIndex == null) return of(null);
 
@@ -29,8 +29,8 @@ export class WwLookupService {
   }
 
   getDateForPlateForYear(plate: string, year: number): Observable<string | null> {
-    if (!plate) return of(null);
-    const normalized = plate.trim().toUpperCase();
+    const normalized = this.normalize(plate);
+    if (!normalized) return of(null);
     const plateIndex = this.toIndex(normalized);
     if (plateIndex == null) return of(null);
     return this.loadYear(year).pipe(map((data) => this.getDateForPlateInDaily(normalized, data?.wwDaily ?? null)));
@@ -39,14 +39,28 @@ export class WwLookupService {
   // Searches across a range of years and returns the first matching date.
   // If no years are provided, defaults to a reasonable range.
   getDateForPlateAllYears(plate: string, years?: number[]): Observable<string | null> {
-    if (!plate) return of(null);
-    const normalized = plate.trim().toUpperCase();
+    const normalized = this.normalize(plate);
+    if (!normalized) return of(null);
     const idx = this.toIndex(normalized);
     if (idx == null) return of(null);
     const now = new Date().getFullYear();
-    const yearRange = (years && years.length)
-      ? years
-      : Array.from({ length: now - 2009 + 1 }, (_, i) => 2009 + i); // 2009..current year
+    if (years && years.length) {
+      // Explicit years take precedence
+      return from(years).pipe(
+        concatMap((y) =>
+          this.loadYear(y).pipe(
+            map((data) => this.getDateForPlateInDaily(normalized, data?.wwDaily ?? null)),
+            catchError(() => of(null))
+          )
+        ),
+        filter((result) => result !== null),
+        take(1),
+        defaultIfEmpty(null)
+      );
+    }
+
+    const allYears = Array.from({ length: now - 2009 + 1 }, (_, i) => 2009 + i);
+    const yearRange = allYears.slice().reverse(); // always current..2009
 
     return from(yearRange).pipe(
       concatMap((y) =>
@@ -62,14 +76,49 @@ export class WwLookupService {
   }
 
   // Pure function: computes the date directly from provided daily data.
+  // Wrap-aware via segmentation: split the year into monotonic segments at wrap points and binary search within segment.
   getDateForPlateInDaily(plate: string, wwDaily: WwDailyEntry[] | null): string | null {
     if (!plate || !wwDaily || !Array.isArray(wwDaily) || wwDaily.length === 0) return null;
-    const plateIndex = this.toIndex(plate.trim().toUpperCase());
-    if (plateIndex == null) return null;
+    const normalized = this.normalize(plate);
+    if (!normalized) return null;
+    const targetIdx = this.toIndex(normalized);
+    if (targetIdx == null) return null;
+
+    // Build raw index array
+    const raws: number[] = [];
     for (const entry of wwDaily) {
-      const maxIdx = this.toIndex(entry.lastPlate);
-      if (maxIdx == null) continue;
-      if (plateIndex <= maxIdx) return entry.date;
+      const v = this.toIndex(entry.lastPlate);
+      if (v == null) return null;
+      raws.push(v);
+    }
+
+    // Identify monotonic segments (non-decreasing). A wrap creates a new segment.
+    const segments: Array<{ start: number; end: number }> = [];
+    let start = 0;
+    for (let i = 1; i < raws.length; i++) {
+      if (raws[i] < raws[i - 1]) {
+        segments.push({ start, end: i - 1 });
+        start = i;
+      }
+    }
+    segments.push({ start, end: raws.length - 1 });
+
+    const searchSegment = (s: number, e: number): number | null => {
+      // Search only if target is within [segmentMin, segmentMax]
+      if (targetIdx < raws[s] || targetIdx > raws[e]) return null;
+      let lo = s, hi = e;
+      let ans: number | null = null;
+      while (lo <= hi) {
+        const mid = (lo + hi) >> 1;
+        if (raws[mid] >= targetIdx) { ans = mid; hi = mid - 1; } else { lo = mid + 1; }
+      }
+      return ans;
+    };
+
+    // Scan segments in chronological order, return earliest hit
+    for (const seg of segments) {
+      const idx = searchSegment(seg.start, seg.end);
+      if (idx != null) return wwDaily[idx].date;
     }
     return null;
   }
@@ -84,6 +133,31 @@ export class WwLookupService {
       cached = obs;
     }
     return cached;
+  }
+
+  // Accepts variations like "WW321WM", "WW-321WM", "321-WM" and normalizes to "WW-321-WM"
+  private normalize(plate: string | null | undefined): string | null {
+    if (!plate) return null;
+    let p = plate.trim().toUpperCase();
+    if (!p) return null;
+
+    // Already correctly formatted
+    if (/^WW-\d{3}-[A-Z]{2}$/.test(p)) return p;
+
+    // If starts with WW but missing dashes: e.g., WW321WM or WW-321WM
+    if (/^WW\d{3}[A-Z]{2}$/.test(p)) {
+      return `WW-${p.substring(2, 5)}-${p.substring(5, 7)}`;
+    }
+    if (/^WW-\d{3}[A-Z]{2}$/.test(p)) {
+      return `WW-${p.substring(3, 6)}-${p.substring(6, 8)}`;
+    }
+
+    // If missing WW: e.g., 321-WM
+    if (/^\d{3}-[A-Z]{2}$/.test(p)) {
+      return `WW-${p}`;
+    }
+
+    return null;
   }
 
   private toIndex(plate: string): number | null {
