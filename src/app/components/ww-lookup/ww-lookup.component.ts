@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { WwLookupService } from '../../services/ww-lookup.service';
+import { WwLookupAltService, AltSearchError, AltSearchSuccess } from '../../services/ww-lookup-alt.service';
 
 @Component({
   selector: 'app-ww-lookup',
@@ -12,7 +13,12 @@ export class WwLookupComponent {
   error: string | null = null;
   resultDate: string | null = null;
 
-  constructor(private wwService: WwLookupService) {}
+  // Alternate search (local dataset) state
+  queryAlt = '';
+  altResult: { date: string; expiry: string; is2026: boolean } | null = null;
+  altErrorKey: string | null = null;
+
+  constructor(private wwService: WwLookupService, private wwAlt: WwLookupAltService) {}
 
   submit(): void {
     this.error = null;
@@ -33,6 +39,24 @@ export class WwLookupComponent {
       },
       complete: () => {
         this.loading = false;
+      }
+    });
+  }
+
+  // Second search using the alternative local dataset logic
+  submitAlt(): void {
+    this.altErrorKey = null;
+    this.altResult = null;
+    const q = this.queryAlt?.trim();
+    if (!q) {
+      this.altErrorKey = 'ww-lookup.invalid-format';
+      return;
+    }
+    this.wwAlt.validate$(q).subscribe((res: AltSearchSuccess | AltSearchError) => {
+      if ('error' in res) {
+        this.altErrorKey = res.error === 'SERIES_TOO_OLD' ? 'ww-lookup.series-too-old' : 'ww-lookup.invalid-format';
+      } else {
+        this.altResult = { date: res.date, expiry: res.expiry, is2026: res.is2026 };
       }
     });
   }

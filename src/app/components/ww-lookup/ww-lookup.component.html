@@ -5,7 +5,7 @@
 <div class="ww-lookup container">
   <div class="row justify-content-center">
     <div class="col-12 col-md-8 col-lg-6">
-      <form (ngSubmit)="submit()" class="search-form row g-2 align-items-end">
+      <!-- <form (ngSubmit)="submit()" class="search-form row g-2 align-items-end">
         <div class="col-12">
           <label for="wwQuery" class="form-label">{{ 'ww-lookup.label' | transloco }}</label>
           <input
@@ -33,6 +33,36 @@
 
       <div *ngIf="!loading && resultDate" class="alert alert-success mt-3" role="status">
         {{ 'ww-lookup.generated-on' | transloco }}: <strong>{{ resultDate }}</strong>
+      </div> -->
+
+      <!-- <hr class="my-4" /> -->
+
+      <form (ngSubmit)="submitAlt()" class="search-form row g-2 align-items-end">
+        <div class="col-12">
+          <label for="wwQueryAlt" class="form-label">{{ 'ww-lookup.local-label' | transloco }}</label>
+          <input
+            id="wwQueryAlt"
+            name="wwQueryAlt"
+            type="text"
+            [(ngModel)]="queryAlt"
+            class="form-control"
+            autocomplete="off"
+            placeholder="e.g. WW-123-AB"
+          />
+        </div>
+        <div class="col-12 col-sm-auto">
+          <button type="submit" class="btn btn-primary w-100">{{ 'ww-lookup.search' | transloco }}</button>
+        </div>
+      </form>
+
+      <div *ngIf="altErrorKey" class="alert alert-danger mt-3" role="alert">
+        {{ altErrorKey | transloco }}
+      </div>
+
+      <div *ngIf="altResult" class="alert alert-success mt-3" role="status">
+        <div>{{ 'ww-lookup.generated-on' | transloco }}: <strong>{{ altResult.date }}</strong></div>
+        <div>{{ 'ww-lookup.expiry' | transloco }}: <strong>{{ altResult.expiry }}</strong></div>
+        <div *ngIf="altResult.is2026" class="mt-1"><span class="badge bg-warning text-dark">2026</span></div>
       </div>
     </div>
   </div>

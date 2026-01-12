@@ -315,6 +315,10 @@
         "label": "Număr de înregistrare WW",
         "search": "Caută",
         "searching": "Se caută...",
-        "generated-on": "Generat pe"
+        "generated-on": "Generat pe",
+        "local-label": "Număr de înregistrare WW (set local)",
+        "expiry": "Expiră",
+        "invalid-format": "Format invalid (ex: WW-000-AA)",
+        "series-too-old": "Seria este prea veche pentru setul de date"
     }
 }

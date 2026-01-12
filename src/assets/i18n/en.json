@@ -314,6 +314,10 @@
         "label": "WW registration number",
         "search": "Search",
         "searching": "Searching...",
-        "generated-on": "Generated on"
+        "generated-on": "Generated on",
+        "local-label": "WW registration number (Local dataset)",
+        "expiry": "Expiry",
+        "invalid-format": "Invalid format (e.g. WW-000-AA)",
+        "series-too-old": "Series is too old for the dataset"
     }
 }
