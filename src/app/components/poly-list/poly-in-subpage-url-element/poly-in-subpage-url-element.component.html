@@ -1,4 +1,4 @@
-<a *ngIf="element" [routerLink]="[element.url, element.data]" class="list-group-item list-group-item-action menu-item">
+<a *ngIf="element" [routerLink]="element.data ? ['/', element.url, element.data] : ['/', element.url]" class="list-group-item list-group-item-action menu-item">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
         class="bi bi-link-45deg" viewBox="0 0 16 16">
         <path
