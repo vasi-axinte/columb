@@ -1,0 +1,76 @@
+# Node.js with Angular
+# Build a Node.js project that uses Angular.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+
+# =========================
+# Stage 1: Build
+# =========================
+- stage: Build
+  displayName: 'Build Angular App'
+  jobs:
+  - job: Build
+    displayName: 'Build Job'
+    steps:
+    # Install Node.js
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '18.x'
+      displayName: 'Install Node.js'
+
+    # Install dependencies
+    - script: npm ci
+      displayName: 'Install dependencies'
+
+    # Build Angular
+    - script: npx ng build --configuration production
+      displayName: 'Build Angular app'
+
+    # Publish artifacts
+    - task: PublishBuildArtifacts@1
+      inputs:
+        pathToPublish: 'dist'
+        artifactName: 'angular-app'
+        publishLocation: 'Container'
+      displayName: 'Publish build artifacts'
+
+# =========================
+# Stage 2: Deploy
+# =========================
+- stage: Deploy
+  displayName: 'Deploy to Azure App Service'
+  dependsOn: Build
+  jobs:
+  - deployment: Deploy
+    displayName: 'Deploy Job'
+    environment: 'Production'   # Change to your environment name
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          # Download artifacts from build stage
+          - task: DownloadBuildArtifacts@0
+            inputs:
+              buildType: 'current'
+              downloadType: 'single'
+              artifactName: 'angular-app'
+              downloadPath: '$(System.ArtifactsDirectory)'
+            displayName: 'Download build artifacts'
+
+          # # Deploy to Azure App Service
+          # - task: AzureWebApp@1
+          #   inputs:
+          #     azureSubscription: '<Your Azure Service Connection>'
+          #     appType: 'webAppLinux'
+          #     appName: '<Your App Service Name>'
+          #     package: '$(System.ArtifactsDirectory)/angular-app/*'
+          #   displayName: 'Deploy to Azure App Service'
+
