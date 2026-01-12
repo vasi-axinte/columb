@@ -1,26 +1,1498 @@
 {
-  "modulVechi": [
-    { "code": "321-WM", "date": "01 Ianuarie 2025" }, { "code": "188-WP", "date": "02 Ianuarie 2025" }, { "code": "686-WQ", "date": "03 Ianuarie 2025" }, { "code": "211-WR", "date": "04 Ianuarie 2025" }, { "code": "362-WR", "date": "05 Ianuarie 2025" }, { "code": "964-WS", "date": "06 Ianuarie 2025" }, { "code": "538-WV", "date": "07 Ianuarie 2025" }, { "code": "171-WX", "date": "08 Ianuarie 2025" }, { "code": "004-WZ", "date": "09 Ianuarie 2025" }, { "code": "737-XA", "date": "10 Ianuarie 2025" }, { "code": "360-XB", "date": "11 Ianuarie 2025" }, { "code": "492-XB", "date": "12 Ianuarie 2025" }, { "code": "085-XD", "date": "13 Ianuarie 2025" }, { "code": "998-XE", "date": "14 Ianuarie 2025" }, { "code": "294-XG", "date": "15 Ianuarie 2025" }, { "code": "949-XH", "date": "16 Ianuarie 2025" }, { "code": "071-XL", "date": "17 Ianuarie 2025" }, { "code": "645-XL", "date": "18 Ianuarie 2025" }, { "code": "743-XL", "date": "19 Ianuarie 2025" }, { "code": "406-XN", "date": "20 Ianuarie 2025" }, { "code": "284-XQ", "date": "21 Ianuarie 2025" }, { "code": "207-XS", "date": "22 Ianuarie 2025" }, { "code": "163-XV", "date": "23 Ianuarie 2025" }, { "code": "900-XW", "date": "24 Ianuarie 2025" }, { "code": "486-XX", "date": "25 Ianuarie 2025" }, { "code": "585-XX", "date": "26 Ianuarie 2025" }, { "code": "478-XZ", "date": "27 Ianuarie 2025" }, { "code": "359-YB", "date": "28 Ianuarie 2025" }, { "code": "381-YD", "date": "29 Ianuarie 2025" }, { "code": "267-YF", "date": "30 Ianuarie 2025" }, { "code": "054-YH", "date": "31 Ianuarie 2025" },
-    { "code": "547-YH", "date": "01 Februarie 2025" }, { "code": "650-YK", "date": "02 Februarie 2025" }, { "code": "248-YK", "date": "03 Februarie 2025" }, { "code": "025-YM", "date": "04 Februarie 2025" }, { "code": "828-YN", "date": "05 Februarie 2025" }, { "code": "782-YQ", "date": "06 Februarie 2025" }, { "code": "564-YS", "date": "07 Februarie 2025" }, { "code": "152-YT", "date": "08 Februarie 2025" }, { "code": "248-YT", "date": "09 Februarie 2025" }, { "code": "973-YV", "date": "10 Februarie 2025" }, { "code": "827-YX", "date": "11 Februarie 2025" }, { "code": "029-YZ", "date": "12 Februarie 2025" }, { "code": "551-ZB", "date": "13 Februarie 2025" }, { "code": "299-ZD", "date": "14 Februarie 2025" }, { "code": "838-ZD", "date": "15 Februarie 2025" }, { "code": "963-ZD", "date": "16 Februarie 2025" }, { "code": "566-ZF", "date": "17 Februarie 2025" }, { "code": "452-ZH", "date": "18 Februarie 2025" }, { "code": "265-ZK", "date": "19 Februarie 2025" }, { "code": "300-ZN", "date": "20 Februarie 2025" }, { "code": "064-ZP", "date": "21 Februarie 2025" }, { "code": "565-ZP", "date": "22 Februarie 2025" }, { "code": "650-ZP", "date": "23 Februarie 2025" }, { "code": "370-ZR", "date": "24 Februarie 2025" }, { "code": "233-ZT", "date": "25 Februarie 2025" }, { "code": "105-ZW", "date": "26 Februarie 2025" }, { "code": "936-ZX", "date": "27 Februarie 2025" }, { "code": "742-ZZ", "date": "28 Februarie 2025" }
-  ],
-  "modulNou": [
-    { "code": "216-AA", "date": "01 Martie 2025" }, { "code": "298-AA", "date": "02 Martie 2025" }, { "code": "881-AB", "date": "03 Martie 2025" }, { "code": "753-AD", "date": "04 Martie 2025" }, { "code": "512-AF", "date": "05 Martie 2025" }, { "code": "474-AH", "date": "06 Martie 2025" }, { "code": "178-AK", "date": "07 Martie 2025" }, { "code": "773-AK", "date": "08 Martie 2025" }, { "code": "895-AK", "date": "09 Martie 2025" }, { "code": "524-AM", "date": "10 Martie 2025" }, { "code": "427-AP", "date": "11 Martie 2025" }, { "code": "259-AR", "date": "12 Martie 2025" }, { "code": "161-AT", "date": "13 Martie 2025" }, { "code": "928-AV", "date": "14 Martie 2025" }, { "code": "510-AW", "date": "15 Martie 2025" }, { "code": "636-AW", "date": "16 Martie 2025" }, { "code": "361-AY", "date": "17 Martie 2025" }, { "code": "316-BA", "date": "18 Martie 2025" }, { "code": "150-BC", "date": "19 Martie 2025" }, { "code": "180-BE", "date": "20 Martie 2025" }, { "code": "025-BG", "date": "21 Martie 2025" }, { "code": "590-BG", "date": "22 Martie 2025" }, { "code": "686-BG", "date": "23 Martie 2025" }, { "code": "480-BJ", "date": "24 Martie 2025" }, { "code": "487-BL", "date": "25 Martie 2025" }, { "code": "442-BN", "date": "26 Martie 2025" }, { "code": "228-BP", "date": "27 Martie 2025" }, { "code": "461-BR", "date": "28 Martie 2025" }, { "code": "320-BS", "date": "29 Martie 2025" }, { "code": "381-BS", "date": "30 Martie 2025" }, { "code": "279-BV", "date": "31 Martie 2025" },
-    { "code": "124-BX", "date": "01 Aprilie 2025" }, { "code": "113-BZ", "date": "02 Aprilie 2025" }, { "code": "060-CB", "date": "03 Aprilie 2025" }, { "code": "014-CD", "date": "04 Aprilie 2025" }, { "code": "591-CD", "date": "05 Aprilie 2025" }, { "code": "678-CD", "date": "06 Aprilie 2025" }, { "code": "367-CF", "date": "07 Aprilie 2025" }, { "code": "292-CH", "date": "08 Aprilie 2025" }, { "code": "134-CK", "date": "09 Aprilie 2025" }, { "code": "127-CM", "date": "10 Aprilie 2025" }, { "code": "987-CN", "date": "11 Aprilie 2025" }, { "code": "546-CP", "date": "12 Aprilie 2025" }, { "code": "626-CP", "date": "13 Aprilie 2025" }, { "code": "321-CR", "date": "14 Aprilie 2025" }, { "code": "491-CT", "date": "15 Aprilie 2025" }, { "code": "375-CW", "date": "16 Aprilie 2025" }, { "code": "220-CY", "date": "17 Aprilie 2025" }, { "code": "803-CZ", "date": "18 Aprilie 2025" }, { "code": "274-DA", "date": "19 Aprilie 2025" }, { "code": "339-DA", "date": "20 Aprilie 2025" }, { "code": "523-DA", "date": "21 Aprilie 2025" }, { "code": "417-DC", "date": "22 Aprilie 2025" }, { "code": "309-DE", "date": "23 Aprilie 2025" }, { "code": "444-DG", "date": "24 Aprilie 2025" }, { "code": "376-DJ", "date": "25 Aprilie 2025" }, { "code": "978-DJ", "date": "26 Aprilie 2025" }, { "code": "067-DK", "date": "27 Aprilie 2025" }, { "code": "811-DL", "date": "28 Aprilie 2025" }, { "code": "840-DN", "date": "29 Aprilie 2025" }, { "code": "809-DQ", "date": "30 Aprilie 2025" },
-    { "code": "972-DQ", "date": "01 Mai 2025" }, { "code": "573-DS", "date": "02 Mai 2025" }, { "code": "092-DT", "date": "03 Mai 2025" }, { "code": "195-DT", "date": "04 Mai 2025" }, { "code": "958-DV", "date": "05 Mai 2025" }, { "code": "949-DX", "date": "06 Mai 2025" }, { "code": "042-EA", "date": "07 Mai 2025" }, { "code": "382-EA", "date": "08 Mai 2025" }, { "code": "236-EC", "date": "09 Mai 2025" }, { "code": "815-EC", "date": "10 Mai 2025" }, { "code": "903-EC", "date": "11 Mai 2025" }, { "code": "705-EE", "date": "12 Mai 2025" }, { "code": "640-EG", "date": "13 Mai 2025" }, { "code": "606-EJ", "date": "14 Mai 2025" }, { "code": "574-EL", "date": "15 Mai 2025" }, { "code": "457-EN", "date": "16 Mai 2025" }, { "code": "039-EP", "date": "17 Mai 2025" }, { "code": "122-EP", "date": "18 Mai 2025" }, { "code": "792-EQ", "date": "19 Mai 2025" }, { "code": "698-ES", "date": "20 Mai 2025" }, { "code": "598-EV", "date": "21 Mai 2025" }, { "code": "553-EX", "date": "22 Mai 2025" }, { "code": "545-EZ", "date": "23 Mai 2025" }, { "code": "120-FA", "date": "24 Mai 2025" }, { "code": "207-FA", "date": "25 Mai 2025" }, { "code": "797-FB", "date": "26 Mai 2025" }, { "code": "116-FE", "date": "27 Mai 2025" }, { "code": "201-FG", "date": "28 Mai 2025" }, { "code": "619-FG", "date": "29 Mai 2025" }, { "code": "144-FJ", "date": "30 Mai 2025" }, { "code": "614-FJ", "date": "31 Mai 2025" },
-    { "code": "676-FJ", "date": "01 Iunie 2025" }, { "code": "386-FL", "date": "02 Iunie 2025" }, { "code": "268-FN", "date": "03 Iunie 2025" }, { "code": "051-FQ", "date": "04 Iunie 2025" }, { "code": "117-FS", "date": "05 Iunie 2025" }, { "code": "456-FT", "date": "06 Iunie 2025" }, { "code": "072-FV", "date": "07 Iunie 2025" }, { "code": "141-FV", "date": "08 Iunie 2025" }, { "code": "584-FV", "date": "09 Iunie 2025" }, { "code": "709-FX", "date": "10 Iunie 2025" }, { "code": "780-FZ", "date": "11 Iunie 2025" }, { "code": "750-GB", "date": "12 Iunie 2025" }, { "code": "632-GD", "date": "13 Iunie 2025" }, { "code": "167-GE", "date": "14 Iunie 2025" }, { "code": "281-GE", "date": "15 Iunie 2025" }, { "code": "873-GF", "date": "16 Iunie 2025" }, { "code": "777-GH", "date": "17 Iunie 2025" }, { "code": "570-GK", "date": "18 Iunie 2025" }, { "code": "389-GM", "date": "19 Iunie 2025" }, { "code": "190-GP", "date": "20 Iunie 2025" }, { "code": "696-GP", "date": "21 Iunie 2025" }, { "code": "774-GP", "date": "22 Iunie 2025" }, { "code": "624-GR", "date": "23 Iunie 2025" }, { "code": "550-GT", "date": "24 Iunie 2025" }, { "code": "570-GW", "date": "25 Iunie 2025" }, { "code": "626-GY", "date": "26 Iunie 2025" }, { "code": "538-HA", "date": "27 Iunie 2025" }, { "code": "134-HB", "date": "28 Iunie 2025" }, { "code": "222-HB", "date": "29 Iunie 2025" }, { "code": "930-HC", "date": "30 Iunie 2025" },
-    { "code": "735-HE", "date": "01 Iulie 2025" }, { "code": "628-HG", "date": "02 Iulie 2025" }, { "code": "522-HJ", "date": "03 Iulie 2025" }, { "code": "393-HL", "date": "04 Iulie 2025" }, { "code": "996-HL", "date": "05 Iulie 2025" }, { "code": "124-HM", "date": "06 Iulie 2025" }, { "code": "640-HN", "date": "07 Iulie 2025" }, { "code": "742-HQ", "date": "08 Iulie 2025" }, { "code": "640-HS", "date": "09 Iulie 2025" }, { "code": "623-HV", "date": "10 Iulie 2025" }, { "code": "453-HX", "date": "11 Iulie 2025" }, { "code": "098-HY", "date": "12 Iulie 2025" }, { "code": "209-HY", "date": "13 Iulie 2025" }, { "code": "517-HY", "date": "14 Iulie 2025" }, { "code": "718-JA", "date": "15 Iulie 2025" }, { "code": "674-JC", "date": "16 Iulie 2025" }, { "code": "655-JE", "date": "17 Iulie 2025" }, { "code": "496-JG", "date": "18 Iulie 2025" }, { "code": "056-JH", "date": "19 Iulie 2025" }, { "code": "165-JH", "date": "20 Iulie 2025" }, { "code": "835-JJ", "date": "21 Iulie 2025" }, { "code": "871-JL", "date": "22 Iulie 2025" }, { "code": "638-JN", "date": "23 Iulie 2025" }, { "code": "455-JQ", "date": "24 Iulie 2025" }, { "code": "297-JS", "date": "25 Iulie 2025" }, { "code": "841-JS", "date": "26 Iulie 2025" }, { "code": "940-JS", "date": "27 Iulie 2025" }, { "code": "547-JV", "date": "28 Iulie 2025" }, { "code": "355-JX", "date": "29 Iulie 2025" }, { "code": "158-JZ", "date": "30 Iulie 2025" }, { "code": "988-KA", "date": "31 Iulie 2025" },
-    { "code": "669-KC", "date": "01 August 2025" }, { "code": "220-KD", "date": "02 August 2025" }, { "code": "322-KD", "date": "03 August 2025" }, { "code": "597-KE", "date": "04 August 2025" }, { "code": "173-KG", "date": "05 August 2025" }, { "code": "709-KH", "date": "06 August 2025" }, { "code": "307-KK", "date": "07 August 2025" }, { "code": "806-KL", "date": "08 August 2025" }, { "code": "225-KM", "date": "09 August 2025" }, { "code": "283-KN", "date": "10 August 2025" }, { "code": "594-KN", "date": "11 August 2025" }, { "code": "038-KQ", "date": "12 August 2025" }, { "code": "380-KR", "date": "13 August 2025" }, { "code": "743-KS", "date": "14 August 2025" }, { "code": "967-KS", "date": "15 August 2025" }, { "code": "268-KT", "date": "16 August 2025" }, { "code": "325-KT", "date": "17 August 2025" }, { "code": "580-KV", "date": "18 August 2025" }, { "code": "902-KW", "date": "19 August 2025" }, { "code": "119-KY", "date": "20 August 2025" }, { "code": "714-KZ", "date": "21 August 2025" }, { "code": "967-LA", "date": "22 August 2025" }, { "code": "314-LB", "date": "23 August 2025" }, { "code": "401-LB", "date": "24 August 2025" }, { "code": "794-LC", "date": "25 August 2025" }, { "code": "297-LE", "date": "26 August 2025" }, { "code": "871-LF", "date": "27 August 2025" }, { "code": "449-LH", "date": "28 August 2025" }, { "code": "906-LJ", "date": "29 August 2025" }, { "code": "376-LK", "date": "30 August 2025" }, { "code": "469-LK", "date": "31 August 2025" },
-    { "code": "964-LL", "date": "01 Septembrie 2025" }, { "code": "306-LN", "date": "02 Septembrie 2025" }, { "code": "463-LP", "date": "03 Septembrie 2025" }, { "code": "793-LQ", "date": "04 Septembrie 2025" }, { "code": "556-LS", "date": "05 Septembrie 2025" }, { "code": "380-LT", "date": "06 Septembrie 2025" }, { "code": "489-LT", "date": "07 Septembrie 2025" }, { "code": "379-LW", "date": "08 Septembrie 2025" }, { "code": "036-LY", "date": "09 Septembrie 2025" }, { "code": "803-LZ", "date": "10 Septembrie 2025" }, { "code": "667-MB", "date": "11 Septembrie 2025" }, { "code": "250-MD", "date": "12 Septembrie 2025" }, { "code": "887-MD", "date": "13 Septembrie 2025" }, { "code": "022-ME", "date": "14 Septembrie 2025" }, { "code": "713-MF", "date": "15 Septembrie 2025" }, { "code": "535-MH", "date": "16 Septembrie 2025" }, { "code": "361-MK", "date": "17 Septembrie 2025" }, { "code": "283-MM", "date": "18 Septembrie 2025" }, { "code": "957-MN", "date": "19 Septembrie 2025" }, { "code": "516-MP", "date": "20 Septembrie 2025" }, { "code": "631-MP", "date": "21 Septembrie 2025" }, { "code": "302-MR", "date": "22 Septembrie 2025" }, { "code": "076-MT", "date": "23 Septembrie 2025" }, { "code": "011-MW", "date": "24 Septembrie 2025" }, { "code": "875-MX", "date": "25 Septembrie 2025" }, { "code": "587-MZ", "date": "26 Septembrie 2025" }, { "code": "139-NA", "date": "27 Septembrie 2025" }, { "code": "220-NA", "date": "28 Septembrie 2025" }, { "code": "987-NB", "date": "29 Septembrie 2025" }, { "code": "814-ND", "date": "30 Septembrie 2025" },
-    { "code": "592-NF", "date": "01 Octombrie 2025" }, { "code": "301-NH", "date": "02 Octombrie 2025" }, { "code": "972-NJ", "date": "03 Octombrie 2025" }, { "code": "553-NK", "date": "04 Octombrie 2025" }, { "code": "667-NK", "date": "05 Octombrie 2025" }, { "code": "346-NM", "date": "06 Octombrie 2025" }, { "code": "166-NP", "date": "07 Octombrie 2025" }, { "code": "858-NQ", "date": "08 Octombrie 2025" }, { "code": "728-NS", "date": "09 Octombrie 2025" }, { "code": "605-NV", "date": "10 Octombrie 2025" }, { "code": "227-NW", "date": "11 Octombrie 2025" }, { "code": "290-NW", "date": "12 Octombrie 2025" }, { "code": "969-NX", "date": "13 Octombrie 2025" }, { "code": "826-NZ", "date": "14 Octombrie 2025" }, { "code": "758-PB", "date": "15 Octombrie 2025" }, { "code": "691-PD", "date": "16 Octombrie 2025" }, { "code": "379-PF", "date": "17 Octombrie 2025" }, { "code": "968-PF", "date": "18 Octombrie 2025" }, { "code": "075-PG", "date": "19 Octombrie 2025" }, { "code": "732-PH", "date": "20 Octombrie 2025" }, { "code": "242-PK", "date": "21 Octombrie 2025" }, { "code": "905-PL", "date": "22 Octombrie 2025" }, { "code": "018-PP", "date": "23 Octombrie 2025" }, { "code": "769-PQ", "date": "24 Octombrie 2025" }, { "code": "336-PR", "date": "25 Octombrie 2025" }, { "code": "433-PR", "date": "26 Octombrie 2025" }, { "code": "922-PS", "date": "27 Octombrie 2025" }, { "code": "765-PV", "date": "28 Octombrie 2025" }, { "code": "454-PX", "date": "29 Octombrie 2025" }, { "code": "181-PZ", "date": "30 Octombrie 2025" }, { "code": "707-QA", "date": "31 Octombrie 2025" },
-    { "code": "999-QA", "date": "01 Noiembrie 2025" }, { "code": "090-QB", "date": "02 Noiembrie 2025" }, { "code": "768-QC", "date": "03 Noiembrie 2025" }, { "code": "437-QE", "date": "04 Noiembrie 2025" }, { "code": "280-QG", "date": "05 Noiembrie 2025" }, { "code": "015-QJ", "date": "06 Noiembrie 2025" }, { "code": "704-QK", "date": "07 Noiembrie 2025" }, { "code": "318-QL", "date": "08 Noiembrie 2025" }, { "code": "426-QL", "date": "09 Noiembrie 2025" }, { "code": "913-QM", "date": "10 Noiembrie 2025" }, { "code": "254-QN", "date": "11 Noiembrie 2025" }, { "code": "213-QQ", "date": "12 Noiembrie 2025" }, { "code": "144-QS", "date": "13 Noiembrie 2025" }, { "code": "895-QT", "date": "14 Noiembrie 2025" }, { "code": "428-QV", "date": "15 Noiembrie 2025" }, { "code": "514-QV", "date": "16 Noiembrie 2025" }, { "code": "207-QX", "date": "17 Noiembrie 2025" }, { "code": "837-QY", "date": "18 Noiembrie 2025" }, { "code": "622-RA", "date": "19 Noiembrie 2025" }, { "code": "321-RC", "date": "20 Noiembrie 2025" }, { "code": "997-RD", "date": "21 Noiembrie 2025" }, { "code": "566-RE", "date": "22 Noiembrie 2025" }, { "code": "636-RE", "date": "23 Noiembrie 2025" }, { "code": "180-RG", "date": "24 Noiembrie 2025" }, { "code": "980-RH", "date": "25 Noiembrie 2025" }, { "code": "596-RK", "date": "26 Noiembrie 2025" }, { "code": "440-RM", "date": "27 Noiembrie 2025" }, { "code": "173-RP", "date": "28 Noiembrie 2025" }, { "code": "720-RP", "date": "29 Noiembrie 2025" }, { "code": "801-RP", "date": "30 Noiembrie 2025" },
-    { "code": "357-RR", "date": "01 Decembrie 2025" }, { "code": "108-RT", "date": "02 Decembrie 2025" }, { "code": "879-RV", "date": "03 Decembrie 2025" }, { "code": "632-RX", "date": "04 Decembrie 2025" }, { "code": "242-RZ", "date": "05 Decembrie 2025" }, { "code": "790-RZ", "date": "06 Decembrie 2025" }, { "code": "890-RZ", "date": "07 Decembrie 2025" }, { "code": "597-SB", "date": "08 Decembrie 2025" }, { "code": "377-SD", "date": "09 Decembrie 2025" }, { "code": "085-SF", "date": "10 Decembrie 2025" }, { "code": "946-SG", "date": "11 Decembrie 2025" }, { "code": "665-SJ", "date": "12 Decembrie 2025" }, { "code": "236-SK", "date": "13 Decembrie 2025" }, { "code": "312-SK", "date": "14 Decembrie 2025" }, { "code": "081-SM", "date": "15 Decembrie 2025" }, { "code": "974-SN", "date": "16 Decembrie 2025" }, { "code": "849-SQ", "date": "17 Decembrie 2025" }, { "code": "805-ST", "date": "18 Decembrie 2025" }, { "code": "650-SW", "date": "19 Decembrie 2025" }, { "code": "157-SX", "date": "20 Decembrie 2025" }, { "code": "197-SX", "date": "21 Decembrie 2025" }, { "code": "797-SY", "date": "22 Decembrie 2025" }, { "code": "626-TA", "date": "23 Decembrie 2025" }, { "code": "601-TB", "date": "24 Decembrie 2025" }, { "code": "679-TB", "date": "25 Decembrie 2025" }, { "code": "510-TC", "date": "26 Decembrie 2025" }, { "code": "848-TC", "date": "27 Decembrie 2025" }, { "code": "908-TC", "date": "28 Decembrie 2025" }, { "code": "321-TE", "date": "29 Decembrie 2025" }, { "code": "620-TF", "date": "30 Decembrie 2025" }, { "code": "466-TG", "date": "31 Decembrie 2025" },
-    { "code": "841-TG", "date": "01 Ianuarie 2026" },
-    { "code": "070-TJ", "date": "02 Ianuarie 2026" },
-    { "code": "465-TJ", "date": "03 Ianuarie 2026" },
-    { "code": "518-TJ", "date": "04 Ianuarie 2026" },
-    { "code": "038-TL", "date": "05 Ianuarie 2026" },
-    { "code": "532-TM", "date": "06 Ianuarie 2026" },
-    { "code": "806-TN", "date": "07 Ianuarie 2026" },
-    { "code": "364-TQ", "date": "08 Ianuarie 2026" }
-  ]
+    "modulVechi": [
+        {
+            "code": "321-WM",
+            "date": "01 Ianuarie 2025"
+        },
+        {
+            "code": "188-WP",
+            "date": "02 Ianuarie 2025"
+        },
+        {
+            "code": "686-WQ",
+            "date": "03 Ianuarie 2025"
+        },
+        {
+            "code": "211-WR",
+            "date": "04 Ianuarie 2025"
+        },
+        {
+            "code": "362-WR",
+            "date": "05 Ianuarie 2025"
+        },
+        {
+            "code": "964-WS",
+            "date": "06 Ianuarie 2025"
+        },
+        {
+            "code": "538-WV",
+            "date": "07 Ianuarie 2025"
+        },
+        {
+            "code": "171-WX",
+            "date": "08 Ianuarie 2025"
+        },
+        {
+            "code": "004-WZ",
+            "date": "09 Ianuarie 2025"
+        },
+        {
+            "code": "737-XA",
+            "date": "10 Ianuarie 2025"
+        },
+        {
+            "code": "360-XB",
+            "date": "11 Ianuarie 2025"
+        },
+        {
+            "code": "492-XB",
+            "date": "12 Ianuarie 2025"
+        },
+        {
+            "code": "085-XD",
+            "date": "13 Ianuarie 2025"
+        },
+        {
+            "code": "998-XE",
+            "date": "14 Ianuarie 2025"
+        },
+        {
+            "code": "294-XG",
+            "date": "15 Ianuarie 2025"
+        },
+        {
+            "code": "949-XH",
+            "date": "16 Ianuarie 2025"
+        },
+        {
+            "code": "071-XL",
+            "date": "17 Ianuarie 2025"
+        },
+        {
+            "code": "645-XL",
+            "date": "18 Ianuarie 2025"
+        },
+        {
+            "code": "743-XL",
+            "date": "19 Ianuarie 2025"
+        },
+        {
+            "code": "406-XN",
+            "date": "20 Ianuarie 2025"
+        },
+        {
+            "code": "284-XQ",
+            "date": "21 Ianuarie 2025"
+        },
+        {
+            "code": "207-XS",
+            "date": "22 Ianuarie 2025"
+        },
+        {
+            "code": "163-XV",
+            "date": "23 Ianuarie 2025"
+        },
+        {
+            "code": "900-XW",
+            "date": "24 Ianuarie 2025"
+        },
+        {
+            "code": "486-XX",
+            "date": "25 Ianuarie 2025"
+        },
+        {
+            "code": "585-XX",
+            "date": "26 Ianuarie 2025"
+        },
+        {
+            "code": "478-XZ",
+            "date": "27 Ianuarie 2025"
+        },
+        {
+            "code": "359-YB",
+            "date": "28 Ianuarie 2025"
+        },
+        {
+            "code": "381-YD",
+            "date": "29 Ianuarie 2025"
+        },
+        {
+            "code": "267-YF",
+            "date": "30 Ianuarie 2025"
+        },
+        {
+            "code": "054-YH",
+            "date": "31 Ianuarie 2025"
+        },
+        {
+            "code": "547-YH",
+            "date": "01 Februarie 2025"
+        },
+        {
+            "code": "650-YK",
+            "date": "02 Februarie 2025"
+        },
+        {
+            "code": "248-YK",
+            "date": "03 Februarie 2025"
+        },
+        {
+            "code": "025-YM",
+            "date": "04 Februarie 2025"
+        },
+        {
+            "code": "828-YN",
+            "date": "05 Februarie 2025"
+        },
+        {
+            "code": "782-YQ",
+            "date": "06 Februarie 2025"
+        },
+        {
+            "code": "564-YS",
+            "date": "07 Februarie 2025"
+        },
+        {
+            "code": "152-YT",
+            "date": "08 Februarie 2025"
+        },
+        {
+            "code": "248-YT",
+            "date": "09 Februarie 2025"
+        },
+        {
+            "code": "973-YV",
+            "date": "10 Februarie 2025"
+        },
+        {
+            "code": "827-YX",
+            "date": "11 Februarie 2025"
+        },
+        {
+            "code": "029-YZ",
+            "date": "12 Februarie 2025"
+        },
+        {
+            "code": "551-ZB",
+            "date": "13 Februarie 2025"
+        },
+        {
+            "code": "299-ZD",
+            "date": "14 Februarie 2025"
+        },
+        {
+            "code": "838-ZD",
+            "date": "15 Februarie 2025"
+        },
+        {
+            "code": "963-ZD",
+            "date": "16 Februarie 2025"
+        },
+        {
+            "code": "566-ZF",
+            "date": "17 Februarie 2025"
+        },
+        {
+            "code": "452-ZH",
+            "date": "18 Februarie 2025"
+        },
+        {
+            "code": "265-ZK",
+            "date": "19 Februarie 2025"
+        },
+        {
+            "code": "300-ZN",
+            "date": "20 Februarie 2025"
+        },
+        {
+            "code": "064-ZP",
+            "date": "21 Februarie 2025"
+        },
+        {
+            "code": "565-ZP",
+            "date": "22 Februarie 2025"
+        },
+        {
+            "code": "650-ZP",
+            "date": "23 Februarie 2025"
+        },
+        {
+            "code": "370-ZR",
+            "date": "24 Februarie 2025"
+        },
+        {
+            "code": "233-ZT",
+            "date": "25 Februarie 2025"
+        },
+        {
+            "code": "105-ZW",
+            "date": "26 Februarie 2025"
+        },
+        {
+            "code": "936-ZX",
+            "date": "27 Februarie 2025"
+        },
+        {
+            "code": "742-ZZ",
+            "date": "28 Februarie 2025"
+        }
+    ],
+    "modulNou": [
+        {
+            "code": "216-AA",
+            "date": "01 Martie 2025"
+        },
+        {
+            "code": "298-AA",
+            "date": "02 Martie 2025"
+        },
+        {
+            "code": "881-AB",
+            "date": "03 Martie 2025"
+        },
+        {
+            "code": "753-AD",
+            "date": "04 Martie 2025"
+        },
+        {
+            "code": "512-AF",
+            "date": "05 Martie 2025"
+        },
+        {
+            "code": "474-AH",
+            "date": "06 Martie 2025"
+        },
+        {
+            "code": "178-AK",
+            "date": "07 Martie 2025"
+        },
+        {
+            "code": "773-AK",
+            "date": "08 Martie 2025"
+        },
+        {
+            "code": "895-AK",
+            "date": "09 Martie 2025"
+        },
+        {
+            "code": "524-AM",
+            "date": "10 Martie 2025"
+        },
+        {
+            "code": "427-AP",
+            "date": "11 Martie 2025"
+        },
+        {
+            "code": "259-AR",
+            "date": "12 Martie 2025"
+        },
+        {
+            "code": "161-AT",
+            "date": "13 Martie 2025"
+        },
+        {
+            "code": "928-AV",
+            "date": "14 Martie 2025"
+        },
+        {
+            "code": "510-AW",
+            "date": "15 Martie 2025"
+        },
+        {
+            "code": "636-AW",
+            "date": "16 Martie 2025"
+        },
+        {
+            "code": "361-AY",
+            "date": "17 Martie 2025"
+        },
+        {
+            "code": "316-BA",
+            "date": "18 Martie 2025"
+        },
+        {
+            "code": "150-BC",
+            "date": "19 Martie 2025"
+        },
+        {
+            "code": "180-BE",
+            "date": "20 Martie 2025"
+        },
+        {
+            "code": "025-BG",
+            "date": "21 Martie 2025"
+        },
+        {
+            "code": "590-BG",
+            "date": "22 Martie 2025"
+        },
+        {
+            "code": "686-BG",
+            "date": "23 Martie 2025"
+        },
+        {
+            "code": "480-BJ",
+            "date": "24 Martie 2025"
+        },
+        {
+            "code": "487-BL",
+            "date": "25 Martie 2025"
+        },
+        {
+            "code": "442-BN",
+            "date": "26 Martie 2025"
+        },
+        {
+            "code": "228-BP",
+            "date": "27 Martie 2025"
+        },
+        {
+            "code": "461-BR",
+            "date": "28 Martie 2025"
+        },
+        {
+            "code": "320-BS",
+            "date": "29 Martie 2025"
+        },
+        {
+            "code": "381-BS",
+            "date": "30 Martie 2025"
+        },
+        {
+            "code": "279-BV",
+            "date": "31 Martie 2025"
+        },
+        {
+            "code": "124-BX",
+            "date": "01 Aprilie 2025"
+        },
+        {
+            "code": "113-BZ",
+            "date": "02 Aprilie 2025"
+        },
+        {
+            "code": "060-CB",
+            "date": "03 Aprilie 2025"
+        },
+        {
+            "code": "014-CD",
+            "date": "04 Aprilie 2025"
+        },
+        {
+            "code": "591-CD",
+            "date": "05 Aprilie 2025"
+        },
+        {
+            "code": "678-CD",
+            "date": "06 Aprilie 2025"
+        },
+        {
+            "code": "367-CF",
+            "date": "07 Aprilie 2025"
+        },
+        {
+            "code": "292-CH",
+            "date": "08 Aprilie 2025"
+        },
+        {
+            "code": "134-CK",
+            "date": "09 Aprilie 2025"
+        },
+        {
+            "code": "127-CM",
+            "date": "10 Aprilie 2025"
+        },
+        {
+            "code": "987-CN",
+            "date": "11 Aprilie 2025"
+        },
+        {
+            "code": "546-CP",
+            "date": "12 Aprilie 2025"
+        },
+        {
+            "code": "626-CP",
+            "date": "13 Aprilie 2025"
+        },
+        {
+            "code": "321-CR",
+            "date": "14 Aprilie 2025"
+        },
+        {
+            "code": "491-CT",
+            "date": "15 Aprilie 2025"
+        },
+        {
+            "code": "375-CW",
+            "date": "16 Aprilie 2025"
+        },
+        {
+            "code": "220-CY",
+            "date": "17 Aprilie 2025"
+        },
+        {
+            "code": "803-CZ",
+            "date": "18 Aprilie 2025"
+        },
+        {
+            "code": "274-DA",
+            "date": "19 Aprilie 2025"
+        },
+        {
+            "code": "339-DA",
+            "date": "20 Aprilie 2025"
+        },
+        {
+            "code": "523-DA",
+            "date": "21 Aprilie 2025"
+        },
+        {
+            "code": "417-DC",
+            "date": "22 Aprilie 2025"
+        },
+        {
+            "code": "309-DE",
+            "date": "23 Aprilie 2025"
+        },
+        {
+            "code": "444-DG",
+            "date": "24 Aprilie 2025"
+        },
+        {
+            "code": "376-DJ",
+            "date": "25 Aprilie 2025"
+        },
+        {
+            "code": "978-DJ",
+            "date": "26 Aprilie 2025"
+        },
+        {
+            "code": "067-DK",
+            "date": "27 Aprilie 2025"
+        },
+        {
+            "code": "811-DL",
+            "date": "28 Aprilie 2025"
+        },
+        {
+            "code": "840-DN",
+            "date": "29 Aprilie 2025"
+        },
+        {
+            "code": "809-DQ",
+            "date": "30 Aprilie 2025"
+        },
+        {
+            "code": "972-DQ",
+            "date": "01 Mai 2025"
+        },
+        {
+            "code": "573-DS",
+            "date": "02 Mai 2025"
+        },
+        {
+            "code": "092-DT",
+            "date": "03 Mai 2025"
+        },
+        {
+            "code": "195-DT",
+            "date": "04 Mai 2025"
+        },
+        {
+            "code": "958-DV",
+            "date": "05 Mai 2025"
+        },
+        {
+            "code": "949-DX",
+            "date": "06 Mai 2025"
+        },
+        {
+            "code": "042-EA",
+            "date": "07 Mai 2025"
+        },
+        {
+            "code": "382-EA",
+            "date": "08 Mai 2025"
+        },
+        {
+            "code": "236-EC",
+            "date": "09 Mai 2025"
+        },
+        {
+            "code": "815-EC",
+            "date": "10 Mai 2025"
+        },
+        {
+            "code": "903-EC",
+            "date": "11 Mai 2025"
+        },
+        {
+            "code": "705-EE",
+            "date": "12 Mai 2025"
+        },
+        {
+            "code": "640-EG",
+            "date": "13 Mai 2025"
+        },
+        {
+            "code": "606-EJ",
+            "date": "14 Mai 2025"
+        },
+        {
+            "code": "574-EL",
+            "date": "15 Mai 2025"
+        },
+        {
+            "code": "457-EN",
+            "date": "16 Mai 2025"
+        },
+        {
+            "code": "039-EP",
+            "date": "17 Mai 2025"
+        },
+        {
+            "code": "122-EP",
+            "date": "18 Mai 2025"
+        },
+        {
+            "code": "792-EQ",
+            "date": "19 Mai 2025"
+        },
+        {
+            "code": "698-ES",
+            "date": "20 Mai 2025"
+        },
+        {
+            "code": "598-EV",
+            "date": "21 Mai 2025"
+        },
+        {
+            "code": "553-EX",
+            "date": "22 Mai 2025"
+        },
+        {
+            "code": "545-EZ",
+            "date": "23 Mai 2025"
+        },
+        {
+            "code": "120-FA",
+            "date": "24 Mai 2025"
+        },
+        {
+            "code": "207-FA",
+            "date": "25 Mai 2025"
+        },
+        {
+            "code": "797-FB",
+            "date": "26 Mai 2025"
+        },
+        {
+            "code": "116-FE",
+            "date": "27 Mai 2025"
+        },
+        {
+            "code": "201-FG",
+            "date": "28 Mai 2025"
+        },
+        {
+            "code": "619-FG",
+            "date": "29 Mai 2025"
+        },
+        {
+            "code": "144-FJ",
+            "date": "30 Mai 2025"
+        },
+        {
+            "code": "614-FJ",
+            "date": "31 Mai 2025"
+        },
+        {
+            "code": "676-FJ",
+            "date": "01 Iunie 2025"
+        },
+        {
+            "code": "386-FL",
+            "date": "02 Iunie 2025"
+        },
+        {
+            "code": "268-FN",
+            "date": "03 Iunie 2025"
+        },
+        {
+            "code": "051-FQ",
+            "date": "04 Iunie 2025"
+        },
+        {
+            "code": "117-FS",
+            "date": "05 Iunie 2025"
+        },
+        {
+            "code": "456-FT",
+            "date": "06 Iunie 2025"
+        },
+        {
+            "code": "072-FV",
+            "date": "07 Iunie 2025"
+        },
+        {
+            "code": "141-FV",
+            "date": "08 Iunie 2025"
+        },
+        {
+            "code": "584-FV",
+            "date": "09 Iunie 2025"
+        },
+        {
+            "code": "709-FX",
+            "date": "10 Iunie 2025"
+        },
+        {
+            "code": "780-FZ",
+            "date": "11 Iunie 2025"
+        },
+        {
+            "code": "750-GB",
+            "date": "12 Iunie 2025"
+        },
+        {
+            "code": "632-GD",
+            "date": "13 Iunie 2025"
+        },
+        {
+            "code": "167-GE",
+            "date": "14 Iunie 2025"
+        },
+        {
+            "code": "281-GE",
+            "date": "15 Iunie 2025"
+        },
+        {
+            "code": "873-GF",
+            "date": "16 Iunie 2025"
+        },
+        {
+            "code": "777-GH",
+            "date": "17 Iunie 2025"
+        },
+        {
+            "code": "570-GK",
+            "date": "18 Iunie 2025"
+        },
+        {
+            "code": "389-GM",
+            "date": "19 Iunie 2025"
+        },
+        {
+            "code": "190-GP",
+            "date": "20 Iunie 2025"
+        },
+        {
+            "code": "696-GP",
+            "date": "21 Iunie 2025"
+        },
+        {
+            "code": "774-GP",
+            "date": "22 Iunie 2025"
+        },
+        {
+            "code": "624-GR",
+            "date": "23 Iunie 2025"
+        },
+        {
+            "code": "550-GT",
+            "date": "24 Iunie 2025"
+        },
+        {
+            "code": "570-GW",
+            "date": "25 Iunie 2025"
+        },
+        {
+            "code": "626-GY",
+            "date": "26 Iunie 2025"
+        },
+        {
+            "code": "538-HA",
+            "date": "27 Iunie 2025"
+        },
+        {
+            "code": "134-HB",
+            "date": "28 Iunie 2025"
+        },
+        {
+            "code": "222-HB",
+            "date": "29 Iunie 2025"
+        },
+        {
+            "code": "930-HC",
+            "date": "30 Iunie 2025"
+        },
+        {
+            "code": "735-HE",
+            "date": "01 Iulie 2025"
+        },
+        {
+            "code": "628-HG",
+            "date": "02 Iulie 2025"
+        },
+        {
+            "code": "522-HJ",
+            "date": "03 Iulie 2025"
+        },
+        {
+            "code": "393-HL",
+            "date": "04 Iulie 2025"
+        },
+        {
+            "code": "996-HL",
+            "date": "05 Iulie 2025"
+        },
+        {
+            "code": "124-HM",
+            "date": "06 Iulie 2025"
+        },
+        {
+            "code": "640-HN",
+            "date": "07 Iulie 2025"
+        },
+        {
+            "code": "742-HQ",
+            "date": "08 Iulie 2025"
+        },
+        {
+            "code": "640-HS",
+            "date": "09 Iulie 2025"
+        },
+        {
+            "code": "623-HV",
+            "date": "10 Iulie 2025"
+        },
+        {
+            "code": "453-HX",
+            "date": "11 Iulie 2025"
+        },
+        {
+            "code": "098-HY",
+            "date": "12 Iulie 2025"
+        },
+        {
+            "code": "209-HY",
+            "date": "13 Iulie 2025"
+        },
+        {
+            "code": "517-HY",
+            "date": "14 Iulie 2025"
+        },
+        {
+            "code": "718-JA",
+            "date": "15 Iulie 2025"
+        },
+        {
+            "code": "674-JC",
+            "date": "16 Iulie 2025"
+        },
+        {
+            "code": "655-JE",
+            "date": "17 Iulie 2025"
+        },
+        {
+            "code": "496-JG",
+            "date": "18 Iulie 2025"
+        },
+        {
+            "code": "056-JH",
+            "date": "19 Iulie 2025"
+        },
+        {
+            "code": "165-JH",
+            "date": "20 Iulie 2025"
+        },
+        {
+            "code": "835-JJ",
+            "date": "21 Iulie 2025"
+        },
+        {
+            "code": "871-JL",
+            "date": "22 Iulie 2025"
+        },
+        {
+            "code": "638-JN",
+            "date": "23 Iulie 2025"
+        },
+        {
+            "code": "455-JQ",
+            "date": "24 Iulie 2025"
+        },
+        {
+            "code": "297-JS",
+            "date": "25 Iulie 2025"
+        },
+        {
+            "code": "841-JS",
+            "date": "26 Iulie 2025"
+        },
+        {
+            "code": "940-JS",
+            "date": "27 Iulie 2025"
+        },
+        {
+            "code": "547-JV",
+            "date": "28 Iulie 2025"
+        },
+        {
+            "code": "355-JX",
+            "date": "29 Iulie 2025"
+        },
+        {
+            "code": "158-JZ",
+            "date": "30 Iulie 2025"
+        },
+        {
+            "code": "988-KA",
+            "date": "31 Iulie 2025"
+        },
+        {
+            "code": "669-KC",
+            "date": "01 August 2025"
+        },
+        {
+            "code": "220-KD",
+            "date": "02 August 2025"
+        },
+        {
+            "code": "322-KD",
+            "date": "03 August 2025"
+        },
+        {
+            "code": "597-KE",
+            "date": "04 August 2025"
+        },
+        {
+            "code": "173-KG",
+            "date": "05 August 2025"
+        },
+        {
+            "code": "709-KH",
+            "date": "06 August 2025"
+        },
+        {
+            "code": "307-KK",
+            "date": "07 August 2025"
+        },
+        {
+            "code": "806-KL",
+            "date": "08 August 2025"
+        },
+        {
+            "code": "225-KM",
+            "date": "09 August 2025"
+        },
+        {
+            "code": "283-KN",
+            "date": "10 August 2025"
+        },
+        {
+            "code": "594-KN",
+            "date": "11 August 2025"
+        },
+        {
+            "code": "038-KQ",
+            "date": "12 August 2025"
+        },
+        {
+            "code": "380-KR",
+            "date": "13 August 2025"
+        },
+        {
+            "code": "743-KS",
+            "date": "14 August 2025"
+        },
+        {
+            "code": "967-KS",
+            "date": "15 August 2025"
+        },
+        {
+            "code": "268-KT",
+            "date": "16 August 2025"
+        },
+        {
+            "code": "325-KT",
+            "date": "17 August 2025"
+        },
+        {
+            "code": "580-KV",
+            "date": "18 August 2025"
+        },
+        {
+            "code": "902-KW",
+            "date": "19 August 2025"
+        },
+        {
+            "code": "119-KY",
+            "date": "20 August 2025"
+        },
+        {
+            "code": "714-KZ",
+            "date": "21 August 2025"
+        },
+        {
+            "code": "967-LA",
+            "date": "22 August 2025"
+        },
+        {
+            "code": "314-LB",
+            "date": "23 August 2025"
+        },
+        {
+            "code": "401-LB",
+            "date": "24 August 2025"
+        },
+        {
+            "code": "794-LC",
+            "date": "25 August 2025"
+        },
+        {
+            "code": "297-LE",
+            "date": "26 August 2025"
+        },
+        {
+            "code": "871-LF",
+            "date": "27 August 2025"
+        },
+        {
+            "code": "449-LH",
+            "date": "28 August 2025"
+        },
+        {
+            "code": "906-LJ",
+            "date": "29 August 2025"
+        },
+        {
+            "code": "376-LK",
+            "date": "30 August 2025"
+        },
+        {
+            "code": "469-LK",
+            "date": "31 August 2025"
+        },
+        {
+            "code": "964-LL",
+            "date": "01 Septembrie 2025"
+        },
+        {
+            "code": "306-LN",
+            "date": "02 Septembrie 2025"
+        },
+        {
+            "code": "463-LP",
+            "date": "03 Septembrie 2025"
+        },
+        {
+            "code": "793-LQ",
+            "date": "04 Septembrie 2025"
+        },
+        {
+            "code": "556-LS",
+            "date": "05 Septembrie 2025"
+        },
+        {
+            "code": "380-LT",
+            "date": "06 Septembrie 2025"
+        },
+        {
+            "code": "489-LT",
+            "date": "07 Septembrie 2025"
+        },
+        {
+            "code": "379-LW",
+            "date": "08 Septembrie 2025"
+        },
+        {
+            "code": "036-LY",
+            "date": "09 Septembrie 2025"
+        },
+        {
+            "code": "803-LZ",
+            "date": "10 Septembrie 2025"
+        },
+        {
+            "code": "667-MB",
+            "date": "11 Septembrie 2025"
+        },
+        {
+            "code": "250-MD",
+            "date": "12 Septembrie 2025"
+        },
+        {
+            "code": "887-MD",
+            "date": "13 Septembrie 2025"
+        },
+        {
+            "code": "022-ME",
+            "date": "14 Septembrie 2025"
+        },
+        {
+            "code": "713-MF",
+            "date": "15 Septembrie 2025"
+        },
+        {
+            "code": "535-MH",
+            "date": "16 Septembrie 2025"
+        },
+        {
+            "code": "361-MK",
+            "date": "17 Septembrie 2025"
+        },
+        {
+            "code": "283-MM",
+            "date": "18 Septembrie 2025"
+        },
+        {
+            "code": "957-MN",
+            "date": "19 Septembrie 2025"
+        },
+        {
+            "code": "516-MP",
+            "date": "20 Septembrie 2025"
+        },
+        {
+            "code": "631-MP",
+            "date": "21 Septembrie 2025"
+        },
+        {
+            "code": "302-MR",
+            "date": "22 Septembrie 2025"
+        },
+        {
+            "code": "076-MT",
+            "date": "23 Septembrie 2025"
+        },
+        {
+            "code": "011-MW",
+            "date": "24 Septembrie 2025"
+        },
+        {
+            "code": "875-MX",
+            "date": "25 Septembrie 2025"
+        },
+        {
+            "code": "587-MZ",
+            "date": "26 Septembrie 2025"
+        },
+        {
+            "code": "139-NA",
+            "date": "27 Septembrie 2025"
+        },
+        {
+            "code": "220-NA",
+            "date": "28 Septembrie 2025"
+        },
+        {
+            "code": "987-NB",
+            "date": "29 Septembrie 2025"
+        },
+        {
+            "code": "814-ND",
+            "date": "30 Septembrie 2025"
+        },
+        {
+            "code": "592-NF",
+            "date": "01 Octombrie 2025"
+        },
+        {
+            "code": "301-NH",
+            "date": "02 Octombrie 2025"
+        },
+        {
+            "code": "972-NJ",
+            "date": "03 Octombrie 2025"
+        },
+        {
+            "code": "553-NK",
+            "date": "04 Octombrie 2025"
+        },
+        {
+            "code": "667-NK",
+            "date": "05 Octombrie 2025"
+        },
+        {
+            "code": "346-NM",
+            "date": "06 Octombrie 2025"
+        },
+        {
+            "code": "166-NP",
+            "date": "07 Octombrie 2025"
+        },
+        {
+            "code": "858-NQ",
+            "date": "08 Octombrie 2025"
+        },
+        {
+            "code": "728-NS",
+            "date": "09 Octombrie 2025"
+        },
+        {
+            "code": "605-NV",
+            "date": "10 Octombrie 2025"
+        },
+        {
+            "code": "227-NW",
+            "date": "11 Octombrie 2025"
+        },
+        {
+            "code": "290-NW",
+            "date": "12 Octombrie 2025"
+        },
+        {
+            "code": "969-NX",
+            "date": "13 Octombrie 2025"
+        },
+        {
+            "code": "826-NZ",
+            "date": "14 Octombrie 2025"
+        },
+        {
+            "code": "758-PB",
+            "date": "15 Octombrie 2025"
+        },
+        {
+            "code": "691-PD",
+            "date": "16 Octombrie 2025"
+        },
+        {
+            "code": "379-PF",
+            "date": "17 Octombrie 2025"
+        },
+        {
+            "code": "968-PF",
+            "date": "18 Octombrie 2025"
+        },
+        {
+            "code": "075-PG",
+            "date": "19 Octombrie 2025"
+        },
+        {
+            "code": "732-PH",
+            "date": "20 Octombrie 2025"
+        },
+        {
+            "code": "242-PK",
+            "date": "21 Octombrie 2025"
+        },
+        {
+            "code": "905-PL",
+            "date": "22 Octombrie 2025"
+        },
+        {
+            "code": "018-PP",
+            "date": "23 Octombrie 2025"
+        },
+        {
+            "code": "769-PQ",
+            "date": "24 Octombrie 2025"
+        },
+        {
+            "code": "336-PR",
+            "date": "25 Octombrie 2025"
+        },
+        {
+            "code": "433-PR",
+            "date": "26 Octombrie 2025"
+        },
+        {
+            "code": "922-PS",
+            "date": "27 Octombrie 2025"
+        },
+        {
+            "code": "765-PV",
+            "date": "28 Octombrie 2025"
+        },
+        {
+            "code": "454-PX",
+            "date": "29 Octombrie 2025"
+        },
+        {
+            "code": "181-PZ",
+            "date": "30 Octombrie 2025"
+        },
+        {
+            "code": "707-QA",
+            "date": "31 Octombrie 2025"
+        },
+        {
+            "code": "999-QA",
+            "date": "01 Noiembrie 2025"
+        },
+        {
+            "code": "090-QB",
+            "date": "02 Noiembrie 2025"
+        },
+        {
+            "code": "768-QC",
+            "date": "03 Noiembrie 2025"
+        },
+        {
+            "code": "437-QE",
+            "date": "04 Noiembrie 2025"
+        },
+        {
+            "code": "280-QG",
+            "date": "05 Noiembrie 2025"
+        },
+        {
+            "code": "015-QJ",
+            "date": "06 Noiembrie 2025"
+        },
+        {
+            "code": "704-QK",
+            "date": "07 Noiembrie 2025"
+        },
+        {
+            "code": "318-QL",
+            "date": "08 Noiembrie 2025"
+        },
+        {
+            "code": "426-QL",
+            "date": "09 Noiembrie 2025"
+        },
+        {
+            "code": "913-QM",
+            "date": "10 Noiembrie 2025"
+        },
+        {
+            "code": "254-QN",
+            "date": "11 Noiembrie 2025"
+        },
+        {
+            "code": "213-QQ",
+            "date": "12 Noiembrie 2025"
+        },
+        {
+            "code": "144-QS",
+            "date": "13 Noiembrie 2025"
+        },
+        {
+            "code": "895-QT",
+            "date": "14 Noiembrie 2025"
+        },
+        {
+            "code": "428-QV",
+            "date": "15 Noiembrie 2025"
+        },
+        {
+            "code": "514-QV",
+            "date": "16 Noiembrie 2025"
+        },
+        {
+            "code": "207-QX",
+            "date": "17 Noiembrie 2025"
+        },
+        {
+            "code": "837-QY",
+            "date": "18 Noiembrie 2025"
+        },
+        {
+            "code": "622-RA",
+            "date": "19 Noiembrie 2025"
+        },
+        {
+            "code": "321-RC",
+            "date": "20 Noiembrie 2025"
+        },
+        {
+            "code": "997-RD",
+            "date": "21 Noiembrie 2025"
+        },
+        {
+            "code": "566-RE",
+            "date": "22 Noiembrie 2025"
+        },
+        {
+            "code": "636-RE",
+            "date": "23 Noiembrie 2025"
+        },
+        {
+            "code": "180-RG",
+            "date": "24 Noiembrie 2025"
+        },
+        {
+            "code": "980-RH",
+            "date": "25 Noiembrie 2025"
+        },
+        {
+            "code": "596-RK",
+            "date": "26 Noiembrie 2025"
+        },
+        {
+            "code": "440-RM",
+            "date": "27 Noiembrie 2025"
+        },
+        {
+            "code": "173-RP",
+            "date": "28 Noiembrie 2025"
+        },
+        {
+            "code": "720-RP",
+            "date": "29 Noiembrie 2025"
+        },
+        {
+            "code": "801-RP",
+            "date": "30 Noiembrie 2025"
+        },
+        {
+            "code": "357-RR",
+            "date": "01 Decembrie 2025"
+        },
+        {
+            "code": "108-RT",
+            "date": "02 Decembrie 2025"
+        },
+        {
+            "code": "879-RV",
+            "date": "03 Decembrie 2025"
+        },
+        {
+            "code": "632-RX",
+            "date": "04 Decembrie 2025"
+        },
+        {
+            "code": "242-RZ",
+            "date": "05 Decembrie 2025"
+        },
+        {
+            "code": "790-RZ",
+            "date": "06 Decembrie 2025"
+        },
+        {
+            "code": "890-RZ",
+            "date": "07 Decembrie 2025"
+        },
+        {
+            "code": "597-SB",
+            "date": "08 Decembrie 2025"
+        },
+        {
+            "code": "377-SD",
+            "date": "09 Decembrie 2025"
+        },
+        {
+            "code": "085-SF",
+            "date": "10 Decembrie 2025"
+        },
+        {
+            "code": "946-SG",
+            "date": "11 Decembrie 2025"
+        },
+        {
+            "code": "665-SJ",
+            "date": "12 Decembrie 2025"
+        },
+        {
+            "code": "236-SK",
+            "date": "13 Decembrie 2025"
+        },
+        {
+            "code": "312-SK",
+            "date": "14 Decembrie 2025"
+        },
+        {
+            "code": "081-SM",
+            "date": "15 Decembrie 2025"
+        },
+        {
+            "code": "974-SN",
+            "date": "16 Decembrie 2025"
+        },
+        {
+            "code": "849-SQ",
+            "date": "17 Decembrie 2025"
+        },
+        {
+            "code": "805-ST",
+            "date": "18 Decembrie 2025"
+        },
+        {
+            "code": "650-SW",
+            "date": "19 Decembrie 2025"
+        },
+        {
+            "code": "157-SX",
+            "date": "20 Decembrie 2025"
+        },
+        {
+            "code": "197-SX",
+            "date": "21 Decembrie 2025"
+        },
+        {
+            "code": "797-SY",
+            "date": "22 Decembrie 2025"
+        },
+        {
+            "code": "626-TA",
+            "date": "23 Decembrie 2025"
+        },
+        {
+            "code": "601-TB",
+            "date": "24 Decembrie 2025"
+        },
+        {
+            "code": "679-TB",
+            "date": "25 Decembrie 2025"
+        },
+        {
+            "code": "510-TC",
+            "date": "26 Decembrie 2025"
+        },
+        {
+            "code": "848-TC",
+            "date": "27 Decembrie 2025"
+        },
+        {
+            "code": "908-TC",
+            "date": "28 Decembrie 2025"
+        },
+        {
+            "code": "321-TE",
+            "date": "29 Decembrie 2025"
+        },
+        {
+            "code": "620-TF",
+            "date": "30 Decembrie 2025"
+        },
+        {
+            "code": "466-TG",
+            "date": "31 Decembrie 2025"
+        },
+        {
+            "code": "841-TG",
+            "date": "01 Ianuarie 2026"
+        },
+        {
+            "code": "070-TJ",
+            "date": "02 Ianuarie 2026"
+        },
+        {
+            "code": "465-TJ",
+            "date": "03 Ianuarie 2026"
+        },
+        {
+            "code": "518-TJ",
+            "date": "04 Ianuarie 2026"
+        },
+        {
+            "code": "038-TL",
+            "date": "05 Ianuarie 2026"
+        },
+        {
+            "code": "532-TM",
+            "date": "06 Ianuarie 2026"
+        },
+        {
+            "code": "806-TN",
+            "date": "07 Ianuarie 2026"
+        },
+        {
+            "code": "364-TQ",
+            "date": "08 Ianuarie 2026"
+        }
+    ]
 }
