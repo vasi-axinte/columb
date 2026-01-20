@@ -36,12 +36,24 @@ export class CountryNavigationReadingService {
     const countryCode: string = item.countryCode ?? '';
     const type: string = item.type ?? '';
     const rawUrl: string = item.url ?? '';
+    const rawInternalProp: string = item.internalUrl ?? '';
     const restricted: boolean = !!item.restrictedToLimitedUser;
 
     // Internal if explicitly typed or if url looks like an app-relative path
-    const isInternal = type === 'in-subpage-url' || (!!rawUrl && !/^https?:\/\//i.test(rawUrl));
-    const internalUrl = isInternal ? (rawUrl?.startsWith('/') ? rawUrl : `/${rawUrl}`) : '';
-    const externalUrl = isInternal ? '' : rawUrl;
+    const looksExternal = /^https?:\/\//i.test(rawUrl);
+    let internalUrl = '';
+    let externalUrl = '';
+
+    if (type === 'in-subpage-url' || !!rawInternalProp) {
+      // Subpage-relative internal navigation: ensure no leading slash
+      const segment = (rawInternalProp || rawUrl).toString();
+      internalUrl = segment.replace(/^\/+/, '');
+    } else if (!!rawUrl && !looksExternal) {
+      // App-absolute internal navigation: keep leading slash
+      internalUrl = rawUrl.startsWith('/') ? rawUrl : `/${rawUrl}`;
+    } else {
+      externalUrl = rawUrl;
+    }
 
     return {
       country: title,

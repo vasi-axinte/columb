@@ -69,14 +69,14 @@
     {
         "country": "Specimene+Documente Acceptate",
         "countryCode": "",
-        "url": "",
+        "type": "in-subpage-url",
         "internalUrl": "samples",
         "restrictedToLimitedUser": true
     },
     {
         "country": "Calculator Cifre De Control",
         "countryCode": "",
-        "url": "",
+        "type": "in-subpage-url",
         "internalUrl": "digit-calculator",
         "restrictedToLimitedUser": true
     }
