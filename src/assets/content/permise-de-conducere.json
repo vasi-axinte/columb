@@ -436,12 +436,24 @@
 "children": [
 {
 "title": "Teritoriul capitalei Islamabad",
-"url": "https://ict.islamabadpolice.gov.pk:8083/verification/",
+"url": "https://dlims.islamabadpolice.gov.pk/verify-license-information",
+"type": "country",
+"countryCode": "pk"
+},
+  {
+"title": "Islamabad e-license",
+"url": "https://dlims.islamabadpolice.gov.pk/e-license",
 "type": "country",
 "countryCode": "pk"
 },
 {
 "title": "Provincia Punjab",
+"url": "https://dlims.punjab.gov.pk/verify",
+"type": "country",
+"countryCode": "pk"
+},
+  {
+"title": "Provincia Punjab e-license",
 "url": "https://dlims.punjab.gov.pk/elicense",
 "type": "country",
 "countryCode": "pk"
@@ -472,7 +484,13 @@
 },
 {
 "title": "Azad Jammu & Kashmir",
-"url": "https://trafficpolice.ajk.gov.pk/VerifyLicense/",
+"url": "https://dlims.ajkpolice.gok.pk/verify",
+"type": "country",
+"countryCode": "pk"
+},
+  {
+"title": "Azad Jammu & Kashmir e-license",
+"url": "https://dlims.ajkpolice.gok.pk/elicense",
 "type": "country",
 "countryCode": "pk"
 },
