@@ -589,6 +589,12 @@
                 "type": "country"
             },
             {
+                "title": "Uganda",
+                "countryCode": "ug",
+                "url": "https://services.works.go.ug/",
+                "type": "country"
+            },
+            {
                 "title": "Venezuela",
                 "countryCode": "ve",
                 "url": "http://www.intt.gob.ve:8080/consultas_publicas/consultas_publicas.php",
