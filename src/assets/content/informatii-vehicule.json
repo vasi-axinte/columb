@@ -818,6 +818,12 @@
         "url": "https://bip.ru/",
         "type": "country"
     },
+   {
+        "title": "Serbia",
+        "countryCode": "rs",
+        "url": "https://www.abs.gov.rs/en/vin",
+        "type": "country"
+    },
     {
         "type": "with-children",
         "title": "Slovacia",
