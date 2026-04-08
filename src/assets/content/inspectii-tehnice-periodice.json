@@ -68,12 +68,6 @@
         "type": "country"
     },
     {
-        "title": "Elveția",
-        "countryCode": "ch",
-        "url": "https://adm.appls.fr.ch/ocn/ecari-dispoweb/ui/app/init/#/circ/prive/login",
-        "type": "country"
-    },
-    {
         "title": "Estonia",
         "countryCode": "ee",
         "url": "https://www.tehnoulevaatus.ee/en/",
