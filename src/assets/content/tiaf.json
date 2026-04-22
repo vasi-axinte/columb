@@ -222,6 +222,13 @@
         "icon": "link",
         "key": "tiaf.obd-localization-2"
     },
+   {
+        "type": "direct-link",
+        "title": "EUCARIS (disponibilitate date)",
+        "url": "https://stefffy79.github.io/eucaris/",
+        "icon": "link",
+        "key": "tiaf.eucaris"
+    },
     {
         "type": "with-children",
         "title": "Auto Furate",
