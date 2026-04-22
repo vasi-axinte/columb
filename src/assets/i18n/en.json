@@ -165,6 +165,7 @@
     },
     "tiaf": {
         "euvid": "EUVID",
+        "eucaris": "EUCARIS (disponibilitate date)",
         "cariffy": "CARIFFY-vehicle information",
         "license-plates-eu": "European license plates",
         "license-plates-world": "World license plates",
