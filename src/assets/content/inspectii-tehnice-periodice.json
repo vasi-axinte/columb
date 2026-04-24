@@ -135,11 +135,33 @@
             }
         ]        
     },
-    {
+   {
+        "type": "with-children",
         "title": "Irlanda",
         "countryCode": "ie",
-        "url": "https://www.ncts.ie/about-the-test/check-nct-validity/",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "Irlanda",
+        "children": [
+          {
+                "title": "NCTS",
+                "url": "https://www.ncts.ie/about-the-test/check-nct-validity/",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Vehicule comerciale, autobuze și remorci",
+                "url": "https://operator.cvrt.ie/Vehicle/CRWExpiryTestReminder",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Vehicleservices (VPN)",
+                "url": "href="https://www.vehicleservices.gov.ie/cmv",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]   
     },
     {
         "title": "Islanda",
