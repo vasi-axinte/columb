@@ -157,7 +157,7 @@
             },
             {
                 "title": "Vehicleservices (VPN)",
-                "url": "href="https://www.vehicleservices.gov.ie/cmv",
+                "url": "href=https://www.vehicleservices.gov.ie/cmv",
                 "icon": "link",
                 "type": "direct-link"
             }
