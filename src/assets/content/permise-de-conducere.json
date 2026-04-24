@@ -91,14 +91,14 @@
             },
             {
                 "title": "Litera de control P.C.",
-                "url": "https://rawcdn.githack.com/stefffy79/pcpolonia/ba8e144a8c6854ed5e206cb0aa91cefd37f73814/pcpolonia.html",
+                "url": "https://stefffy79.github.io/pcpolonia/",
                 "type": "country",
                 "countryCode": "pl",
                 "restrictedToLimitedUser": true
             },
             {
                 "title": "Cod emitent/cod an emitere",
-                "url": "https://rawcdn.githack.com/stefffy79/emitentpcpol/caf16757b6a8a9518b7c1f160713faec917bfa24/emitentpcpol.html",
+                "url": "https://stefffy79.github.io/emitentpcpol/",
                 "type": "country",
                 "countryCode": "pl",
                 "restrictedToLimitedUser": true
