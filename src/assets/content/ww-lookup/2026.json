@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "wwDaily": [
-    {
+   {
       "date": "2026-01-01",
       "lastPlate": "WW-841-TG"
     },
@@ -33,136 +33,513 @@
       "date": "2026-01-08",
       "lastPlate": "WW-364-TQ"
     },
-    { "date": "2026-01-09",
-      "lastPlate": "WW-827-TR" 
+    {
+      "date": "2026-01-09",
+      "lastPlate": "WW-827-TR"
     },
-    { "date": "2026-01-10",
-     "lastPlate": "WW-338-TS"
-  },
-  { "date": "2026-01-11", "lastPlate": "WW-395-TS" },
-  { "date": "2026-01-12", "lastPlate": "WW-816-TT" },
-  { "date": "2026-01-13", "lastPlate": "WW-453-TW" },
-  { "date": "2026-01-14", "lastPlate": "WW-059-TY" },
-  { "date": "2026-01-15", "lastPlate": "WW-668-TZ" },
-  { "date": "2026-01-16", "lastPlate": "WW-226-VB" },
-  { "date": "2026-01-17", "lastPlate": "WW-817-VB" },
-  { "date": "2026-01-18", "lastPlate": "WW-883-VB" },
-  { "date": "2026-01-19", "lastPlate": "WW-492-VD" },
-  { "date": "2026-01-20", "lastPlate": "WW-159-VF" },
-  { "date": "2026-01-21", "lastPlate": "WW-975-VG" },
-  { "date": "2026-01-22", "lastPlate": "WW-670-VJ" },
-  { "date": "2026-01-23", "lastPlate": "WW-378-VL" },
-  { "date": "2026-01-24", "lastPlate": "WW-972-VL" },
-  { "date": "2026-01-25", "lastPlate": "WW-067-VM" },
-  { "date": "2026-01-26", "lastPlate": "WW-789-VN" },
-  { "date": "2026-01-27", "lastPlate": "WW-619-VQ" },
-  { "date": "2026-01-28", "lastPlate": "WW-128-VS" },
-  { "date": "2026-01-29", "lastPlate": "WW-094-VV" },
-  { "date": "2026-01-30", "lastPlate": "WW-723-VW" },
-  { "date": "2026-01-31", "lastPlate": "WW-300-VX" },
-  { "date": "2026-02-01", "lastPlate": "WW-423-VX" },
-  { "date": "2026-02-02", "lastPlate": "WW-074-VZ" },
-  { "date": "2026-02-03", "lastPlate": "WW-763-WA" },
-  { "date": "2026-02-04", "lastPlate": "WW-427-WC" },
-  { "date": "2026-02-05", "lastPlate": "WW-252-WE" },
-  { "date": "2026-02-06", "lastPlate": "WW-862-WF" },
-  { "date": "2026-02-07", "lastPlate": "WW-999-WF" },
-  { "date": "2026-02-08", "lastPlate": "WW-047-WG" },
-  { "date": "2026-02-09", "lastPlate": "WW-052-WJ" },
-  { "date": "2026-02-10", "lastPlate": "WW-934-WK" },
-  { "date": "2026-02-11", "lastPlate": "WW-223-WM" },
-  { "date": "2026-02-12", "lastPlate": "WW-650-WP" },
-  { "date": "2026-02-13", "lastPlate": "WW-482-WR" },
-  { "date": "2026-02-14", "lastPlate": "WW-078-WS" },
-  { "date": "2026-02-15", "lastPlate": "WW-157-WS" },
-  { "date": "2026-02-16", "lastPlate": "WW-820-WT" },
-  { "date": "2026-02-17", "lastPlate": "WW-601-WW" },
-  { "date": "2026-02-18", "lastPlate": "WW-345-WY" },
-  { "date": "2026-02-19", "lastPlate": "WW-093-XA" },
-  { "date": "2026-02-20", "lastPlate": "WW-761-XB" },
-  { "date": "2026-02-21", "lastPlate": "WW-321-XC" },
-  { "date": "2026-02-22", "lastPlate": "WW-435-XC" },
-  { "date": "2026-02-23", "lastPlate": "WW-075-XE" },
-  { "date": "2026-02-24", "lastPlate": "WW-790-XF" },
-  { "date": "2026-02-25", "lastPlate": "WW-437-XH" },
-  { "date": "2026-02-26", "lastPlate": "WW-333-XK" },
-  { "date": "2026-02-27", "lastPlate": "WW-005-XM" },
-  { "date": "2026-02-28", "lastPlate": "WW-564-XM" },
-  { "date": "2026-03-01", "lastPlate": "WW-654-XM" },
-  { "date": "2026-03-02", "lastPlate": "WW-191-XP" },
-  { "date": "2026-03-03", "lastPlate": "WW-885-XQ" },
-  { "date": "2026-03-04", "lastPlate": "WW-604-XS" },
-  { "date": "2026-03-05", "lastPlate": "WW-577-XV" },
-  { "date": "2026-03-06", "lastPlate": "WW-344-XX" },
-  { "date": "2026-03-07", "lastPlate": "WW-997-XX" },
-  { "date": "2026-03-08", "lastPlate": "WW-126-XY" },
-  { "date": "2026-03-09", "lastPlate": "WW-927-XZ" },
-  { "date": "2026-03-10", "lastPlate": "WW-766-YB" },
-  { "date": "2026-03-11", "lastPlate": "WW-567-YD" },
-  { "date": "2026-03-12", "lastPlate": "WW-488-YF" },
-  { "date": "2026-03-13", "lastPlate": "WW-217-YH" },
-  { "date": "2026-03-14", "lastPlate": "WW-815-YH" },
-  { "date": "2026-03-15", "lastPlate": "WW-966-YH" },
-  { "date": "2026-03-16", "lastPlate": "WW-702-YK" },
-  { "date": "2026-03-17", "lastPlate": "WW-472-YM" },
-  { "date": "2026-03-18", "lastPlate": "WW-426-YP" },
-  { "date": "2026-03-19", "lastPlate": "WW-366-YR" },
-  { "date": "2026-03-20", "lastPlate": "WW-691-YS" },
-  { "date": "2026-03-21", "lastPlate": "WW-276-YT" },
-  { "date": "2026-03-22", "lastPlate": "WW-399-YT" },
-  { "date": "2026-03-23", "lastPlate": "WW-160-YW" },
-  { "date": "2026-03-24", "lastPlate": "WW-134-YY" },
-  { "date": "2026-03-25", "lastPlate": "WW-167-ZA" },
-  { "date": "2026-03-26", "lastPlate": "WW-214-ZC" },
-  { "date": "2026-03-27", "lastPlate": "WW-166-ZE" },
-  { "date": "2026-03-28", "lastPlate": "WW-854-ZE" },
-  { "date": "2026-03-29", "lastPlate": "WW-994-ZE" },
-  { "date": "2026-03-30", "lastPlate": "WW-569-ZG" },
-  { "date": "2026-03-31", "lastPlate": "WW-719-ZJ" },
-  { "date": "2026-04-01", "lastPlate": "WW-517-ZL" },
-  { "date": "2026-04-02", "lastPlate": "WW-513-ZN" },
-  { "date": "2026-04-03", "lastPlate": "WW-126-ZQ" },
-  { "date": "2026-04-04", "lastPlate": "WW-647-ZQ" },
-  { "date": "2026-04-05", "lastPlate": "WW-727-ZQ" },
-  { "date": "2026-04-06", "lastPlate": "WW-944-ZQ" },
-  { "date": "2026-04-07", "lastPlate": "WW-913-ZS" },
-  { "date": "2026-04-08", "lastPlate": "WW-977-ZV" },
-  { "date": "2026-04-09", "lastPlate": "WW-016-ZY" },
-  { "date": "2026-04-10", "lastPlate": "WW-826-ZZ" },
-  { "date": "2026-04-11", "lastPlate": "WW-410-AA" },
-  { "date": "2026-04-12", "lastPlate": "WW-477-AA" },
-  { "date": "2026-04-13", "lastPlate": "WW-232-AC" },
-  { "date": "2026-04-14", "lastPlate": "WW-049-AE" },
-  { "date": "2026-04-15", "lastPlate": "WW-955-AF" },
-  { "date": "2026-04-16", "lastPlate": "WW-888-AH" },
-  { "date": "2026-04-17", "lastPlate": "WW-661-AK" },
-  { "date": "2026-04-18", "lastPlate": "WW-209-AL" },
-  { "date": "2026-04-19", "lastPlate": "WW-281-AL" },
-  { "date": "2026-04-20", "lastPlate": "WW-133-AN" },
-  { "date": "2026-04-21", "lastPlate": "WW-980-AP" },
-  { "date": "2026-04-22", "lastPlate": "WW-820-AR" },
-  { "date": "2026-04-23", "lastPlate": "WW-723-AT" },
-  { "date": "2026-04-24", "lastPlate": "WW-531-AW" },
-  { "date": "2026-04-25", "lastPlate": "WW-037-AX" },
-  { "date": "2026-04-26", "lastPlate": "WW-114-AX" },
-  { "date": "2026-04-27", "lastPlate": "WW-810-AY" },
-  { "date": "2026-04-28", "lastPlate": "WW-738-BA" },
-  { "date": "2026-04-29", "lastPlate": "WW-733-BC" },
-  { "date": "2026-04-30", "lastPlate": "WW-725-BE" },
-  { "date": "2026-05-01", "lastPlate": "WW-912-BE" },
-  { "date": "2026-05-02", "lastPlate": "WW-458-BF" },
-  { "date": "2026-05-03", "lastPlate": "WW-557-BF" },
-  { "date": "2026-05-04", "lastPlate": "WW-392-BH" },
-  { "date": "2026-05-05", "lastPlate": "WW-446-BK" },
-  { "date": "2026-05-06", "lastPlate": "WW-560-BM" },
-  { "date": "2026-05-07", "lastPlate": "WW-599-BP" },
-  { "date": "2026-05-08", "lastPlate": "WW-976-BP" },
-  { "date": "2026-05-09", "lastPlate": "WW-666-BQ" },
-  { "date": "2026-05-10", "lastPlate": "WW-705-BQ" },
-  { "date": "2026-05-11", "lastPlate": "WW-592-BS" },
-  { "date": "2026-05-12", "lastPlate": "WW-646-BV" },
-  { "date": "2026-05-13", "lastPlate": "WW-870-BX" },
-  { "date": "2026-05-14", "lastPlate": "WW-320-BY" },
-  { "date": "2026-05-15", "lastPlate": "WW-920-BZ" }
+    {
+      "date": "2026-01-10",
+      "lastPlate": "WW-338-TS"
+    },
+    {
+      "date": "2026-01-11",
+      "lastPlate": "WW-395-TS"
+    },
+    {
+      "date": "2026-01-12",
+      "lastPlate": "WW-816-TT"
+    },
+    {
+      "date": "2026-01-13",
+      "lastPlate": "WW-453-TW"
+    },
+    {
+      "date": "2026-01-14",
+      "lastPlate": "WW-059-TY"
+    },
+    {
+      "date": "2026-01-15",
+      "lastPlate": "WW-668-TZ"
+    },
+    {
+      "date": "2026-01-16",
+      "lastPlate": "WW-226-VB"
+    },
+    {
+      "date": "2026-01-17",
+      "lastPlate": "WW-817-VB"
+    },
+    {
+      "date": "2026-01-18",
+      "lastPlate": "WW-883-VB"
+    },
+    {
+      "date": "2026-01-19",
+      "lastPlate": "WW-492-VD"
+    },
+    {
+      "date": "2026-01-20",
+      "lastPlate": "WW-159-VF"
+    },
+    {
+      "date": "2026-01-21",
+      "lastPlate": "WW-975-VG"
+    },
+    {
+      "date": "2026-01-22",
+      "lastPlate": "WW-670-VJ"
+    },
+    {
+      "date": "2026-01-23",
+      "lastPlate": "WW-378-VL"
+    },
+    {
+      "date": "2026-01-24",
+      "lastPlate": "WW-972-VL"
+    },
+    {
+      "date": "2026-01-25",
+      "lastPlate": "WW-067-VM"
+    },
+    {
+      "date": "2026-01-26",
+      "lastPlate": "WW-789-VN"
+    },
+    {
+      "date": "2026-01-27",
+      "lastPlate": "WW-619-VQ"
+    },
+    {
+      "date": "2026-01-28",
+      "lastPlate": "WW-128-VS"
+    },
+    {
+      "date": "2026-01-29",
+      "lastPlate": "WW-094-VV"
+    },
+    {
+      "date": "2026-01-30",
+      "lastPlate": "WW-723-VW"
+    },
+    {
+      "date": "2026-01-31",
+      "lastPlate": "WW-300-VX"
+    },
+    {
+      "date": "2026-02-01",
+      "lastPlate": "WW-423-VX"
+    },
+    {
+      "date": "2026-02-02",
+      "lastPlate": "WW-074-VZ"
+    },
+    {
+      "date": "2026-02-03",
+      "lastPlate": "WW-763-WA"
+    },
+    {
+      "date": "2026-02-04",
+      "lastPlate": "WW-427-WC"
+    },
+    {
+      "date": "2026-02-05",
+      "lastPlate": "WW-252-WE"
+    },
+    {
+      "date": "2026-02-06",
+      "lastPlate": "WW-862-WF"
+    },
+    {
+      "date": "2026-02-07",
+      "lastPlate": "WW-999-WF"
+    },
+    {
+      "date": "2026-02-08",
+      "lastPlate": "WW-047-WG"
+    },
+    {
+      "date": "2026-02-09",
+      "lastPlate": "WW-052-WJ"
+    },
+    {
+      "date": "2026-02-10",
+      "lastPlate": "WW-934-WK"
+    },
+    {
+      "date": "2026-02-11",
+      "lastPlate": "WW-223-WM"
+    },
+    {
+      "date": "2026-02-12",
+      "lastPlate": "WW-650-WP"
+    },
+    {
+      "date": "2026-02-13",
+      "lastPlate": "WW-482-WR"
+    },
+    {
+      "date": "2026-02-14",
+      "lastPlate": "WW-078-WS"
+    },
+    {
+      "date": "2026-02-15",
+      "lastPlate": "WW-157-WS"
+    },
+    {
+      "date": "2026-02-16",
+      "lastPlate": "WW-820-WT"
+    },
+    {
+      "date": "2026-02-17",
+      "lastPlate": "WW-601-WW"
+    },
+    {
+      "date": "2026-02-18",
+      "lastPlate": "WW-345-WY"
+    },
+    {
+      "date": "2026-02-19",
+      "lastPlate": "WW-093-XA"
+    },
+    {
+      "date": "2026-02-20",
+      "lastPlate": "WW-761-XB"
+    },
+    {
+      "date": "2026-02-21",
+      "lastPlate": "WW-321-XC"
+    },
+    {
+      "date": "2026-02-22",
+      "lastPlate": "WW-435-XC"
+    },
+    {
+      "date": "2026-02-23",
+      "lastPlate": "WW-075-XE"
+    },
+    {
+      "date": "2026-02-24",
+      "lastPlate": "WW-790-XF"
+    },
+    {
+      "date": "2026-02-25",
+      "lastPlate": "WW-437-XH"
+    },
+    {
+      "date": "2026-02-26",
+      "lastPlate": "WW-333-XK"
+    },
+    {
+      "date": "2026-02-27",
+      "lastPlate": "WW-005-XM"
+    },
+    {
+      "date": "2026-02-28",
+      "lastPlate": "WW-564-XM"
+    },
+    {
+      "date": "2026-03-01",
+      "lastPlate": "WW-654-XM"
+    },
+    {
+      "date": "2026-03-02",
+      "lastPlate": "WW-191-XP"
+    },
+    {
+      "date": "2026-03-03",
+      "lastPlate": "WW-885-XQ"
+    },
+    {
+      "date": "2026-03-04",
+      "lastPlate": "WW-604-XS"
+    },
+    {
+      "date": "2026-03-05",
+      "lastPlate": "WW-577-XV"
+    },
+    {
+      "date": "2026-03-06",
+      "lastPlate": "WW-344-XX"
+    },
+    {
+      "date": "2026-03-07",
+      "lastPlate": "WW-997-XX"
+    },
+    {
+      "date": "2026-03-08",
+      "lastPlate": "WW-126-XY"
+    },
+    {
+      "date": "2026-03-09",
+      "lastPlate": "WW-927-XZ"
+    },
+    {
+      "date": "2026-03-10",
+      "lastPlate": "WW-766-YB"
+    },
+    {
+      "date": "2026-03-11",
+      "lastPlate": "WW-567-YD"
+    },
+    {
+      "date": "2026-03-12",
+      "lastPlate": "WW-488-YF"
+    },
+    {
+      "date": "2026-03-13",
+      "lastPlate": "WW-217-YH"
+    },
+    {
+      "date": "2026-03-14",
+      "lastPlate": "WW-815-YH"
+    },
+    {
+      "date": "2026-03-15",
+      "lastPlate": "WW-966-YH"
+    },
+    {
+      "date": "2026-03-16",
+      "lastPlate": "WW-702-YK"
+    },
+    {
+      "date": "2026-03-17",
+      "lastPlate": "WW-472-YM"
+    },
+    {
+      "date": "2026-03-18",
+      "lastPlate": "WW-426-YP"
+    },
+    {
+      "date": "2026-03-19",
+      "lastPlate": "WW-366-YR"
+    },
+    {
+      "date": "2026-03-20",
+      "lastPlate": "WW-691-YS"
+    },
+    {
+      "date": "2026-03-21",
+      "lastPlate": "WW-276-YT"
+    },
+    {
+      "date": "2026-03-22",
+      "lastPlate": "WW-399-YT"
+    },
+    {
+      "date": "2026-03-23",
+      "lastPlate": "WW-160-YW"
+    },
+    {
+      "date": "2026-03-24",
+      "lastPlate": "WW-134-YY"
+    },
+    {
+      "date": "2026-03-25",
+      "lastPlate": "WW-167-ZA"
+    },
+    {
+      "date": "2026-03-26",
+      "lastPlate": "WW-214-ZC"
+    },
+    {
+      "date": "2026-03-27",
+      "lastPlate": "WW-166-ZE"
+    },
+    {
+      "date": "2026-03-28",
+      "lastPlate": "WW-854-ZE"
+    },
+    {
+      "date": "2026-03-29",
+      "lastPlate": "WW-994-ZE"
+    },
+    {
+      "date": "2026-03-30",
+      "lastPlate": "WW-569-ZG"
+    },
+    {
+      "date": "2026-03-31",
+      "lastPlate": "WW-719-ZJ"
+    },
+    {
+      "date": "2026-04-01",
+      "lastPlate": "WW-517-ZL"
+    },
+    {
+      "date": "2026-04-02",
+      "lastPlate": "WW-513-ZN"
+    },
+    {
+      "date": "2026-04-03",
+      "lastPlate": "WW-126-ZQ"
+    },
+    {
+      "date": "2026-04-04",
+      "lastPlate": "WW-647-ZQ"
+    },
+    {
+      "date": "2026-04-05",
+      "lastPlate": "WW-727-ZQ"
+    },
+    {
+      "date": "2026-04-06",
+      "lastPlate": "WW-944-ZQ"
+    },
+    {
+      "date": "2026-04-07",
+      "lastPlate": "WW-913-ZS"
+    },
+    {
+      "date": "2026-04-08",
+      "lastPlate": "WW-977-ZV"
+    },
+    {
+      "date": "2026-04-09",
+      "lastPlate": "WW-016-ZY"
+    },
+    {
+      "date": "2026-04-10",
+      "lastPlate": "WW-826-ZZ"
+    },
+    {
+      "date": "2026-04-11",
+      "lastPlate": "WW-410-AA"
+    },
+    {
+      "date": "2026-04-12",
+      "lastPlate": "WW-477-AA"
+    },
+    {
+      "date": "2026-04-13",
+      "lastPlate": "WW-232-AC"
+    },
+    {
+      "date": "2026-04-14",
+      "lastPlate": "WW-049-AE"
+    },
+    {
+      "date": "2026-04-15",
+      "lastPlate": "WW-955-AF"
+    },
+    {
+      "date": "2026-04-16",
+      "lastPlate": "WW-888-AH"
+    },
+    {
+      "date": "2026-04-17",
+      "lastPlate": "WW-661-AK"
+    },
+    {
+      "date": "2026-04-18",
+      "lastPlate": "WW-209-AL"
+    },
+    {
+      "date": "2026-04-19",
+      "lastPlate": "WW-281-AL"
+    },
+    {
+      "date": "2026-04-20",
+      "lastPlate": "WW-133-AN"
+    },
+    {
+      "date": "2026-04-21",
+      "lastPlate": "WW-980-AP"
+    },
+    {
+      "date": "2026-04-22",
+      "lastPlate": "WW-820-AR"
+    },
+    {
+      "date": "2026-04-23",
+      "lastPlate": "WW-723-AT"
+    },
+    {
+      "date": "2026-04-24",
+      "lastPlate": "WW-531-AW"
+    },
+    {
+      "date": "2026-04-25",
+      "lastPlate": "WW-037-AX"
+    },
+    {
+      "date": "2026-04-26",
+      "lastPlate": "WW-114-AX"
+    },
+    {
+      "date": "2026-04-27",
+      "lastPlate": "WW-810-AY"
+    },
+    {
+      "date": "2026-04-28",
+      "lastPlate": "WW-738-BA"
+    },
+    {
+      "date": "2026-04-29",
+      "lastPlate": "WW-733-BC"
+    },
+    {
+      "date": "2026-04-30",
+      "lastPlate": "WW-725-BE"
+    },
+    {
+      "date": "2026-05-01",
+      "lastPlate": "WW-912-BE"
+    },
+    {
+      "date": "2026-05-02",
+      "lastPlate": "WW-458-BF"
+    },
+    {
+      "date": "2026-05-03",
+      "lastPlate": "WW-557-BF"
+    },
+    {
+      "date": "2026-05-04",
+      "lastPlate": "WW-392-BH"
+    },
+    {
+      "date": "2026-05-05",
+      "lastPlate": "WW-446-BK"
+    },
+    {
+      "date": "2026-05-06",
+      "lastPlate": "WW-560-BM"
+    },
+    {
+      "date": "2026-05-07",
+      "lastPlate": "WW-599-BP"
+    },
+    {
+      "date": "2026-05-08",
+      "lastPlate": "WW-976-BP"
+    },
+    {
+      "date": "2026-05-09",
+      "lastPlate": "WW-666-BQ"
+    },
+    {
+      "date": "2026-05-10",
+      "lastPlate": "WW-705-BQ"
+    },
+    {
+      "date": "2026-05-11",
+      "lastPlate": "WW-592-BS"
+    },
+    {
+      "date": "2026-05-12",
+      "lastPlate": "WW-646-BV"
+    },
+    {
+      "date": "2026-05-13",
+      "lastPlate": "WW-870-BX"
+    },
+    {
+      "date": "2026-05-14",
+      "lastPlate": "WW-320-BY"
+    },
+    {
+      "date": "2026-05-15",
+      "lastPlate": "WW-920-BZ"
+    }
   ]
 }
