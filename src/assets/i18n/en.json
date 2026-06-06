@@ -101,21 +101,13 @@
                 "link3": "Pers. ID Number Link3"
             },
             "others": {
+              "title": "CNP/ID Validation Others",
+               "argentina": {
                 "title": "DNI Validation Argentina",
-                "argentina": {
-                    "title": "",
-                    "link1": "Linti.seguridadvial Link1",
-                    "link2": "Dateas Link2"
-                },
-              {
-                "title": "ID Validation USA",
-                "usa": {
-                    "title": "",
-                    "link1": "Visa status",
-                    "link2": "Recent entry",
-                    "link3": "History"
-                },
-                "bangladesh": "CNP Validation Bangladesh",
+                "link1": "Linti.seguridadvial Link1",
+                "link2": "Dateas Link2"
+    },
+               "bangladesh": "CNP Validation Bangladesh",
                 "bolivia": "OEP Validation Bolivia",
                 "bosnia": "JMBG Validation Bosnia-H",
                 "brazil": "CFP Validation Brazilia",
@@ -130,13 +122,13 @@
                 "israel": "ID Validation Israel",
                 "paraguay": "CIN Validation Paraguay",
                 "peru": "Check people Peru",
+                "usa": {
+                 "title": "ID Validation USA",
+                 "link1": "Visa status",
+                 "link2": "Recent entry",
+                 "link3": "History"
+       },
                 "venezuela": "CNE Validation Venezuela"
-            },
-            "calculator": {
-                "title": "Days/Terms Calculator",
-                "link1": "Judiciary terms Calculator Link1",
-                "link2": "Days of Week Calculator Link2",
-                "link3": "Staying days Calculator Link3"
             }
         }
     },
