@@ -1003,6 +1003,12 @@
                 "url": "https://fordon-regbev.transportstyrelsen.se/BestallRegbevis/AngeUppgifter",
                 "icon": "link",
                 "type": "direct-link"
+            },
+           {
+                "title": "Auto + remorcă",
+                "url": "https://slapvagnskalkylatorn.transportstyrelsen.se/Slapvagnskalkylator/Slapvagnskalkylator.aspx",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
