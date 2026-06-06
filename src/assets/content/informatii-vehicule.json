@@ -969,6 +969,12 @@
                 "url": "https://www.clearvin.com/ro/?a_aid=df34205d",
                 "icon": "link",
                 "type": "direct-link"
+            },
+           {
+                "title": "Florida",
+                "url": "https://services.flhsmv.gov/MVCheckWeb/",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
