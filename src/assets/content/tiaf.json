@@ -105,6 +105,13 @@
                 "url": "https://platerecognizer.com/",
                 "icon": "link",
                 "key": "tiaf.license-plates.photo-recognition"
+            },
+          {
+                "type": "direct-link",
+                "title": "USA License Plates",
+                "url": "https://www.licenseplates.cc/",
+                "icon": "link",
+                "key": "tiaf.license-plates.usa"
             }
         ]
     },
