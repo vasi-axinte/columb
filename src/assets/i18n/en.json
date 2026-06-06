@@ -106,6 +106,14 @@
                     "link1": "Linti.seguridadvial Link1",
                     "link2": "Dateas Link2"
                 },
+              {
+                "title": "ID Validation USA",
+                "usa": {
+                    "title": "",
+                    "link1": "Visa status",
+                    "link2": "Recent entry",
+                    "link3": "History"
+                },
                 "bangladesh": "CNP Validation Bangladesh",
                 "bolivia": "OEP Validation Bolivia",
                 "bosnia": "JMBG Validation Bosnia-H",
