@@ -1,6 +1,13 @@
 [
     {
         "type": "direct-link",
+        "title": "Manual Cod Vize",
+        "url": "https://www.udiregelverk.no/en/documents/international-legal-sources/schengen2/visa-code-handbook/#2.Visa_Code_Handbook_II",
+        "icon": "link",
+        "key": "useful-links.visas"
+    },
+    {
+        "type": "direct-link",
         "title": "Verificare Rovinieta",
         "url": "https://inforovinete.blogspot.com/2021/03/blog-post.html?m=1",
         "icon": "link",
