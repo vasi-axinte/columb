@@ -137,6 +137,12 @@
             }
         ]        
     },
+   {
+        "title": "China",
+        "countryCode": "cn",
+        "url": "https://www.chinavehiclehistory.com/",
+        "type": "country"
+    },
   {
         "title": "Croația",
         "countryCode": "hr",
