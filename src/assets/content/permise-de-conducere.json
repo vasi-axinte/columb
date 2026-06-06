@@ -722,7 +722,29 @@
                 "url": "https://www.jiscd.sk/registre/registre-kkv/overenie-platnosti-karty-kkv/",
                 "type": "country",
                 "countryCode": "sk"
-            }
+            },
+          {
+            "title": "UCRAINA",
+            "url": "",
+            "type": "with-children",
+            "countryCode": "ua",
+            "icon": "plus",
+            "key": "UCRAINA",
+            "children": [
+                {
+                    "title": "Link 1 – HSC",
+                    "url": "https://opendata.hsc.gov.ua/check-dangerous-goods-driver-license/",
+                    "type": "url",
+                    "countryCode": "ua"
+                },
+                {
+                    "title": "Link 2 – E-Transport",
+                    "url": "https://pdr.e-transport.gov.ua/en/",
+                    "type": "url",
+                    "countryCode": "ua"
+                }
+            ]
+        }
         ]
     },
     {
