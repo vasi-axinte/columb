@@ -471,6 +471,13 @@
                         "icon": "link",
                         "key": "useful-links.cnp-validation.others.brazil"
                     },
+                   {
+                        "type": "direct-link",
+                        "title": "Validare Nr. Asig. Sociala Canada",
+                        "url": "https://www.runnersweb.com/running/sin_check.html",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.others.canada"
+                    },
                     {
                         "type": "direct-link",
                         "title": "Validare RUT Chile",
