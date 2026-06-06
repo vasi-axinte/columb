@@ -723,28 +723,19 @@
                 "type": "country",
                 "countryCode": "sk"
             },
-          {
-            "title": "UCRAINA",
-            "url": "",
-            "type": "with-children",
-            "countryCode": "ua",
-            "icon": "plus",
-            "key": "UCRAINA",
-            "children": [
+         
                 {
-                    "title": "Link 1 – HSC",
+                    "title": "UCRAINA – HSC",
                     "url": "https://opendata.hsc.gov.ua/check-dangerous-goods-driver-license/",
-                    "type": "url",
+                    "type": "country",
                     "countryCode": "ua"
                 },
                 {
-                    "title": "Link 2 – E-Transport",
+                    "title": "UCRAINA – E-Transport",
                     "url": "https://pdr.e-transport.gov.ua/en/",
-                    "type": "url",
+                    "type": "country",
                     "countryCode": "ua"
                 }
-            ]
-        }
         ]
     },
     {
