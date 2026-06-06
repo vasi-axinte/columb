@@ -50,11 +50,6 @@
         "url": "https://www.lkf.ee/et/kindlustusekehtivus"
     },
     {
-        "country": "Finlanda",
-        "countryCode": "fi",
-        "url": "https://www.claimsic.fi/#!/search"
-    },
-    {
         "country": "Franța",
         "countryCode": "fr",
         "url": "https://www.consultation-fva.fr/"
@@ -143,11 +138,6 @@
         "country": "Suedia",
         "countryCode": "se",
         "url": "https://www.tff.se/en/For-insurance-companies/Insurance-check/"
-    },
-    {
-        "country": "Turcia",
-        "countryCode": "tr",
-        "url": "https://www.hesapkurdu.com/trafik-sigortasi/h/arac-sigorta-sorgulama"
     },
     {
         "country": "Ucraina",
