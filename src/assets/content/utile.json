@@ -555,6 +555,36 @@
                         "icon": "link",
                         "key": "useful-links.cnp-validation.others.peru"
                     },
+                   {
+                        "type": "with-children",
+                        "title": "Validare ID SUA",
+                        "url": "",
+                        "icon": "plus",
+                        "key": "useful-links.cnp-validation.others.usa.title",
+                        "children": [
+                            {
+                                "type": "direct-link",
+                                "title": " Statut viză SUA  Link1",
+                                "url": "https://ceac.state.gov/CEACStatTracker/Status.aspx?App=NIV",
+                                "icon": "link",
+                                "key": "useful-links.cnp-validation.others.usa.link1"
+                            },
+                            {
+                                "type": "direct-link",
+                                "title": " Formular recent intrare  Link2",
+                                "url": "https://i94.cbp.dhs.gov/search/recent-search",
+                                "icon": "link",
+                                "key": "useful-links.cnp-validation.others.usa.link2"
+                            },
+                            {
+                                "type": "direct-link",
+                                "title": "Istoricul călătoriilor Link3",
+                                "url": "https://i94.cbp.dhs.gov/search/history-search",
+                                "icon": "link",
+                                "key": "useful-links.cnp-validation.others.usa.link3"
+                            }
+                        ]
+                    },
                     {
                         "type": "direct-link",
                         "title": "Validare CNE Venezuela",
