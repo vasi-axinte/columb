@@ -106,6 +106,12 @@
                     "link1": "Linti.seguridadvial Link1",
                     "link2": "Dateas Link2"
                 },
+                "usa": {
+                    "title": "Verificare ID (SUA)",
+                    "link1": "Statut viză SUA",
+                    "link2": "Formular recent intrare",
+                    "link3": "Istoricul călătoriilor"
+                },
                 "bangladesh": "Validare CNP Bangladesh",
                 "bolivia": "Validare OEP Bolivia",
                 "bosnia": "Validare JMBG Bosnia-H",
