@@ -621,14 +621,38 @@
                 "key": "driving-licenses.usa",
                 "children": [
                     {
+                        "title": "Alabama",
+                        "url": "https://alabamadl.alea.gov/_/#4",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
+                    {
                         "title": "Arizona",
                         "url": "https://webapps.azdps.gov/public_inq/sgrd/ShowLicenseStatus.action",
                         "type": "country",
                         "countryCode": "us"
                     },
                     {
+                        "title": "Arkansas",
+                        "url": "https://airsdsmvpub.dfa.arkansas.gov/mydmv/_/",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
+                    {
                         "title": "Connecticut",
                         "url": "https://www.dmvselfservice.ct.gov/LicenseStatusService.aspx",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
+                   {
+                        "title": "Georgia (VPN)",
+                        "url": "https://dds.drives.ga.gov/_/",
+                        "type": "country",
+                        "countryCode": "us"
+                    },
+                  {
+                        "title": "Minnesota",
+                        "url": "https://onlineservices.dps.mn.gov/EServices/_/",
                         "type": "country",
                         "countryCode": "us"
                     },
