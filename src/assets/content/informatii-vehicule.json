@@ -395,7 +395,12 @@
                 "icon": "link",
                 "type": "direct-link"
             },
-          
+           {
+                "title": "DIN GEPRUFT-2M-placute",
+                "url": "https://m.dincertco.tuv.com/?locale=de#",
+                "icon": "link",
+                "type": "direct-link"
+            },
           {
                 "title": "Dată eliberare certificat de înmatriculare",
                 "url": "https://rawcdn.githack.com/stefffy79/talongerman/e95d289b4bedafb587d3eb357204b00c47910e75/talongerman.html",
