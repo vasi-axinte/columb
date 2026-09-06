@@ -619,11 +619,33 @@
             }
         ]        
     },
-    {
+  {
+        "type": "with-children",
         "title": "Moldova",
         "countryCode": "md",
-        "url": "https://e-services.md/public/WebPublic/index.php?action=transport&lang=md",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "vehicle-info.moldova",
+        "children": [
+            {
+                "title": "e-services.md(1)",
+                "url": "https://e-services.md/public/WebPublic/index.php?action=transport&lang=md",
+                "icon": "link",
+                "type": "direct-link"
+            },
+           {
+                "title": "e-services.md(2)",
+                "url": "https://e-services.md/registru/car_info.jsp?stage=1",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "Disponibilitatea nr.înm.",
+                "url": "https://e-services.md/ro/content/verifisa-disponibilitatea-numarului-de-inmatriculare",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]        
     },
     {
         "type": "with-children",
