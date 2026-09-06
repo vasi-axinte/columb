@@ -567,6 +567,12 @@
                         "url": "https://www.gob.pe/262-tipos-de-licencia-de-conducir-brevete",
                         "type": "country",
                         "countryCode": "pe"
+                    },
+                  {
+                        "title": "Sancțiuni",
+                        "url": "https://slcp.mtc.gob.pe/",
+                        "type": "country",
+                        "countryCode": "pe"
                     }
                 ]
             },
