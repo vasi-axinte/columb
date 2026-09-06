@@ -993,6 +993,12 @@
                 "url": "https://apps.ilsos.gov/regstatus/",
                 "icon": "link",
                 "type": "direct-link"
+            },
+           {
+                "title": " Furt-Salvage",
+                "url": "https://www.nicb.org/vincheck",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
