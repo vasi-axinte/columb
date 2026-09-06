@@ -353,6 +353,13 @@
                         "icon": "link",
                         "key": "useful-links.cnp-validation.croatia"
                     },
+           {
+                        "type": "direct-link",
+                        "title": "Validare Kennitala Islanda",
+                        "url": "https://kennitala.com/",
+                        "icon": "link",
+                        "key": "useful-links.cnp-validation.islanda"
+                    },
             {
                 "type": "with-children",
                 "title": "Validaree CNP Portugalia",
