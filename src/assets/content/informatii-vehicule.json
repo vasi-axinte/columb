@@ -987,6 +987,12 @@
                 "url": "https://services.flhsmv.gov/MVCheckWeb/",
                 "icon": "link",
                 "type": "direct-link"
+            },
+           {
+                "title": "Ilinois",
+                "url": "https://apps.ilsos.gov/regstatus/",
+                "icon": "link",
+                "type": "direct-link"
             }
         ]        
     },
