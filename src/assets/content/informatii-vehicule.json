@@ -668,8 +668,14 @@
                 "type": "direct-link"
             },
             {
-                "title": "Regnr.info",
+                "title": "Regnr",
                 "url": "https://regnr.info/husker-ikke-hele-regnr?s1=&s2=&s3=&s4=&s5=&s6=&s7=&biltype=&farge=&type=&yrf=&yrt=&chassinr=&",
+                "icon": "link",
+                "type": "direct-link"
+            },
+           {
+                "title": "Regdata",
+                "url": "https://regdata.no/",
                 "icon": "link",
                 "type": "direct-link"
             }
