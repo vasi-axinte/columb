@@ -1147,11 +1147,33 @@
                 "type": "country",
                 "countryCode": "at"
             },
-             {
+           {
+                "type": "with-children",
                 "title": "Bulgaria",
-                "url": "https://tollpass.bg/en/evignettes/check",
-                "type": "country",
-                "countryCode": "bg"
+                "countryCode": "bg",
+                "url": "",
+                "icon": "plus",
+                "key": "Bulgaria",
+                "children": [
+                    {
+                        "title": "tollpass.bg",
+                        "url": "https://tollpass.bg/en/evignettes/check",
+                        "type": "country",
+                        "countryCode": "bg"
+                    },
+                   {
+                        "title": "bgtoll.bg",
+                        "url": "https://web.bgtoll.bg/TollProduct",
+                        "type": "country",
+                        "countryCode": "bg"
+                    },
+                    {
+                        "title": "vinetki.bg",
+                        "url": "https://vinetki.bg/en/check-vignette?utm_source=gemini&hl=en-US",
+                        "type": "country",
+                        "countryCode": "bg"
+                    }
+                ]
             },
            {
                 "type": "with-children",
