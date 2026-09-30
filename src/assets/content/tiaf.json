@@ -353,14 +353,14 @@
                 "title": "DANEMARCA1",
                 "url": "https://www.nummerplade.net/",
                 "icon": "link",
-                "key": "DANEMARCA1"
+                "key": "Danemarca1"
             },
            {
                 "type": "direct-link",
                 "title": "DANEMARCA2",
                 "url": "https://www.tjekbil.dk/restgaeld-i-bil#flow0",
                 "icon": "link",
-                "key": "DANEMARCA2"
+                "key": "Danemarca2"
             },
           {
                 "type": "direct-link",
