@@ -11,11 +11,27 @@
         "url": "https://myvehiclemyplate.mobilit.fgov.be/",
         "type": "country"
     },
-    {
+   {
+        "type": "with-children",
         "title": "Bulgaria",
         "countryCode": "bg",
-        "url": "https://rta.government.bg/services/check-inspection/index.html",
-        "type": "country"
+        "url": "",
+        "icon": "plus",
+        "key": "Bulgaria",
+        "children": [
+          {
+                "title": "I.T.P. după număr de înmatriculare",
+                "url": "https://rta.government.bg/services/check-inspection/index.html",
+                "icon": "link",
+                "type": "direct-link"
+            },
+            {
+                "title": "I.T.P. după VIN",
+                "url": "https://public-eis.rta.government.bg/public-vehicle-check/vin-check",
+                "icon": "link",
+                "type": "direct-link"
+            }
+        ]   
     },
   {
         "type": "with-children",
