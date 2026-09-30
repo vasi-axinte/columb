@@ -63,6 +63,12 @@
         "url": "https://zulassung.oesd.at/fahrzeugdaten-online-abfrage/",
         "type": "country"
     },
+  {
+        "title": "Belarus-plăcuțe furate/pierdute",
+        "countryCode": "by",
+        "url": "https://www.mvd.gov.by/m/ru/service/15",
+        "type": "country"
+    },
    {
         "type": "with-children",
         "title": "Belgia",
