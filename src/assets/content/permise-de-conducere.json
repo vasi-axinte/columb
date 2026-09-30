@@ -576,6 +576,28 @@
                     }
                 ]
             },
+          {
+    "type": "with-children",
+    "title": "R.D.Congo",
+    "countryCode": "cd",
+    "url": "",
+    "icon": "plus",
+    "key": "R.D.Congo",
+    "children": [
+        {
+            "title": "spcrdc.com",
+            "url": "https://spcrdc.com/index.html",
+            "type": "country",
+            "countryCode": "cd"
+        },
+        {
+            "title": "conadep.cd",
+            "url": "https://www.conadep.cd/verification-permis/",
+            "type": "country",
+            "countryCode": "cd"
+        }
+        ]
+    },
             {
                 "title": "R. Dominicană",
                 "url": "https://consultalicencia.intrant.gob.do/Default",
