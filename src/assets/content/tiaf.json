@@ -348,6 +348,20 @@
                 "icon": "link",
                 "key": "tiaf.stolen-auto.norway"
             },
+           {
+                "type": "direct-link",
+                "title": "DANEMARCA1",
+                "url": "https://www.nummerplade.net/",
+                "icon": "link",
+                "key": "DANEMARCA1"
+            },
+           {
+                "type": "direct-link",
+                "title": "DANEMARCA2",
+                "url": "https://www.tjekbil.dk/restgaeld-i-bil#flow0",
+                "icon": "link",
+                "key": "DANEMARCA2"
+            },
           {
                 "type": "direct-link",
                 "title": "NOUA ZEEALDĂ",
