@@ -929,6 +929,13 @@
                 "icon": "link",
                 "type": "direct-link"
             }
+          ,
+            {
+                "title": "Edavki.durs.si",
+                "url": "https://edavki.durs.si/EdavkiPortal/OpenPortal/CommonPages/Documents/DMV_Vpogled_2022.aspx",
+                "icon": "link",
+                "type": "direct-link"
+            }
         ]        
     },
     {
