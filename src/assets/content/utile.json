@@ -76,6 +76,13 @@
         "icon": "link",
         "key": "useful-links.instance-file"
     },
+   {
+        "type": "direct-link",
+        "title": "Cod postal România",
+        "url": "https://www.posta-romana.ro/cauta-cod-postal.html",
+        "icon": "link",
+        "key": "Cod postal România"
+    },
     {
         "type": "with-children",
         "title": "Most Wanted",
