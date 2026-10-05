@@ -64,6 +64,13 @@
         "icon": "plus",
         "key": "tiaf.license-plates.title",
         "children": [
+           {
+                "type": "direct-link",
+                "title": "PlateRoots",
+                "url": "https://stefffy79.github.io/plateroots/",
+                "icon": "link",
+                "key": "tiaf.license-plates.roots"
+            },
             {
                 "type": "direct-link",
                 "title": "PLACUTE 2025 CAUTATE DUPA TARA",
