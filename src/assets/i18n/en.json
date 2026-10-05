@@ -237,6 +237,7 @@
         "obd-localization-2": "OBD 2 Connector Localization",
         "license-plates": {
             "2025": "License plates 2025 (search by country)",
+            "roots": "PlateRoots — Identify the license plate",
             "title": "License plates",
             "world": "World License Plates",
             "usa": "USA License Plates",
