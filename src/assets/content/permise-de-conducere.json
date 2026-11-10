@@ -30,6 +30,28 @@
         "type": "country"
     },
     {
+        "type": "with-children",
+        "title": "Irlanda",
+        "countryCode": "ie",
+        "url": "",
+        "icon": "plus",
+        "key": "Irlanda",
+        "children": [
+            {
+                "title": "Irlanda",
+                "url": "https://booking.ndls.ie/index.php",
+                "type": "country",
+                "countryCode": "ie"
+            },
+            {
+                "title": "Learner D.L. (Permis începător)",
+                "url": "https://ccwdriver.rsa.ie/driver/driverlogin.aspx",
+                "type": "country",
+                "countryCode": "ie"
+            }
+        ]
+    },
+    {
         "title": "Israel",
         "countryCode": "il",
         "url": "https://ecom.gov.il/voucherspa/input/209?language=en",
