@@ -844,6 +844,12 @@
         "key": "vehicle-info.romania",
         "children": [
             {
+                "title": "Info vehicul (Nr. => VIN)",
+                "url": "https://rca.evita-amenzi.ro/",
+                "icon": "link",
+                "type": "direct-link"
+            },   
+            {
                 "title": "Verificare stare înmatriculare",
                 "url": "https://dgpci.mai.gov.ro/drpciv-forms/vehicle",
                 "icon": "link",
