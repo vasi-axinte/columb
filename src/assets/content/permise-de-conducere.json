@@ -24,12 +24,6 @@
         "type": "country"
     },
     {
-        "title": "Irlanda",
-        "countryCode": "ie",
-        "url": "https://booking.ndls.ie/index.php",
-        "type": "country"
-    },
-    {
         "type": "with-children",
         "title": "Irlanda",
         "countryCode": "ie",
