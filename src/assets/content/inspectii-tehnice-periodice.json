@@ -373,28 +373,13 @@
         "url": "https://www.tuvturk.com.tr/hizmetlerimiz/hizli-islemler/arac-muayene-sorgulama",
         "type": "country"
     },
-    {
-        "type": "with-children",
+  {
         "title": "Ucraina",
         "countryCode": "ua",
-        "url": "",
-        "icon": "plus",
-        "key": "technical-check.ukraine",
-        "children": [
-            {
-                "title": "Dupa numar de inmatriculare",
-                "url": "https://opendata.hsc.gov.ua/search-otk/veh/",
-                "icon": "link",
-                "type": "direct-link"
-            },
-            {
-                "title": "Dupa numarul certificatului tehnic",
-                "url": "https://opendata.hsc.gov.ua/search-otk/num/",
-                "icon": "link",
-                "type": "direct-link"
-            }
-        ]        
+        "url": "https://solutions.mvs.gov.ua/search-otk",
+        "type": "country"
     },
+   
     {
         "title": "ITP in UE/SEE",
         "countryCode": "",
