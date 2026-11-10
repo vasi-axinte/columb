@@ -225,9 +225,9 @@
         "key": "driving-licenses.ukraine",
         "children": [
     {
-        "title": "Ucraina",
+        "title": "Solutions.mvs.gov.ua",
         "countryCode": "ua",
-        "url": "https://opendata.hsc.gov.ua/check-driver-license/",
+        "url": "https://solutions.mvs.gov.ua/check-driver-license",
         "type": "country"
     },
           {
