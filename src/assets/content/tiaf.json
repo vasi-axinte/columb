@@ -299,6 +299,13 @@
                 "icon": "link",
                 "key": "tiaf.stolen-auto.slovenia"
             },
+           {
+                "type": "direct-link",
+                "title": "UNGARIA",
+                "url": "https://www.police.hu/hu/koral/forgalmi-rendszam-korozesek",
+                "icon": "link",
+                "key": "tiaf.stolen-auto.hungary"
+            },
             {
                 "type": "direct-link",
                 "title": "UCRAINA",
