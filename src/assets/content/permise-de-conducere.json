@@ -56,9 +56,15 @@
         "key": "driving-licenses.great.britain",
         "children": [
             {
-        "title": "Marea Britanie",
+        "title": "Viewdrivingrecord (nr. pc)",
         "countryCode": "gb",
         "url": "https://www.viewdrivingrecord.service.gov.uk/driving-record/licence-number",
+        "type": "country"
+            },
+          {
+        "title": "Viewdrivingrecord(detalii pers.)",
+        "countryCode": "gb",
+        "url": "https://www.viewdrivingrecord.service.gov.uk/driving-record/personal-details",
         "type": "country"
             },
             {
