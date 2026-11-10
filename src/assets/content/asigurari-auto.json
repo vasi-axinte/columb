@@ -64,6 +64,11 @@
         "countryCode": "gr",
         "url": "https://www.hic.gr/hic/Check_ins.aspx"
     },
+   {
+        "country": "Irlanda",
+        "countryCode": "ie",
+        "url": "https://www.mibi.ie/check-insurance-details/"
+    },
     {
         "country": "Italia",
         "countryCode": "it",
