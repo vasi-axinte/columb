@@ -73,6 +73,33 @@
         "url": "https://romek.info/ut/UK-driving-licence.php",
         "type": "country"
             }
+          ,
+            {
+         "title": "Irlanda de Nord-inf. permis",
+        "countryCode": "gb",
+        "url": "https://www.nidirect.gov.uk/articles/photocard-driving-licence-explained",
+        "type": "country"
+            },
+            {
+         "title": "Irlanda de Nord-dupa nr. p.c.",
+        "countryCode": "gb",
+        "url": "https://dvaonline.nidirect.gov.uk/Customer/DataShare/CheckDrivingLicence#dl",
+        "type": "country"
+            }
+          ,
+            {
+         "title": "Jersy",
+        "countryCode": "gb",
+        "url": "https://www.gov.je/dvs/Pages/BookYourTestOnline.aspx",
+        "type": "country"
+            }
+          ,
+            {
+         "title": "Insula Man",
+        "countryCode": "gb",
+        "url": "https://services.gov.im/service/DriversAndVehicles/DriverLicence/Entry/SignIn",
+        "type": "country"
+            }
         ]
     },
     {
