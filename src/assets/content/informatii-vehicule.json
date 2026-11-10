@@ -1228,11 +1228,33 @@
                 "type": "country",
                 "countryCode": "ch"
             },
-            {
+           {
+                "type": "with-children",
                 "title": "România",
                 "countryCode": "ro",
-                "url": "https://inforovinete.blogspot.com/2021/03/blog-post.html?m=1",
-                "type": "country"
+                "url": "",
+                "icon": "plus",
+                "key": "Romania",
+                "children": [
+                    {
+                        "title": "Portal-etoll",
+                        "url": "https://portal.etoll.ro/verificare-rovinieta#/verificare-rovinieta",
+                        "type": "country",
+                        "countryCode": "ro"
+                    },
+                   {
+                        "title": "Inforovinete",
+                        "url": "https://inforovinete.blogspot.com/2021/03/blog-post.html?m=1",
+                        "type": "country",
+                        "countryCode": "ro"
+                    },
+                    {
+                        "title": "Valabilitate-roviniete",
+                        "url": "https://valabilitate.roviniete.ro/web/guest/verificare-rovinieta#/verificare-rovinieta",
+                        "type": "country",
+                        "countryCode": "ro"
+                    }
+                ]
             },
            {
                 "type": "with-children",
