@@ -1234,11 +1234,27 @@
                 "url": "https://inforovinete.blogspot.com/2021/03/blog-post.html?m=1",
                 "type": "country"
             },
-            {
+           {
+                "type": "with-children",
                 "title": "Slovacia",
                 "countryCode": "sk",
-                "url": "https://www.elektronicke-znamky.sk/#platnost",
-                "type": "country"
+                "url": "",
+                "icon": "plus",
+                "key": "Slovacia",
+                "children": [
+                    {
+                        "title": "Elektronicke-znamky",
+                        "url": "https://www.elektronicke-znamky.sk/#platnost",
+                        "type": "country",
+                        "countryCode": "sk"
+                    },
+                    {
+                        "title": "Eznamka",
+                        "url": "https://eznamka.sk/selfcare/modification/select/select-vignettes/?operation=Check",
+                        "type": "country",
+                        "countryCode": "sk"
+                    }
+                ]
             },
             {
                 "title": "Slovenia",
