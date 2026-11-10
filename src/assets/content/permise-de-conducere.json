@@ -283,7 +283,7 @@
             },
             {
                 "title": "Bangladesh",
-                "url": "http://my.brta.gov.bd/dl_status.php",
+                "url": "https://bsp.brta.gov.bd/dlVerification",
                 "type": "country",
                 "countryCode": "bd"
             },
