@@ -367,6 +367,12 @@
         "url": "https://www.car.info/sv-se/search-car-registry",
         "type": "country"
     },
+  {
+        "title": "Turcia",
+        "countryCode": "tr",
+        "url": "https://www.tuvturk.com.tr/hizmetlerimiz/hizli-islemler/arac-muayene-sorgulama",
+        "type": "country"
+    },
     {
         "type": "with-children",
         "title": "Ucraina",
