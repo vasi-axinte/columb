@@ -367,6 +367,54 @@
                         "icon": "link",
                         "key": "useful-links.cnp-validation.islanda"
                     },
+
+            {
+                "type": "with-children",
+                "title": "Validaree Pesel Polonia",
+                "url": "",
+                "icon": "plus",
+                "key": "Validaree Pesel Polonia",
+                "children": [
+                    {
+                        "type": "direct-link",
+                        "title": "Link1",
+                        "url": "https://wyliczarka.pl/pesel",
+                        "icon": "link",
+                        "key": "wyliczarka"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Link2",
+                        "url": "https://sprawdz-numer.com/pesel",
+                        "icon": "link",
+                        "key": "sprawdz-nume"
+                    }
+                ]
+            },
+           {
+                "type": "with-children",
+                "title": "Validaree UNZR Ucraina",
+                "url": "",
+                "icon": "plus",
+                "key": "Validaree UNZR Ucraina",
+                "children": [
+                    {
+                        "type": "direct-link",
+                        "title": "UNZR",
+                        "url": "https://sprawdz-numer.com/en/unzr#google_vignette",
+                        "icon": "link",
+                        "key": "UNZR"
+                    },
+                    {
+                        "type": "direct-link",
+                        "title": "Diia",
+                        "url": "https://diia.gov.ua/?hl=en-US",
+                        "icon": "link",
+                        "key": "Diia"
+                    }
+                ]
+            },
+          
             {
                 "type": "with-children",
                 "title": "Validaree CNP Portugalia",
