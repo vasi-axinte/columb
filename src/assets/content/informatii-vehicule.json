@@ -1164,6 +1164,13 @@
         "url": "https://app.instacar.hu",
         "type": "country"
     },
+  
+             {
+                "title": "Verificare după nr. de înmatriculare",
+                "url": "https://app.netlify.com/projects/nrdeinmatriculare/overview",
+                "icon": "link",
+                "type": "direct-link"
+            },
    {
         "type": "with-children",
         "title": "Vignete",
@@ -1296,13 +1303,7 @@
                 "url": "https://nemzetiutdij.hu/en/e-vignette/sticker-query",
                 "type": "country"
             }
-          ,
-             {
-                "title": "Verificare după nr. de înmatriculare",
-                "url": "https://app.netlify.com/projects/nrdeinmatriculare/overview",
-                "icon": "link",
-                "type": "direct-link"
-            }
+          
           ] 
         }
 ]
