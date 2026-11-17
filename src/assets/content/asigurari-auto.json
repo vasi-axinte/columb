@@ -5,7 +5,7 @@
         "url": "https://vvonet.vvo.at/vvonet_versichererauskunft"
     },
     {
-        "country": "Armenia",
+        "country": "Armenia(VPN)",
         "countryCode": "am",
         "url": "https://aswa.am/vehicle-insurance"
     },
@@ -112,7 +112,7 @@
     {
         "country": "Polonia",
         "countryCode": "pl",
-        "url": "https://www.ufg.pl/infoportal/faces/oracle/webcenter/portalapp/pagehierarchy/Page190.jspx?_afrLoop=1598863434453049&_afrWindowMode=0&_adf.ctrl-state=9qnndwkob_4"
+        "url": "https://ufg.pl/eufg/strona-glowna/"
     },
     {
         "country": "Portugalia",
