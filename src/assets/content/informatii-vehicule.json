@@ -1167,7 +1167,7 @@
   
              {
                 "title": "Verificare după nr. de înmatriculare",
-                "url": "https://app.netlify.com/projects/nrdeinmatriculare/overview",
+                "url": "nrdeinmatriculare.netlify.app",
                 "icon": "link",
                 "type": "direct-link"
             },
