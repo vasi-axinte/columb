@@ -447,12 +447,30 @@
             }
         ]        
     },
-    {
-        "title": "Grecia",
-        "countryCode": "gr",
-        "url": "https://dilosi.services.gov.gr/templates/VEHICLE-INSURANCE/create",
-        "type": "country"
-    },
+ {
+    "type": "with-children",
+    "title": "Grecia",
+    "countryCode": "gr",
+    "url": "",
+    "icon": "plus",
+    "key": "vehicle-info.greece",
+    "children": [
+        {
+            "title": "Opencar",
+            "url": "https://opencar.data.gov.gr/",
+            "icon": "link",
+            "type": "direct-link"
+        },
+      
+        {
+            "title": "Dilosi",
+            "url": "https://dilosi.services.gov.gr/templates/VEHICLE-INSURANCE/create",
+            "icon": "link",
+            "type": "direct-link"
+        }
+    ]        
+},
+  
     {
         "type": "with-children",
         "title": "Irlanda",
